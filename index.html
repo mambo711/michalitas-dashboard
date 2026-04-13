@@ -277,7 +277,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   <div>
     <h1>MICHALITAS <span>X P R E S S</span></h1>
     <p>Urdesa, Guayaquil · Dashboard Operativo</p>
-    <p style="font-size:.78rem;color:var(--tl);margin-top:2px">Última actualización: 12 abr 2026, 4:15 PM ET</p>
+    <p id="lastUpdate" style="font-size:.78rem;color:var(--tl);margin-top:2px">Última actualización: cargando...</p>
   </div>
   <div class="hdr-right">
     <div class="bdg">Practisis · <strong>12 abr 2026</strong></div>
@@ -761,7 +761,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
     <div class="pw"><div class="pwl">Sem 2 · 13–19 abr</div><div class="pwc">2x1 Saltamontes</div></div>
     <div class="pw"><div class="pwl">Sem 3 · 20–26 abr</div><div class="pwc">Miche Maracuyá $5.75 · Nachos $8.50</div></div>
     <div class="pw"><div class="pwl">Sem 4 · 27 abr–3 may</div><div class="pwc">2x1 Papas Cheddar</div></div>
-    <div style="font-size:.82rem;color:var(--tm);margin-top:6px">0 ventas en marzo. Rating 4.5/5. Dispositivo inestable.</div>
+    <div style="font-size:.82rem;color:var(--tm);margin-top:6px">2 pedidos (~$46) sáb 11 abr — primer éxito. Rating 4.5/5. Dispositivo inestable.</div>
   </div>
   <div class="cd">
     <div class="ct">Marketing</div>
@@ -904,6 +904,29 @@ async function exportPDF(){
   document.querySelector('.tab').classList.add('active');
   btn.textContent='Exportar PDF';btn.disabled=false;
 }
+</script>
+<script>
+// Timestamp dinámico — obtiene fecha del último commit de GitHub
+fetch('https://api.github.com/repos/mambo711/michalitas-dashboard/commits?per_page=1')
+  .then(r=>r.json()).then(d=>{
+    const dt=new Date(d[0].commit.committer.date);
+    const meses=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    const dia=dt.getDate();
+    const mes=meses[dt.getMonth()];
+    const año=dt.getFullYear();
+    const h=dt.getHours();
+    const m=dt.getMinutes().toString().padStart(2,'0');
+    // Convertir a ET (UTC-4)
+    const et=new Date(dt.getTime()-4*3600000);
+    const hET=et.getHours();
+    const mET=et.getMinutes().toString().padStart(2,'0');
+    const ampm=hET>=12?'PM':'AM';
+    const h12=hET%12||12;
+    document.getElementById('lastUpdate').textContent=
+      `Última actualización: ${dia} ${mes} ${año}, ${h12}:${mET} ${ampm} ET`;
+  }).catch(()=>{
+    document.getElementById('lastUpdate').textContent='Última actualización: no disponible';
+  });
 </script>
 </body>
 </html>
