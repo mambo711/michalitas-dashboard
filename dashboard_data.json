@@ -1,0 +1,114 @@
+{
+  "updated": "2026-04-15",
+  "abril": {
+    "acumulado": 1509.78,
+    "acumulado_fmt": "$1,510",
+    "proyeccion": 3522,
+    "proyeccion_fmt": "$3,522",
+    "pe": 4216,
+    "deficit": -694,
+    "deficit_fmt": "-$694",
+    "facturas": 95,
+    "ticket": 15.89,
+    "ticket_fmt": "$15.89",
+    "prom_dia": 168,
+    "prom_dia_fmt": "$168",
+    "dias_op": 9,
+    "pct_cubierto": 36,
+    "coverage_txt": "36% cubierto · 9 días operativos",
+    "insight": "Abril (al 15 abr): $1,510 acumulado en 9 días operativos. ⚠️ NUEVO HORARIO activo: 5 días/semana (cerrado lun+mar), sáb/dom desde 1 PM, mié 2x1 + alitas desde 4 PM. Proyección: $3,522 vs PE $4,216 (déficit -$694). 🔴 Uber Eats dispositivo desconectado desde sáb 11 — Sem 1 campaña: $21 total. Dom 12 abr: $194 (11 fact, toppings récord 1.27/fact).",
+    "tracker_note": "Proyección abril: $3,522 — déficit proyectado $694 vs PE. 12 días operativos restantes (prom. actual: $168). ⚠️ Nuevo horario: 5 días/semana. HOY: Primer miércoles 4 PM–11 PM con 2x1 + alitas. 🔴 Uber Eats: dispositivo desconectado desde sáb 11. Semana 1: $21 total."
+  },
+  "kpis_mes": {
+    "label": "Marzo 2026",
+    "ventas_fmt": "$3,625",
+    "ventas": 3625,
+    "prom_dia": 139,
+    "prom_dia_meta": 162,
+    "ticket_fmt": "$16.40",
+    "facturas": 221,
+    "dias": 26,
+    "perdida_fmt": "-$591",
+    "meses_bajo_pe": 5,
+    "uber_fmt": "$46",
+    "uber_detalle": "2 pedidos sáb 11",
+    "toppings_pct": "2.8%",
+    "toppings_meta": "meta 30%",
+    "gauge_pct": 86,
+    "gauge_txt": "86% del PE",
+    "gauge_sub": "$3,625 de $4,216 (Marzo)"
+  },
+  "insights": {
+    "peor_dia_titulo": "Mié 8 abr — $3.00 (1 fact) — PEOR DÍA",
+    "peor_dia_detalle": "Bar abierto, cero clientes. Marian sola.",
+    "mejor_dia": "Sábado",
+    "mejor_dia_prom": "$228/día prom.",
+    "hora_pico": "11 PM–12 AM",
+    "hora_pico_detalle": "$3,285 acumulado",
+    "producto_1": "Maracuyá",
+    "producto_1_detalle": "362 uds · $1,560",
+    "combo_top": "Maracuyá + Mango",
+    "combo_top_detalle": "18% de órdenes"
+  },
+  "roadmap": [
+    {
+      "num": "1", "tipo": "active",
+      "label": "Reconectar Uber Eats",
+      "desc": "Dispositivo desconectado sáb 11 abr. Sem 1 campaña: $21. Sem 2 (2x1 Saltamontes) sin capturar pedidos",
+      "impact": "URGENTE 🔴", "impact_tipo": "crit",
+      "status": "Pendiente hoy"
+    },
+    {
+      "num": "2", "tipo": "active",
+      "label": "Happy Hour miércoles",
+      "desc": "4-7 PM miércoles. Mesera disponible. Primer miércoles nuevo horario: HOY",
+      "impact": "+$200/mes", "impact_tipo": "high",
+      "status": "Ejecutar hoy"
+    },
+    {
+      "num": "✓", "tipo": "done",
+      "label": "Instagram + Código MICHE15",
+      "desc": "Cristina publica diariamente. 0 conversiones detectadas — pendiente más tiempo",
+      "impact": "Medible", "impact_tipo": "high",
+      "status": "Activo"
+    },
+    {
+      "num": "4", "tipo": "active",
+      "label": "Fidelización",
+      "desc": "Tarjeta 10ma gratis. Mesera disponible para registrar visitas. Pendiente diseño tarjeta",
+      "impact": "Retención", "impact_tipo": "med",
+      "status": "Por lanzar"
+    },
+    {
+      "num": "5", "tipo": "active",
+      "label": "Meta Ads",
+      "desc": "$150/mes aprobados. 18 días sin activar. Jue-sáb, geolocalizados 3km, 18-45 años",
+      "impact": "+$300-600/mes", "impact_tipo": "high",
+      "status": "Sin activar"
+    },
+    {
+      "num": "6", "tipo": "active",
+      "label": "Costos en Practisis",
+      "desc": "Cristina terminó marzo. Falta feb+ene. Sin costos no hay márgenes reales",
+      "impact": "Control", "impact_tipo": "med",
+      "status": "En proceso"
+    }
+  ],
+  "alertas": [
+    {
+      "nivel": "rojo",
+      "titulo": "Uber Eats — dispositivo desconectado",
+      "detalle": "Sáb 11 abr 10:15 PM sin reconectar. Semana 1 campaña: $21 total. Semana 2 (2x1 Saltamontes) sin capturar pedidos."
+    },
+    {
+      "nivel": "amarillo",
+      "titulo": "Meta Ads — 18 días sin activar",
+      "detalle": "$150/mes aprobados pero sin ejecutar. ~$90 de inversión perdida."
+    },
+    {
+      "nivel": "amarillo",
+      "titulo": "Precios Modelo/Stella — sin ajustar en Practisis",
+      "detalle": "Plazo dado a Cristina vencido el 14 abr. 18 días sin confirmar."
+    }
+  ]
+}
