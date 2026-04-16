@@ -280,7 +280,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
     <p id="lastUpdate" style="font-size:.78rem;color:var(--tl);margin-top:2px">Última actualización: cargando...</p>
   </div>
   <div class="hdr-right">
-    <div class="bdg">Practisis · <strong>15 abr 2026</strong></div>
+    <div class="bdg">Practisis · <strong id="practisisBadge">15 abr 2026</strong></div>
     <button class="btn-refresh" onclick="location.reload()" title="Recarga con datos actualizados">Actualizar</button>
     <button class="btn-pdf" onclick="exportPDF()">Exportar PDF</button>
     <div class="dm-toggle" onclick="toggleDark()"><span>Modo</span><div class="dm-switch"></div></div>
@@ -816,7 +816,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 
 <footer>
   MICHALITAS XPRESS · CORPMARYAL S.A.S. · V. Emilio Estrada y Laureles 1121, Urdesa, Guayaquil<br>
-  Dashboard con datos reales Practisis POS · 15 abril 2026
+  Dashboard con datos reales Practisis POS · <span id="footerDate">15 abril 2026</span>
 </footer>
 
 <!-- JS -->
@@ -911,19 +911,28 @@ fetch('https://api.github.com/repos/mambo711/michalitas-dashboard/commits?per_pa
   .then(r=>r.json()).then(d=>{
     const dt=new Date(d[0].commit.committer.date);
     const meses=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    const mesesLargo=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
     const dia=dt.getDate();
     const mes=meses[dt.getMonth()];
+    const mesLargo=mesesLargo[dt.getMonth()];
     const año=dt.getFullYear();
-    const h=dt.getHours();
-    const m=dt.getMinutes().toString().padStart(2,'0');
     // Convertir a ET (UTC-4)
     const et=new Date(dt.getTime()-4*3600000);
     const hET=et.getHours();
     const mET=et.getMinutes().toString().padStart(2,'0');
     const ampm=hET>=12?'PM':'AM';
     const h12=hET%12||12;
+    const etDia=et.getDate();
+    const etMes=meses[et.getMonth()];
+    const etMesLargo=mesesLargo[et.getMonth()];
+    const etAño=et.getFullYear();
+    // Actualizar todos los timestamps
     document.getElementById('lastUpdate').textContent=
-      `Última actualización: ${dia} ${mes} ${año}, ${h12}:${mET} ${ampm} ET`;
+      `Última actualización: ${etDia} ${etMes} ${etAño}, ${h12}:${mET} ${ampm} ET`;
+    const badge=document.getElementById('practisisBadge');
+    if(badge) badge.textContent=`${etDia} ${etMes} ${etAño}`;
+    const footer=document.getElementById('footerDate');
+    if(footer) footer.textContent=`${etDia} ${etMesLargo} ${etAño}`;
   }).catch(()=>{
     document.getElementById('lastUpdate').textContent='Última actualización: no disponible';
   });
