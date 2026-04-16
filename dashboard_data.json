@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-15",
+  "updated": "2026-04-16",
   "abril": {
     "acumulado": 1509.78,
     "acumulado_fmt": "$1,510",
@@ -16,8 +16,8 @@
     "dias_op": 9,
     "pct_cubierto": 36,
     "coverage_txt": "36% cubierto · 9 días operativos",
-    "insight": "Abril (al 15 abr): $1,510 acumulado en 9 días operativos. ⚠️ NUEVO HORARIO activo: 5 días/semana (cerrado lun+mar), sáb/dom desde 1 PM, mié 2x1 + alitas desde 4 PM. Proyección: $3,522 vs PE $4,216 (déficit -$694). 🔴 Uber Eats dispositivo desconectado desde sáb 11 — Sem 1 campaña: $21 total. Dom 12 abr: $194 (11 fact, toppings récord 1.27/fact).",
-    "tracker_note": "Proyección abril: $3,522 — déficit proyectado $694 vs PE. 12 días operativos restantes (prom. actual: $168). ⚠️ Nuevo horario: 5 días/semana. HOY: Primer miércoles 4 PM–11 PM con 2x1 + alitas. 🔴 Uber Eats: dispositivo desconectado desde sáb 11. Semana 1: $21 total."
+    "insight": "Abril (al 16 abr): $1,510 acumulado en 9 días operativos. ⚠️ NUEVO HORARIO activo: 5 días/semana (cerrado lun+mar), sáb/dom desde 1 PM, mié 2x1 + alitas desde 4 PM. Proyección: $3,522 vs PE $4,216 (déficit -$694). 🔴 Uber Eats: Online Rate 73.1% vs meta 95%. Rating 4.2/5 vs meta 4.8. 1 pedido perdido de 13 (7.6%). Top Eats: PERDIDO abril.",
+    "tracker_note": "Proyección abril: $3,522 — déficit proyectado $694 vs PE. 12 días operativos restantes (prom. actual: $168). ⚠️ Nuevo horario: 5 días/semana. 🔴 Uber Eats: dispositivo offline desde sáb 11. Online Rate 73.1% (meta 95%). Top Eats: PERDIDO."
   },
   "kpis_mes": {
     "label": "Marzo 2026",
@@ -38,6 +38,68 @@
     "gauge_txt": "86% del PE",
     "gauge_sub": "$3,625 de $4,216 (Marzo)"
   },
+  "uber_eats": {
+    "auditado": "2026-04-16",
+    "store_uuid": "e0dd3739-ecc0-5fca-bec5-08fb54f1d883",
+    "rating": 4.2,
+    "rating_fmt": "4.2 / 5.0",
+    "rating_meta": 4.8,
+    "rating_estado": "FALLANDO",
+    "rating_gap": -0.6,
+    "online_rate_90d": 73.1,
+    "online_rate_abril": 89,
+    "online_rate_meta": 95,
+    "online_rate_estado": "FALLANDO",
+    "horas_programadas_90d": 556,
+    "horas_online_90d": 406.53,
+    "ordenes_90d": 13,
+    "ordenes_meta_mes": 30,
+    "ordenes_pct_meta": 14,
+    "perdidas": 1,
+    "miss_rate": 7.6,
+    "miss_rate_meta": 1,
+    "miss_rate_estado": "FALLANDO",
+    "errores_pct": 0,
+    "errores_estado": "OK",
+    "courier_wait_seg": 106,
+    "courier_wait_fmt": "1 min 46 seg",
+    "top_eats_abril": "PERDIDO",
+    "top_eats_mayo": "NO ENCAMINADO",
+    "top_eats_metricas_fallando": 4,
+    "ads_roas": 3.64,
+    "ads_gasto": 15.96,
+    "ads_ventas": 58.14,
+    "ads_budget_dia": 3,
+    "ads_estado": "ACTIVA desde sep 2025",
+    "campanas_activas": 5,
+    "dispositivo_estado": "OFFLINE",
+    "dispositivo_desde": "2026-04-11T22:15:00",
+    "dispositivo_alerta": "Reconectar HOY — es la prioridad #1",
+    "sem_actual": {
+      "numero": 2,
+      "fechas": "13-20 abr",
+      "promo": "2x1 Saltamontes",
+      "estado": "ACTIVA",
+      "financiamiento_uber": "30%"
+    },
+    "campanas": [
+      { "tipo": "Ad Campaign", "estado": "ACTIVA", "desde": "2025-09-19", "budget": "$3/día", "roas": 3.64, "ventas": 58.14, "gasto": 15.96 },
+      { "tipo": "BOGO Saltamontes", "estado": "ACTIVA", "desde": "2026-04-13", "hasta": "2026-04-20", "uber_pct": 30 },
+      { "tipo": "Category Discount", "estado": "ACTIVA", "desde": "2026-01-17", "hasta": "2027-01-16", "ventas": 36 },
+      { "tipo": "Category Discount", "estado": "ACTIVA", "desde": "2025-09-19", "hasta": "2026-09-20", "ventas": 43 },
+      { "tipo": "BOGO largo plazo", "estado": "ACTIVA", "desde": "2025-09-19", "hasta": "2026-09-20" },
+      { "tipo": "Save on Menu 30%", "estado": "COMPLETADA", "desde": "2026-04-06", "hasta": "2026-04-13" }
+    ],
+    "plan_abril": [
+      { "sem": 1, "fechas": "6-12 abr", "promo": "Nachos 30% + Lomito 40% + Saltamontes 50%", "resultado": "$21 · 1 pedido", "completada": true },
+      { "sem": 2, "fechas": "13-20 abr", "promo": "2x1 Saltamontes", "resultado": "Sin datos — dispositivo offline", "completada": false },
+      { "sem": 3, "fechas": "20-26 abr", "promo": "Miche Maracuyá $5.75 · Nachos $8.50", "completada": false },
+      { "sem": 4, "fechas": "27 abr–3 may", "promo": "2x1 Papas Cheddar", "completada": false }
+    ],
+    "resenas_abril": 0,
+    "google_maps_rating": 5.0,
+    "google_maps_resenas": 10
+  },
   "insights": {
     "peor_dia_titulo": "Mié 8 abr — $3.00 (1 fact) — PEOR DÍA",
     "peor_dia_detalle": "Bar abierto, cero clientes. Marian sola.",
@@ -53,15 +115,15 @@
   "roadmap": [
     {
       "num": "1", "tipo": "active",
-      "label": "Reconectar Uber Eats",
-      "desc": "Dispositivo desconectado sáb 11 abr. Sem 1 campaña: $21. Sem 2 (2x1 Saltamontes) sin capturar pedidos",
+      "label": "Reconectar Uber Eats HOY",
+      "desc": "Dispositivo offline desde sáb 11 abr 10:15 PM. Online Rate 73.1% (meta 95%). Top Eats PERDIDO abril. Sem 2 BOGO activa pero sin capturar pedidos.",
       "impact": "URGENTE 🔴", "impact_tipo": "crit",
       "status": "Pendiente hoy"
     },
     {
       "num": "2", "tipo": "active",
       "label": "Happy Hour miércoles",
-      "desc": "4-7 PM miércoles. Mesera disponible. Primer miércoles nuevo horario: HOY",
+      "desc": "4-7 PM miércoles. Mesera disponible. Nuevo horario activo.",
       "impact": "+$200/mes", "impact_tipo": "high",
       "status": "Ejecutar hoy"
     },
@@ -82,7 +144,7 @@
     {
       "num": "5", "tipo": "active",
       "label": "Meta Ads",
-      "desc": "$150/mes aprobados. 18 días sin activar. Jue-sáb, geolocalizados 3km, 18-45 años",
+      "desc": "$150/mes aprobados. Activar durante semanas BOGO para maximizar ROAS.",
       "impact": "+$300-600/mes", "impact_tipo": "high",
       "status": "Sin activar"
     },
@@ -97,18 +159,23 @@
   "alertas": [
     {
       "nivel": "rojo",
-      "titulo": "Uber Eats — dispositivo desconectado",
-      "detalle": "Sáb 11 abr 10:15 PM sin reconectar. Semana 1 campaña: $21 total. Semana 2 (2x1 Saltamontes) sin capturar pedidos."
+      "titulo": "Uber Eats — dispositivo OFFLINE desde 11 abr",
+      "detalle": "Online Rate 73.1% (meta 95%). Top Eats PERDIDO para abril. BOGO Saltamontes sem 2 activa pero sin capturar pedidos. Reconectar HOY."
+    },
+    {
+      "nivel": "rojo",
+      "titulo": "Top Eats — fallando 4 de 5 métricas",
+      "detalle": "Rating 4.2 (meta 4.8) · Online Rate 73.1% (meta 95%) · Pedidos 13 (meta 30+/mes) · Miss rate 7.6% (meta <1%). Sin Top Eats = sin visibilidad gratuita de Uber."
     },
     {
       "nivel": "amarillo",
-      "titulo": "Meta Ads — 18 días sin activar",
-      "detalle": "$150/mes aprobados pero sin ejecutar. ~$90 de inversión perdida."
+      "titulo": "Meta Ads — sin activar",
+      "detalle": "$150/mes aprobados pero sin ejecutar. Coordinar con BOGO activo para mayor impacto."
     },
     {
       "nivel": "amarillo",
       "titulo": "Precios Modelo/Stella — sin ajustar en Practisis",
-      "detalle": "Plazo dado a Cristina vencido el 14 abr. 18 días sin confirmar."
+      "detalle": "Plazo dado a Cristina vencido el 14 abr. Sin confirmar."
     }
   ]
 }
