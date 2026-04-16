@@ -292,25 +292,25 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   <div class="apr-header">
     <div>
       <div style="font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--od)">Abril 2026 — En Vivo</div>
-      <div class="apr-big">$1,510</div>
+      <div class="apr-big" id="d-apr-acum">$1,510</div>
     </div>
     <div style="text-align:right">
       <div class="apr-target">Meta PE: <strong style="color:var(--od)">$4,216</strong></div>
-      <div style="font-size:.88rem;color:var(--tm);margin-top:2px">36% cubierto · 9 días operativos</div>
+      <div style="font-size:.88rem;color:var(--tm);margin-top:2px" id="d-apr-coverage">36% cubierto · 9 días operativos</div>
     </div>
   </div>
   <div class="apr-bar">
-    <div class="apr-fill" style="width:36%;background:linear-gradient(90deg,var(--o),var(--y))"></div>
+    <div class="apr-fill" id="d-apr-fill" style="width:36%;background:linear-gradient(90deg,var(--o),var(--y))"></div>
     <div class="apr-marker" style="left:100%"></div>
   </div>
   <div class="apr-details">
-    <div class="apr-stat"><div class="apr-stat-val">$168</div><div class="apr-stat-lbl">Promedio/día op.</div></div>
-    <div class="apr-stat"><div class="apr-stat-val" style="color:var(--y)">$3,522</div><div class="apr-stat-lbl">Proyección mes</div></div>
-    <div class="apr-stat"><div class="apr-stat-val">95</div><div class="apr-stat-lbl">Facturas</div></div>
-    <div class="apr-stat"><div class="apr-stat-val">$15.89</div><div class="apr-stat-lbl">Ticket prom.</div></div>
-    <div class="apr-stat"><div class="apr-stat-val" style="color:var(--r)">-$694</div><div class="apr-stat-lbl">Déficit proyectado</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-prom">$168</div><div class="apr-stat-lbl">Promedio/día op.</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-proj" style="color:var(--y)">$3,522</div><div class="apr-stat-lbl">Proyección mes</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-fact">95</div><div class="apr-stat-lbl">Facturas</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-ticket">$15.89</div><div class="apr-stat-lbl">Ticket prom.</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-deficit" style="color:var(--r)">-$694</div><div class="apr-stat-lbl">Déficit proyectado</div></div>
   </div>
-  <div class="ins" style="margin-top:12px;background:var(--gl)">
+  <div class="ins" style="margin-top:12px;background:var(--gl)" id="d-apr-note">
     <strong>Proyección abril: $3,522</strong> — déficit proyectado $694 vs PE. 12 días operativos restantes (prom. actual: $168). ⚠️ Nuevo horario activo: 5 días/semana (lun+mar cerrado). HOY: Primer miércoles 4 PM–11 PM con 2x1 + alitas. 🔴 Uber Eats: dispositivo desconectado desde sáb 11. Semana 1 campaña: $21 total, 1 pedido.
   </div>
 </div>
@@ -350,7 +350,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <!-- HOJA DE RUTA ESTRATÉGICA -->
 <div class="roadmap">
   <div class="rm-title">Hoja de Ruta — Crecimiento Abril 2026</div>
-  <div class="rm-track">
+  <div class="rm-track" id="d-roadmap">
 
     <div class="rm-step active">
       <div class="rm-node">1</div>
@@ -425,8 +425,8 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
         <text x="168" y="108" font-size="7.5" fill="var(--tl)">100%</text>
         <text x="100" y="16" font-size="7.5" fill="var(--tl)" text-anchor="middle">PE</text>
       </svg>
-      <div style="font-size:1.2rem;font-weight:700;color:var(--r);margin-top:4px">86% del PE</div>
-      <div style="font-size:.85rem;color:var(--tm)">$3,625 de $4,216 (Marzo)</div>
+      <div style="font-size:1.2rem;font-weight:700;color:var(--r);margin-top:4px" id="d-gauge-txt">86% del PE</div>
+      <div style="font-size:.85rem;color:var(--tm)" id="d-gauge-sub">$3,625 de $4,216 (Marzo)</div>
     </div>
     <!-- KPI Metrics -->
     <div style="margin-top:12px;border-top:1px solid var(--b);padding-top:12px">
@@ -456,7 +456,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
       </div>
       <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #E8DDD0">
         <span style="font-size:.85rem;color:var(--tm);font-weight:600">Uber Eats</span>
-        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--y)">$46</span><span style="font-size:.78rem;color:var(--y);font-weight:700">2 pedidos sáb 11</span></span>
+        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--y)" id="d-kpi-uber">$46</span><span style="font-size:.78rem;color:var(--y);font-weight:700" id="d-kpi-uber-det">2 pedidos sáb 11</span></span>
       </div>
       <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0">
         <span style="font-size:.85rem;color:var(--tm);font-weight:600">Toppings %</span>
@@ -465,30 +465,30 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
     </div>
   </div>
   <div class="cd" style="display:flex;flex-direction:column;justify-content:center">
-    <div class="alert">
+    <div class="alert" id="d-alert-peor">
       <div style="font-size:1.1rem;flex-shrink:0">🚨</div>
       <div><strong>Mié 8 abr — $3.00 (1 fact) — PEOR DÍA</strong><p>Bar abierto, cero clientes. Marian sola.</p></div>
     </div>
     <div class="g2" style="margin-bottom:0;gap:8px">
       <div style="background:var(--ol);border-radius:8px;padding:10px;text-align:center">
         <div style="font-size:.80rem;color:var(--tm);text-transform:uppercase;font-weight:700">Mejor Día</div>
-        <div style="font-size:1.4rem;font-weight:700;color:var(--g);margin-top:3px">Sábado</div>
-        <div style="font-size:.85rem;color:var(--tm)">$235/día prom.</div>
+        <div style="font-size:1.4rem;font-weight:700;color:var(--g);margin-top:3px" id="d-ins-mejor">Sábado</div>
+        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-mejor-det">$228/día prom.</div>
       </div>
       <div style="background:var(--ol);border-radius:8px;padding:10px;text-align:center">
         <div style="font-size:.80rem;color:var(--tm);text-transform:uppercase;font-weight:700">Hora Pico</div>
-        <div style="font-size:1.4rem;font-weight:700;color:var(--od);margin-top:3px">11 PM–12 AM</div>
-        <div style="font-size:.85rem;color:var(--tm)">$3,285 acumulado</div>
+        <div style="font-size:1.4rem;font-weight:700;color:var(--od);margin-top:3px" id="d-ins-hora">11 PM–12 AM</div>
+        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-hora-det">$3,285 acumulado</div>
       </div>
       <div style="background:var(--ol);border-radius:8px;padding:10px;text-align:center">
         <div style="font-size:.80rem;color:var(--tm);text-transform:uppercase;font-weight:700">Producto #1</div>
-        <div style="font-size:1.4rem;font-weight:700;color:var(--od);margin-top:3px">Maracuyá</div>
-        <div style="font-size:.85rem;color:var(--tm)">113 uds · $530</div>
+        <div style="font-size:1.4rem;font-weight:700;color:var(--od);margin-top:3px" id="d-ins-prod1">Maracuyá</div>
+        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-prod1-det">362 uds · $1,560</div>
       </div>
       <div style="background:var(--ol);border-radius:8px;padding:10px;text-align:center">
         <div style="font-size:.80rem;color:var(--tm);text-transform:uppercase;font-weight:700">Combo Top</div>
-        <div style="font-size:1.3rem;font-weight:700;color:var(--od);margin-top:3px">Maracuyá + Mango</div>
-        <div style="font-size:.85rem;color:var(--tm)">18% de órdenes</div>
+        <div style="font-size:1.3rem;font-weight:700;color:var(--od);margin-top:3px" id="d-ins-combo">Maracuyá + Mango</div>
+        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-combo-det">18% de órdenes</div>
       </div>
     </div>
   </div>
@@ -509,7 +509,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 
 <div class="insight-box main">
   <h3>Diagnóstico General — Abril 2026</h3>
-  <p>Abril (al 15 abr): $1,510 acumulado en 9 días operativos. ⚠️ NUEVO HORARIO activo: 5 días/semana (cerrado lun+mar), sáb/dom desde 1 PM, mié 2x1 + alitas desde 4 PM. HOY primer miércoles nuevo horario. Proyección: $3,522 vs PE $4,216 (déficit -$694). 🔴 Uber Eats dispositivo desconectado desde sáb 11 noche — Sem 1 campaña: $21 total. Dom 12 abr: $194 (11 fact, toppings récord 1.27/fact).</p>
+  <p id="d-diagnostico">Abril (al 15 abr): $1,510 acumulado en 9 días operativos. ⚠️ NUEVO HORARIO activo: 5 días/semana (cerrado lun+mar), sáb/dom desde 1 PM, mié 2x1 + alitas desde 4 PM. Proyección: $3,522 vs PE $4,216 (déficit -$694). 🔴 Uber Eats dispositivo desconectado desde sáb 11 — Sem 1 campaña: $21 total.</p>
   <ul class="action-list">
     <li class="a-red"><div class="anum">1</div><div class="atxt">Resolver desconexión Uber Eats<span>Sáb 11 abr: 2 pedidos (~$46) pero dispositivo se desconectó a las 10:15PM. 6+ desconexiones documentadas. Decidir: soporte Uber o nuevo tablet. Semana 2 campaña activa.</span></div></li>
     <li class="a-orange"><div class="anum">2</div><div class="atxt">Activar happy hour esta semana (mesera disponible)<span>Plan original: descuento 4-7PM martes a jueves. Mesera nueva confirma posibilidad de ejecutarlo. Primer happy hour puede ser esta semana.</span></div></li>
@@ -906,6 +906,64 @@ async function exportPDF(){
 }
 </script>
 <script>
+// ── DATA LOADER — lee dashboard_data.json y actualiza el DOM ──────────────
+(function loadDashData(){
+  const REPO='mambo711/michalitas-dashboard';
+  fetch(`https://raw.githubusercontent.com/${REPO}/main/dashboard_data.json?_=${Date.now()}`)
+    .then(r=>r.json()).then(d=>{
+      const set=(id,val)=>{const el=document.getElementById(id);if(el&&val!=null)el.textContent=val;};
+
+      // April tracker
+      set('d-apr-acum', d.abril.acumulado_fmt);
+      set('d-apr-coverage', d.abril.coverage_txt);
+      set('d-apr-prom', d.abril.prom_dia_fmt);
+      set('d-apr-proj', d.abril.proyeccion_fmt);
+      set('d-apr-fact', d.abril.facturas);
+      set('d-apr-ticket', d.abril.ticket_fmt);
+      set('d-apr-deficit', d.abril.deficit_fmt);
+      const fill=document.getElementById('d-apr-fill');
+      if(fill) fill.style.width=d.abril.pct_cubierto+'%';
+      const note=document.getElementById('d-apr-note');
+      if(note) note.innerHTML='<strong>Proyección abril: '+d.abril.proyeccion_fmt+'</strong> — '+d.abril.tracker_note;
+
+      // KPIs Gauge
+      set('d-gauge-txt', d.kpis_mes.gauge_txt);
+      set('d-gauge-sub', d.kpis_mes.gauge_sub);
+      set('d-kpi-uber', d.kpis_mes.uber_fmt);
+      set('d-kpi-uber-det', d.kpis_mes.uber_detalle);
+
+      // Insights
+      const alerta=document.getElementById('d-alert-peor');
+      if(alerta) alerta.innerHTML='<div style="font-size:1.1rem;flex-shrink:0">🚨</div><div><strong>'+d.insights.peor_dia_titulo+'</strong><p>'+d.insights.peor_dia_detalle+'</p></div>';
+      set('d-ins-mejor', d.insights.mejor_dia);
+      set('d-ins-mejor-det', d.insights.mejor_dia_prom);
+      set('d-ins-hora', d.insights.hora_pico);
+      set('d-ins-hora-det', d.insights.hora_pico_detalle);
+      set('d-ins-prod1', d.insights.producto_1);
+      set('d-ins-prod1-det', d.insights.producto_1_detalle);
+      set('d-ins-combo', d.insights.combo_top);
+      set('d-ins-combo-det', d.insights.combo_top_detalle);
+
+      // Diagnóstico
+      set('d-diagnostico', d.abril.insight);
+
+      // Roadmap — render completo
+      const rm=document.getElementById('d-roadmap');
+      if(rm && d.roadmap){
+        const impactClass={'crit':'crit','high':'high','med':'med'};
+        rm.innerHTML=d.roadmap.map(s=>`
+          <div class="rm-step ${s.tipo}">
+            <div class="rm-node">${s.num}</div>
+            <div class="rm-line"></div>
+            <div class="rm-label">${s.label}</div>
+            <div class="rm-desc">${s.desc}</div>
+            <div class="rm-impact ${impactClass[s.impact_tipo]||''}">${s.impact}</div>
+            <div class="rm-status">${s.status}</div>
+          </div>`).join('');
+      }
+    }).catch(e=>console.warn('dashboard_data.json no disponible:',e));
+})();
+
 // Timestamp dinámico — obtiene fecha del último commit de GitHub
 fetch('https://api.github.com/repos/mambo711/michalitas-dashboard/commits?per_page=1')
   .then(r=>r.json()).then(d=>{
