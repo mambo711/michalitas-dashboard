@@ -156,6 +156,64 @@
       "status": "En proceso"
     }
   ],
+  "marketing": {
+    "fuente": "Windsor.ai",
+    "actualizado": "2026-04-17",
+    "instagram": {
+      "cuenta": "@michalitasxpress",
+      "account_id": "17841407949954808",
+      "periodo": "últimos 7 días (10-16 abr)",
+      "reach_total": 1728,
+      "reach_prom_dia": 247,
+      "reach_mejor_dia": 543,
+      "reach_mejor_fecha": "2026-04-11",
+      "interactions_total": 83,
+      "likes_total": 58,
+      "comments_total": 6,
+      "shares_total": 8,
+      "saves_total": 1,
+      "engagement_rate": 4.8,
+      "conversion_miche": 0,
+      "conversion_nota": "Código MICHE15: 0 usos detectados",
+      "tendencia": "subiendo",
+      "tendencia_nota": "5x vs antes de Cristina (47→247 reach/día)",
+      "dias": [
+        {"fecha": "2026-04-10", "reach": 313, "interactions": 12, "likes": 8},
+        {"fecha": "2026-04-11", "reach": 543, "interactions": 28, "likes": 18},
+        {"fecha": "2026-04-12", "reach": 170, "interactions": 9,  "likes": 7},
+        {"fecha": "2026-04-13", "reach": 257, "interactions": 12, "likes": 10},
+        {"fecha": "2026-04-14", "reach": 212, "interactions": 7,  "likes": 2},
+        {"fecha": "2026-04-15", "reach": 111, "interactions": 9,  "likes": 9},
+        {"fecha": "2026-04-16", "reach": 122, "interactions": 6,  "likes": 4}
+      ]
+    },
+    "google_my_business": {
+      "ubicacion": "Michalitas Xpress",
+      "location_id": "locations/12444704965499802556",
+      "periodo": "últimos 7 días (10-16 abr)",
+      "impressions_total": 67,
+      "impressions_prom_dia": 10,
+      "direction_requests_total": 5,
+      "website_clicks_total": 0,
+      "alerta": "8-10 impresiones/día es muy bajo. Meta: 100-300/día con perfil optimizado",
+      "dias": [
+        {"fecha": "2026-04-10", "impressions": 21, "direction_requests": 0},
+        {"fecha": "2026-04-11", "impressions": 17, "direction_requests": 4},
+        {"fecha": "2026-04-12", "impressions": 11, "direction_requests": 1},
+        {"fecha": "2026-04-13", "impressions": 12, "direction_requests": 0},
+        {"fecha": "2026-04-14", "impressions": 6,  "direction_requests": 0},
+        {"fecha": "2026-04-15", "impressions": 0,  "direction_requests": 0},
+        {"fecha": "2026-04-16", "impressions": 0,  "direction_requests": 0}
+      ]
+    },
+    "meta_ads": {
+      "estado": "sin_datos",
+      "nota": "Cristina hace boosts directos desde página FB — no hay cuenta de ads formal en Business Manager. Windsor no puede rastrear este gasto.",
+      "gasto_mes": 150,
+      "objetivo_actual": "Get more messages",
+      "problema": "Objetivo incorrecto, sin segmentación geográfica, sin pixel de conversión"
+    }
+  },
   "alertas": [
     {
       "nivel": "rojo",
