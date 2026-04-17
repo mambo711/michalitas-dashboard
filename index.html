@@ -502,6 +502,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   <div class="tab" onclick="showTab('combos',this)">Combos</div>
   <div class="tab" onclick="showTab('ops',this)">Operaciones</div>
   <div class="tab" onclick="showTab('actions',this)">Acciones</div>
+  <div class="tab" onclick="showTab('marketing',this)">📱 Marketing</div>
 </div>
 
 <!-- TAB: RESUMEN -->
@@ -896,14 +897,131 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 </div>
 
+<!-- TAB: MARKETING -->
+<div id="tab-marketing" class="tc">
+<div class="insight-box tab-insight">
+  <h3>📱 Marketing Digital — Datos en tiempo real vía Windsor.ai</h3>
+  <p>Instagram Insights + Google My Business conectados directamente. Actualización diaria automática. Sin depender de reportes de nadie.</p>
+</div>
+
+<!-- INSTAGRAM -->
+<div class="st">Instagram @michalitasxpress</div>
+<div class="g4" style="margin-bottom:16px">
+  <div class="cd">
+    <div class="ct">Reach 7 días</div>
+    <div class="mv" id="ig-reach-total">1,728</div>
+    <div class="ms" id="ig-reach-prom">247/día promedio</div>
+    <div class="mc up" id="ig-tendencia">↑ 5x vs antes de Cristina</div>
+  </div>
+  <div class="cd">
+    <div class="ct">Interacciones 7d</div>
+    <div class="mv" id="ig-interactions">83</div>
+    <div class="ms" id="ig-likes">58 likes · 6 comentarios</div>
+    <div class="mc wr" id="ig-engagement">Eng. rate ~4.8%</div>
+  </div>
+  <div class="cd">
+    <div class="ct">Mejor día</div>
+    <div class="mv" id="ig-best-reach">543</div>
+    <div class="ms" id="ig-best-fecha">11 abril 2026</div>
+    <div class="mc up">28 interacciones</div>
+  </div>
+  <div class="cd">
+    <div class="ct">Conversión MICHE</div>
+    <div class="mv" id="ig-conversion" style="color:var(--r)">0</div>
+    <div class="ms">Códigos usados en caja</div>
+    <div class="mc dn">Sin conversión detectada</div>
+  </div>
+</div>
+
+<!-- SPARKLINE IG -->
+<div class="cd" style="margin-bottom:16px">
+  <div class="ct">Reach diario — últimos 7 días</div>
+  <div class="cw" style="height:160px"><canvas id="chart-ig-reach"></canvas></div>
+</div>
+
+<div class="cd" style="margin-bottom:20px">
+  <div class="ct">Diagnóstico Instagram</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
+    <div style="flex:1;min-width:200px;background:var(--gl);border-radius:8px;padding:12px">
+      <div style="font-weight:700;color:var(--g);margin-bottom:6px">✅ Lo que funciona</div>
+      <div style="font-size:.88rem;color:var(--tm);line-height:1.6">Reach creció 5x desde que Cristina tomó IG. Publica diariamente. Engagement 4.8% es aceptable para una cuenta pequeña.</div>
+    </div>
+    <div style="flex:1;min-width:200px;background:var(--rl);border-radius:8px;padding:12px">
+      <div style="font-weight:700;color:var(--r);margin-bottom:6px">❌ El problema</div>
+      <div style="font-size:.88rem;color:var(--tm);line-height:1.6">247 reach/día sigue siendo muy bajo para mover ventas. 0 conversiones detectadas. Solo posts estáticos — se necesitan Reels para llegar a audiencia nueva.</div>
+    </div>
+    <div style="flex:1;min-width:200px;background:var(--yl);border-radius:8px;padding:12px">
+      <div style="font-weight:700;color:#92400E;margin-bottom:6px">⚡ Meta realista</div>
+      <div style="font-size:.88rem;color:var(--tm);line-height:1.6">1,000 reach/día con Reels + 5 clientes/semana con código MICHE = ~$250 adicional/mes atribuible a IG.</div>
+    </div>
+  </div>
+</div>
+
+<!-- GOOGLE MY BUSINESS -->
+<div class="st">Google My Business</div>
+<div class="g3" style="margin-bottom:16px">
+  <div class="cd">
+    <div class="ct">Impresiones 7 días</div>
+    <div class="mv" id="gmb-impressions">67</div>
+    <div class="ms" id="gmb-imp-prom">10/día promedio</div>
+    <div class="mc dn">Meta: 100-300/día</div>
+  </div>
+  <div class="cd">
+    <div class="ct">Solicitudes de ruta</div>
+    <div class="mv" id="gmb-directions">5</div>
+    <div class="ms">Últimos 7 días</div>
+    <div class="mc wr">Intención real de visita</div>
+  </div>
+  <div class="cd">
+    <div class="ct">Clicks al website</div>
+    <div class="mv" id="gmb-web-clicks" style="color:var(--r)">0</div>
+    <div class="ms">Últimos 30 días</div>
+    <div class="mc dn">Sin tráfico web</div>
+  </div>
+</div>
+
+<div class="cd" style="margin-bottom:20px">
+  <div class="ct">Por qué GMB es crítico</div>
+  <div class="ins" style="margin-top:8px"><strong>El problema:</strong> 10 impresiones/día en Google Maps significa que casi nadie encuentra Michalitas cuando busca "micheladas Urdesa" o "bar Urdesa". El perfil necesita más fotos, responder reseñas, y publicar posts semanales para subir en rankings locales. Esto es gratis y puede doblar el tráfico en 30 días.</div>
+</div>
+
+<!-- META ADS -->
+<div class="st">Meta Ads — $150/mes</div>
+<div class="cd" style="margin-bottom:20px">
+  <div class="ct">Estado actual</div>
+  <div style="background:var(--rl);border-radius:10px;padding:16px;margin-top:8px">
+    <div style="font-weight:700;color:var(--r);margin-bottom:8px;font-size:1rem">🔴 3 problemas críticos</div>
+    <div class="gr"><span class="gl">Objetivo configurado</span><span class="gv" style="color:var(--r)" id="meta-objetivo">Get more messages</span></div>
+    <div class="gr"><span class="gl">Tipo de campaña</span><span class="gv" style="color:var(--r)">Boost directo (sin Ads Manager)</span></div>
+    <div class="gr"><span class="gl">Segmentación geográfica</span><span class="gv" style="color:var(--r)">Sin definir</span></div>
+    <div class="gr"><span class="gl">Pixel de conversión</span><span class="gv" style="color:var(--r)">No instalado</span></div>
+    <div class="gr"><span class="gl">Mensajes sin responder</span><span class="gv" style="color:var(--r)" id="meta-mensajes">3 ahora mismo</span></div>
+    <div class="gr" style="border:none"><span class="gl">Gasto mensual</span><span class="gv" id="meta-gasto">$150/mes</span></div>
+  </div>
+  <div class="ins" style="margin-top:10px"><strong>Acción pendiente:</strong> Crear cuenta de ads en Meta Business Manager → mover campañas ahí → segmentar 3km de Urdesa → cambiar objetivo a "Tráfico a WhatsApp" → instalar pixel. Responsable: Cristina con guía de Alberto.</div>
+</div>
+</div>
+
 <footer>
   MICHALITAS XPRESS · CORPMARYAL S.A.S. · V. Emilio Estrada y Laureles 1121, Urdesa, Guayaquil<br>
-  Dashboard con datos reales Practisis POS · <span id="footerDate">15 abril 2026</span>
+  Dashboard con datos reales Practisis POS + Windsor.ai (IG · GMB · Meta Ads) · <span id="footerDate">17 abril 2026</span>
 </footer>
 
 <!-- JS -->
 <script>
-function showTab(id,el){document.querySelectorAll('.tc').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));document.getElementById('tab-'+id).classList.add('active');el.classList.add('active');if(id==='analysis')setTimeout(renderA,60);if(id==='products')setTimeout(renderP,60)}
+function showTab(id,el){document.querySelectorAll('.tc').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));document.getElementById('tab-'+id).classList.add('active');el.classList.add('active');if(id==='analysis')setTimeout(renderA,60);if(id==='products')setTimeout(renderP,60);if(id==='marketing')setTimeout(renderMarketing,60);}
+
+let igChartInst=null;
+function renderMarketing(){
+  const igData=window._igDias||[{fecha:'10 abr',reach:313},{fecha:'11 abr',reach:543},{fecha:'12 abr',reach:170},{fecha:'13 abr',reach:257},{fecha:'14 abr',reach:212},{fecha:'15 abr',reach:111},{fecha:'16 abr',reach:122}];
+  const ctx=document.getElementById('chart-ig-reach');
+  if(!ctx)return;
+  if(igChartInst){igChartInst.destroy();igChartInst=null;}
+  igChartInst=new Chart(ctx,{type:'bar',data:{
+    labels:igData.map(d=>d.fecha),
+    datasets:[{label:'Reach',data:igData.map(d=>d.reach),backgroundColor:'rgba(217,119,6,0.7)',borderColor:'#D97706',borderWidth:2,borderRadius:6}]
+  },options:{...cDef,plugins:{legend:{display:false}},scales:{y:{grid:{color:'rgba(0,0,0,0.06)'},ticks:{color:fc}},x:{ticks:{color:fc}}}}});
+}
 
 const fc='#57534E',gc='#D6CFC5',o='#D97706',od='#B45309',r='#B91C1C',g='#15803D',y='#F59E0B',m='#1C1210';
 const cDef={responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:fc,font:{size:12}}}}};
@@ -1074,6 +1192,48 @@ async function exportPDF(){
             <div style="font-size:1rem;flex-shrink:0">${a.nivel==='rojo'?'🔴':a.nivel==='amarillo'?'🟡':'🟢'}</div>
             <div><strong style="font-size:.82rem">${a.titulo}</strong><p style="font-size:.78rem;color:var(--tl);margin:2px 0 0">${a.detalle}</p></div>
           </div>`).join('');
+      }
+
+      // ── MARKETING TAB — Instagram + GMB desde Windsor ──
+      if(d.marketing){
+        const mkt=d.marketing;
+        const set=(id,val)=>{const el=document.getElementById(id);if(el&&val!=null)el.textContent=val;};
+
+        if(mkt.instagram){
+          const ig=mkt.instagram;
+          set('ig-reach-total', ig.reach_total?.toLocaleString()||'—');
+          set('ig-reach-prom', (ig.reach_prom_dia||'—')+'/día promedio');
+          set('ig-interactions', ig.interactions_total||'—');
+          set('ig-likes', (ig.likes_total||0)+' likes · '+(ig.comments_total||0)+' comentarios');
+          set('ig-engagement', 'Eng. rate ~'+(ig.engagement_rate||'—')+'%');
+          set('ig-best-reach', ig.reach_mejor_dia?.toLocaleString()||'—');
+          const fd=ig.reach_mejor_fecha?new Date(ig.reach_mejor_fecha).toLocaleDateString('es-EC',{day:'numeric',month:'long'}):ig.reach_mejor_fecha;
+          set('ig-best-fecha', fd||'—');
+          set('ig-conversion', ig.conversion_miche||0);
+          set('ig-tendencia', '↑ '+ig.tendencia_nota);
+
+          // Preparar datos para chart
+          if(ig.dias){
+            const mesesCort=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+            window._igDias=ig.dias.map(d=>{
+              const dt=new Date(d.fecha);
+              return {fecha: dt.getDate()+' '+mesesCort[dt.getMonth()], reach: d.reach};
+            });
+          }
+        }
+
+        if(mkt.google_my_business){
+          const gmb=mkt.google_my_business;
+          set('gmb-impressions', gmb.impressions_total||'—');
+          set('gmb-imp-prom', (gmb.impressions_prom_dia||'—')+'/día promedio');
+          set('gmb-directions', gmb.direction_requests_total||'—');
+          set('gmb-web-clicks', gmb.website_clicks_total||0);
+        }
+
+        if(mkt.meta_ads){
+          set('meta-objetivo', mkt.meta_ads.objetivo_actual||'—');
+          set('meta-gasto', '$'+(mkt.meta_ads.gasto_mes||150)+'/mes');
+        }
       }
     }).catch(e=>console.warn('dashboard_data.json no disponible:',e));
 })();
