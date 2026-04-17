@@ -17,7 +17,71 @@
     "pct_cubierto": 36,
     "coverage_txt": "36% cubierto · 9 días operativos",
     "insight": "Abril (al 16 abr): $1,510 acumulado en 9 días operativos. ⚠️ NUEVO HORARIO activo: 5 días/semana (cerrado lun+mar), sáb/dom desde 1 PM, mié 2x1 + alitas desde 4 PM. Proyección: $3,522 vs PE $4,216 (déficit -$694). 🔴 Uber Eats: Online Rate 73.1% vs meta 95%. Rating 4.2/5 vs meta 4.8. 1 pedido perdido de 13 (7.6%). Top Eats: PERDIDO abril.",
-    "tracker_note": "Proyección abril: $3,522 — déficit proyectado $694 vs PE. 12 días operativos restantes (prom. actual: $168). ⚠️ Nuevo horario: 5 días/semana. 🔴 Uber Eats: dispositivo offline desde sáb 11. Online Rate 73.1% (meta 95%). Top Eats: PERDIDO."
+    "tracker_note": "Proyección abril: $3,522 — déficit proyectado $694 vs PE. 12 días operativos restantes (prom. actual: $168). ⚠️ Nuevo horario: 5 días/semana. 🔴 Uber Eats: dispositivo offline desde sáb 11. Online Rate 73.1% (meta 95%). Top Eats: PERDIDO.",
+    "total_acumulado": 1706.87,
+    "facturas_acumuladas": 106,
+    "dias_operativos": 11,
+    "promedio_diario": 155.17,
+    "proyeccion_mes": 3259.0,
+    "deficit_proyectado": -957.0,
+    "actualizado": "2026-04-17",
+    "dias": [
+      {
+        "fecha": "2026-04-01",
+        "ventas": 138.47,
+        "facturas": 9
+      },
+      {
+        "fecha": "2026-04-02",
+        "ventas": 372.45,
+        "facturas": 19
+      },
+      {
+        "fecha": "2026-04-05",
+        "ventas": 235.88,
+        "facturas": 13
+      },
+      {
+        "fecha": "2026-04-07",
+        "ventas": 78.24,
+        "facturas": 3
+      },
+      {
+        "fecha": "2026-04-08",
+        "ventas": 3.0,
+        "facturas": 1
+      },
+      {
+        "fecha": "2026-04-09",
+        "ventas": 37.3,
+        "facturas": 3
+      },
+      {
+        "fecha": "2026-04-10",
+        "ventas": 218.23,
+        "facturas": 16
+      },
+      {
+        "fecha": "2026-04-11",
+        "ventas": 231.96,
+        "facturas": 20
+      },
+      {
+        "fecha": "2026-04-12",
+        "ventas": 194.25,
+        "facturas": 11
+      },
+      {
+        "fecha": "2026-04-15",
+        "ventas": 111.2,
+        "facturas": 5
+      },
+      {
+        "fecha": "2026-04-16",
+        "ventas": 85.89,
+        "facturas": 6
+      }
+    ]
   },
   "kpis_mes": {
     "label": "Marzo 2026",
@@ -83,18 +147,76 @@
       "financiamiento_uber": "30%"
     },
     "campanas": [
-      { "tipo": "Ad Campaign", "estado": "ACTIVA", "desde": "2025-09-19", "budget": "$3/día", "roas": 3.64, "ventas": 58.14, "gasto": 15.96 },
-      { "tipo": "BOGO Saltamontes", "estado": "ACTIVA", "desde": "2026-04-13", "hasta": "2026-04-20", "uber_pct": 30 },
-      { "tipo": "Category Discount", "estado": "ACTIVA", "desde": "2026-01-17", "hasta": "2027-01-16", "ventas": 36 },
-      { "tipo": "Category Discount", "estado": "ACTIVA", "desde": "2025-09-19", "hasta": "2026-09-20", "ventas": 43 },
-      { "tipo": "BOGO largo plazo", "estado": "ACTIVA", "desde": "2025-09-19", "hasta": "2026-09-20" },
-      { "tipo": "Save on Menu 30%", "estado": "COMPLETADA", "desde": "2026-04-06", "hasta": "2026-04-13" }
+      {
+        "tipo": "Ad Campaign",
+        "estado": "ACTIVA",
+        "desde": "2025-09-19",
+        "budget": "$3/día",
+        "roas": 3.64,
+        "ventas": 58.14,
+        "gasto": 15.96
+      },
+      {
+        "tipo": "BOGO Saltamontes",
+        "estado": "ACTIVA",
+        "desde": "2026-04-13",
+        "hasta": "2026-04-20",
+        "uber_pct": 30
+      },
+      {
+        "tipo": "Category Discount",
+        "estado": "ACTIVA",
+        "desde": "2026-01-17",
+        "hasta": "2027-01-16",
+        "ventas": 36
+      },
+      {
+        "tipo": "Category Discount",
+        "estado": "ACTIVA",
+        "desde": "2025-09-19",
+        "hasta": "2026-09-20",
+        "ventas": 43
+      },
+      {
+        "tipo": "BOGO largo plazo",
+        "estado": "ACTIVA",
+        "desde": "2025-09-19",
+        "hasta": "2026-09-20"
+      },
+      {
+        "tipo": "Save on Menu 30%",
+        "estado": "COMPLETADA",
+        "desde": "2026-04-06",
+        "hasta": "2026-04-13"
+      }
     ],
     "plan_abril": [
-      { "sem": 1, "fechas": "6-12 abr", "promo": "Nachos 30% + Lomito 40% + Saltamontes 50%", "resultado": "$21 · 1 pedido", "completada": true },
-      { "sem": 2, "fechas": "13-20 abr", "promo": "2x1 Saltamontes", "resultado": "Sin datos — dispositivo offline", "completada": false },
-      { "sem": 3, "fechas": "20-26 abr", "promo": "Miche Maracuyá $5.75 · Nachos $8.50", "completada": false },
-      { "sem": 4, "fechas": "27 abr–3 may", "promo": "2x1 Papas Cheddar", "completada": false }
+      {
+        "sem": 1,
+        "fechas": "6-12 abr",
+        "promo": "Nachos 30% + Lomito 40% + Saltamontes 50%",
+        "resultado": "$21 · 1 pedido",
+        "completada": true
+      },
+      {
+        "sem": 2,
+        "fechas": "13-20 abr",
+        "promo": "2x1 Saltamontes",
+        "resultado": "Sin datos — dispositivo offline",
+        "completada": false
+      },
+      {
+        "sem": 3,
+        "fechas": "20-26 abr",
+        "promo": "Miche Maracuyá $5.75 · Nachos $8.50",
+        "completada": false
+      },
+      {
+        "sem": 4,
+        "fechas": "27 abr–3 may",
+        "promo": "2x1 Papas Cheddar",
+        "completada": false
+      }
     ],
     "resenas_abril": 0,
     "google_maps_rating": 5.0,
@@ -114,45 +236,57 @@
   },
   "roadmap": [
     {
-      "num": "1", "tipo": "active",
+      "num": "1",
+      "tipo": "active",
       "label": "Reconectar Uber Eats HOY",
       "desc": "Dispositivo offline desde sáb 11 abr 10:15 PM. Online Rate 73.1% (meta 95%). Top Eats PERDIDO abril. Sem 2 BOGO activa pero sin capturar pedidos.",
-      "impact": "URGENTE 🔴", "impact_tipo": "crit",
+      "impact": "URGENTE 🔴",
+      "impact_tipo": "crit",
       "status": "Pendiente hoy"
     },
     {
-      "num": "2", "tipo": "active",
+      "num": "2",
+      "tipo": "active",
       "label": "Happy Hour miércoles",
       "desc": "4-7 PM miércoles. Mesera disponible. Nuevo horario activo.",
-      "impact": "+$200/mes", "impact_tipo": "high",
+      "impact": "+$200/mes",
+      "impact_tipo": "high",
       "status": "Ejecutar hoy"
     },
     {
-      "num": "✓", "tipo": "done",
+      "num": "✓",
+      "tipo": "done",
       "label": "Instagram + Código MICHE15",
       "desc": "Cristina publica diariamente. 0 conversiones detectadas — pendiente más tiempo",
-      "impact": "Medible", "impact_tipo": "high",
+      "impact": "Medible",
+      "impact_tipo": "high",
       "status": "Activo"
     },
     {
-      "num": "4", "tipo": "active",
+      "num": "4",
+      "tipo": "active",
       "label": "Fidelización",
       "desc": "Tarjeta 10ma gratis. Mesera disponible para registrar visitas. Pendiente diseño tarjeta",
-      "impact": "Retención", "impact_tipo": "med",
+      "impact": "Retención",
+      "impact_tipo": "med",
       "status": "Por lanzar"
     },
     {
-      "num": "5", "tipo": "active",
+      "num": "5",
+      "tipo": "active",
       "label": "Meta Ads",
       "desc": "$150/mes aprobados. Activar durante semanas BOGO para maximizar ROAS.",
-      "impact": "+$300-600/mes", "impact_tipo": "high",
+      "impact": "+$300-600/mes",
+      "impact_tipo": "high",
       "status": "Sin activar"
     },
     {
-      "num": "6", "tipo": "active",
+      "num": "6",
+      "tipo": "active",
       "label": "Costos en Practisis",
       "desc": "Cristina terminó marzo. Falta feb+ene. Sin costos no hay márgenes reales",
-      "impact": "Control", "impact_tipo": "med",
+      "impact": "Control",
+      "impact_tipo": "med",
       "status": "En proceso"
     }
   ],
@@ -161,57 +295,111 @@
     "actualizado": "2026-04-17",
     "instagram": {
       "cuenta": "@michalitasxpress",
-      "account_id": "17841407949954808",
-      "periodo": "últimos 7 días (10-16 abr)",
-      "reach_total": 1728,
-      "reach_prom_dia": 247,
+      "reach_total": 1470,
+      "reach_prom_dia": 210,
       "reach_mejor_dia": 543,
       "reach_mejor_fecha": "2026-04-11",
-      "interactions_total": 83,
-      "likes_total": 58,
-      "comments_total": 6,
-      "shares_total": 8,
-      "saves_total": 1,
-      "engagement_rate": 4.8,
+      "interactions_total": 72,
+      "likes_total": 51,
+      "comments_total": 4,
+      "shares_total": 7,
+      "saves_total": 2,
+      "engagement_rate": 4.9,
       "conversion_miche": 0,
-      "conversion_nota": "Código MICHE15: 0 usos detectados",
-      "tendencia": "subiendo",
-      "tendencia_nota": "5x vs antes de Cristina (47→247 reach/día)",
       "dias": [
-        {"fecha": "2026-04-10", "reach": 313, "interactions": 12, "likes": 8},
-        {"fecha": "2026-04-11", "reach": 543, "interactions": 28, "likes": 18},
-        {"fecha": "2026-04-12", "reach": 170, "interactions": 9,  "likes": 7},
-        {"fecha": "2026-04-13", "reach": 257, "interactions": 12, "likes": 10},
-        {"fecha": "2026-04-14", "reach": 212, "interactions": 7,  "likes": 2},
-        {"fecha": "2026-04-15", "reach": 111, "interactions": 9,  "likes": 9},
-        {"fecha": "2026-04-16", "reach": 122, "interactions": 6,  "likes": 4}
+        {
+          "fecha": "2026-04-11",
+          "reach": 543,
+          "interactions": 28,
+          "likes": 18
+        },
+        {
+          "fecha": "2026-04-12",
+          "reach": 170,
+          "interactions": 9,
+          "likes": 7
+        },
+        {
+          "fecha": "2026-04-13",
+          "reach": 257,
+          "interactions": 12,
+          "likes": 10
+        },
+        {
+          "fecha": "2026-04-14",
+          "reach": 212,
+          "interactions": 7,
+          "likes": 2
+        },
+        {
+          "fecha": "2026-04-15",
+          "reach": 111,
+          "interactions": 9,
+          "likes": 9
+        },
+        {
+          "fecha": "2026-04-16",
+          "reach": 143,
+          "interactions": 7,
+          "likes": 5
+        },
+        {
+          "fecha": "2026-04-17",
+          "reach": 34,
+          "interactions": 0,
+          "likes": 0
+        }
       ]
     },
     "google_my_business": {
-      "ubicacion": "Michalitas Xpress",
-      "location_id": "locations/12444704965499802556",
-      "periodo": "últimos 7 días (10-16 abr)",
-      "impressions_total": 67,
-      "impressions_prom_dia": 10,
+      "impressions_total": 47,
+      "impressions_prom_dia": 6.7,
       "direction_requests_total": 5,
       "website_clicks_total": 0,
-      "alerta": "8-10 impresiones/día es muy bajo. Meta: 100-300/día con perfil optimizado",
+      "alerta": "0 impresiones 3 dias consecutivos (15-17 abr) - PERFIL POSIBLEMENTE INACTIVO",
       "dias": [
-        {"fecha": "2026-04-10", "impressions": 21, "direction_requests": 0},
-        {"fecha": "2026-04-11", "impressions": 17, "direction_requests": 4},
-        {"fecha": "2026-04-12", "impressions": 11, "direction_requests": 1},
-        {"fecha": "2026-04-13", "impressions": 12, "direction_requests": 0},
-        {"fecha": "2026-04-14", "impressions": 6,  "direction_requests": 0},
-        {"fecha": "2026-04-15", "impressions": 0,  "direction_requests": 0},
-        {"fecha": "2026-04-16", "impressions": 0,  "direction_requests": 0}
+        {
+          "fecha": "2026-04-11",
+          "impressions": 17,
+          "direction_requests": 4
+        },
+        {
+          "fecha": "2026-04-12",
+          "impressions": 11,
+          "direction_requests": 1
+        },
+        {
+          "fecha": "2026-04-13",
+          "impressions": 12,
+          "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-14",
+          "impressions": 7,
+          "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-15",
+          "impressions": 0,
+          "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-16",
+          "impressions": 0,
+          "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-17",
+          "impressions": 0,
+          "direction_requests": 0
+        }
       ]
     },
     "meta_ads": {
-      "estado": "sin_datos",
-      "nota": "Cristina hace boosts directos desde página FB — no hay cuenta de ads formal en Business Manager. Windsor no puede rastrear este gasto.",
-      "gasto_mes": 150,
-      "objetivo_actual": "Get more messages",
-      "problema": "Objetivo incorrecto, sin segmentación geográfica, sin pixel de conversión"
+      "estado": "pendiente_activacion",
+      "nota": "Cristina lista para activar. Falta confirmar parametros: budget diario + codigo MICHE en copy.",
+      "gasto_mes_previsto": 150,
+      "objetivo_actual": "pendiente_definir"
     }
   },
   "alertas": [
@@ -235,5 +423,12 @@
       "titulo": "Precios Modelo/Stella — sin ajustar en Practisis",
       "detalle": "Plazo dado a Cristina vencido el 14 abr. Sin confirmar."
     }
-  ]
+  ],
+  "last_briefing": {
+    "fecha": "2026-04-17",
+    "ventas_ayer": 85.89,
+    "facturas_ayer": 6,
+    "ticket_ayer": 14.31,
+    "producto_estrella": "Michelada Maracuya x5"
+  }
 }
