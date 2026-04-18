@@ -1,85 +1,94 @@
 {
-  "updated": "2026-04-16",
+  "updated": "2026-04-18T07:00:00-05:00",
   "abril": {
-    "acumulado": 1509.78,
-    "acumulado_fmt": "$1,510",
-    "proyeccion": 3522,
-    "proyeccion_fmt": "$3,522",
-    "pe": 4216,
-    "deficit": -694,
-    "deficit_fmt": "-$694",
-    "facturas": 95,
-    "ticket": 15.89,
-    "ticket_fmt": "$15.89",
-    "prom_dia": 168,
-    "prom_dia_fmt": "$168",
-    "dias_op": 9,
-    "pct_cubierto": 36,
-    "coverage_txt": "36% cubierto · 9 días operativos",
-    "insight": "Abril (al 16 abr): $1,510 acumulado en 9 días operativos. ⚠️ NUEVO HORARIO activo: 5 días/semana (cerrado lun+mar), sáb/dom desde 1 PM, mié 2x1 + alitas desde 4 PM. Proyección: $3,522 vs PE $4,216 (déficit -$694). 🔴 Uber Eats: Online Rate 73.1% vs meta 95%. Rating 4.2/5 vs meta 4.8. 1 pedido perdido de 13 (7.6%). Top Eats: PERDIDO abril.",
-    "tracker_note": "Proyección abril: $3,522 — déficit proyectado $694 vs PE. 12 días operativos restantes (prom. actual: $168). ⚠️ Nuevo horario: 5 días/semana. 🔴 Uber Eats: dispositivo offline desde sáb 11. Online Rate 73.1% (meta 95%). Top Eats: PERDIDO.",
-    "total_acumulado": 1706.87,
-    "facturas_acumuladas": 106,
-    "dias_operativos": 11,
-    "promedio_diario": 155.17,
-    "proyeccion_mes": 3259.0,
-    "deficit_proyectado": -957.0,
-    "actualizado": "2026-04-17",
+    "meta": 4216,
+    "acumulado": 2002.52,
+    "dias_operativos": 12,
+    "ticket_promedio": 14.41,
+    "proyeccion_mes": 3504,
+    "deficit_proyectado": -712,
+    "ayer": {
+      "fecha": "2026-04-17",
+      "dia": "Viernes",
+      "total": 295.65,
+      "facturas": 24,
+      "ticket": 12.32,
+      "producto_estrella": "Michelada Maracuyá",
+      "toppings_por_factura": 0.42,
+      "vs_promedio_dia": "+111.2%"
+    },
     "dias": [
       {
         "fecha": "2026-04-01",
-        "ventas": 138.47,
+        "dia": "Mié",
+        "total": 138.47,
         "facturas": 9
       },
       {
         "fecha": "2026-04-02",
-        "ventas": 372.45,
+        "dia": "Jue",
+        "total": 372.45,
         "facturas": 19
       },
       {
         "fecha": "2026-04-05",
-        "ventas": 235.88,
+        "dia": "Dom",
+        "total": 235.88,
         "facturas": 13
       },
       {
         "fecha": "2026-04-07",
-        "ventas": 78.24,
+        "dia": "Mar",
+        "total": 78.24,
         "facturas": 3
       },
       {
         "fecha": "2026-04-08",
-        "ventas": 3.0,
+        "dia": "Mié",
+        "total": 3.0,
         "facturas": 1
       },
       {
         "fecha": "2026-04-09",
-        "ventas": 37.3,
+        "dia": "Jue",
+        "total": 37.3,
         "facturas": 3
       },
       {
         "fecha": "2026-04-10",
-        "ventas": 218.23,
+        "dia": "Vie",
+        "total": 218.23,
         "facturas": 16
       },
       {
         "fecha": "2026-04-11",
-        "ventas": 231.96,
+        "dia": "Sáb",
+        "total": 231.96,
         "facturas": 20
       },
       {
         "fecha": "2026-04-12",
-        "ventas": 194.25,
+        "dia": "Dom",
+        "total": 194.25,
         "facturas": 11
       },
       {
         "fecha": "2026-04-15",
-        "ventas": 111.2,
+        "dia": "Mié",
+        "total": 111.2,
         "facturas": 5
       },
       {
         "fecha": "2026-04-16",
-        "ventas": 85.89,
+        "dia": "Jue",
+        "total": 85.89,
         "facturas": 6
+      },
+      {
+        "fecha": "2026-04-17",
+        "dia": "Vie",
+        "total": 295.65,
+        "facturas": 24
       }
     ]
   },
@@ -292,27 +301,21 @@
   ],
   "marketing": {
     "fuente": "Windsor.ai",
-    "actualizado": "2026-04-17",
+    "actualizado": "2026-04-18",
     "instagram": {
       "cuenta": "@michalitasxpress",
-      "reach_total": 1470,
-      "reach_prom_dia": 210,
-      "reach_mejor_dia": 543,
-      "reach_mejor_fecha": "2026-04-11",
-      "interactions_total": 72,
-      "likes_total": 51,
-      "comments_total": 4,
-      "shares_total": 7,
+      "reach_total": 1382,
+      "reach_prom_dia": 197,
+      "reach_mejor_dia": 387,
+      "reach_mejor_fecha": "2026-04-17",
+      "interactions_total": 47,
+      "likes_total": 36,
+      "comments_total": 2,
+      "shares_total": 3,
       "saves_total": 2,
-      "engagement_rate": 4.9,
+      "engagement_rate": 3.4,
       "conversion_miche": 0,
       "dias": [
-        {
-          "fecha": "2026-04-11",
-          "reach": 543,
-          "interactions": 28,
-          "likes": 18
-        },
         {
           "fecha": "2026-04-12",
           "reach": 170,
@@ -345,24 +348,24 @@
         },
         {
           "fecha": "2026-04-17",
-          "reach": 34,
-          "interactions": 0,
-          "likes": 0
+          "reach": 387,
+          "interactions": 2,
+          "likes": 2
+        },
+        {
+          "fecha": "2026-04-18",
+          "reach": 102,
+          "interactions": 1,
+          "likes": 1
         }
       ]
     },
     "google_my_business": {
-      "impressions_total": 47,
-      "impressions_prom_dia": 6.7,
-      "direction_requests_total": 5,
+      "impressions_total": 38,
+      "impressions_prom_dia": 5.4,
+      "direction_requests_total": 8,
       "website_clicks_total": 0,
-      "alerta": "0 impresiones 3 dias consecutivos (15-17 abr) - PERFIL POSIBLEMENTE INACTIVO",
       "dias": [
-        {
-          "fecha": "2026-04-11",
-          "impressions": 17,
-          "direction_requests": 4
-        },
         {
           "fecha": "2026-04-12",
           "impressions": 11,
@@ -380,8 +383,8 @@
         },
         {
           "fecha": "2026-04-15",
-          "impressions": 0,
-          "direction_requests": 0
+          "impressions": 8,
+          "direction_requests": 7
         },
         {
           "fecha": "2026-04-16",
@@ -392,14 +395,20 @@
           "fecha": "2026-04-17",
           "impressions": 0,
           "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-18",
+          "impressions": 0,
+          "direction_requests": 0
         }
       ]
     },
     "meta_ads": {
-      "estado": "pendiente_activacion",
-      "nota": "Cristina lista para activar. Falta confirmar parametros: budget diario + codigo MICHE en copy.",
-      "gasto_mes_previsto": 150,
-      "objetivo_actual": "pendiente_definir"
+      "estado": "en_configuracion",
+      "nota": "Cristina configurando Meta Ads. Alberto recibió invitación Meta Business Portfolio (16 abr). Vence 16 may.",
+      "gasto_mes": 150,
+      "objetivo_actual": "Pendiente configuración",
+      "problema": "Sin datos aún. Invitación portafolio pendiente de aprobar por Alberto."
     }
   },
   "alertas": [
@@ -425,10 +434,10 @@
     }
   ],
   "last_briefing": {
-    "fecha": "2026-04-17",
-    "ventas_ayer": 85.89,
-    "facturas_ayer": 6,
-    "ticket_ayer": 14.31,
-    "producto_estrella": "Michelada Maracuya x5"
+    "fecha": "2026-04-18",
+    "dia": "Sábado",
+    "ventas_ayer": 295.65,
+    "alerta_principal": "Marian cita Cancillería Lun 20 abr 8:30AM",
+    "alerta_meta": "Invitación Meta Business pendiente en albertoro71@gmail.com"
   }
 }
