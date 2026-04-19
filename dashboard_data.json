@@ -1,21 +1,27 @@
 {
-  "updated": "2026-04-18T07:00:00-05:00",
+  "updated": "2026-04-19T18:08:18Z",
   "abril": {
     "meta": 4216,
-    "acumulado": 2002.52,
-    "dias_operativos": 12,
-    "ticket_promedio": 14.41,
-    "proyeccion_mes": 3504,
-    "deficit_proyectado": -712,
+    "acumulado": 2220.2,
+    "dias_operativos": 13,
+    "ticket_promedio": 170.78,
+    "proyeccion_mes": 3586.44,
+    "deficit_proyectado": -629.56,
     "ayer": {
-      "fecha": "2026-04-17",
-      "dia": "Viernes",
-      "total": 295.65,
-      "facturas": 24,
-      "ticket": 12.32,
-      "producto_estrella": "Michelada Maracuyá",
-      "toppings_por_factura": 0.42,
-      "vs_promedio_dia": "+111.2%"
+      "fecha": "2026-04-18",
+      "dia": "Sábado",
+      "total": 217.68,
+      "facturas": 17,
+      "ticket": 12.8,
+      "vs_historico_dia": -4.5,
+      "producto_estrella": "Alitas 8 + Hamburguesa Tocino BBQ",
+      "toppings_por_factura": 0.47,
+      "hora_pico": "02h (trasnoche $75.74)",
+      "pagos": {
+        "efectivo": 122.1,
+        "tarjetas": 72.74,
+        "transferencias": 27.34
+      }
     },
     "dias": [
       {
@@ -89,6 +95,13 @@
         "dia": "Vie",
         "total": 295.65,
         "facturas": 24
+      },
+      {
+        "fecha": "2026-04-18",
+        "dia": "Sab",
+        "total": 217.68,
+        "facturas": 17,
+        "ticket": 12.8
       }
     ]
   },
@@ -301,27 +314,22 @@
   ],
   "marketing": {
     "fuente": "Windsor.ai",
-    "actualizado": "2026-04-18",
+    "actualizado": "2026-04-19",
     "instagram": {
       "cuenta": "@michalitasxpress",
-      "reach_total": 1382,
-      "reach_prom_dia": 197,
+      "reach_total": 1473,
+      "reach_prom_dia": 245,
       "reach_mejor_dia": 387,
       "reach_mejor_fecha": "2026-04-17",
-      "interactions_total": 47,
-      "likes_total": 36,
-      "comments_total": 2,
+      "interactions_total": 39,
+      "likes_total": 30,
+      "comments_total": 0,
       "shares_total": 3,
       "saves_total": 2,
-      "engagement_rate": 3.4,
+      "engagement_rate": 2.6,
       "conversion_miche": 0,
+      "nota_reach": "Alta reach vie/sab (387/363) pero solo 2 interacciones — boost activo con audiencia fría",
       "dias": [
-        {
-          "fecha": "2026-04-12",
-          "reach": 170,
-          "interactions": 9,
-          "likes": 7
-        },
         {
           "fecha": "2026-04-13",
           "reach": 257,
@@ -354,23 +362,19 @@
         },
         {
           "fecha": "2026-04-18",
-          "reach": 102,
-          "interactions": 1,
-          "likes": 1
+          "reach": 363,
+          "interactions": 2,
+          "likes": 2
         }
       ]
     },
     "google_my_business": {
-      "impressions_total": 38,
-      "impressions_prom_dia": 5.4,
-      "direction_requests_total": 8,
+      "impressions_total": 43,
+      "impressions_prom_dia": 6.1,
+      "direction_requests_total": 7,
       "website_clicks_total": 0,
+      "nota": "0 impresiones últimos 3 días (17-19 abr) — posible delay API o caída perfil",
       "dias": [
-        {
-          "fecha": "2026-04-12",
-          "impressions": 11,
-          "direction_requests": 1
-        },
         {
           "fecha": "2026-04-13",
           "impressions": 12,
@@ -383,12 +387,12 @@
         },
         {
           "fecha": "2026-04-15",
-          "impressions": 8,
+          "impressions": 11,
           "direction_requests": 7
         },
         {
           "fecha": "2026-04-16",
-          "impressions": 0,
+          "impressions": 13,
           "direction_requests": 0
         },
         {
@@ -404,40 +408,34 @@
       ]
     },
     "meta_ads": {
-      "estado": "en_configuracion",
-      "nota": "Cristina configurando Meta Ads. Alberto recibió invitación Meta Business Portfolio (16 abr). Vence 16 may.",
-      "gasto_mes": 150,
-      "objetivo_actual": "Pendiente configuración",
-      "problema": "Sin datos aún. Invitación portafolio pendiente de aprobar por Alberto."
+      "estado": "activacion_pendiente",
+      "nota": "Cristina lista para activar. Pendiente confirmar presupuesto y código MICHE en copy.",
+      "gasto_mes": 0,
+      "objetivo_actual": "Pendiente configurar",
+      "problema": "Sin activar aún"
     }
   },
   "alertas": [
     {
-      "nivel": "rojo",
-      "titulo": "Uber Eats — dispositivo OFFLINE desde 11 abr",
-      "detalle": "Online Rate 73.1% (meta 95%). Top Eats PERDIDO para abril. BOGO Saltamontes sem 2 activa pero sin capturar pedidos. Reconectar HOY."
-    },
-    {
-      "nivel": "rojo",
-      "titulo": "Top Eats — fallando 4 de 5 métricas",
-      "detalle": "Rating 4.2 (meta 4.8) · Online Rate 73.1% (meta 95%) · Pedidos 13 (meta 30+/mes) · Miss rate 7.6% (meta <1%). Sin Top Eats = sin visibilidad gratuita de Uber."
+      "nivel": "amarillo",
+      "texto": "Uber Eats: Estado dispositivo desconocido. Semana 3 activa (Maracuyá $5.75 + Nachos). Verificar hoy."
     },
     {
       "nivel": "amarillo",
-      "titulo": "Meta Ads — sin activar",
-      "detalle": "$150/mes aprobados pero sin ejecutar. Coordinar con BOGO activo para mayor impacto."
+      "texto": "CNEL: Factura $84.12 vence 28 abr. Cuenta 201016747317."
     },
     {
       "nivel": "amarillo",
-      "titulo": "Precios Modelo/Stella — sin ajustar en Practisis",
-      "detalle": "Plazo dado a Cristina vencido el 14 abr. Sin confirmar."
+      "texto": "Meta for Business: Invitación pendiente en albertoro71@gmail.com. Vence 16 mayo."
+    },
+    {
+      "nivel": "amarillo",
+      "texto": "GMB: 0 impresiones últimos 3 días — verificar perfil en business.google.com"
+    },
+    {
+      "nivel": "amarillo",
+      "texto": "IG: Reach alto (363-387 vie/sab) pero 0 conversiones MICHE. Boost alcanzando audiencia fría."
     }
   ],
-  "last_briefing": {
-    "fecha": "2026-04-18",
-    "dia": "Sábado",
-    "ventas_ayer": 295.65,
-    "alerta_principal": "Marian cita Cancillería Lun 20 abr 8:30AM",
-    "alerta_meta": "Invitación Meta Business pendiente en albertoro71@gmail.com"
-  }
+  "last_briefing": "2026-04-19"
 }
