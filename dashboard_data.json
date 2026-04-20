@@ -3,10 +3,10 @@
   "abril": {
     "meta": 4216,
     "acumulado": 2220.2,
-    "dias_operativos": 13,
+    "dias_operativos": 14,
     "ticket_promedio": 170.78,
-    "proyeccion_mes": 3586.44,
-    "deficit_proyectado": -629.56,
+    "proyeccion_mes": 3552.9,
+    "deficit_proyectado": -663.1,
     "ayer": {
       "fecha": "2026-04-18",
       "dia": "Sábado",
@@ -102,6 +102,20 @@
         "total": 217.68,
         "facturas": 17,
         "ticket": 12.8
+      }
+    ],
+    "actualizado": "2026-04-20",
+    "total_acumulado": 2368.6,
+    "prom_dia": 169.19,
+    "pe_mes": 4216,
+    "detalle_dias": [
+      {
+        "fecha": "2026-04-19",
+        "dia": "Dom",
+        "ventas": 148.4,
+        "facturas": 9,
+        "ticket": 16.49,
+        "nota": "-28.3% vs prom dom $207. Alitas 15 estrella. Post-mejor-viernes no sostenido."
       }
     ]
   },
@@ -314,28 +328,21 @@
   ],
   "marketing": {
     "fuente": "Windsor.ai",
-    "actualizado": "2026-04-19",
+    "actualizado": "2026-04-20",
     "instagram": {
       "cuenta": "@michalitasxpress",
-      "reach_total": 1473,
-      "reach_prom_dia": 245,
+      "reach_total": 1332,
+      "reach_prom_dia": 190,
       "reach_mejor_dia": 387,
       "reach_mejor_fecha": "2026-04-17",
-      "interactions_total": 39,
-      "likes_total": 30,
+      "interactions_total": 36,
+      "likes_total": 26,
       "comments_total": 0,
-      "shares_total": 3,
-      "saves_total": 2,
-      "engagement_rate": 2.6,
+      "shares_total": 4,
+      "saves_total": 1,
+      "engagement_rate": 2.7,
       "conversion_miche": 0,
-      "nota_reach": "Alta reach vie/sab (387/363) pero solo 2 interacciones — boost activo con audiencia fría",
       "dias": [
-        {
-          "fecha": "2026-04-13",
-          "reach": 257,
-          "interactions": 12,
-          "likes": 10
-        },
         {
           "fecha": "2026-04-14",
           "reach": 212,
@@ -365,21 +372,27 @@
           "reach": 363,
           "interactions": 2,
           "likes": 2
+        },
+        {
+          "fecha": "2026-04-19",
+          "reach": 92,
+          "interactions": 7,
+          "likes": 6
+        },
+        {
+          "fecha": "2026-04-20",
+          "reach": 24,
+          "interactions": 2,
+          "likes": 0
         }
       ]
     },
     "google_my_business": {
-      "impressions_total": 43,
-      "impressions_prom_dia": 6.1,
-      "direction_requests_total": 7,
+      "impressions_total": 38,
+      "impressions_prom_dia": 5.4,
+      "direction_requests_total": 13,
       "website_clicks_total": 0,
-      "nota": "0 impresiones últimos 3 días (17-19 abr) — posible delay API o caída perfil",
       "dias": [
-        {
-          "fecha": "2026-04-13",
-          "impressions": 12,
-          "direction_requests": 0
-        },
         {
           "fecha": "2026-04-14",
           "impressions": 7,
@@ -397,22 +410,34 @@
         },
         {
           "fecha": "2026-04-17",
+          "impressions": 7,
+          "direction_requests": 6
+        },
+        {
+          "fecha": "2026-04-18",
           "impressions": 0,
           "direction_requests": 0
         },
         {
-          "fecha": "2026-04-18",
+          "fecha": "2026-04-19",
+          "impressions": 0,
+          "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-20",
           "impressions": 0,
           "direction_requests": 0
         }
       ]
     },
     "meta_ads": {
-      "estado": "activacion_pendiente",
-      "nota": "Cristina lista para activar. Pendiente confirmar presupuesto y código MICHE en copy.",
+      "estado": "RESTRINGIDA",
+      "nota": "Meta restringió la cuenta 19 abr 2026 por supuesta automatización que viola normas. Cristina NO puede activar ads hasta resolver.",
+      "business_id": "1496378091362897",
+      "fecha_restriccion": "2026-04-19",
       "gasto_mes": 0,
-      "objetivo_actual": "Pendiente configurar",
-      "problema": "Sin activar aún"
+      "objetivo_actual": "BLOQUEADO",
+      "problema": "Cuenta restringida - requiere solicitud de revisión desde Meta Business Suite"
     }
   },
   "alertas": [
