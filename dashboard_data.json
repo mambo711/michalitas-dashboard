@@ -1,26 +1,26 @@
 {
-  "updated": "2026-04-19T18:08:18Z",
+  "updated": "2026-04-21T18:10:20Z",
   "abril": {
     "meta": 4216,
-    "acumulado": 2220.2,
+    "acumulado": 2368.6,
     "dias_operativos": 14,
-    "ticket_promedio": 170.78,
-    "proyeccion_mes": 3552.9,
-    "deficit_proyectado": -663.1,
+    "ticket_promedio": 169.19,
+    "proyeccion_mes": 3552.93,
+    "deficit_proyectado": -663.07,
     "ayer": {
-      "fecha": "2026-04-18",
-      "dia": "Sábado",
-      "total": 217.68,
-      "facturas": 17,
-      "ticket": 12.8,
-      "vs_historico_dia": -4.5,
-      "producto_estrella": "Alitas 8 + Hamburguesa Tocino BBQ",
-      "toppings_por_factura": 0.47,
-      "hora_pico": "02h (trasnoche $75.74)",
+      "fecha": "2026-04-19",
+      "dia": "Domingo",
+      "total": 148.4,
+      "facturas": 9,
+      "ticket": 16.49,
+      "vs_historico_dia": -28.3,
+      "producto_estrella": "Alitas 15 + Michelada Chamochela",
+      "toppings_por_factura": 0.78,
+      "hora_pico": "17h ($45.06) y 23h ($41.59)",
       "pagos": {
-        "efectivo": 122.1,
-        "tarjetas": 72.74,
-        "transferencias": 27.34
+        "efectivo": 75.09,
+        "tarjetas": 15.9,
+        "transferencias": 57.41
       }
     },
     "dias": [
@@ -98,24 +98,15 @@
       },
       {
         "fecha": "2026-04-18",
-        "dia": "Sab",
+        "dia": "Sáb",
         "total": 217.68,
-        "facturas": 17,
-        "ticket": 12.8
-      }
-    ],
-    "actualizado": "2026-04-20",
-    "total_acumulado": 2368.6,
-    "prom_dia": 169.19,
-    "pe_mes": 4216,
-    "detalle_dias": [
+        "facturas": 17
+      },
       {
         "fecha": "2026-04-19",
         "dia": "Dom",
-        "ventas": 148.4,
-        "facturas": 9,
-        "ticket": 16.49,
-        "nota": "-28.3% vs prom dom $207. Alitas 15 estrella. Post-mejor-viernes no sostenido."
+        "total": 148.4,
+        "facturas": 9
       }
     ]
   },
@@ -328,27 +319,20 @@
   ],
   "marketing": {
     "fuente": "Windsor.ai",
-    "actualizado": "2026-04-20",
+    "actualizado": "2026-04-21",
     "instagram": {
       "cuenta": "@michalitasxpress",
-      "reach_total": 1332,
-      "reach_prom_dia": 190,
+      "reach_total": 1158,
+      "reach_prom_dia": 165.4,
       "reach_mejor_dia": 387,
       "reach_mejor_fecha": "2026-04-17",
-      "interactions_total": 36,
-      "likes_total": 26,
+      "interactions_total": 29,
+      "likes_total": 24,
       "comments_total": 0,
-      "shares_total": 4,
-      "saves_total": 1,
-      "engagement_rate": 2.7,
+      "shares_total": 2,
+      "engagement_rate": 2.5,
       "conversion_miche": 0,
       "dias": [
-        {
-          "fecha": "2026-04-14",
-          "reach": 212,
-          "interactions": 7,
-          "likes": 2
-        },
         {
           "fecha": "2026-04-15",
           "reach": 111,
@@ -381,23 +365,24 @@
         },
         {
           "fecha": "2026-04-20",
-          "reach": 24,
+          "reach": 49,
           "interactions": 2,
+          "likes": 0
+        },
+        {
+          "fecha": "2026-04-21",
+          "reach": 13,
+          "interactions": 0,
           "likes": 0
         }
       ]
     },
     "google_my_business": {
-      "impressions_total": 38,
-      "impressions_prom_dia": 5.4,
-      "direction_requests_total": 13,
+      "impressions_total": 50,
+      "impressions_prom_dia": 7.1,
+      "direction_requests_total": 19,
       "website_clicks_total": 0,
       "dias": [
-        {
-          "fecha": "2026-04-14",
-          "impressions": 7,
-          "direction_requests": 0
-        },
         {
           "fecha": "2026-04-15",
           "impressions": 11,
@@ -415,8 +400,8 @@
         },
         {
           "fecha": "2026-04-18",
-          "impressions": 0,
-          "direction_requests": 0
+          "impressions": 19,
+          "direction_requests": 6
         },
         {
           "fecha": "2026-04-19",
@@ -427,40 +412,51 @@
           "fecha": "2026-04-20",
           "impressions": 0,
           "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-21",
+          "impressions": 0,
+          "direction_requests": 0
         }
       ]
     },
     "meta_ads": {
-      "estado": "RESTRINGIDA",
-      "nota": "Meta restringió la cuenta 19 abr 2026 por supuesta automatización que viola normas. Cristina NO puede activar ads hasta resolver.",
-      "business_id": "1496378091362897",
-      "fecha_restriccion": "2026-04-19",
+      "estado": "restringida",
+      "nota": "Cuenta Meta Business restringida desde 19 abr 2026. Pendiente apelación de Alberto.",
       "gasto_mes": 0,
-      "objetivo_actual": "BLOQUEADO",
-      "problema": "Cuenta restringida - requiere solicitud de revisión desde Meta Business Suite"
+      "objetivo_actual": "Bloqueado",
+      "problema": "Restricción Meta por automatización. Cristina no puede crear ads hasta apelar."
     }
   },
   "alertas": [
     {
-      "nivel": "amarillo",
-      "texto": "Uber Eats: Estado dispositivo desconocido. Semana 3 activa (Maracuyá $5.75 + Nachos). Verificar hoy."
+      "tipo": "critica",
+      "titulo": "Uber Eats OFFLINE 10+ días",
+      "detalle": "Dispositivo desconectado desde sáb 11 abr. Pedidos perdidos 7.6%. Campaña abril invisible.",
+      "accion": "Marian reconectar antes mié 22 apertura"
     },
     {
-      "nivel": "amarillo",
-      "texto": "CNEL: Factura $84.12 vence 28 abr. Cuenta 201016747317."
+      "tipo": "critica",
+      "titulo": "Meta Ads BLOQUEADO",
+      "detalle": "Cuenta Meta Business restringida desde 19 abr 2026.",
+      "accion": "Alberto apelar en Meta Business Suite"
     },
     {
-      "nivel": "amarillo",
-      "texto": "Meta for Business: Invitación pendiente en albertoro71@gmail.com. Vence 16 mayo."
+      "tipo": "alta",
+      "titulo": "IESS patronal abril",
+      "detalle": "Pago $132.20 vence ~15 del mes",
+      "accion": "Verificar con Marian"
     },
     {
-      "nivel": "amarillo",
-      "texto": "GMB: 0 impresiones últimos 3 días — verificar perfil en business.google.com"
-    },
-    {
-      "nivel": "amarillo",
-      "texto": "IG: Reach alto (363-387 vie/sab) pero 0 conversiones MICHE. Boost alcanzando audiencia fría."
+      "tipo": "media",
+      "titulo": "GMB 0 impresiones 3 días",
+      "detalle": "19-21 abr sin datos de Google My Business",
+      "accion": "Verificar si es reporte o caída real"
     }
   ],
-  "last_briefing": "2026-04-19"
+  "last_briefing": {
+    "fecha": "2026-04-21",
+    "dia": "Martes (cerrado)",
+    "resumen": "Cierre semana 13-19 abr: $858.82 (+12.6% vs anterior). Vie 17 mejor viernes registrado. Acumulado mes: $2,368.60. Proyección: $3,553. Alertas: Uber Eats 10+ días offline, Meta Ads bloqueado."
+  }
 }
