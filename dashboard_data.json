@@ -588,5 +588,161 @@
       "titulo": "Convertir reach IG en clientes reales",
       "detalle": "Spike de 1,366 reach el 21 abr pero 0 conversiones MICHE detectadas. Cristina necesita llamada a la acción en los posts, no solo fotos."
     }
-  ]
+  ],
+  "acciones_checklist": [
+    {
+      "estado": "done",
+      "titulo": "Contratar mesera",
+      "detalle": "Confirmada 11 abr — repartió volantes el mismo día.",
+      "tag": "COMPLETADO ✅"
+    },
+    {
+      "estado": "done",
+      "titulo": "Cristina asume Instagram",
+      "detalle": "1 abr. Manager anterior cortado ($250/mes ahorrado). Sube contenido diariamente.",
+      "tag": "COMPLETADO ✅"
+    },
+    {
+      "estado": "done",
+      "titulo": "Renovar dominio",
+      "detalle": "Auto-renovado 3 abr vía Squarespace.",
+      "tag": "COMPLETADO ✅"
+    },
+    {
+      "estado": "done",
+      "titulo": "Nuevo horario 5 días/sem",
+      "detalle": "Mié 4PM-11PM con 2x1. Sáb/Dom desde 1PM. Activo desde 12 abr.",
+      "tag": "COMPLETADO ✅"
+    },
+    {
+      "estado": "urg",
+      "titulo": "Apelar restricción Meta Ads",
+      "detalle": "Cuenta restringida desde 19 abr. $150/mes bloqueados. Alberto debe responder email de Cristina para iniciar apelación.",
+      "tag": "URGENTE 🔴"
+    },
+    {
+      "estado": "prog",
+      "titulo": "Evaluar ads Uber Eats",
+      "detalle": "9 pedidos campaña = $9.17 neto. Sem 1 fue negativa (-$1.08). Decidir si pausar ads y operar solo orgánico.",
+      "tag": "DECISIÓN PENDIENTE"
+    },
+    {
+      "estado": "prog",
+      "titulo": "Cargar costos en Practisis",
+      "detalle": "Cristina terminó marzo. Falta feb + ene. Sin costos no hay márgenes reales.",
+      "tag": "EN PROCESO — Cristina"
+    },
+    {
+      "estado": "todo",
+      "titulo": "Fidelización — tarjeta 10ma gratis",
+      "detalle": "Mesera disponible. Pendiente diseño e impresión de tarjeta.",
+      "tag": "POR LANZAR"
+    },
+    {
+      "estado": "todo",
+      "titulo": "Convertir reach IG en clientes",
+      "detalle": "2,795 reach 7d pero 0 conversiones MICHE. Cristina necesita CTA claros y Reels, no solo fotos.",
+      "tag": "POR EJECUTAR"
+    }
+  ],
+  "problemas": [
+    {
+      "num": "1",
+      "titulo": "Bajo tráfico peatonal",
+      "detalle": "Urdesa no genera visitas espontáneas. 100% depende de marketing digital y fútbol."
+    },
+    {
+      "num": "2",
+      "titulo": "Meta Ads bloqueado",
+      "detalle": "Cuenta restringida desde 19 abr. $150/mes sin ejecutar. Cristina no puede activar campañas."
+    },
+    {
+      "num": "3",
+      "titulo": "6 meses bajo PE",
+      "detalle": "Proyección abril ~$3,553 vs PE $4,216. Déficit -$663. Nunca se ha alcanzado el punto de equilibrio."
+    },
+    {
+      "num": "4",
+      "titulo": "Uber Eats casi a pérdida",
+      "detalle": "9 pedidos campaña = $9.17 neto total. Comisión + ads + descuentos consumen casi todo el ingreso."
+    },
+    {
+      "num": "5",
+      "titulo": "Sin márgenes reales",
+      "detalle": "Costos cargados solo en marzo. Sin datos de feb/ene. Imposible calcular rentabilidad por producto."
+    }
+  ],
+  "ops_insight": "Horario actual: 5 días/semana (lun+mar cerrado desde 12 abr). Miércoles: 4PM-11PM con 2x1 + promos alitas — primer mié nuevo horario: $111 (+42% vs histórico). Sáb/Dom desde 1PM capturan tarde/noche. Viernes 17 abr: mejor viernes histórico $295 (+111%). Marian sigue sobrecargada: bartender + caja + compras + gerencia. Con 5 días op necesitas $169/día promedio para acercarte al PE — actualmente en $169/día. Muy justo.",
+  "gastos_fijos": [
+    {
+      "concepto": "Renta",
+      "monto": "$700"
+    },
+    {
+      "concepto": "Marian",
+      "monto": "$543"
+    },
+    {
+      "concepto": "Alexis (cocinero)",
+      "monto": "$600"
+    },
+    {
+      "concepto": "Mesera",
+      "monto": "~$243"
+    },
+    {
+      "concepto": "IESS",
+      "monto": "$132"
+    },
+    {
+      "concepto": "Internet+Fútbol",
+      "monto": "$43"
+    },
+    {
+      "concepto": "Marketing",
+      "monto": "$200"
+    },
+    {
+      "concepto": "TOTAL FIJOS",
+      "monto": "~$2,461",
+      "es_total": true
+    }
+  ],
+  "marketing_diagnostico": {
+    "ig": {
+      "funciona": "Reach creció 5x desde que Cristina tomó IG (antes ~47/día, ahora 399/día). Spike de 1,366 reach el 21 abr — el mejor día histórico. Publica diariamente.",
+      "problema": "0 conversiones MICHE detectadas en ventas. 0 comentarios en 7 días. Likes pasivos. Se necesitan Reels y CTAs claros para convertir reach en clientes.",
+      "meta": "1,000 reach/día con Reels + 5 clientes/semana con código MICHE = ~$250 adicional/mes atribuible a IG."
+    },
+    "gmb": {
+      "problema": "7.7 impresiones/día vs meta 100-300/día. Casi nadie encuentra Michalitas buscando 'micheladas Urdesa'. El perfil necesita más fotos, responder reseñas y posts semanales para subir en rankings locales.",
+      "positivo": "12 solicitudes de ruta en 7 días — señal de intención real de visita.",
+      "accion": "Subir fotos nuevas del local y productos. Publicar 1 post/semana en Google Business. Responder todas las reseñas. Es gratis y puede doblar las impresiones en 30 días."
+    },
+    "meta_ads": {
+      "estado": "RESTRINGIDO 🔴",
+      "detalle": "Cuenta Meta Business Suite restringida desde 19 abr. Cristina bloqueada para activar $150/mes. Pendiente apelación por Alberto.",
+      "presupuesto": "$150/mes · Jue–Sáb · 3km radio · 18-45 años"
+    }
+  },
+  "uber_eats_metrics": {
+    "actualizado": "22 abr 2026",
+    "online_rate_90d": "73.1%",
+    "online_rate_abril": "89%",
+    "meta_online_rate": ">95%",
+    "pedidos_perdidos_pct": "7.6%",
+    "pedidos_incorrectos": "0%",
+    "rating": "4.2/5",
+    "meta_rating": "4.8 (Top Eats)",
+    "campana_abril": {
+      "total_pedidos": 9,
+      "ventas_brutas": "$130.40",
+      "pago_neto": "$9.17",
+      "sem1_resultado": "3 pedidos · $65.34 ventas · pago neto -$1.08 (negativo)",
+      "sem2_resultado": "6 pedidos · $65.06 ventas",
+      "sem3_promo": "Maracuyá $5.75 · Nachos queso/carne $8.50",
+      "sem4_promo": "2x1 Papas con Queso Cheddar (27 abr–3 may)"
+    },
+    "alerta": "Ads + comisión Uber + descuentos consumen casi todo el ingreso. Evaluar pausar ads y operar solo orgánico."
+  }
 }
