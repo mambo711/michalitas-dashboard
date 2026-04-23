@@ -695,5 +695,142 @@
       "sem4_promo": "2x1 Papas con Queso Cheddar (27 abr–3 may)"
     },
     "alerta": "Ads + comisión Uber + descuentos consumen casi todo el ingreso. Evaluar pausar ads y operar solo orgánico."
+  },
+  "dias_recientes": [
+    {
+      "label": "Lun 30 mar",
+      "total": 102,
+      "facturas": 4,
+      "hl": ""
+    },
+    {
+      "label": "Mar 31 mar",
+      "total": 35,
+      "facturas": 3,
+      "hl": "r"
+    },
+    {
+      "label": "Mié 1 abr",
+      "total": 138,
+      "facturas": 9,
+      "hl": ""
+    },
+    {
+      "label": "Jue 2 (Santo)",
+      "total": 372,
+      "facturas": 19,
+      "hl": "od"
+    },
+    {
+      "label": "Vie 3 / Sáb 4",
+      "total": 0,
+      "facturas": 0,
+      "hl": "cerrado"
+    },
+    {
+      "label": "Dom 5 abr",
+      "total": 236,
+      "facturas": 13,
+      "hl": "od"
+    },
+    {
+      "label": "Mar 7 abr",
+      "total": 78,
+      "facturas": 3,
+      "hl": ""
+    },
+    {
+      "label": "Mié 8 abr",
+      "total": 3,
+      "facturas": 1,
+      "hl": "r"
+    },
+    {
+      "label": "Jue 9 abr",
+      "total": 37,
+      "facturas": 3,
+      "hl": ""
+    },
+    {
+      "label": "Vie 10 abr",
+      "total": 218,
+      "facturas": 16,
+      "hl": "g"
+    },
+    {
+      "label": "Sáb 11 abr",
+      "total": 232,
+      "facturas": 20,
+      "hl": "od",
+      "star": true
+    },
+    {
+      "label": "Dom 12 abr",
+      "total": 194,
+      "facturas": 11,
+      "hl": ""
+    },
+    {
+      "label": "Mié 15 abr",
+      "total": 111,
+      "facturas": 5,
+      "hl": "g"
+    },
+    {
+      "label": "Jue 16 abr",
+      "total": 86,
+      "facturas": 6,
+      "hl": ""
+    },
+    {
+      "label": "Vie 17 abr",
+      "total": 296,
+      "facturas": 24,
+      "hl": "g",
+      "star": true
+    },
+    {
+      "label": "Sáb 18 abr",
+      "total": 218,
+      "facturas": 17,
+      "hl": "od"
+    },
+    {
+      "label": "Dom 19 abr",
+      "total": 148,
+      "facturas": 9,
+      "hl": ""
+    },
+    {
+      "label": "Mié 22 abr",
+      "total": 108,
+      "facturas": 7,
+      "hl": ""
+    }
+  ],
+  "semanas_ventas": {
+    "labels": [
+      "Sem 8\n(Feb 23)",
+      "Sem 9\n(Mar 2)",
+      "Sem 10\n(Mar 9)",
+      "Sem 11\n(Mar 16)",
+      "Sem 12\n(Mar 23)",
+      "Sem 13\n(Mar 30)",
+      "Sem 14\n(Abr 7-12)",
+      "Sem 15\n(Abr 13-19)",
+      "Sem 16\n(Abr 20+)"
+    ],
+    "data": [
+      174,
+      1119,
+      1070,
+      625,
+      535,
+      884,
+      763,
+      859,
+      108
+    ],
+    "insight": "Sem 15 (Abr 13–19) cerró con $859 — mejor semana completa de abril 🟢. Vie 17 abr fue récord histórico ($296). Sem 16 en curso: $108 (solo mié 22, quedan jue–dom esta semana). Vie+Sáb siguen generando 70%+ del ingreso semanal."
   }
 }
