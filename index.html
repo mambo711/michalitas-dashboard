@@ -426,22 +426,12 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div class="st">Semana sobre Semana</div>
 <div class="cd" style="margin-bottom:16px">
   <div class="cw" style="height:170px"><canvas id="cWeekly"></canvas></div>
-  <div class="ins"><strong>Tendencia:</strong> Sem 9 ($1,119) fue la mejor. Sem 14 cerró con $763 (Mar $78 + Mié $3 + Jue $37 + Vie $218 + Sáb $232 + Dom $194). 84% del ingreso semanal vino de Vie+Sáb+Dom. Sem 15 arranca hoy (lunes cerrado).</div>
+  <div class="ins" id="weeklyInsight"><strong>Tendencia:</strong> Sem 9 ($1,119) fue la mejor. Sem 15 (Abr 13–19) cerró con $859 — mejor semana de abril. Sem 16 en curso: $108 (solo mié 22).</div>
 </div>
 
 <div class="st">Días Recientes</div>
 <div class="cd" style="margin-bottom:16px">
-  <div class="dr"><div class="dl">Lun 30 mar</div><div class="dw"><div class="dbg"><div class="dfg" style="width:27%"></div></div></div><div class="dv">$102</div><div class="dx"></div></div>
-  <div class="dr"><div class="dl">Mar 31 mar</div><div class="dw"><div class="dbg"><div class="dfg" style="width:9%;background:var(--r)"></div></div></div><div class="dv" style="color:var(--r)">$35</div><div class="dx">3f</div></div>
-  <div class="dr"><div class="dl">Mié 1 abr</div><div class="dw"><div class="dbg"><div class="dfg" style="width:37%"></div></div></div><div class="dv">$138</div><div class="dx">9f</div></div>
-  <div class="dr"><div class="dl" style="font-weight:600;color:var(--od)">Jue 2 (Santo)</div><div class="dw"><div class="dbg"><div class="dfg" style="width:100%;background:var(--g)"></div></div></div><div class="dv" style="color:var(--g)">$372</div><div class="dx">19f</div></div>
-  <div class="dr"><div class="dl" style="color:#ccc">Vie 3 / Sáb 4</div><div class="dw"><div style="font-size:.68rem;color:#ccc">CERRADO</div></div><div class="dv" style="color:#ccc">—</div><div class="dx"></div></div>
-  <div class="dr"><div class="dl">Dom 5 abr</div><div class="dw"><div class="dbg"><div class="dfg" style="width:63%;background:var(--od)"></div></div></div><div class="dv" style="color:var(--od)">$236</div><div class="dx">13f</div></div>
-  <div class="dr"><div class="dl">Mar 7 abr</div><div class="dw"><div class="dbg"><div class="dfg" style="width:21%"></div></div></div><div class="dv">$78</div><div class="dx">3f</div></div>
-  <div class="dr"><div class="dl" style="font-weight:600;color:var(--r)">Mié 8 abr</div><div class="dw"><div class="dbg"><div class="dfg" style="width:1%;background:var(--r)"></div></div></div><div class="dv" style="color:var(--r)">$3</div><div class="dx">1f</div></div>
-  <div class="dr"><div class="dl">Jue 9 abr</div><div class="dw"><div class="dbg"><div class="dfg" style="width:10%"></div></div></div><div class="dv">$37</div><div class="dx">3f</div></div>
-  <div class="dr"><div class="dl" style="font-weight:600;color:var(--g)">Vie 10 abr</div><div class="dw"><div class="dbg"><div class="dfg" style="width:59%;background:var(--g)"></div></div></div><div class="dv" style="color:var(--g)">$218</div><div class="dx">16f</div></div>
-  <div class="dr"><div class="dl" style="font-weight:600;color:var(--od)">Sáb 11 abr</div><div class="dw"><div class="dbg"><div class="dfg" style="width:63%;background:var(--od)"></div></div></div><div class="dv" style="color:var(--od)">$232</div><div class="dx">20f ⭐</div></div>
+  <div id="diasRecientes"><div style="color:var(--tm);font-size:.85rem;padding:8px">Cargando datos...</div></div>
 </div>
 
 <div class="st">Calendario de Ventas — Abril 2026</div>
@@ -1170,7 +1160,7 @@ new Chart(document.getElementById('cVentas'),{type:'bar',data:{labels:['Ene','Fe
 
 new Chart(document.getElementById('cCanales'),{type:'doughnut',data:{labels:['Efectivo','Tarjetas','Uber','Alexis'],datasets:[{data:[4140,2762,38.5,758],backgroundColor:[o,y,'#5DADE2',g],borderColor:'#fff',borderWidth:2}]},options:{...cDef,plugins:{legend:{position:'right',labels:{color:fc,font:{size:12},boxWidth:10,padding:6}}},cutout:'60%'}});
 
-new Chart(document.getElementById('cWeekly'),{type:'line',data:{labels:['Sem 8\n(Feb 23)','Sem 9\n(Mar 2)','Sem 10\n(Mar 9)','Sem 11\n(Mar 16)','Sem 12\n(Mar 23)','Sem 13\n(Mar 30)','Sem 14\n(Abr 7-12)'],datasets:[{label:'Ventas/semana',data:[174,1119,1070,625,535,1002,763],fill:true,backgroundColor:o+'22',borderColor:o,borderWidth:2,tension:.3,pointBackgroundColor:[o,g,o,r,r,g,y],pointRadius:5},{label:'PE semanal ($1,054)',data:[1054,1054,1054,1054,1054,1054,1054],borderColor:r,borderDash:[5,3],borderWidth:1.5,pointRadius:0,fill:false}]},options:{...cDef,scales:{x:{ticks:{color:fc,font:{size:11}},grid:{color:gc}},y:{ticks:{color:fc,font:{size:11},callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
+window.chartWeekly=new Chart(document.getElementById('cWeekly'),{type:'line',data:{labels:['Sem 8\n(Feb 23)','Sem 9\n(Mar 2)','Sem 10\n(Mar 9)','Sem 11\n(Mar 16)','Sem 12\n(Mar 23)','Sem 13\n(Mar 30)','Sem 14\n(Abr 7-12)'],datasets:[{label:'Ventas/semana',data:[174,1119,1070,625,535,1002,763],fill:true,backgroundColor:o+'22',borderColor:o,borderWidth:2,tension:.3,pointBackgroundColor:[o,g,o,r,r,g,y],pointRadius:5},{label:'PE semanal ($1,054)',data:[1054,1054,1054,1054,1054,1054,1054],borderColor:r,borderDash:[5,3],borderWidth:1.5,pointRadius:0,fill:false}]},options:{...cDef,scales:{x:{ticks:{color:fc,font:{size:11}},grid:{color:gc}},y:{ticks:{color:fc,font:{size:11},callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
 
 let aR=false;
 function renderA(){if(aR)return;aR=true;
@@ -1258,6 +1248,35 @@ async function exportPDF(){
       set('d-apr-acum', d.abril.acumulado_fmt);
       // Re-render calendario con datos frescos del JSON
       if(d.abril && d.abril.dias_ventas) renderCalendar(d.abril.dias_ventas);
+
+      // Render Días Recientes dinámicamente
+      if(d.dias_recientes){
+        const maxV=Math.max(...d.dias_recientes.map(r=>r.total||0),1);
+        const DR=document.getElementById('diasRecientes');
+        if(DR) DR.innerHTML=d.dias_recientes.map(r=>{
+          if(r.hl==='cerrado') return `<div class="dr"><div class="dl" style="color:#ccc">${r.label}</div><div class="dw"><div style="font-size:.68rem;color:#ccc">CERRADO</div></div><div class="dv" style="color:#ccc">—</div></div>`;
+          const pct=Math.round((r.total/maxV)*100);
+          const barClr=r.hl==='r'?'background:var(--r)':r.hl==='g'?'background:var(--g)':r.hl==='od'?'background:var(--od)':'';
+          const lblClr=r.hl==='r'?'font-weight:600;color:var(--r)':r.hl==='g'?'font-weight:600;color:var(--g)':r.hl==='od'?'font-weight:600;color:var(--od)':'';
+          const star=r.star?'<span style="font-size:.85rem">⭐</span>':'';
+          const fct=r.facturas?`<span style="font-size:.72rem;color:var(--tm);margin-left:4px">${r.facturas}f${star}</span>`:'';
+          const valClr=r.hl==='r'?'color:var(--r)':r.hl==='g'?'color:var(--g)':r.hl==='od'?'color:var(--od)':'';
+          return `<div class="dr"><div class="dl" style="${lblClr}">${r.label}</div><div class="dw"><div class="dbg"><div class="dfg" style="width:${pct}%;${barClr}"></div></div></div><div class="dv" style="${valClr}">$${r.total}</div>${fct}</div>`;
+        }).join('');
+      }
+
+      // Actualizar chart Semana sobre Semana
+      if(d.semanas_ventas && window.chartWeekly){
+        const sw=d.semanas_ventas;
+        const r='#EF4444',o='#E88A1A',g='#22C55E',y='#FBBF24';
+        const ptClrs=sw.data.map((v,i)=>v>=1000?g:v>=700?o:v>=400?y:r);
+        window.chartWeekly.data.labels=sw.labels;
+        window.chartWeekly.data.datasets[0].data=sw.data;
+        window.chartWeekly.data.datasets[0].pointBackgroundColor=ptClrs;
+        window.chartWeekly.update();
+        const wi=document.getElementById('weeklyInsight');
+        if(wi) wi.innerHTML='<strong>Tendencia:</strong> '+sw.insight;
+      }
       set('d-apr-coverage', d.abril.coverage_txt);
       set('d-apr-prom', d.abril.prom_dia_fmt);
       set('d-apr-proj', d.abril.proyeccion_fmt);
