@@ -146,7 +146,7 @@
     "ads_budget_dia": 3,
     "ads_estado": "ACTIVA desde sep 2025",
     "campanas_activas": 5,
-    "dispositivo_estado": "OFFLINE",
+    "dispositivo_estado": "CONECTADO",
     "dispositivo_desde": "2026-04-11T22:15:00",
     "dispositivo_alerta": "Reconectar HOY — es la prioridad #1",
     "sem_actual": {
@@ -230,7 +230,8 @@
     ],
     "resenas_abril": 0,
     "google_maps_rating": 5.0,
-    "google_maps_resenas": 10
+    "google_maps_resenas": 10,
+    "nota_alertas": "Email de desconexión llega automáticamente cada día al abrir — es normal, no indica problema real."
   },
   "insights": {
     "peor_dia_titulo": "Mié 8 abr — $3.00 (1 fact) — PEOR DÍA",
