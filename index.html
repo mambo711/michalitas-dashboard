@@ -1462,7 +1462,7 @@ async function exportPDF(){
 
       // April tracker note
       if (d.abril && d.abril.tracker_note) {
-        set('d-apr-note', '<strong>Proyección: ' + d.abril.proyeccion_fmt + '</strong> — ' + d.abril.tracker_note);
+        const n2=document.getElementById('d-apr-note'); if(n2) n2.innerHTML='<strong>Proyección: '+d.abril.proyeccion_fmt+'</strong> — '+d.abril.tracker_note;
       }
 
       // Acciones top
