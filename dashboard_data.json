@@ -446,5 +446,82 @@
     "fecha": "2026-04-21",
     "dia": "Martes (cerrado)",
     "resumen": "Cierre semana 13-19 abr: $858.82 (+12.6% vs anterior). Vie 17 mejor viernes registrado. Acumulado mes: $2,368.60. Proyección: $3,553. Alertas: Uber Eats 10+ días offline, Meta Ads bloqueado."
-  }
+  },
+  "foco_semana": {
+    "titulo": "22 al 26 Abril",
+    "subtitulo": "7 DÍAS OP RESTANTES · CIERRE ABRIL",
+    "items": [
+      {
+        "num": "#1",
+        "estado": "crit",
+        "nombre": "Apelar restricción Meta Ads",
+        "why": "Cuenta Meta Business Suite restringida desde 19 abr. $150/mes bloqueados. Cristina necesita respuesta de Alberto sobre el dashboard para redactar la apelación.",
+        "who": "Alberto → responder email Cristina · Cristina → apelar en Meta Business Suite"
+      },
+      {
+        "num": "#2",
+        "estado": "warn",
+        "nombre": "Uber Eats — rentabilidad crítica",
+        "why": "9 pedidos campaña abril = $9.17 neto. Semana 1 fue negativa (-$1.08). Comisión + ads + descuentos consumen casi todo. Evaluar si conviene continuar con ads o solo operación orgánica.",
+        "who": "Alberto → decidir si pausar ads Uber Eats"
+      },
+      {
+        "num": "#3",
+        "estado": "win",
+        "nombre": "Partidos BSC — drivers de tráfico",
+        "why": "Mié 22: BSC vs Mushuc Runa 7PM (Liga Pro LOCAL). Mié 29: BSC vs U.Católica Chile 7PM (Copa Libertadores LOCAL 🔥). Cada partido bien ejecutado = +$80-150 extra.",
+        "who": "Marian → TV + pizarra · Cristina → Stories antes 6 PM"
+      }
+    ]
+  },
+  "roadmap_items": [
+    {
+      "num": "1",
+      "estado": "crit",
+      "label": "Meta Ads — apelar restricción",
+      "desc": "Cuenta restringida desde 19 abr por Meta. Cristina bloqueada. Sin esto no hay ads digitales.",
+      "impact": "BLOQUEADO 🔴",
+      "status": "Urgente — Alberto"
+    },
+    {
+      "num": "2",
+      "estado": "warn",
+      "label": "Uber Eats — revisar rentabilidad ads",
+      "desc": "9 pedidos campaña = $9.17 neto. Sem 1 fue negativa. Ads + comisión + descuentos consumen casi todo el ingreso.",
+      "impact": "Pérdida potencial",
+      "status": "Decisión pendiente"
+    },
+    {
+      "num": "3",
+      "estado": "active",
+      "label": "Instagram — convertir reach en clientes",
+      "desc": "Cristina publica diariamente. Spike 1,366 reach el 21 abr. Problema: 0 comentarios, 0 conversiones MICHE detectadas en ventas.",
+      "impact": "Sin conversión aún",
+      "status": "Activo — sin resultado"
+    },
+    {
+      "num": "4",
+      "estado": "active",
+      "label": "Costos en Practisis",
+      "desc": "Cristina terminó marzo. Falta feb + ene. Sin costos cargados no hay márgenes reales ni rentabilidad por producto.",
+      "impact": "Control real",
+      "status": "En proceso"
+    },
+    {
+      "num": "5",
+      "estado": "active",
+      "label": "Fidelización — tarjeta 10ma gratis",
+      "desc": "Mesera disponible para registrar visitas. Pendiente diseño e impresión de tarjeta.",
+      "impact": "Retención",
+      "status": "Por lanzar"
+    },
+    {
+      "num": "✓",
+      "estado": "done",
+      "label": "Nuevo horario + promos miércoles",
+      "desc": "5 días/semana desde 12 abr. Mié 4PM-11PM con 2x1 + alitas. Sáb/Dom desde 1PM. Primer mié: $111 (+42% vs prom histórico).",
+      "impact": "+$200/mes",
+      "status": "Activo ✅"
+    }
+  ]
 }
