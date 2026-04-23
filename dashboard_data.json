@@ -82,7 +82,16 @@
         "total": 148.4,
         "facturas": 9
       }
-    ]
+    ],
+    "acumulado_fmt": "$2,368.60",
+    "coverage_txt": "14 de ~21 días operativos",
+    "prom_dia_fmt": "$169/día",
+    "proyeccion_fmt": "$3,553",
+    "ticket_fmt": "$15.15",
+    "deficit_fmt": "-$663",
+    "pct_cubierto": 56,
+    "tracker_note": "Déficit proyectado -$663 vs PE $4,216. Quedan 7 días op.",
+    "insight": "Viernes 17 abr fue el mejor viernes histórico (+111% vs prom). Sin él la semana cae a $140/día. Dependencia alta de un solo día."
   },
   "kpis_mes": {
     "label": "Marzo 2026",
