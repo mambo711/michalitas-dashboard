@@ -280,7 +280,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
     <p id="lastUpdate" style="font-size:.78rem;color:var(--tl);margin-top:2px">Última actualización: cargando...</p>
   </div>
   <div class="hdr-right">
-    <div class="bdg">Practisis · <strong id="practisisBadge">15 abr 2026</strong></div>
+    <div class="bdg">Practisis · <strong id="practisisBadge"></strong></div>
     <button class="btn-refresh" onclick="location.reload()" title="Recarga con datos actualizados">Actualizar</button>
     <button class="btn-pdf" onclick="exportPDF()">Exportar PDF</button>
     <div class="dm-toggle" onclick="toggleDark()"><span>Modo</span><div class="dm-switch"></div></div>
@@ -292,27 +292,25 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   <div class="apr-header">
     <div>
       <div style="font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--od)">Abril 2026 — En Vivo</div>
-      <div class="apr-big" id="d-apr-acum">$1,621</div>
+      <div class="apr-big" id="d-apr-acum"></div>
     </div>
     <div style="text-align:right">
       <div class="apr-target">Meta PE: <strong style="color:var(--od)">$4,216</strong></div>
-      <div style="font-size:.88rem;color:var(--tm);margin-top:2px" id="d-apr-coverage">36% cubierto · 9 días operativos</div>
+      <div style="font-size:.88rem;color:var(--tm);margin-top:2px" id="d-apr-coverage"></div>
     </div>
   </div>
   <div class="apr-bar">
-    <div class="apr-fill" id="d-apr-fill" style="width:36%;background:linear-gradient(90deg,var(--o),var(--y))"></div>
+    <div class="apr-fill" id="d-apr-fill" style="width:0%"></div>
     <div class="apr-marker" style="left:100%"></div>
   </div>
   <div class="apr-details">
-    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-prom">$168</div><div class="apr-stat-lbl">Promedio/día op.</div></div>
-    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-proj" style="color:var(--y)">$3,522</div><div class="apr-stat-lbl">Proyección mes</div></div>
-    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-fact">100</div><div class="apr-stat-lbl">Facturas</div></div>
-    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-ticket">$16.21</div><div class="apr-stat-lbl">Ticket prom.</div></div>
-    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-deficit" style="color:var(--r)">-$816</div><div class="apr-stat-lbl">Déficit proyectado</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-prom"></div><div class="apr-stat-lbl">Promedio/día op.</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-proj" style="color:var(--y)"></div><div class="apr-stat-lbl">Proyección mes</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-fact"></div><div class="apr-stat-lbl">Facturas</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-ticket"></div><div class="apr-stat-lbl">Ticket prom.</div></div>
+    <div class="apr-stat"><div class="apr-stat-val" id="d-apr-deficit" style="color:var(--r)"></div><div class="apr-stat-lbl">Déficit proyectado</div></div>
   </div>
-  <div class="ins" style="margin-top:12px;background:var(--gl)" id="d-apr-note">
-    <strong>Proyección abril: $3,522</strong> — déficit proyectado $694 vs PE. 12 días operativos restantes (prom. actual: $168). ⚠️ Nuevo horario activo: 5 días/semana (lun+mar cerrado). HOY: Primer miércoles 4 PM–11 PM con 2x1 + alitas. 🔴 Uber Eats: dispositivo desconectado desde sáb 11. Semana 1 campaña: $21 total, 1 pedido.
-  </div>
+  <div class="ins" style="margin-top:12px;background:var(--gl)" id="d-apr-note"></div>
 </div>
 
 <!-- FOCO DE LA SEMANA -->
@@ -348,70 +346,34 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
         <text x="168" y="108" font-size="7.5" fill="var(--tl)">100%</text>
         <text x="100" y="16" font-size="7.5" fill="var(--tl)" text-anchor="middle">PE</text>
       </svg>
-      <div style="font-size:1.2rem;font-weight:700;color:var(--r);margin-top:4px" id="d-gauge-txt">86% del PE</div>
-      <div style="font-size:.85rem;color:var(--tm)" id="d-gauge-sub">$3,625 de $4,216 (Marzo)</div>
+      <div style="font-size:1.2rem;font-weight:700;color:var(--r);margin-top:4px" id="d-gauge-txt"></div>
+      <div style="font-size:.85rem;color:var(--tm)" id="d-gauge-sub"></div>
     </div>
-    <!-- KPI Metrics -->
-    <div style="margin-top:12px;border-top:1px solid var(--b);padding-top:12px">
-      <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #E8DDD0">
-        <span style="font-size:.85rem;color:var(--tm);font-weight:600">Ventas/mes</span>
-        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--m)">$3,625</span><span style="width:9px;height:9px;border-radius:50%;background:var(--r)"></span></span>
-      </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #E8DDD0">
-        <span style="font-size:.85rem;color:var(--tm);font-weight:600">Prom. diario</span>
-        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--m)">$139</span><span style="font-size:.78rem;color:var(--r);font-weight:700">meta $162</span></span>
-      </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #E8DDD0">
-        <span style="font-size:.85rem;color:var(--tm);font-weight:600">Ticket prom.</span>
-        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--m)">$16.40</span><span style="width:9px;height:9px;border-radius:50%;background:var(--y)"></span></span>
-      </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #E8DDD0">
-        <span style="font-size:.85rem;color:var(--tm);font-weight:600">Facturas</span>
-        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--m)">221</span><span style="font-size:.78rem;color:var(--tm);font-weight:600">26 días</span></span>
-      </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #E8DDD0">
-        <span style="font-size:.85rem;color:var(--tm);font-weight:600">Pérdida/mes</span>
-        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--r)">-$591</span><span style="width:9px;height:9px;border-radius:50%;background:var(--r)"></span></span>
-      </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #E8DDD0">
-        <span style="font-size:.85rem;color:var(--tm);font-weight:600">Meses bajo PE</span>
-        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--r)">5 meses</span><span style="width:9px;height:9px;border-radius:50%;background:var(--r)"></span></span>
-      </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #E8DDD0">
-        <span style="font-size:.85rem;color:var(--tm);font-weight:600">Uber Eats</span>
-        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--y)" id="d-kpi-uber">$46</span><span style="font-size:.78rem;color:var(--y);font-weight:700" id="d-kpi-uber-det">2 pedidos sáb 11</span></span>
-      </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0">
-        <span style="font-size:.85rem;color:var(--tm);font-weight:600">Toppings %</span>
-        <span style="display:flex;align-items:center;gap:6px"><span style="font-size:.92rem;font-weight:700;color:var(--r)">2.8%</span><span style="font-size:.78rem;color:var(--r);font-weight:700">meta 30%</span></span>
-      </div>
-    </div>
+    <!-- KPI Metrics — dynamic from JSON -->
+    <div style="margin-top:12px;border-top:1px solid var(--b);padding-top:12px" id="d-kpi-rows"></div>
   </div>
   <div class="cd" style="display:flex;flex-direction:column;justify-content:center">
-    <div class="alert" id="d-alert-peor">
-      <div style="font-size:1.1rem;flex-shrink:0">🚨</div>
-      <div><strong>Mié 8 abr — $3.00 (1 fact) — PEOR DÍA</strong><p>Bar abierto, cero clientes. Marian sola.</p></div>
-    </div>
+    <div class="alert" id="d-alert-peor"></div>
     <div class="g2" style="margin-bottom:0;gap:8px">
       <div style="background:var(--ol);border-radius:8px;padding:10px;text-align:center">
         <div style="font-size:.80rem;color:var(--tm);text-transform:uppercase;font-weight:700">Mejor Día</div>
-        <div style="font-size:1.4rem;font-weight:700;color:var(--g);margin-top:3px" id="d-ins-mejor">Sábado</div>
-        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-mejor-det">$228/día prom.</div>
+        <div style="font-size:1.4rem;font-weight:700;color:var(--g);margin-top:3px" id="d-ins-mejor"></div>
+        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-mejor-det"></div>
       </div>
       <div style="background:var(--ol);border-radius:8px;padding:10px;text-align:center">
         <div style="font-size:.80rem;color:var(--tm);text-transform:uppercase;font-weight:700">Hora Pico</div>
-        <div style="font-size:1.4rem;font-weight:700;color:var(--od);margin-top:3px" id="d-ins-hora">11 PM–12 AM</div>
-        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-hora-det">$3,285 acumulado</div>
+        <div style="font-size:1.4rem;font-weight:700;color:var(--od);margin-top:3px" id="d-ins-hora"></div>
+        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-hora-det"></div>
       </div>
       <div style="background:var(--ol);border-radius:8px;padding:10px;text-align:center">
         <div style="font-size:.80rem;color:var(--tm);text-transform:uppercase;font-weight:700">Producto #1</div>
-        <div style="font-size:1.4rem;font-weight:700;color:var(--od);margin-top:3px" id="d-ins-prod1">Maracuyá</div>
-        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-prod1-det">362 uds · $1,560</div>
+        <div style="font-size:1.4rem;font-weight:700;color:var(--od);margin-top:3px" id="d-ins-prod1"></div>
+        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-prod1-det"></div>
       </div>
       <div style="background:var(--ol);border-radius:8px;padding:10px;text-align:center">
         <div style="font-size:.80rem;color:var(--tm);text-transform:uppercase;font-weight:700">Combo Top</div>
-        <div style="font-size:1.3rem;font-weight:700;color:var(--od);margin-top:3px" id="d-ins-combo">Maracuyá + Mango</div>
-        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-combo-det">18% de órdenes</div>
+        <div style="font-size:1.3rem;font-weight:700;color:var(--od);margin-top:3px" id="d-ins-combo"></div>
+        <div style="font-size:.85rem;color:var(--tm)" id="d-ins-combo-det"></div>
       </div>
     </div>
   </div>
@@ -433,8 +395,8 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 
 <div class="insight-box main">
   <h3>Diagnóstico General — Abril 2026</h3>
-  <p id="d-diagnostico">Abril (al 16 abr): $1,621 acumulado en 10 días operativos, ~100 facturas, ticket $16.21. ✅ HITO: Primer miércoles nuevo horario (15 abr) = $111.20 (+42.6% vs prom histórico mié $78). 🚨 META ADS: Cristina lista para activar, pendiente parámetros. 🔴 Uber Eats dispositivo desconectado 5 días — promo 2x1 Saltamontes vence dom 19 abr. Proyección: ~$3,400 vs PE $4,216 (déficit -$816).</p>
-  <ul class="action-list">
+  <p id="d-diagnostico"></p>
+  <ul class="action-list" id="d-acciones-list">
     <li class="a-red"><div class="anum">1</div><div class="atxt">Resolver desconexión Uber Eats<span>Sáb 11 abr: 2 pedidos (~$46) pero dispositivo se desconectó a las 10:15PM. 6+ desconexiones documentadas. Decidir: soporte Uber o nuevo tablet. Semana 2 campaña activa.</span></div></li>
     <li class="a-orange"><div class="anum">2</div><div class="atxt">Activar happy hour esta semana (mesera disponible)<span>Plan original: descuento 4-7PM martes a jueves. Mesera nueva confirma posibilidad de ejecutarlo. Primer happy hour puede ser esta semana.</span></div></li>
     <li class="a-green"><div class="anum">3</div><div class="atxt">Subir ticket promedio: combo alitas + miche<span>Ticket sábado cayó a $11.60 vs histórico $16.40. Combo 8 alitas + miche = $11.30 ya activo en menú — mesera debe ofrecerlo activamente a cada mesa.</span></div></li>
@@ -1081,6 +1043,60 @@ async function exportPDF(){
               <div class="rm-status">${item.status}</div>
             </div>
           `).join('');
+        }
+      }
+
+      
+      // KPI rows — dynamic from JSON
+      if (d.kpis_mes && d.kpis_mes.filas) {
+        set('d-gauge-txt', d.kpis_mes.gauge_txt);
+        set('d-gauge-sub', d.kpis_mes.gauge_sub);
+        const kpiRows = document.getElementById('d-kpi-rows');
+        if (kpiRows) {
+          kpiRows.innerHTML = d.kpis_mes.filas.map((f, i) => `
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;${i < d.kpis_mes.filas.length-1 ? 'border-bottom:1px solid #E8DDD0' : ''}">
+              <span style="font-size:.85rem;color:var(--tm);font-weight:600">${f.label}</span>
+              <span style="display:flex;align-items:center;gap:6px">
+                <span style="font-size:.92rem;font-weight:700;color:${f.color}">${f.valor}</span>
+                <span style="font-size:.78rem;color:var(--tm);font-weight:600">${f.det}</span>
+              </span>
+            </div>`).join('');
+        }
+      }
+
+      // Alert principal
+      if (d.alertas && d.alertas.principal) {
+        const a = d.alertas.principal;
+        set('d-alert-peor', `<div style="font-size:1.1rem;flex-shrink:0">${a.icono}</div><div><strong>${a.titulo}</strong><p>${a.detalle}</p></div>`);
+      }
+
+      // Insight cards
+      if (d.alertas && d.alertas.cards && d.alertas.cards.length >= 4) {
+        const c = d.alertas.cards;
+        set('d-ins-mejor',      c[0].valor); set('d-ins-mejor-det',  c[0].det);
+        set('d-ins-hora',       c[1].valor); set('d-ins-hora-det',   c[1].det);
+        set('d-ins-prod1',      c[2].valor); set('d-ins-prod1-det',  c[2].det);
+        set('d-ins-combo',      c[3].valor); set('d-ins-combo-det',  c[3].det);
+      }
+
+      // Diagnostico
+      if (d.diagnostico) set('d-diagnostico', d.diagnostico);
+
+      // April tracker note
+      if (d.abril && d.abril.tracker_note) {
+        set('d-apr-note', '<strong>Proyección: ' + d.abril.proyeccion_fmt + '</strong> — ' + d.abril.tracker_note);
+      }
+
+      // Acciones top
+      if (d.acciones_top) {
+        const colorMap = {red:'a-red', orange:'a-orange', green:'a-green'};
+        const acEl = document.getElementById('d-acciones-list');
+        if (acEl) {
+          acEl.innerHTML = d.acciones_top.map(a => `
+            <li class="${colorMap[a.nivel] || 'a-orange'}">
+              <div class="anum">${a.num}</div>
+              <div class="atxt">${a.titulo}<span>${a.detalle}</span></div>
+            </li>`).join('');
         }
       }
 
