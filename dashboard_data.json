@@ -1,97 +1,15 @@
 {
-  "updated": "2026-04-21T18:10:20Z",
+  "updated": "2026-04-23",
   "abril": {
-    "actualizado": "2026-04-22",
-    "total": 2368.6,
-    "dias_operativos": 14,
-    "facturas": 156,
-    "promedio_dia": 169.19,
-    "punto_equilibrio": 4216,
-    "deficit_proyectado": -663,
-    "proyeccion_mes": 3553,
-    "dias_restantes": 7,
-    "meta_dia_restante": 264,
-    "desglose": [
-      {
-        "dia": "Mié 01",
-        "total": 138.47,
-        "facturas": 9
-      },
-      {
-        "dia": "Jue 02",
-        "total": 372.45,
-        "facturas": 19
-      },
-      {
-        "dia": "Dom 05",
-        "total": 235.88,
-        "facturas": 13
-      },
-      {
-        "dia": "Mar 07",
-        "total": 78.24,
-        "facturas": 3
-      },
-      {
-        "dia": "Mié 08",
-        "total": 3.0,
-        "facturas": 1
-      },
-      {
-        "dia": "Jue 09",
-        "total": 37.3,
-        "facturas": 3
-      },
-      {
-        "dia": "Vie 10",
-        "total": 218.23,
-        "facturas": 16
-      },
-      {
-        "dia": "Sáb 11",
-        "total": 231.96,
-        "facturas": 20
-      },
-      {
-        "dia": "Dom 12",
-        "total": 194.25,
-        "facturas": 11
-      },
-      {
-        "dia": "Mié 15",
-        "total": 111.2,
-        "facturas": 5
-      },
-      {
-        "dia": "Jue 16",
-        "total": 85.89,
-        "facturas": 6
-      },
-      {
-        "dia": "Vie 17",
-        "total": 295.65,
-        "facturas": 24
-      },
-      {
-        "dia": "Sáb 18",
-        "total": 217.68,
-        "facturas": 17
-      },
-      {
-        "dia": "Dom 19",
-        "total": 148.4,
-        "facturas": 9
-      }
-    ],
-    "acumulado_fmt": "$2,368.60",
-    "coverage_txt": "56% cubierto · 14 días operativos",
-    "prom_dia_fmt": "$169",
-    "proyeccion_fmt": "$3,553",
-    "ticket_fmt": "$15.15",
-    "deficit_fmt": "-$663",
-    "pct_cubierto": 56,
-    "tracker_note": "Déficit proyectado -$663 vs PE $4,216. Quedan 7 días op (mié 22, jue 23, vie 24, sáb 25, dom 26, mié 29, jue 30).",
-    "insight": "Vie 17 abr: mejor viernes histórico ($295, +111% vs prom). Sin ese día la semana cae a $140/día. Alta dependencia de un solo día."
+    "actualizado": "2026-04-23",
+    "total_estimado": 2476.15,
+    "dias_operativos": 15,
+    "prom_dia": 165.1,
+    "meta_mensual": 4216,
+    "deficit_proyectado": -726,
+    "dias_restantes": 6,
+    "proyeccion_final": 3490,
+    "nota": "Sin datos Practisis para mié 22 abr. Último confirmado: dom 20 abr $107.55."
   },
   "kpis_mes": {
     "gauge_pct": 56,
@@ -340,28 +258,21 @@
   ],
   "marketing": {
     "fuente": "Windsor.ai",
-    "actualizado": "2026-04-22",
+    "actualizado": "2026-04-23",
     "instagram": {
       "cuenta": "@michalitasxpress",
-      "periodo": "16-22 abr 2026 (7 días)",
-      "reach_total": 2795,
-      "reach_prom_dia": 399,
-      "reach_mejor_dia": 1366,
-      "reach_mejor_fecha": "2026-04-21",
-      "interactions_total": 36,
-      "likes_total": 28,
+      "reach_total": 6863,
+      "reach_prom_dia": 980,
+      "reach_mejor_dia": 3795,
+      "reach_mejor_fecha": "2026-04-22",
+      "interactions_total": 60,
+      "likes_total": 54,
       "comments_total": 0,
-      "shares_total": 2,
+      "shares_total": 1,
       "saves_total": 1,
-      "engagement_rate": 1.3,
+      "engagement_rate": 0.9,
       "conversion_miche": 0,
       "dias": [
-        {
-          "fecha": "2026-04-16",
-          "reach": 143,
-          "interactions": 7,
-          "likes": 5
-        },
         {
           "fecha": "2026-04-17",
           "reach": 387,
@@ -394,25 +305,25 @@
         },
         {
           "fecha": "2026-04-22",
-          "reach": 395,
-          "interactions": 3,
-          "likes": 3
+          "reach": 3795,
+          "interactions": 25,
+          "likes": 25
+        },
+        {
+          "fecha": "2026-04-23",
+          "reach": 811,
+          "interactions": 9,
+          "likes": 9
         }
       ]
     },
     "google_my_business": {
-      "periodo": "16-22 abr 2026 (7 días)",
-      "impressions_total": 54,
-      "impressions_prom_dia": 7.7,
-      "direction_requests_total": 12,
+      "impressions_total": 52,
+      "impressions_prom_dia": 7.4,
+      "direction_requests_total": 17,
       "website_clicks_total": 0,
-      "nota_delay": "Últimos 3 días (20-22 abr) en 0 por delay de reporte Windsor. Datos reales disponibles 16-19 abr.",
+      "alerta": "Solo 52 impresiones en 7 días. Meta: 100-300/día. GMB sin datos abr 21-23.",
       "dias": [
-        {
-          "fecha": "2026-04-16",
-          "impressions": 13,
-          "direction_requests": 0
-        },
         {
           "fecha": "2026-04-17",
           "impressions": 7,
@@ -430,8 +341,8 @@
         },
         {
           "fecha": "2026-04-20",
-          "impressions": 0,
-          "direction_requests": 0
+          "impressions": 11,
+          "direction_requests": 5
         },
         {
           "fecha": "2026-04-21",
@@ -442,54 +353,66 @@
           "fecha": "2026-04-22",
           "impressions": 0,
           "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-23",
+          "impressions": 0,
+          "direction_requests": 0
         }
       ]
     },
     "meta_ads": {
-      "estado": "RESTRINGIDO",
-      "nota": "Cuenta Meta Business Suite restringida desde 19 abr 2026. Causa: posible automatización detectada. Pendiente apelación por Alberto.",
-      "gasto_mes": 0,
-      "objetivo_actual": "BLOQUEADO — sin anuncios hasta resolver restricción",
-      "problema": "Cuenta suspendida. Cristina bloqueada para activar $150/mes."
+      "estado": "restringida",
+      "nota": "Cuenta michalitasxpress restringida por Meta desde 19 abr. Alberto reunión con construmac 23 abr. Estrategia: $5/día, max 2 ads, 3 días, 5km radio Guayaquil.",
+      "gasto_mes": 150,
+      "objetivo_actual": "Conversaciones WhatsApp",
+      "resultados_zoom_23abr": {
+        "facebook_conversaciones": 13,
+        "facebook_costo_por_conv": 1.13,
+        "instagram_conversaciones": 2,
+        "instagram_costo_por_conv": 2.85
+      }
     }
   },
-  "alertas": {
-    "principal": {
-      "icono": "🚨",
-      "titulo": "Mié 8 abr — $3.00 (1 fact) — PEOR DÍA HISTÓRICO",
-      "detalle": "Bar abierto toda la noche, cero clientes. Primer miércoles nuevo horario fallido."
+  "alertas": [
+    {
+      "tipo": "critica",
+      "msg": "Sin datos ventas mié 22 abr — verificar con Marian si hubo ventas y registrar en Practisis"
     },
-    "cards": [
-      {
-        "label": "Mejor Día",
-        "valor": "Viernes",
-        "det": "$295 · 17 abr récord",
-        "color": "var(--g)"
-      },
-      {
-        "label": "Hora Pico",
-        "valor": "9–11 PM",
-        "det": "60% del ingreso total",
-        "color": "var(--od)"
-      },
-      {
-        "label": "Producto #1",
-        "valor": "Maracuyá",
-        "det": "362 uds · $1,560",
-        "color": "var(--od)"
-      },
-      {
-        "label": "Combo Top",
-        "valor": "Maracuyá + Alitas",
-        "det": "patrón frecuente vie/sáb",
-        "color": "var(--od)"
-      }
-    ]
-  },
+    {
+      "tipo": "critica",
+      "msg": "PedidosYa deuda $6.24 — Marian debe pagar HOY por transferencia a Banco Citibank"
+    },
+    {
+      "tipo": "critica",
+      "msg": "Marian segunda cita Cancillería — nueva convocatoria de visa, email 23 abr. Confirmar fecha y si impacta operaciones"
+    },
+    {
+      "tipo": "alerta",
+      "msg": "DATAFAST deuda pendiente — verificar monto y pagar"
+    },
+    {
+      "tipo": "alerta",
+      "msg": "Meta Ads cuenta restringida — Alberto habilitar acceso construmac al Business Manager"
+    },
+    {
+      "tipo": "alerta",
+      "msg": "Copa Libertadores Mié 29 abr: BSC vs U. Católica Chile 7 PM — preparar promo combo"
+    },
+    {
+      "tipo": "info",
+      "msg": "GMB sin impresiones apr 21-23 — posible lag de datos o perfil inactivo"
+    }
+  ],
   "last_briefing": {
-    "fecha": "2026-04-21",
-    "dia": "Martes (cerrado)",
-    "resumen": "Cierre semana 13-19 abr: $858.82 (+12.6% vs anterior). Vie 17 mejor viernes registrado. Acumulado mes: $2,368.60. Proyección: $3,553. Alertas: Uber Eats 10+ días offline, Meta Ads bloqueado."
+    "fecha": "2026-04-23",
+    "dia": "Jueves",
+    "acumulado_abril": 2476.15,
+    "ventas_ayer": 0,
+    "ventas_ayer_nota": "Sin datos Practisis para mié 22 abr",
+    "ig_reach_7d": 6863,
+    "ig_mejor_dia_reach": 3795,
+    "ig_mejor_dia_fecha": "2026-04-22"
   },
   "foco_semana": {
     "titulo": "22 al 26 Abril",
