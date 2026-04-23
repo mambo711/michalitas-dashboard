@@ -318,94 +318,17 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <!-- FOCO DE LA SEMANA -->
 <div class="focus-week">
   <div class="fw-header">
-    <div class="fw-title">Foco de la Semana — 22 al 26 Abril</div>
-    <div class="fw-deadline">7 DÍAS OP RESTANTES · CIERRE ABRIL</div>
+    <div class="fw-title" id="d-foco-titulo">Foco de la Semana</div>
+    <div class="fw-deadline" id="d-foco-subtitulo"></div>
   </div>
-  <div class="fw-items">
-
-    <div class="fw-item crit">
-      <div class="fw-num">#1</div>
-      <div class="fw-name">Apelar restricción Meta Ads</div>
-      <div class="fw-why">Cuenta Meta Business Suite restringida desde 19 abr. $150/mes bloqueados. Cristina necesita respuesta de Alberto sobre el dashboard para redactar la apelación.</div>
-      <div class="fw-who">Alberto → responder email Cristina · Cristina → apelar en Meta Business Suite</div>
-    </div>
-
-    <div class="fw-item warn">
-      <div class="fw-num">#2</div>
-      <div class="fw-name">Uber Eats — rentabilidad crítica</div>
-      <div class="fw-why">9 pedidos en campaña abril = $9.17 neto. Semana 1 fue negativa (-$1.08). Comisión + ads + descuentos consumen casi todo. Evaluar si conviene continuar con ads o solo operación orgánica.</div>
-      <div class="fw-who">Alberto → decidir si pausar ads Uber Eats</div>
-    </div>
-
-    <div class="fw-item warn">
-      <div class="fw-num">#3</div>
-      <div class="fw-name">Partidos BSC — drivers de tráfico</div>
-      <div class="fw-why">Mié 22: BSC vs Mushuc Runa 7PM (Liga Pro LOCAL). Mié 29: BSC vs U.Católica Chile 7PM (Copa Libertadores LOCAL 🔥🔥). Cada partido = +$80-150 extra si se ejecuta bien.</div>
-      <div class="fw-who">Marian → TV + pizarra · Cristina → Stories antes 6 PM</div>
-    </div>
-
+  <div class="fw-items" id="d-foco-items">
   </div>
 </div>
 
 <!-- HOJA DE RUTA ESTRATÉGICA -->
 <div class="roadmap">
   <div class="rm-title">Hoja de Ruta — Crecimiento Abril 2026</div>
-  <div class="rm-track" id="d-roadmap">
-
-    <div class="rm-step active">
-      <div class="rm-node">1</div>
-      <div class="rm-line"></div>
-      <div class="rm-label">Reconectar Uber Eats</div>
-      <div class="rm-desc">Dispositivo desconectado sáb 11 abr. Sem 1 campaña: $21. Sem 2 (2x1 Saltamontes) sin capturar pedidos</div>
-      <div class="rm-impact crit">URGENTE 🔴</div>
-      <div class="rm-status">Pendiente hoy</div>
-    </div>
-
-    <div class="rm-step active">
-      <div class="rm-node">2</div>
-      <div class="rm-line"></div>
-      <div class="rm-label">Happy Hour miércoles</div>
-      <div class="rm-desc">4-7 PM miércoles. Mesera disponible. Primer miércoles nuevo horario: HOY</div>
-      <div class="rm-impact high">+$200/mes</div>
-      <div class="rm-status">Ejecutar hoy</div>
-    </div>
-
-    <div class="rm-step done">
-      <div class="rm-node">✓</div>
-      <div class="rm-line"></div>
-      <div class="rm-label">Instagram + Código MICHE15</div>
-      <div class="rm-desc">Cristina publica diariamente. 0 conversiones detectadas — pendiente más tiempo</div>
-      <div class="rm-impact high">Medible</div>
-      <div class="rm-status">Activo</div>
-    </div>
-
-    <div class="rm-step active">
-      <div class="rm-node">4</div>
-      <div class="rm-line"></div>
-      <div class="rm-label">Fidelización</div>
-      <div class="rm-desc">Tarjeta 10ma gratis. Mesera disponible para registrar visitas. Pendiente diseño tarjeta</div>
-      <div class="rm-impact med">Retención</div>
-      <div class="rm-status">Por lanzar</div>
-    </div>
-
-    <div class="rm-step active">
-      <div class="rm-node">5</div>
-      <div class="rm-line"></div>
-      <div class="rm-label">Meta Ads</div>
-      <div class="rm-desc">$150/mes aprobados. 18 días sin activar. Jue-sáb, geolocalizados 3km, 18-45 años</div>
-      <div class="rm-impact high">+$300-600/mes</div>
-      <div class="rm-status">Sin activar</div>
-    </div>
-
-    <div class="rm-step active">
-      <div class="rm-node">6</div>
-      <div class="rm-line"></div>
-      <div class="rm-label">Costos en Practisis</div>
-      <div class="rm-desc">Cristina terminó marzo. Falta feb+ene. Sin costos no hay márgenes reales</div>
-      <div class="rm-impact med">Control</div>
-      <div class="rm-status">En proceso</div>
-    </div>
-
+  <div class="rm-track" id="d-roadmap-items">
   </div>
 </div>
 
@@ -1126,7 +1049,42 @@ async function exportPDF(){
       const note=document.getElementById('d-apr-note');
       if(note) note.innerHTML='<strong>Proyección abril: '+d.abril.proyeccion_fmt+'</strong> — '+d.abril.tracker_note;
 
-      // KPIs Gauge
+
+      // FOCO DE LA SEMANA — rendered from JSON
+      if (d.foco_semana) {
+        set('d-foco-titulo', 'Foco de la Semana — ' + d.foco_semana.titulo);
+        set('d-foco-subtitulo', d.foco_semana.subtitulo);
+        const focoContainer = document.getElementById('d-foco-items');
+        if (focoContainer) {
+          focoContainer.innerHTML = d.foco_semana.items.map(item => `
+            <div class="fw-item ${item.estado}">
+              <div class="fw-num">${item.num}</div>
+              <div class="fw-name">${item.nombre}</div>
+              <div class="fw-why">${item.why}</div>
+              <div class="fw-who">${item.who}</div>
+            </div>
+          `).join('');
+        }
+      }
+
+      // HOJA DE RUTA — rendered from JSON
+      if (d.roadmap_items) {
+        const rmContainer = document.getElementById('d-roadmap-items');
+        if (rmContainer) {
+          rmContainer.innerHTML = d.roadmap_items.map(item => `
+            <div class="rm-step ${item.estado}">
+              <div class="rm-node">${item.num}</div>
+              <div class="rm-line"></div>
+              <div class="rm-label">${item.label}</div>
+              <div class="rm-desc">${item.desc}</div>
+              <div class="rm-impact ${item.estado === 'crit' ? 'crit' : item.estado === 'done' ? 'ok' : 'high'}">${item.impact}</div>
+              <div class="rm-status">${item.status}</div>
+            </div>
+          `).join('');
+        }
+      }
+
+            // KPIs Gauge
       set('d-gauge-txt', d.kpis_mes.gauge_txt);
       set('d-gauge-sub', d.kpis_mes.gauge_sub);
       set('d-kpi-uber', d.kpis_mes.uber_fmt);
