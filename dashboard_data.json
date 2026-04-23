@@ -84,33 +84,70 @@
       }
     ],
     "acumulado_fmt": "$2,368.60",
-    "coverage_txt": "14 de ~21 días operativos",
-    "prom_dia_fmt": "$169/día",
+    "coverage_txt": "56% cubierto · 14 días operativos",
+    "prom_dia_fmt": "$169",
     "proyeccion_fmt": "$3,553",
     "ticket_fmt": "$15.15",
     "deficit_fmt": "-$663",
     "pct_cubierto": 56,
-    "tracker_note": "Déficit proyectado -$663 vs PE $4,216. Quedan 7 días op.",
-    "insight": "Viernes 17 abr fue el mejor viernes histórico (+111% vs prom). Sin él la semana cae a $140/día. Dependencia alta de un solo día."
+    "tracker_note": "Déficit proyectado -$663 vs PE $4,216. Quedan 7 días op (mié 22, jue 23, vie 24, sáb 25, dom 26, mié 29, jue 30).",
+    "insight": "Vie 17 abr: mejor viernes histórico ($295, +111% vs prom). Sin ese día la semana cae a $140/día. Alta dependencia de un solo día."
   },
   "kpis_mes": {
-    "label": "Marzo 2026",
-    "ventas_fmt": "$3,625",
-    "ventas": 3625,
-    "prom_dia": 139,
-    "prom_dia_meta": 162,
-    "ticket_fmt": "$16.40",
-    "facturas": 221,
-    "dias": 26,
-    "perdida_fmt": "-$591",
-    "meses_bajo_pe": 5,
-    "uber_fmt": "$46",
-    "uber_detalle": "2 pedidos sáb 11",
-    "toppings_pct": "2.8%",
-    "toppings_meta": "meta 30%",
-    "gauge_pct": 86,
-    "gauge_txt": "86% del PE",
-    "gauge_sub": "$3,625 de $4,216 (Marzo)"
+    "gauge_pct": 56,
+    "gauge_txt": "56% del PE",
+    "gauge_sub": "$2,369 de $4,216 (Abril al 19 abr)",
+    "gauge_color": "var(--r)",
+    "filas": [
+      {
+        "label": "Ventas acum. abril",
+        "valor": "$2,369",
+        "det": "14 días op",
+        "color": "var(--y)"
+      },
+      {
+        "label": "Prom. diario",
+        "valor": "$169",
+        "det": "meta $162 ✅",
+        "color": "var(--g)"
+      },
+      {
+        "label": "Ticket prom.",
+        "valor": "$15.15",
+        "det": "14 días op",
+        "color": "var(--m)"
+      },
+      {
+        "label": "Facturas",
+        "valor": "156",
+        "det": "14 días op",
+        "color": "var(--m)"
+      },
+      {
+        "label": "Proyección mes",
+        "valor": "$3,553",
+        "det": "vs PE $4,216",
+        "color": "var(--y)"
+      },
+      {
+        "label": "Déficit proyectado",
+        "valor": "-$663",
+        "det": "7 días restantes",
+        "color": "var(--r)"
+      },
+      {
+        "label": "Uber Eats (campaña)",
+        "valor": "$9.17",
+        "det": "9 pedidos neto",
+        "color": "var(--y)"
+      },
+      {
+        "label": "Meses bajo PE",
+        "valor": "6 meses",
+        "det": "nov25–abr26",
+        "color": "var(--r)"
+      }
+    ]
   },
   "uber_eats": {
     "auditado": "2026-04-16",
@@ -416,32 +453,39 @@
       "problema": "Cuenta suspendida. Cristina bloqueada para activar $150/mes."
     }
   },
-  "alertas": [
-    {
-      "tipo": "critica",
-      "titulo": "Uber Eats OFFLINE 10+ días",
-      "detalle": "Dispositivo desconectado desde sáb 11 abr. Pedidos perdidos 7.6%. Campaña abril invisible.",
-      "accion": "Marian reconectar antes mié 22 apertura"
+  "alertas": {
+    "principal": {
+      "icono": "🚨",
+      "titulo": "Mié 8 abr — $3.00 (1 fact) — PEOR DÍA HISTÓRICO",
+      "detalle": "Bar abierto toda la noche, cero clientes. Primer miércoles nuevo horario fallido."
     },
-    {
-      "tipo": "critica",
-      "titulo": "Meta Ads BLOQUEADO",
-      "detalle": "Cuenta Meta Business restringida desde 19 abr 2026.",
-      "accion": "Alberto apelar en Meta Business Suite"
-    },
-    {
-      "tipo": "alta",
-      "titulo": "IESS patronal abril",
-      "detalle": "Pago $132.20 vence ~15 del mes",
-      "accion": "Verificar con Marian"
-    },
-    {
-      "tipo": "media",
-      "titulo": "GMB 0 impresiones 3 días",
-      "detalle": "19-21 abr sin datos de Google My Business",
-      "accion": "Verificar si es reporte o caída real"
-    }
-  ],
+    "cards": [
+      {
+        "label": "Mejor Día",
+        "valor": "Viernes",
+        "det": "$295 · 17 abr récord",
+        "color": "var(--g)"
+      },
+      {
+        "label": "Hora Pico",
+        "valor": "9–11 PM",
+        "det": "60% del ingreso total",
+        "color": "var(--od)"
+      },
+      {
+        "label": "Producto #1",
+        "valor": "Maracuyá",
+        "det": "362 uds · $1,560",
+        "color": "var(--od)"
+      },
+      {
+        "label": "Combo Top",
+        "valor": "Maracuyá + Alitas",
+        "det": "patrón frecuente vie/sáb",
+        "color": "var(--od)"
+      }
+    ]
+  },
   "last_briefing": {
     "fecha": "2026-04-21",
     "dia": "Martes (cerrado)",
@@ -522,6 +566,27 @@
       "desc": "5 días/semana desde 12 abr. Mié 4PM-11PM con 2x1 + alitas. Sáb/Dom desde 1PM. Primer mié: $111 (+42% vs prom histórico).",
       "impact": "+$200/mes",
       "status": "Activo ✅"
+    }
+  ],
+  "diagnostico": "Abril (al 19 abr): $2,368.60 acumulado · 14 días op · 156 facturas · ticket $15.15. ✅ Vie 17 abr: mejor viernes histórico +111% vs prom. ✅ Nuevo horario funcionando: mié $111 (+42% vs histórico). 🔴 Meta Ads restringido desde 19 abr — $150/mes bloqueados. 🟡 Uber Eats campaña: $9.17 neto en 9 pedidos — casi a pérdida después de comisiones y ads. 📉 Proyección cierre abril: ~$3,553 vs PE $4,216 → déficit -$663 (6to mes consecutivo bajo PE).",
+  "acciones_top": [
+    {
+      "nivel": "red",
+      "num": "1",
+      "titulo": "Apelar restricción Meta Ads",
+      "detalle": "Cristina necesita respuesta de Alberto sobre el dashboard para redactar la apelación. Sin esto, $150/mes bloqueados indefinidamente."
+    },
+    {
+      "nivel": "orange",
+      "num": "2",
+      "titulo": "Evaluar rentabilidad ads Uber Eats",
+      "detalle": "9 pedidos campaña = $9.17 neto total. Semana 1 fue negativa (-$1.08). Decidir si pausar ads y operar solo orgánico."
+    },
+    {
+      "nivel": "orange",
+      "num": "3",
+      "titulo": "Convertir reach IG en clientes reales",
+      "detalle": "Spike de 1,366 reach el 21 abr pero 0 conversiones MICHE detectadas. Cristina necesita llamada a la acción en los posts, no solo fotos."
     }
   ]
 }
