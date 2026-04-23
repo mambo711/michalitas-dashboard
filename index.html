@@ -602,7 +602,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div id="tab-ops" class="tc">
 <div class="insight-box tab-insight">
   <h3>Insight Operaciones</h3>
-  <p>Nuevo horario desde 12 abr: 5 días operativos (se cierra martes). Miércoles con 2x1 + promos alitas para reactivar el peor día ($72 prom). Sábado y domingo abren desde 1 PM — captura almuerzo/tarde. Con 5 días en vez de 6, necesitas $168/día para cubrir PE ($4,216). Mesera nueva confirmada — foco en ejecutar promos de miércoles y empujar platos a la carta los sábados.</p>
+  <p id="d-ops-insight">cargando...</p>
 </div>
 <div class="g2">
   <div class="cd">
@@ -628,14 +628,295 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div class="g2">
   <div class="cd">
     <div class="ct">Gastos Fijos</div>
-    <div class="gr"><div class="gl">Renta</div><div class="gv">$700</div></div>
-    <div class="gr"><div class="gl">Marian</div><div class="gv">$543</div></div>
-    <div class="gr"><div class="gl">Alexis</div><div class="gv">$600</div></div>
-    <div class="gr"><div class="gl">Mesera</div><div class="gv">~$243</div></div>
-    <div class="gr"><div class="gl">IESS</div><div class="gv">$132</div></div>
-    <div class="gr"><div class="gl">Internet+Fútbol</div><div class="gv">$43</div></div>
-    <div class="gr"><div class="gl">Marketing</div><div class="gv">$200</div></div>
-    <div class="gr" style="border-top:2px solid var(--o);padding-top:6px;margin-top:3px"><div class="gl" style="font-weight:700;color:var(--m)">TOTAL FIJOS</div><div class="gv" style="color:var(--od)">~$2,461</div></div>
+    <div id="d-gastos-rows"></div>
+    <div style="font-size:.82rem;color:var(--tm);margin-top:6px">PE real ~$4,216/mes (incluye variables)</div>
+  </div>
+</div>
+<!-- UBER EATS PERFORMANCE — Auditado 16 abr 2026 -->
+<div style="background:var(--rl,#FEF2F2);border:1px solid var(--r);border-radius:10px;padding:12px 14px;margin:12px 0 4px">
+  <div style="font-size:.78rem;font-weight:700;color:var(--r);letter-spacing:.06em;margin-bottom:8px">⚠️ UBER EATS — AUDITORÍA COMPLETA · 16 ABR 2026</div>
+  <div style="font-size:.82rem;color:var(--td,#374151)">Dispositivo <strong style="color:var(--r)">OFFLINE</strong> desde sáb 11 abr 10:15 PM. Top Eats <strong style="color:var(--r)">PERDIDO</strong> abril. Reconectar es prioridad #1 — sin esto ninguna campaña funciona.</div>
+</div>
+<div class="g2">
+  <div class="cd">
+    <div class="ct">Performance Métricas <span style="font-size:.72rem;color:var(--tl);font-weight:400">Meta Top Eats</span></div>
+    <!-- Rating -->
+    <div class="gr" style="margin-bottom:5px">
+      <div class="gl" style="font-weight:600">Rating</div>
+      <div class="gv">
+        <span style="font-weight:700;color:var(--r);font-size:1rem">4.2</span>
+        <span style="color:var(--tl);font-size:.8rem"> / 5.0</span>
+        <span style="font-size:.72rem;background:var(--r);color:#fff;border-radius:4px;padding:1px 5px;margin-left:6px">meta 4.8</span>
+      </div>
+    </div>
+    <div style="background:#fee2e2;border-radius:6px;height:5px;margin:-2px 0 8px"><div style="background:var(--r);width:52%;height:5px;border-radius:6px"></div></div>
+    <!-- Online Rate -->
+    <div class="gr" style="margin-bottom:5px">
+      <div class="gl" style="font-weight:600">Online Rate</div>
+      <div class="gv">
+        <span style="font-weight:700;color:var(--r);font-size:1rem">73.1%</span>
+        <span style="color:var(--tl);font-size:.8rem"> 90d</span>
+        <span style="font-size:.75rem;color:var(--y);margin-left:8px;font-weight:600">89% abr</span>
+        <span style="font-size:.72rem;background:var(--r);color:#fff;border-radius:4px;padding:1px 5px;margin-left:6px">meta 95%</span>
+      </div>
+    </div>
+    <div style="background:#fee2e2;border-radius:6px;height:5px;margin:-2px 0 8px"><div style="background:var(--r);width:73%;height:5px;border-radius:6px"></div></div>
+    <!-- Pedidos -->
+    <div class="gr" style="margin-bottom:5px">
+      <div class="gl" style="font-weight:600">Órdenes 90d</div>
+      <div class="gv">
+        <span style="font-weight:700;color:var(--y);font-size:1rem">13</span>
+        <span style="color:var(--tl);font-size:.8rem"> totales</span>
+        <span style="font-size:.72rem;background:var(--r);color:#fff;border-radius:4px;padding:1px 5px;margin-left:6px">meta 30+/mes</span>
+      </div>
+    </div>
+    <!-- Miss Rate -->
+    <div class="gr" style="margin-bottom:5px">
+      <div class="gl" style="font-weight:600">Pedidos perdidos</div>
+      <div class="gv">
+        <span style="font-weight:700;color:var(--r);font-size:1rem">7.6%</span>
+        <span style="color:var(--tl);font-size:.8rem"> (1/13)</span>
+        <span style="font-size:.72rem;background:var(--r);color:#fff;border-radius:4px;padding:1px 5px;margin-left:6px">meta &lt;1%</span>
+      </div>
+    </div>
+    <!-- Errores -->
+    <div class="gr" style="border-top:1px solid var(--b);padding-top:6px;margin-top:4px">
+      <div class="gl" style="font-weight:600">Pedidos incorrectos</div>
+      <div class="gv" style="color:var(--g);font-weight:700">0% ✅</div>
+    </div>
+    <div class="gr">
+      <div class="gl" style="font-weight:600">Espera repartidor</div>
+      <div class="gv" style="color:var(--g);font-weight:700">1 min 46 seg ✅</div>
+    </div>
+    <!-- Top Eats -->
+    <div style="margin-top:10px;padding:8px;background:#1f2937;border-radius:8px;text-align:center">
+      <div style="font-size:.7rem;color:#9ca3af;letter-spacing:.08em;font-weight:600">TOP EATS ABRIL</div>
+      <div style="font-size:1.1rem;font-weight:800;color:var(--r);margin-top:2px">PERDIDO ❌</div>
+      <div style="font-size:.72rem;color:#9ca3af;margin-top:2px">Mayo: No encaminado · 4/5 métricas fallando</div>
+    </div>
+  </div>
+  <div class="cd">
+    <div class="ct">Campañas Activas <span style="font-size:.72rem;color:var(--g);font-weight:600">5 activas</span></div>
+    <!-- Ad Campaign -->
+    <div style="background:var(--gl,#F0FDF4);border-left:3px solid var(--g);border-radius:4px;padding:6px 8px;margin-bottom:6px">
+      <div style="font-size:.78rem;font-weight:700;color:var(--g)">📢 Ads — $3/día</div>
+      <div style="font-size:.8rem;color:var(--td)">Desde sep 2025 · <strong>ROAS 3.64x</strong></div>
+      <div style="font-size:.75rem;color:var(--tl)">$15.96 gastado → $58.14 en ventas</div>
+    </div>
+    <!-- BOGO activo -->
+    <div style="background:#FFF7ED;border-left:3px solid var(--o);border-radius:4px;padding:6px 8px;margin-bottom:6px">
+      <div style="font-size:.78rem;font-weight:700;color:var(--o)">🎁 BOGO Saltamontes — ACTIVA</div>
+      <div style="font-size:.8rem;color:var(--td)">13–20 abr · Uber financia 30%</div>
+    </div>
+    <!-- Category discounts -->
+    <div style="background:var(--gl,#F0FDF4);border-left:3px solid #6B7280;border-radius:4px;padding:6px 8px;margin-bottom:6px">
+      <div style="font-size:.78rem;font-weight:700;color:#374151">🏷️ Category Discounts (2)</div>
+      <div style="font-size:.75rem;color:var(--tl)">Ene 2026–Ene 2027 · $36 generados</div>
+      <div style="font-size:.75rem;color:var(--tl)">Sep 2025–Sep 2026 · $43 generados</div>
+    </div>
+    <!-- Plan abril -->
+    <div class="ct" style="margin-top:10px">Plan Campaña Abril</div>
+    <div class="pw" style="opacity:.6"><div class="pwl">Sem 1 · 6–12 abr ✅</div><div class="pwc">$21 · 1 pedido (dispositivo offline sáb)</div></div>
+    <div class="pw act"><div class="pwl">Sem 2 · 13–20 abr <span class="at">ACTIVA</span></div><div class="pwc">2x1 Saltamontes</div></div>
+    <div class="pw"><div class="pwl">Sem 3 · 20–26 abr</div><div class="pwc">Miche Maracuyá $5.75 · Nachos $8.50</div></div>
+    <div class="pw"><div class="pwl">Sem 4 · 27 abr–3 may</div><div class="pwc">2x1 Papas Cheddar</div></div>
+  </div>
+</div>
+<div class="g2">
+  <div class="cd">
+    <div class="ct">Marketing</div>
+    <div class="gr"><div class="gl">Budget</div><div class="gv">$200/mes</div></div>
+    <div class="gr"><div class="gl">Meta Ads</div><div class="gv">$150 · Jue–Sáb · 3km</div></div>
+    <div class="gr"><div class="gl">Material+Herram.</div><div class="gv">$50</div></div>
+    <div class="gr"><div class="gl">Instagram</div><div class="gv">Cristina · 3x/sem</div></div>
+    <div class="gr"><div class="gl">Google Business</div><div class="gv" style="color:var(--g)">5.0 · 10 reseñas</div></div>
+    <div class="gr"><div class="gl">Uber Eats rating</div><div class="gv" style="color:var(--r);font-weight:700">4.2 / 5.0 🔴</div></div>
+    <div class="gr"><div class="gl">TikTok/Facebook</div><div class="gv" style="color:var(--tl)">Pausado</div></div>
+    <div style="margin-top:8px;font-size:.85rem;color:var(--tm)">Código: <strong style="color:var(--o)">MICHE##</strong></div>
+  </div>
+</div>
+</div>
+
+<!-- TAB: ACCIONES -->
+<div id="tab-actions" class="tc">
+<div class="insight-box tab-insight">
+  <h3>Acciones &amp; Problemas</h3>
+  <p id="d-acciones-insight">cargando...</p>
+</div>
+<div class="g2">
+  <div class="cd">
+    <div class="ct">Checklist de Acciones</div>
+    <div id="d-checklist"></div>
+  </div>
+  <div class="cd">
+    <div class="ct">Problemas Prioritarios</div>
+    <div id="d-problemas"></div>
+  </div>
+</div>
+
+id="tab-analysis" class="tc">
+<div class="insight-box tab-insight">
+  <h3>Insight Análisis</h3>
+  <p>Sábado+Viernes = 51% de las ventas. Miércoles es el peor día ($72 prom.) — martes no está lejos ($78). Hora pico absoluta: 11PM ($3,285 acumulado). 78% del revenue se concentra entre 7PM–2AM. Las primeras 2 horas de apertura (4–6PM) solo generan 3% del revenue: considerar abrir a las 6PM.</p>
+</div>
+<div class="st">Ventas Promedio por Día de Semana (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
+<div class="g2">
+  <div class="cd"><div class="ct">Promedio Diario</div><div class="cw" style="height:210px"><canvas id="cDow"></canvas></div></div>
+  <div class="cd">
+    <div class="ct">Ranking de Días</div>
+    <div class="dr"><div class="dl" style="font-weight:600;color:var(--g)">Sábado</div><div class="dw"><div class="dbg"><div class="dfg" style="width:100%;background:var(--g)"></div></div></div><div class="dv" style="color:var(--g)">$239</div><div class="dx">321f</div></div>
+    <div class="dr"><div class="dl" style="font-weight:600">Viernes</div><div class="dw"><div class="dbg"><div class="dfg" style="width:79%"></div></div></div><div class="dv">$189</div><div class="dx">259f</div></div>
+    <div class="dr"><div class="dl">Domingo</div><div class="dw"><div class="dbg"><div class="dfg" style="width:59%"></div></div></div><div class="dv">$140</div><div class="dx">184f</div></div>
+    <div class="dr"><div class="dl">Jueves</div><div class="dw"><div class="dbg"><div class="dfg" style="width:49%"></div></div></div><div class="dv">$116</div><div class="dx">124f</div></div>
+    <div class="dr"><div class="dl" style="color:var(--tm)">Lunes</div><div class="dw"><div class="dbg"><div class="dfg" style="width:38%"></div></div></div><div class="dv" style="color:var(--tm)">$92</div><div class="dx">18f*</div></div>
+    <div class="dr"><div class="dl" style="color:var(--r)">Martes</div><div class="dw"><div class="dbg"><div class="dfg" style="width:33%;background:var(--r)"></div></div></div><div class="dv" style="color:var(--r)">$78</div><div class="dx">100f</div></div>
+    <div class="dr"><div class="dl" style="color:var(--r)">Miércoles</div><div class="dw"><div class="dbg"><div class="dfg" style="width:30%;background:var(--r)"></div></div></div><div class="dv" style="color:var(--r)">$72</div><div class="dx">102f</div></div>
+    <div class="ins"><strong>Insight:</strong> Vie+Sáb = 51% de ventas. Mar+Mié generan solo $75/día prom. — evaluar cerrar un día o promo agresiva. *Lunes: solo 3 días con ventas (feriados).</div>
+  </div>
+</div>
+
+<div class="st">Heatmap Ventas por Hora × Día (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
+<div class="cd" style="margin-bottom:16px;overflow-x:auto">
+  <div class="hm" id="heatmap"></div>
+  <div style="display:flex;gap:10px;margin-top:8px;font-size:.80rem;color:var(--tm)">
+    <span>Intensidad:</span>
+    <span><span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:#FFF3E3;vertical-align:middle"></span> Baja</span>
+    <span><span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:#FBBF24;vertical-align:middle"></span> Media</span>
+    <span><span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:#E88A1A;vertical-align:middle"></span> Alta</span>
+    <span><span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:#92400E;vertical-align:middle"></span> Pico</span>
+  </div>
+</div>
+
+<div class="cd" style="margin-bottom:16px">
+  <div class="ct">Distribución por Hora — total $ (Nov 2025 – Abr 2026)</div>
+  <div class="cw" style="height:170px"><canvas id="cHoras"></canvas></div>
+  <div class="ins"><strong>Insight:</strong> 78% de ventas entre 7PM–2AM. Hora pico: 11PM ($3,285). Sáb 10PM = máxima intensidad del heatmap. Las primeras 2h generan solo 3% del revenue.</div>
+</div>
+</div>
+
+<!-- TAB: PRODUCTOS -->
+<div id="tab-products" class="tc">
+<div class="insight-box tab-insight">
+  <h3>Insight Productos</h3>
+  <p>Michelada Maracuyá domina con $1,755 (10.5% del revenue total) y 406 unidades en 6 meses. Es el producto estrella indiscutible — nunca debe faltar insumo. Alitas combinadas (8+15+30) suman $1,846, la comida más rentable con diferencia. Maracumango y Chamochela son las miches premium con mejor ticket. Priorizar alitas sobre hamburguesas ($543 en 6 meses) en la carta.</p>
+</div>
+<div class="st">Top 10 Productos (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
+<div class="g2">
+  <div class="cd">
+    <div class="ct">Por Revenue ($)</div>
+    <div class="pdr"><div class="prk gld">1</div><div class="pnm">Michelada Maracuyá</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:100%"></div></div></div><div class="pvl">$1,755</div><div class="pqt">406u</div></div>
+    <div class="pdr"><div class="prk gld">2</div><div class="pnm">Maracumango</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:61%"></div></div></div><div class="pvl">$1,072</div><div class="pqt">155u</div></div>
+    <div class="pdr"><div class="prk gld">3</div><div class="pnm">Miche Chamochela</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:55%"></div></div></div><div class="pvl">$960</div><div class="pqt">139u</div></div>
+    <div class="pdr"><div class="prk">4</div><div class="pnm">Alitas 15</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:48%"></div></div></div><div class="pvl">$836</div><div class="pqt">62u</div></div>
+    <div class="pdr"><div class="prk">5</div><div class="pnm">Miche Clásica</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:47%"></div></div></div><div class="pvl">$820</div><div class="pqt">182u</div></div>
+    <div class="pdr"><div class="prk">6</div><div class="pnm">Alitas 8</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:39%"></div></div></div><div class="pvl">$687</div><div class="pqt">93u</div></div>
+    <div class="pdr"><div class="prk">7</div><div class="pnm">Cerveza Club 330ml</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:29%"></div></div></div><div class="pvl">$511</div><div class="pqt">169u</div></div>
+    <div class="pdr"><div class="prk">8</div><div class="pnm">Bandera Michalitas</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:23%"></div></div></div><div class="pvl">$407</div><div class="pqt">47u</div></div>
+    <div class="pdr"><div class="prk">9</div><div class="pnm">Promo Corona (3)</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:22%"></div></div></div><div class="pvl">$386</div><div class="pqt">37u</div></div>
+    <div class="pdr"><div class="prk">10</div><div class="pnm">Promo Mojito</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:21%"></div></div></div><div class="pvl">$373</div><div class="pqt">33u</div></div>
+  </div>
+  <div class="cd">
+    <div class="ct">Por Cantidad Vendida</div>
+    <div class="pdr"><div class="prk gld">1</div><div class="pnm">Michelada Maracuyá</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:100%"></div></div></div><div class="pvl">406u</div><div class="pqt">$1,755</div></div>
+    <div class="pdr"><div class="prk gld">2</div><div class="pnm">Miche Clásica</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:45%"></div></div></div><div class="pvl">182u</div><div class="pqt">$820</div></div>
+    <div class="pdr"><div class="prk gld">3</div><div class="pnm">Cerveza Club 330ml</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:42%"></div></div></div><div class="pvl">169u</div><div class="pqt">$511</div></div>
+    <div class="pdr"><div class="prk">4</div><div class="pnm">Maracumango</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:38%"></div></div></div><div class="pvl">155u</div><div class="pqt">$1,072</div></div>
+    <div class="pdr"><div class="prk">5</div><div class="pnm">Miche Chamochela</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:34%"></div></div></div><div class="pvl">139u</div><div class="pqt">$960</div></div>
+    <div class="pdr"><div class="prk">6</div><div class="pnm">Alitas 8</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:23%"></div></div></div><div class="pvl">93u</div><div class="pqt">$687</div></div>
+    <div class="pdr"><div class="prk">7</div><div class="pnm">Jugo en Agua</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:21%"></div></div></div><div class="pvl">86u</div><div class="pqt">$187</div></div>
+    <div class="pdr"><div class="prk">8</div><div class="pnm">Nachos con Queso</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:21%"></div></div></div><div class="pvl">85u</div><div class="pqt">$111</div></div>
+    <div class="pdr"><div class="prk">9</div><div class="pnm">Coca Cola 500ml</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:16%"></div></div></div><div class="pvl">66u</div><div class="pqt">$72</div></div>
+    <div class="pdr"><div class="prk">10</div><div class="pnm">Alitas 15</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:15%"></div></div></div><div class="pvl">62u</div><div class="pqt">$836</div></div>
+  </div>
+</div>
+<div class="cd" style="margin-bottom:16px">
+  <div class="ct">Revenue por Categoría</div>
+  <div class="cw" style="height:170px"><canvas id="cCat"></canvas></div>
+  <div class="ins"><strong>Insight:</strong> Maracuyá sola = 10.5% de todo el revenue en 6 meses. Micheladas = 39%. Alitas (8+15+30) = $1,846, comida más rentable. Cócteles ($2,425) superan a cervezas ($1,166).</div>
+</div>
+</div>
+
+<!-- TAB: COMBOS -->
+<div id="tab-combos" class="tc">
+<div class="insight-box tab-insight">
+  <h3>Insight Combos</h3>
+  <p>Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.</p>
+</div>
+<div class="st">Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)</div>
+<div class="g2">
+  <div class="cd">
+    <div class="ct">Top 10 Parejas Más Frecuentes</div>
+    <div class="combo-row"><div class="combo-pair"><span>Maracuyá</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">117</div><div class="combo-pct">14.6%</div></div>
+    <div class="combo-row"><div class="combo-pair"><span>Maracumango</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">46</div><div class="combo-pct">5.7%</div></div>
+    <div class="combo-row"><div class="combo-pair"><span>Miche Clásica</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">45</div><div class="combo-pct">5.6%</div></div>
+    <div class="combo-row"><div class="combo-pair"><span>Chamochela</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">38</div><div class="combo-pct">4.7%</div></div>
+    <div class="combo-row"><div class="combo-pair"><span>Maracumango</span> <span class="combo-plus">+</span> <span>Maracuyá</span></div><div class="combo-count">31</div><div class="combo-pct">3.9%</div></div>
+    <div class="combo-row"><div class="combo-pair"><span>Alitas 8</span> <span class="combo-plus">+</span> <span>Maracuyá</span></div><div class="combo-count">26</div><div class="combo-pct">3.2%</div></div>
+    <div class="combo-row"><div class="combo-pair"><span>Maracuyá</span> <span class="combo-plus">+</span> <span>Nachos</span></div><div class="combo-count">24</div><div class="combo-pct">3.0%</div></div>
+    <div class="combo-row"><div class="combo-pair"><span>Alitas 8</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">23</div><div class="combo-pct">2.9%</div></div>
+    <div class="combo-row"><div class="combo-pair"><span>Clásica</span> <span class="combo-plus">+</span> <span>Maracuyá</span></div><div class="combo-count">23</div><div class="combo-pct">2.9%</div></div>
+    <div class="combo-row"><div class="combo-pair"><span>Maracumango</span> <span class="combo-plus">+</span> <span>Clásica</span></div><div class="combo-count">19</div><div class="combo-pct">2.4%</div></div>
+  </div>
+  <div class="cd">
+    <div class="ct">Combos Sugeridos para el Menú</div>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <div style="background:var(--gl);border-radius:10px;padding:12px;border-left:3px solid var(--g)">
+        <div style="font-size:.92rem;font-weight:700;color:var(--g)">COMBO ESTRELLA</div>
+        <div style="font-size:1rem;font-weight:600;color:var(--m);margin-top:4px">Miche Maracuyá + Toppings Mango</div>
+        <div style="font-size:.88rem;color:var(--tm);margin-top:3px">14.6% ya lo piden junto (117 de 801 órdenes). Precio actual: $5.87. Combo sugerido: <strong>$5.50</strong> (descuento mínimo, percepción de oferta).</div>
+      </div>
+      <div style="background:var(--ol);border-radius:10px;padding:12px;border-left:3px solid var(--o)">
+        <div style="font-size:.92rem;font-weight:700;color:var(--od)">COMBO ALITAS</div>
+        <div style="font-size:1rem;font-weight:600;color:var(--m);margin-top:4px">Alitas 8 + Miche Maracuyá</div>
+        <div style="font-size:.88rem;color:var(--tm);margin-top:3px">26 de 801 órdenes lo piden junto (3.2%). Precio actual: $12.39. Combo sugerido: <strong>$11.50</strong>. Sube ticket promedio.</div>
+      </div>
+      <div style="background:var(--ol);border-radius:10px;padding:12px;border-left:3px solid var(--o)">
+        <div style="font-size:.92rem;font-weight:700;color:var(--od)">COMBO COMPARTIR</div>
+        <div style="font-size:1rem;font-weight:600;color:var(--m);margin-top:4px">2 Miches diferentes (cualquier sabor)</div>
+        <div style="font-size:.88rem;color:var(--tm);margin-top:3px">Maracumango+Maracuyá es la pareja más frecuente (31 veces, 3.9%). Para parejas/amigos. Precio actual: ~$11.91. Combo sugerido: <strong>$10.99</strong> + topping gratis.</div>
+      </div>
+      <div style="background:var(--yl);border-radius:10px;padding:12px;border-left:3px solid var(--y)">
+        <div style="font-size:.80rem;font-weight:700;color:#B8860B">COMBO COMIDA</div>
+        <div style="font-size:1rem;font-weight:600;color:var(--m);margin-top:4px">Costilla BBQ + Papas + Coca Cola</div>
+        <div style="font-size:.88rem;color:var(--tm);margin-top:3px">Patrón real de compra. Precio actual: ~$10.96. Combo sugerido: <strong>$9.99</strong>. Atrae al público que viene a comer, no a beber.</div>
+      </div>
+    </div>
+    <div class="ins"><strong>Lógica:</strong> Basado en 801 órdenes multi-item en 6 meses. El patrón dominante es "miche + topping" (14.6%). Los combos formalizan lo que la gente ya compra — el descuento es mínimo (5-10%) pero la percepción de oferta sube la conversión.</div>
+  </div>
+</div>
+</div>
+
+<!-- TAB: OPERACIONES -->
+<div id="tab-ops" class="tc">
+<div class="insight-box tab-insight">
+  <h3>Insight Operaciones</h3>
+  <p id="d-ops-insight">cargando...</p>
+</div>
+<div class="g2">
+  <div class="cd">
+    <div class="ct">Equipo</div>
+    <div class="sr"><div class="sa" style="background:var(--ol);color:var(--od)">M</div><div class="si"><div class="sn">Marian</div><div class="srl">Socia op. · Bartender+Caja+Compras+Gerencia · SOBRECARGADA</div></div><div class="sd dy"></div><div class="sp">$543</div></div>
+    <div class="sr"><div class="sa" style="background:#E8F0FE;color:#3B6ECD">A</div><div class="si"><div class="sn">Alexis</div><div class="srl">Cocinero · Solo comida</div></div><div class="sd dg2"></div><div class="sp">$600</div></div>
+    <div class="sr"><div class="sa" style="background:var(--gl);color:var(--g)">✓</div><div class="si"><div class="sn">Mesera nueva</div><div class="srl">Confirmada 11 abr. Repartió volantes el primer día.</div></div><div class="sd dr2"></div><div class="sp" style="color:var(--g)">Activa</div></div>
+    <div class="sr"><div class="sa" style="background:#F3E8FF;color:#7C3AED">C</div><div class="si"><div class="sn">Cristina Cedillo</div><div class="srl">Contadora + Asesora + Instagram (desde 1 abr)</div></div><div class="sd dg2"></div><div class="sp">$100–200</div></div>
+  </div>
+  <div class="cd">
+    <div class="ct">Horario <span style="font-size:.75rem;color:var(--g);font-weight:400">(nuevo 12 abr)</span></div>
+    <div class="gr"><div class="gl" style="color:var(--tl)">Lun</div><div class="gv" style="color:var(--r)">CERRADO</div></div>
+    <div class="gr"><div class="gl" style="color:var(--tl)">Mar</div><div class="gv" style="color:var(--r)">CERRADO</div></div>
+    <div class="gr"><div class="gl">Mié</div><div class="gv">4 PM – 11 PM <span style="font-size:.78rem;color:var(--o)">2x1 + alitas</span></div></div>
+    <div class="gr"><div class="gl">Jue</div><div class="gv">4 PM – 12 AM</div></div>
+    <div class="gr"><div class="gl">Vie</div><div class="gv">5 PM – 2 AM</div></div>
+    <div class="gr"><div class="gl" style="font-weight:700">Sáb</div><div class="gv" style="font-weight:700">1 PM – 2 AM <span style="font-size:.78rem;color:var(--o)">platos a la carta</span></div></div>
+    <div class="gr"><div class="gl" style="font-weight:700">Dom</div><div class="gv" style="font-weight:700">1 PM – 11 PM</div></div>
+    <div style="font-size:.8rem;color:var(--tm);margin-top:8px;padding-top:6px;border-top:1px solid var(--b)">Aseo general: cada 15 días, miércoles antes de abrir</div>
+    <div style="font-size:.78rem;color:var(--tl);margin-top:4px">5 días operativos · Sáb/Dom desde 1 PM (antes 5 PM) · Mar ahora cerrado</div>
+  </div>
+</div>
+<div class="g2">
+  <div class="cd">
+    <div class="ct">Gastos Fijos</div>
+    <div id="d-gastos-rows"></div>
     <div style="font-size:.82rem;color:var(--tm);margin-top:6px">PE real ~$4,216/mes (incluye variables)</div>
   </div>
 </div>
@@ -794,25 +1075,25 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div class="g4" style="margin-bottom:16px">
   <div class="cd">
     <div class="ct">Reach 7 días</div>
-    <div class="mv" id="ig-reach-total">1,728</div>
-    <div class="ms" id="ig-reach-prom">247/día promedio</div>
-    <div class="mc up" id="ig-tendencia">↑ 5x vs antes de Cristina</div>
+    <div class="mv" id="ig-reach-total"></div>
+    <div class="ms" id="ig-reach-prom"></div>
+    <div class="mc up" id="ig-tendencia"></div>
   </div>
   <div class="cd">
     <div class="ct">Interacciones 7d</div>
-    <div class="mv" id="ig-interactions">83</div>
-    <div class="ms" id="ig-likes">58 likes · 6 comentarios</div>
-    <div class="mc wr" id="ig-engagement">Eng. rate ~4.8%</div>
+    <div class="mv" id="ig-interactions"></div>
+    <div class="ms" id="ig-likes"></div>
+    <div class="mc wr" id="ig-engagement"></div>
   </div>
   <div class="cd">
     <div class="ct">Mejor día</div>
-    <div class="mv" id="ig-best-reach">543</div>
-    <div class="ms" id="ig-best-fecha">11 abril 2026</div>
+    <div class="mv" id="ig-best-reach"></div>
+    <div class="ms" id="ig-best-fecha"></div>
     <div class="mc up">28 interacciones</div>
   </div>
   <div class="cd">
     <div class="ct">Conversión MICHE</div>
-    <div class="mv" id="ig-conversion" style="color:var(--r)">0</div>
+    <div class="mv" id="ig-conversion" style="color:var(--r)"></div>
     <div class="ms">Códigos usados en caja</div>
     <div class="mc dn">Sin conversión detectada</div>
   </div>
@@ -847,19 +1128,19 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div class="g3" style="margin-bottom:16px">
   <div class="cd">
     <div class="ct">Impresiones 7 días</div>
-    <div class="mv" id="gmb-impressions">67</div>
-    <div class="ms" id="gmb-imp-prom">10/día promedio</div>
+    <div class="mv" id="gmb-impressions"></div>
+    <div class="ms" id="gmb-imp-prom"></div>
     <div class="mc dn">Meta: 100-300/día</div>
   </div>
   <div class="cd">
     <div class="ct">Solicitudes de ruta</div>
-    <div class="mv" id="gmb-directions">5</div>
+    <div class="mv" id="gmb-directions"></div>
     <div class="ms">Últimos 7 días</div>
     <div class="mc wr">Intención real de visita</div>
   </div>
   <div class="cd">
     <div class="ct">Clicks al website</div>
-    <div class="mv" id="gmb-web-clicks" style="color:var(--r)">0</div>
+    <div class="mv" id="gmb-web-clicks" style="color:var(--r)"></div>
     <div class="ms">Últimos 30 días</div>
     <div class="mc dn">Sin tráfico web</div>
   </div>
@@ -881,7 +1162,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
     <div class="gr"><span class="gl">Segmentación geográfica</span><span class="gv" style="color:var(--r)">Sin definir</span></div>
     <div class="gr"><span class="gl">Pixel de conversión</span><span class="gv" style="color:var(--r)">No instalado</span></div>
     <div class="gr"><span class="gl">Mensajes sin responder</span><span class="gv" style="color:var(--r)" id="meta-mensajes">3 ahora mismo</span></div>
-    <div class="gr" style="border:none"><span class="gl">Gasto mensual</span><span class="gv" id="meta-gasto">$150/mes</span></div>
+    <div class="gr" style="border:none"><span class="gl">Gasto mensual</span><span class="gv" id="meta-gasto"></span></div>
   </div>
   <div class="ins" style="margin-top:10px"><strong>Acción pendiente:</strong> Crear cuenta de ads en Meta Business Manager → mover campañas ahí → segmentar 3km de Urdesa → cambiar objetivo a "Tráfico a WhatsApp" → instalar pixel. Responsable: Cristina con guía de Alberto.</div>
 </div>
@@ -1012,7 +1293,108 @@ async function exportPDF(){
       if(note) note.innerHTML='<strong>Proyección abril: '+d.abril.proyeccion_fmt+'</strong> — '+d.abril.tracker_note;
 
 
-      // FOCO DE LA SEMANA — rendered from JSON
+
+      // ACCIONES CHECKLIST
+      if (d.acciones_checklist) {
+        const estadoMap = {done:'cb done', urg:'cb urg', prog:'cb prog', todo:'cb'};
+        const iconMap   = {done:'✓', urg:'', prog:'~', todo:''};
+        const tagMap    = {done:'ctag td', urg:'ctag tu', prog:'ctag tp', todo:'ctag tb'};
+        const el = document.getElementById('d-checklist');
+        if (el) el.innerHTML = d.acciones_checklist.map(a => `
+          <div class="ci">
+            <div class="${estadoMap[a.estado]||'cb'}">${iconMap[a.estado]||''}</div>
+            <div class="cinfo">
+              <div class="cttl${a.estado==='done'?' dtxt':''}">${a.titulo}</div>
+              <div class="cdtl">${a.detalle}</div>
+              <div class="${tagMap[a.estado]||'ctag tb'}">${a.tag}</div>
+            </div>
+          </div>`).join('');
+        if (d.ops_insight) set('d-acciones-insight', d.ops_insight);
+      }
+
+      // PROBLEMAS
+      if (d.problemas) {
+        const el = document.getElementById('d-problemas');
+        if (el) el.innerHTML = d.problemas.map(p => `
+          <div class="pi">
+            <div class="pn">${p.num}</div>
+            <div class="pt"><strong>${p.titulo}</strong>${p.detalle}</div>
+          </div>`).join('');
+      }
+
+      // OPS INSIGHT + GASTOS FIJOS
+      if (d.ops_insight) set('d-ops-insight', d.ops_insight);
+      if (d.gastos_fijos) {
+        const el = document.getElementById('d-gastos-rows');
+        if (el) el.innerHTML = d.gastos_fijos.map(g => `
+          <div class="gr"${g.es_total?' style="border-top:2px solid var(--o);padding-top:6px;margin-top:3px"':''}>
+            <div class="gl"${g.es_total?' style="font-weight:700;color:var(--m)"':''}>${g.concepto}</div>
+            <div class="gv"${g.es_total?' style="color:var(--od)"':''}>${g.monto}</div>
+          </div>`).join('');
+      }
+
+      // MARKETING DIAGNOSTICO IG
+      if (d.marketing_diagnostico && d.marketing_diagnostico.ig) {
+        const ig = d.marketing_diagnostico.ig;
+        const el = document.getElementById('d-ig-diagnostico');
+        if (el) el.innerHTML = `
+          <div class="ct">Diagnóstico Instagram</div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
+            <div style="flex:1;min-width:180px;background:var(--gl);border-radius:8px;padding:12px">
+              <div style="font-weight:700;color:var(--g);margin-bottom:6px">✅ Lo que funciona</div>
+              <div style="font-size:.88rem;color:var(--tm);line-height:1.6">${ig.funciona}</div>
+            </div>
+            <div style="flex:1;min-width:180px;background:var(--rl);border-radius:8px;padding:12px">
+              <div style="font-weight:700;color:var(--r);margin-bottom:6px">❌ El problema</div>
+              <div style="font-size:.88rem;color:var(--tm);line-height:1.6">${ig.problema}</div>
+            </div>
+            <div style="flex:1;min-width:180px;background:var(--yl);border-radius:8px;padding:12px">
+              <div style="font-weight:700;color:#92400E;margin-bottom:6px">⚡ Meta realista</div>
+              <div style="font-size:.88rem;color:var(--tm);line-height:1.6">${ig.meta}</div>
+            </div>
+          </div>`;
+      }
+
+      // MARKETING DIAGNOSTICO GMB
+      if (d.marketing_diagnostico && d.marketing_diagnostico.gmb) {
+        const gmb = d.marketing_diagnostico.gmb;
+        const el = document.getElementById('d-gmb-diagnostico');
+        if (el) el.innerHTML = `
+          <div class="ct">Por qué GMB es crítico</div>
+          <div class="ins" style="margin-top:8px"><strong>El problema:</strong> ${gmb.problema}</div>
+          <div class="ins" style="margin-top:6px;background:var(--gl)"><strong>✅ Señal positiva:</strong> ${gmb.positivo}</div>
+          <div class="ins" style="margin-top:6px;background:var(--yl)"><strong>⚡ Acción:</strong> ${gmb.accion}</div>`;
+      }
+
+      // META ADS STATUS
+      if (d.marketing_diagnostico && d.marketing_diagnostico.meta_ads) {
+        set('meta-gasto', d.marketing_diagnostico.meta_ads.estado + ' — ' + d.marketing_diagnostico.meta_ads.presupuesto);
+      }
+
+      // MARKETING IG METRICS from windsor data
+      if (d.marketing && d.marketing.instagram) {
+        const ig = d.marketing.instagram;
+        set('ig-reach-total', ig.reach_total ? ig.reach_total.toLocaleString() : '—');
+        set('ig-reach-prom', (ig.reach_prom_dia || '—') + '/día promedio');
+        set('ig-interactions', ig.interactions_total || '—');
+        set('ig-likes', (ig.likes_total||0) + ' likes · ' + (ig.comments_total||0) + ' comentarios');
+        set('ig-engagement', 'Eng. rate ' + (ig.engagement_rate||0) + '%');
+        set('ig-best-reach', ig.reach_mejor_dia || '—');
+        set('ig-best-fecha', ig.reach_mejor_fecha || '—');
+        set('ig-conversion', ig.conversion_miche || 0);
+        set('ig-tendencia', '↑ reach ' + (ig.reach_prom_dia||0) + '/día esta semana');
+      }
+
+      // GMB METRICS from windsor data
+      if (d.marketing && d.marketing.google_my_business) {
+        const gmb = d.marketing.google_my_business;
+        set('gmb-impressions', gmb.impressions_total || '—');
+        set('gmb-imp-prom', (gmb.impressions_prom_dia||'—') + '/día promedio');
+        set('gmb-directions', gmb.direction_requests_total || '—');
+        set('gmb-web-clicks', gmb.website_clicks_total || 0);
+      }
+
+            // FOCO DE LA SEMANA — rendered from JSON
       if (d.foco_semana) {
         set('d-foco-titulo', 'Foco de la Semana — ' + d.foco_semana.titulo);
         set('d-foco-subtitulo', d.foco_semana.subtitulo);
