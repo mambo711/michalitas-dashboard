@@ -1,15 +1,30 @@
 {
-  "updated": "2026-04-23",
+  "updated": "2026-04-23T18:30:00-05:00",
   "abril": {
-    "actualizado": "2026-04-23",
-    "total_estimado": 2476.15,
+    "total": 2476.15,
+    "facturas": 163,
     "dias_operativos": 15,
-    "prom_dia": 165.1,
-    "meta_mensual": 4216,
-    "deficit_proyectado": -726,
+    "prom_diario": 165.08,
+    "proyeccion_mes": 3466.61,
+    "punto_equilibrio": 4216.0,
+    "deficit_proyectado": -749.39,
     "dias_restantes": 6,
-    "proyeccion_final": 3490,
-    "nota": "Sin datos Practisis para mié 22 abr. Último confirmado: dom 20 abr $107.55."
+    "ayer": {
+      "fecha": "2026-04-22",
+      "dia": "Miércoles",
+      "total": 107.55,
+      "facturas": 7,
+      "ticket": 15.36,
+      "vs_prom_mie": "+38%",
+      "producto_estrella": "Michelada Maracuyá x5",
+      "toppings_por_factura": 0.71,
+      "pagos": {
+        "efectivo": 48.25,
+        "tarjetas": 35.75,
+        "transferencias": 23.55
+      },
+      "nota": "Copa Libertadores BSC vs Mushuc Runa 7PM. Bar abierto, datos CONFIRMADOS en Practisis."
+    }
   },
   "kpis_mes": {
     "gauge_pct": 56,
@@ -262,16 +277,16 @@
     "instagram": {
       "cuenta": "@michalitasxpress",
       "reach_total": 6863,
-      "reach_prom_dia": 980,
+      "reach_prom_dia": 980.0,
       "reach_mejor_dia": 3795,
       "reach_mejor_fecha": "2026-04-22",
       "interactions_total": 60,
       "likes_total": 54,
       "comments_total": 0,
       "shares_total": 1,
-      "saves_total": 1,
       "engagement_rate": 0.9,
       "conversion_miche": 0,
+      "nota_spike": "22 abr: 3,795 reach (récord absoluto). Posible boost pago o post viral de Cristina.",
       "dias": [
         {
           "fecha": "2026-04-17",
@@ -322,7 +337,7 @@
       "impressions_prom_dia": 7.4,
       "direction_requests_total": 17,
       "website_clicks_total": 0,
-      "alerta": "Solo 52 impresiones en 7 días. Meta: 100-300/día. GMB sin datos abr 21-23.",
+      "nota": "Últimos 3 días sin datos — posible lag Windsor/GMB",
       "dias": [
         {
           "fecha": "2026-04-17",
@@ -363,57 +378,44 @@
     },
     "meta_ads": {
       "estado": "restringida",
-      "nota": "Cuenta michalitasxpress restringida por Meta desde 19 abr. Alberto reunión con construmac 23 abr. Estrategia: $5/día, max 2 ads, 3 días, 5km radio Guayaquil.",
-      "gasto_mes": 150,
-      "objetivo_actual": "Conversaciones WhatsApp",
-      "resultados_zoom_23abr": {
-        "facebook_conversaciones": 13,
-        "facebook_costo_por_conv": 1.13,
-        "instagram_conversaciones": 2,
-        "instagram_costo_por_conv": 2.85
-      }
+      "nota": "Cuenta Business restringida por Meta desde 19 abr 2026. Trabajando en solución con construmac.",
+      "gasto_mes": 0,
+      "objetivo_actual": "Pendiente reactivar",
+      "problema": "Cuenta restringida. Hallazgos zoom: FB 13 conv $1.13/c, IG 2 conv $2.85/c.",
+      "estrategia_nueva": "$5/dia x anuncio, max 2 ads, 3 dias duracion, radio 5km Guayaquil"
     }
   },
   "alertas": [
     {
-      "tipo": "critica",
-      "msg": "Sin datos ventas mié 22 abr — verificar con Marian si hubo ventas y registrar en Practisis"
+      "nivel": "rojo",
+      "texto": "PEDIDOSYA: Deuda $6.24 pendiente. Pagar HOY a Banco Citibank Cta 0001076027 (Delivery Hero DH). Enviar comprobante a cobranzas.ecuador@pedidosya.com"
     },
     {
-      "tipo": "critica",
-      "msg": "PedidosYa deuda $6.24 — Marian debe pagar HOY por transferencia a Banco Citibank"
+      "nivel": "rojo",
+      "texto": "META ADS: Cuenta restringida. Construmac bloqueado para lanzar campañas. Alberto debe resolver acceso admin urgente."
     },
     {
-      "tipo": "critica",
-      "msg": "Marian segunda cita Cancillería — nueva convocatoria de visa, email 23 abr. Confirmar fecha y si impacta operaciones"
+      "nivel": "rojo",
+      "texto": "MARIAN: Segunda convocatoria Cancillería (visa). Confirmar fecha y si impacta horario bar."
     },
     {
-      "tipo": "alerta",
-      "msg": "DATAFAST deuda pendiente — verificar monto y pagar"
+      "nivel": "amarillo",
+      "texto": "DATAFAST: Email de cobranzas — verificar monto y pagar."
     },
     {
-      "tipo": "alerta",
-      "msg": "Meta Ads cuenta restringida — Alberto habilitar acceso construmac al Business Manager"
+      "nivel": "amarillo",
+      "texto": "GMB: Confirmar horario 1 mayo (Día del Trabajo) en Google Business Profile."
     },
     {
-      "tipo": "alerta",
-      "msg": "Copa Libertadores Mié 29 abr: BSC vs U. Católica Chile 7 PM — preparar promo combo"
+      "nivel": "verde",
+      "texto": "INSTAGRAM: 3,795 reach el 22 abr — récord absoluto. Identificar qué publicó Cristina para replicar."
     },
     {
-      "tipo": "info",
-      "msg": "GMB sin impresiones apr 21-23 — posible lag de datos o perfil inactivo"
+      "nivel": "verde",
+      "texto": "Copa Libertadores Mié 29 abr: BSC vs U. Católica Chile LOCAL 7PM. Preparar promo esta semana."
     }
   ],
-  "last_briefing": {
-    "fecha": "2026-04-23",
-    "dia": "Jueves",
-    "acumulado_abril": 2476.15,
-    "ventas_ayer": 0,
-    "ventas_ayer_nota": "Sin datos Practisis para mié 22 abr",
-    "ig_reach_7d": 6863,
-    "ig_mejor_dia_reach": 3795,
-    "ig_mejor_dia_fecha": "2026-04-22"
-  },
+  "last_briefing": "2026-04-23",
   "foco_semana": {
     "titulo": "22 al 26 Abril",
     "subtitulo": "7 DÍAS OP RESTANTES · CIERRE ABRIL",
