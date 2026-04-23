@@ -698,54 +698,6 @@
   },
   "dias_recientes": [
     {
-      "label": "Lun 30 mar",
-      "total": 102,
-      "facturas": 4,
-      "hl": ""
-    },
-    {
-      "label": "Mar 31 mar",
-      "total": 35,
-      "facturas": 3,
-      "hl": "r"
-    },
-    {
-      "label": "Mié 1 abr",
-      "total": 138,
-      "facturas": 9,
-      "hl": ""
-    },
-    {
-      "label": "Jue 2 (Santo)",
-      "total": 372,
-      "facturas": 19,
-      "hl": "od"
-    },
-    {
-      "label": "Vie 3 / Sáb 4",
-      "total": 0,
-      "facturas": 0,
-      "hl": "cerrado"
-    },
-    {
-      "label": "Dom 5 abr",
-      "total": 236,
-      "facturas": 13,
-      "hl": "od"
-    },
-    {
-      "label": "Mar 7 abr",
-      "total": 78,
-      "facturas": 3,
-      "hl": ""
-    },
-    {
-      "label": "Mié 8 abr",
-      "total": 3,
-      "facturas": 1,
-      "hl": "r"
-    },
-    {
       "label": "Jue 9 abr",
       "total": 37,
       "facturas": 3,
