@@ -1197,9 +1197,8 @@ document.querySelectorAll('.cb:not(.done)').forEach(b=>{b.addEventListener('clic
 function toggleDark(){document.body.classList.toggle('dark');localStorage.setItem('mxDark',document.body.classList.contains('dark')?'1':'0')}
 if(localStorage.getItem('mxDark')==='1')document.body.classList.add('dark');
 
-(function(){
+function renderCalendar(data){
   const cal=document.getElementById('calApril');if(!cal)return;
-  const data={'2026-04-01':138,'2026-04-02':372,'2026-04-05':236,'2026-04-07':78,'2026-04-08':3,'2026-04-09':37,'2026-04-10':218,'2026-04-11':232,'2026-04-12':194,'2026-04-15':111};
   const startDow=2;
   const daysInMonth=30;
   let html='';
@@ -1221,7 +1220,9 @@ if(localStorage.getItem('mxDark')==='1')document.body.classList.add('dark');
     html+=`<div class="cal-cell" style="background:${bg};color:${tc}" data-t="${d} abr: $${v}"><div class="cal-day">${d}</div><div class="cal-val">${isFuture?'':tt}</div></div>`;
   }
   cal.innerHTML=html;
-})();
+}
+// Render inicial con datos base (hasta que cargue el JSON)
+renderCalendar({'2026-04-01':138,'2026-04-02':372,'2026-04-05':236,'2026-04-07':78,'2026-04-08':3,'2026-04-09':37,'2026-04-10':218,'2026-04-11':232,'2026-04-12':194,'2026-04-15':111});
 
 async function exportPDF(){
   const btn=document.querySelector('.btn-pdf');btn.textContent='Generando...';btn.disabled=true;
@@ -1255,6 +1256,8 @@ async function exportPDF(){
 
       // April tracker
       set('d-apr-acum', d.abril.acumulado_fmt);
+      // Re-render calendario con datos frescos del JSON
+      if(d.abril && d.abril.dias_ventas) renderCalendar(d.abril.dias_ventas);
       set('d-apr-coverage', d.abril.coverage_txt);
       set('d-apr-prom', d.abril.prom_dia_fmt);
       set('d-apr-proj', d.abril.proyeccion_fmt);
