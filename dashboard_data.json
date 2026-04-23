@@ -24,7 +24,33 @@
         "transferencias": 23.55
       },
       "nota": "Copa Libertadores BSC vs Mushuc Runa 7PM. Bar abierto, datos CONFIRMADOS en Practisis."
-    }
+    },
+    "dias_ventas": {
+      "2026-04-01": 138,
+      "2026-04-02": 372,
+      "2026-04-05": 236,
+      "2026-04-07": 78,
+      "2026-04-08": 3,
+      "2026-04-09": 37,
+      "2026-04-10": 218,
+      "2026-04-11": 232,
+      "2026-04-12": 194,
+      "2026-04-15": 111,
+      "2026-04-16": 86,
+      "2026-04-17": 296,
+      "2026-04-18": 218,
+      "2026-04-19": 148,
+      "2026-04-22": 108
+    },
+    "acumulado_fmt": "$2,476",
+    "coverage_txt": "59% del mes cubierto",
+    "prom_dia_fmt": "$165/día",
+    "proyeccion_fmt": "$3,467",
+    "ticket_fmt": "$15.19",
+    "deficit_fmt": "-$749",
+    "pct_cubierto": 59,
+    "tracker_note": "6 días restantes. Fines de semana son críticos para recortar el déficit.",
+    "insight": "Miércoles 22 abr: $107.55 confirmado. Instagram récord: 3,795 reach el 22 abr. PedidosYa: deuda $6.24 urgente."
   },
   "kpis_mes": {
     "gauge_pct": 56,
