@@ -1,56 +1,25 @@
 {
-  "updated": "2026-04-23T18:30:00-05:00",
+  "updated": "2026-04-24T11:00:00-04:00",
   "abril": {
-    "total": 2476.15,
-    "facturas": 163,
-    "dias_operativos": 15,
-    "prom_diario": 165.08,
-    "proyeccion_mes": 3466.61,
+    "total": 2691.18,
+    "facturas": 174,
+    "dias_operativos": 16,
+    "prom_diario": 168.2,
+    "proyeccion_mes": 3516,
     "punto_equilibrio": 4216.0,
-    "deficit_proyectado": -749.39,
-    "dias_restantes": 6,
+    "deficit_proyectado": -700,
+    "dias_restantes": 5,
     "ayer": {
-      "fecha": "2026-04-22",
-      "dia": "Miércoles",
-      "total": 107.55,
-      "facturas": 7,
-      "ticket": 15.36,
-      "vs_prom_mie": "+38%",
-      "producto_estrella": "Michelada Maracuyá x5",
-      "toppings_por_factura": 0.71,
-      "pagos": {
-        "efectivo": 48.25,
-        "tarjetas": 35.75,
-        "transferencias": 23.55
-      },
-      "nota": "Copa Libertadores BSC vs Mushuc Runa 7PM. Bar abierto, datos CONFIRMADOS en Practisis."
-    },
-    "dias_ventas": {
-      "2026-04-01": 138,
-      "2026-04-02": 372,
-      "2026-04-05": 236,
-      "2026-04-07": 78,
-      "2026-04-08": 3,
-      "2026-04-09": 37,
-      "2026-04-10": 218,
-      "2026-04-11": 232,
-      "2026-04-12": 194,
-      "2026-04-15": 111,
-      "2026-04-16": 86,
-      "2026-04-17": 296,
-      "2026-04-18": 218,
-      "2026-04-19": 148,
-      "2026-04-22": 108
-    },
-    "acumulado_fmt": "$2,476",
-    "coverage_txt": "59% del mes cubierto",
-    "prom_dia_fmt": "$165/día",
-    "proyeccion_fmt": "$3,467",
-    "ticket_fmt": "$15.19",
-    "deficit_fmt": "-$749",
-    "pct_cubierto": 59,
-    "tracker_note": "6 días restantes. Fines de semana son críticos para recortar el déficit.",
-    "insight": "Miércoles 22 abr: $107.55 confirmado. Instagram récord: 3,795 reach el 22 abr. PedidosYa: deuda $6.24 urgente."
+      "fecha": "2026-04-23",
+      "dia": "Jueves",
+      "total": 215.03,
+      "facturas": 11,
+      "ticket": 19.55,
+      "vs_prom_pct": 87.0,
+      "vs_prom_dir": "up",
+      "toppings_por_fact": 1.36,
+      "producto_estrella": "Maracumango"
+    }
   },
   "kpis_mes": {
     "gauge_pct": 56,
@@ -299,27 +268,21 @@
   ],
   "marketing": {
     "fuente": "Windsor.ai",
-    "actualizado": "2026-04-23",
+    "actualizado": "2026-04-24",
     "instagram": {
       "cuenta": "@michalitasxpress",
-      "reach_total": 6863,
-      "reach_prom_dia": 980.0,
-      "reach_mejor_dia": 3795,
-      "reach_mejor_fecha": "2026-04-22",
-      "interactions_total": 60,
-      "likes_total": 54,
-      "comments_total": 0,
-      "shares_total": 1,
-      "engagement_rate": 0.9,
+      "reach_total": 10520,
+      "reach_prom_dia": 1753,
+      "reach_mejor_dia": 4848,
+      "reach_mejor_fecha": "2026-04-23",
+      "interactions_total": 102,
+      "likes_total": 79,
+      "comments_total": 1,
+      "shares_total": 7,
+      "saves_total": 3,
+      "engagement_rate": 1.0,
       "conversion_miche": 0,
-      "nota_spike": "22 abr: 3,795 reach (récord absoluto). Posible boost pago o post viral de Cristina.",
       "dias": [
-        {
-          "fecha": "2026-04-17",
-          "reach": 387,
-          "interactions": 2,
-          "likes": 2
-        },
         {
           "fecha": "2026-04-18",
           "reach": 363,
@@ -346,30 +309,24 @@
         },
         {
           "fecha": "2026-04-22",
-          "reach": 3795,
+          "reach": 3802,
           "interactions": 25,
           "likes": 25
         },
         {
           "fecha": "2026-04-23",
-          "reach": 811,
-          "interactions": 9,
-          "likes": 9
+          "reach": 4848,
+          "interactions": 53,
+          "likes": 36
         }
       ]
     },
     "google_my_business": {
-      "impressions_total": 52,
-      "impressions_prom_dia": 7.4,
-      "direction_requests_total": 17,
+      "impressions_total": 50,
+      "impressions_prom_dia": 7,
+      "direction_requests_total": 11,
       "website_clicks_total": 0,
-      "nota": "Últimos 3 días sin datos — posible lag Windsor/GMB",
       "dias": [
-        {
-          "fecha": "2026-04-17",
-          "impressions": 7,
-          "direction_requests": 6
-        },
         {
           "fecha": "2026-04-18",
           "impressions": 19,
@@ -387,7 +344,7 @@
         },
         {
           "fecha": "2026-04-21",
-          "impressions": 0,
+          "impressions": 5,
           "direction_requests": 0
         },
         {
@@ -403,12 +360,12 @@
       ]
     },
     "meta_ads": {
-      "estado": "restringida",
-      "nota": "Cuenta Business restringida por Meta desde 19 abr 2026. Trabajando en solución con construmac.",
-      "gasto_mes": 0,
-      "objetivo_actual": "Pendiente reactivar",
-      "problema": "Cuenta restringida. Hallazgos zoom: FB 13 conv $1.13/c, IG 2 conv $2.85/c.",
-      "estrategia_nueva": "$5/dia x anuncio, max 2 ads, 3 dias duracion, radio 5km Guayaquil"
+      "estado": "restriccion_activa",
+      "nota": "Cuenta restringida Meta desde 19 abr. Construmac configurando. Pendiente acceso admin.",
+      "gasto_mes": 150,
+      "objetivo_actual": "Trafico IG radio 5km Guayaquil",
+      "resultados_campana": "FB: 13 conv a $0.80 c/u. IG: 2 conv a $2.85 c/u.",
+      "problema": "Restriccion Meta activa. Pendiente acceso construmac."
     }
   },
   "alertas": [
@@ -441,7 +398,18 @@
       "texto": "Copa Libertadores Mié 29 abr: BSC vs U. Católica Chile LOCAL 7PM. Preparar promo esta semana."
     }
   ],
-  "last_briefing": "2026-04-23",
+  "last_briefing": {
+    "fecha": "2026-04-24",
+    "ventas_ayer": 215.03,
+    "facturas_ayer": 11,
+    "ticket_prom": 19.55,
+    "dia": "Jueves",
+    "vs_prom": "+87%",
+    "toppings_por_factura": 1.36,
+    "producto_estrella": "Maracumango",
+    "ig_reach_ayer": 4848,
+    "ig_reach_record": true
+  },
   "foco_semana": {
     "titulo": "22 al 26 Abril",
     "subtitulo": "7 DÍAS OP RESTANTES · CIERRE ABRIL",
@@ -758,6 +726,12 @@
       "total": 108,
       "facturas": 7,
       "hl": ""
+    },
+    {
+      "label": "Jue 23 abr",
+      "total": 215.03,
+      "facturas": 11,
+      "hl": "g"
     }
   ],
   "semanas_ventas": {
