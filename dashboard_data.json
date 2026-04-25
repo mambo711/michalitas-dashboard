@@ -268,27 +268,22 @@
   ],
   "marketing": {
     "fuente": "Windsor.ai",
-    "actualizado": "2026-04-24",
+    "actualizado": "2026-04-25",
     "instagram": {
       "cuenta": "@michalitasxpress",
-      "reach_total": 10520,
-      "reach_prom_dia": 1753,
+      "reach_total": 10417,
+      "reach_prom_dia": 1488,
       "reach_mejor_dia": 4848,
       "reach_mejor_fecha": "2026-04-23",
-      "interactions_total": 102,
-      "likes_total": 79,
+      "interactions_total": 112,
+      "likes_total": 86,
       "comments_total": 1,
       "shares_total": 7,
       "saves_total": 3,
-      "engagement_rate": 1.0,
+      "engagement_rate": 1.1,
       "conversion_miche": 0,
+      "nota_pico": "Reel 'Encuentra a nuestra CEO' con $5 boost de Cristina — explicó pico 22-23 abr",
       "dias": [
-        {
-          "fecha": "2026-04-18",
-          "reach": 363,
-          "interactions": 2,
-          "likes": 2
-        },
         {
           "fecha": "2026-04-19",
           "reach": 92,
@@ -318,20 +313,28 @@
           "reach": 4848,
           "interactions": 53,
           "likes": 36
+        },
+        {
+          "fecha": "2026-04-24",
+          "reach": 250,
+          "interactions": 12,
+          "likes": 9
+        },
+        {
+          "fecha": "2026-04-25",
+          "reach": 10,
+          "interactions": 0,
+          "likes": 0
         }
       ]
     },
     "google_my_business": {
-      "impressions_total": 50,
-      "impressions_prom_dia": 7,
-      "direction_requests_total": 11,
+      "impressions_total": 41,
+      "impressions_prom_dia": 5.9,
+      "direction_requests_total": 10,
       "website_clicks_total": 0,
+      "nota": "Lag habitual en datos GMB — 23-25 abr muestran 0 impresiones",
       "dias": [
-        {
-          "fecha": "2026-04-18",
-          "impressions": 19,
-          "direction_requests": 6
-        },
         {
           "fecha": "2026-04-19",
           "impressions": 15,
@@ -344,28 +347,37 @@
         },
         {
           "fecha": "2026-04-21",
-          "impressions": 5,
+          "impressions": 8,
           "direction_requests": 0
         },
         {
           "fecha": "2026-04-22",
+          "impressions": 7,
+          "direction_requests": 5
+        },
+        {
+          "fecha": "2026-04-23",
           "impressions": 0,
           "direction_requests": 0
         },
         {
-          "fecha": "2026-04-23",
+          "fecha": "2026-04-24",
+          "impressions": 0,
+          "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-25",
           "impressions": 0,
           "direction_requests": 0
         }
       ]
     },
     "meta_ads": {
-      "estado": "restriccion_activa",
-      "nota": "Cuenta restringida Meta desde 19 abr. Construmac configurando. Pendiente acceso admin.",
-      "gasto_mes": 150,
-      "objetivo_actual": "Trafico IG radio 5km Guayaquil",
-      "resultados_campana": "FB: 13 conv a $0.80 c/u. IG: 2 conv a $2.85 c/u.",
-      "problema": "Restriccion Meta activa. Pendiente acceso construmac."
+      "estado": "restringida",
+      "nota": "Cuenta Meta restringida desde 19 abr. Cristina envió contestación formal 24 abr. Pendiente respuesta de Meta.",
+      "gasto_mes": 5,
+      "objetivo_actual": "Reel boost $5 - Encuentra a nuestra CEO",
+      "construmac": "Nuevo gestor acordado en Zoom 23 abr. $5/día, máx 2 ads, 3 días, 5km Guayaquil."
     }
   },
   "alertas": [
@@ -758,5 +770,29 @@
       108
     ],
     "insight": "Sem 15 (Abr 13–19) cerró con $859 — mejor semana completa de abril 🟢. Vie 17 abr fue récord histórico ($296). Sem 16 en curso: $108 (solo mié 22, quedan jue–dom esta semana). Vie+Sáb siguen generando 70%+ del ingreso semanal."
-  }
+  },
+  "ventas": {
+    "abril_2026": {
+      "total_acumulado": 3010.34,
+      "dias_operativos": 18,
+      "prom_diario": 167.24,
+      "meta_mes": 4216,
+      "deficit_proyectado": -578,
+      "dias_restantes": 4,
+      "proyeccion_cierre": 3638,
+      "actualizado": "2026-04-25",
+      "ventas_ayer": {
+        "fecha": "2026-04-24",
+        "dia": "Viernes",
+        "total": 319.16,
+        "facturas": 15,
+        "ticket_prom": 21.28,
+        "producto_estrella": "Promo Margarita + Maracumango",
+        "toppings_por_factura": 0.73,
+        "hora_pico": "23h ($177.15 = 55%)",
+        "vs_prom_viernes": "+128%"
+      }
+    }
+  },
+  "ultima_actualizacion": "2026-04-25T00:00:00Z"
 }
