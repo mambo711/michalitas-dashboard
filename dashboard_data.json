@@ -1,79 +1,50 @@
 {
-  "updated": "2026-04-24T11:00:00-04:00",
+  "updated": "2026-04-26T14:10:08-04:00",
   "abril": {
-    "total": 2691.18,
-    "facturas": 174,
-    "dias_operativos": 16,
-    "prom_diario": 168.2,
-    "proyeccion_mes": 3516,
-    "punto_equilibrio": 4216.0,
-    "deficit_proyectado": -700,
-    "dias_restantes": 5,
-    "ayer": {
-      "fecha": "2026-04-23",
-      "dia": "Jueves",
-      "total": 215.03,
-      "facturas": 11,
-      "ticket": 19.55,
-      "vs_prom_pct": 87.0,
-      "vs_prom_dir": "up",
-      "toppings_por_fact": 1.36,
-      "producto_estrella": "Maracumango"
-    }
+    "total": 3337.88,
+    "facturas": 212,
+    "dias_operativos": 19,
+    "prom_diario": 175.68,
+    "proyeccion_mes": 3810,
+    "deficit_proyectado": -406,
+    "punto_equilibrio": 4216,
+    "dias_restantes": 3
   },
   "kpis_mes": {
-    "gauge_pct": 56,
-    "gauge_txt": "56% del PE",
-    "gauge_sub": "$2,369 de $4,216 (Abril al 19 abr)",
-    "gauge_color": "var(--r)",
+    "gauge_pct": 79.2,
+    "gauge_txt": "$3,337.88",
+    "gauge_sub": "79.2% del PE",
+    "gauge_color": "#f59e0b",
     "filas": [
       {
-        "label": "Ventas acum. abril",
-        "valor": "$2,369",
-        "det": "14 días op",
-        "color": "var(--y)"
+        "label": "Acumulado al 25 abr",
+        "valor": "$3,337.88",
+        "color": "green"
       },
       {
-        "label": "Prom. diario",
-        "valor": "$169",
-        "det": "meta $162 ✅",
-        "color": "var(--g)"
-      },
-      {
-        "label": "Ticket prom.",
-        "valor": "$15.15",
-        "det": "14 días op",
-        "color": "var(--m)"
-      },
-      {
-        "label": "Facturas",
-        "valor": "156",
-        "det": "14 días op",
-        "color": "var(--m)"
-      },
-      {
-        "label": "Proyección mes",
-        "valor": "$3,553",
-        "det": "vs PE $4,216",
-        "color": "var(--y)"
+        "label": "Punto de equilibrio",
+        "valor": "$4,216",
+        "color": "gray"
       },
       {
         "label": "Déficit proyectado",
-        "valor": "-$663",
-        "det": "7 días restantes",
-        "color": "var(--r)"
+        "valor": "-$406",
+        "color": "red"
       },
       {
-        "label": "Uber Eats (campaña)",
-        "valor": "$9.17",
-        "det": "9 pedidos neto",
-        "color": "var(--y)"
+        "label": "Días restantes",
+        "valor": "3 (dom26, mié29, jue30)",
+        "color": "orange"
       },
       {
-        "label": "Meses bajo PE",
-        "valor": "6 meses",
-        "det": "nov25–abr26",
-        "color": "var(--r)"
+        "label": "Promedio diario (mes)",
+        "valor": "$175.68/día",
+        "color": "blue"
+      },
+      {
+        "label": "Días operativos",
+        "valor": "19 de ~22",
+        "color": "gray"
       }
     ]
   },
@@ -268,28 +239,22 @@
   ],
   "marketing": {
     "fuente": "Windsor.ai",
-    "actualizado": "2026-04-25",
+    "actualizado": "2026-04-26",
     "instagram": {
       "cuenta": "@michalitasxpress",
-      "reach_total": 10417,
-      "reach_prom_dia": 1488,
-      "reach_mejor_dia": 4848,
-      "reach_mejor_fecha": "2026-04-23",
-      "interactions_total": 112,
-      "likes_total": 86,
-      "comments_total": 1,
-      "shares_total": 7,
-      "saves_total": 3,
-      "engagement_rate": 1.1,
+      "reach_total": 17242,
+      "reach_prom_dia": 2463,
+      "reach_mejor_dia": 6055,
+      "reach_mejor_fecha": "2026-04-25",
+      "interactions_total": 134,
+      "likes_total": 101,
+      "comments_total": 2,
+      "shares_total": 10,
+      "saves_total": 5,
+      "engagement_rate": 0.78,
       "conversion_miche": 0,
-      "nota_pico": "Reel 'Encuentra a nuestra CEO' con $5 boost de Cristina — explicó pico 22-23 abr",
+      "nota_semana": "Nuevo récord 6,055 reach el 25 abr. Boost Cristina $5/día en nuevo Reel. +65% vs semana anterior.",
       "dias": [
-        {
-          "fecha": "2026-04-19",
-          "reach": 92,
-          "interactions": 7,
-          "likes": 6
-        },
         {
           "fecha": "2026-04-20",
           "reach": 49,
@@ -322,24 +287,25 @@
         },
         {
           "fecha": "2026-04-25",
-          "reach": 10,
-          "interactions": 0,
-          "likes": 0
+          "reach": 6055,
+          "interactions": 27,
+          "likes": 19
+        },
+        {
+          "fecha": "2026-04-26",
+          "reach": 872,
+          "interactions": 2,
+          "likes": 2
         }
       ]
     },
     "google_my_business": {
-      "impressions_total": 41,
-      "impressions_prom_dia": 5.9,
-      "direction_requests_total": 10,
+      "impressions_total": 29,
+      "impressions_prom_dia": 4.1,
+      "direction_requests_total": 15,
       "website_clicks_total": 0,
-      "nota": "Lag habitual en datos GMB — 23-25 abr muestran 0 impresiones",
+      "nota": "MUY BAJO. Meta: 100-300/día. Últimos 3 días en cero (posible delay GMB).",
       "dias": [
-        {
-          "fecha": "2026-04-19",
-          "impressions": 15,
-          "direction_requests": 0
-        },
         {
           "fecha": "2026-04-20",
           "impressions": 11,
@@ -357,8 +323,8 @@
         },
         {
           "fecha": "2026-04-23",
-          "impressions": 0,
-          "direction_requests": 0
+          "impressions": 3,
+          "direction_requests": 5
         },
         {
           "fecha": "2026-04-24",
@@ -369,84 +335,69 @@
           "fecha": "2026-04-25",
           "impressions": 0,
           "direction_requests": 0
+        },
+        {
+          "fecha": "2026-04-26",
+          "impressions": 0,
+          "direction_requests": 0
         }
       ]
     },
     "meta_ads": {
       "estado": "restringida",
-      "nota": "Cuenta Meta restringida desde 19 abr. Cristina envió contestación formal 24 abr. Pendiente respuesta de Meta.",
-      "gasto_mes": 5,
-      "objetivo_actual": "Reel boost $5 - Encuentra a nuestra CEO",
-      "construmac": "Nuevo gestor acordado en Zoom 23 abr. $5/día, máx 2 ads, 3 días, 5km Guayaquil."
+      "nota": "Cuenta business restringida por Meta (19 abr). Cristina boostea desde cuenta personal $5/día. Pendiente respuesta Meta a contestación enviada 24 abr.",
+      "gasto_mes": 10,
+      "objetivo_actual": "Boost Reels",
+      "problema": "Cuenta business restringida. Cristina usa cuenta personal temporalmente."
     }
   },
   "alertas": [
     {
-      "nivel": "rojo",
-      "texto": "PEDIDOSYA: Deuda $6.24 pendiente. Pagar HOY a Banco Citibank Cta 0001076027 (Delivery Hero DH). Enviar comprobante a cobranzas.ecuador@pedidosya.com"
+      "tipo": "rojo",
+      "texto": "Déficit abril proyectado -$406. Solo 3 días operativos restantes. Mes cierra en rojo."
     },
     {
-      "nivel": "rojo",
-      "texto": "META ADS: Cuenta restringida. Construmac bloqueado para lanzar campañas. Alberto debe resolver acceso admin urgente."
+      "tipo": "amarillo",
+      "texto": "Nómina Marian: faltan $143.30 (pagados $400 de $543.30)."
     },
     {
-      "nivel": "rojo",
-      "texto": "MARIAN: Segunda convocatoria Cancillería (visa). Confirmar fecha y si impacta horario bar."
+      "tipo": "amarillo",
+      "texto": "Nómina Alexis $600 abril — sin confirmar pago."
     },
     {
-      "nivel": "amarillo",
-      "texto": "DATAFAST: Email de cobranzas — verificar monto y pagar."
+      "tipo": "amarillo",
+      "texto": "IESS $132.20 — sin confirmar (vencía día 15 abr)."
     },
     {
-      "nivel": "amarillo",
-      "texto": "GMB: Confirmar horario 1 mayo (Día del Trabajo) en Google Business Profile."
+      "tipo": "amarillo",
+      "texto": "Meta Ads cuenta restringida. Cristina boostea desde cuenta personal. Pendiente respuesta Meta."
     },
     {
-      "nivel": "verde",
-      "texto": "INSTAGRAM: 3,795 reach el 22 abr — récord absoluto. Identificar qué publicó Cristina para replicar."
+      "tipo": "amarillo",
+      "texto": "MARIAN: aceptar solicitud de acceso de Cristina en FB/IG (crítico para ads)."
     },
     {
-      "nivel": "verde",
-      "texto": "Copa Libertadores Mié 29 abr: BSC vs U. Católica Chile LOCAL 7PM. Preparar promo esta semana."
+      "tipo": "verde",
+      "texto": "BSC vs U. Católica Chile — MIÉ 29 abr 7 PM (Copa Libertadores LOCAL) 🔥🔥. Preparar promo HOY."
     }
   ],
   "last_briefing": {
-    "fecha": "2026-04-24",
-    "ventas_ayer": 215.03,
-    "facturas_ayer": 11,
-    "ticket_prom": 19.55,
-    "dia": "Jueves",
-    "vs_prom": "+87%",
-    "toppings_por_factura": 1.36,
-    "producto_estrella": "Maracumango",
-    "ig_reach_ayer": 4848,
-    "ig_reach_record": true
+    "fecha": "2026-04-25",
+    "ventas_ayer": 327.54,
+    "facturas_ayer": 23,
+    "ticket_prom": 14.24,
+    "dia": "Sábado",
+    "vs_prom_pct": 43.7,
+    "vs_prom_label": "+43.7% vs prom $228"
   },
   "foco_semana": {
-    "titulo": "22 al 26 Abril",
-    "subtitulo": "7 DÍAS OP RESTANTES · CIERRE ABRIL",
+    "titulo": "Semana final de abril — 3 días restantes",
+    "subtitulo": "Dom 26 + Mié 29 (Libertadores BSC) + Jue 30",
     "items": [
-      {
-        "num": "#1",
-        "estado": "crit",
-        "nombre": "Apelar restricción Meta Ads",
-        "why": "Cuenta Meta Business Suite restringida desde 19 abr. $150/mes bloqueados. Cristina necesita respuesta de Alberto sobre el dashboard para redactar la apelación.",
-        "who": "Alberto → responder email Cristina · Cristina → apelar en Meta Business Suite"
-      },
-      {
-        "num": "#2",
-        "estado": "warn",
-        "nombre": "Uber Eats — rentabilidad crítica",
-        "why": "9 pedidos campaña abril = $9.17 neto. Semana 1 fue negativa (-$1.08). Comisión + ads + descuentos consumen casi todo. Evaluar si conviene continuar con ads o solo operación orgánica.",
-        "who": "Alberto → decidir si pausar ads Uber Eats"
-      },
-      {
-        "num": "#3",
-        "estado": "win",
-        "nombre": "Partidos BSC — drivers de tráfico",
-        "why": "Mié 22: BSC vs Mushuc Runa 7PM (Liga Pro LOCAL). Mié 29: BSC vs U.Católica Chile 7PM (Copa Libertadores LOCAL 🔥). Cada partido bien ejecutado = +$80-150 extra.",
-        "who": "Marian → TV + pizarra · Cristina → Stories antes 6 PM"
-      }
+      "🔥 MIÉ 29: BSC vs U. Católica Chile (Libertadores LOCAL 7PM) — promo combo miche+alitas",
+      "📢 Publicar promo Libertadores HOY en IG — no esperar al miércoles",
+      "💰 Nómina: completar $143.30 de Marian antes de fin de mes",
+      "✅ Marian: aceptar acceso de Cristina en FB/IG"
     ]
   },
   "roadmap_items": [
@@ -499,7 +450,7 @@
       "status": "Activo ✅"
     }
   ],
-  "diagnostico": "Abril (al 19 abr): $2,368.60 acumulado · 14 días op · 156 facturas · ticket $15.15. ✅ Vie 17 abr: mejor viernes histórico +111% vs prom. ✅ Nuevo horario funcionando: mié $111 (+42% vs histórico). 🔴 Meta Ads restringido desde 19 abr — $150/mes bloqueados. 🟡 Uber Eats campaña: $9.17 neto en 9 pedidos — casi a pérdida después de comisiones y ads. 📉 Proyección cierre abril: ~$3,553 vs PE $4,216 → déficit -$663 (6to mes consecutivo bajo PE).",
+  "diagnostico": "Abril (al 25 abr): $3,337.88 acumulado · 19 días op · 212 facturas · ticket $15.74/fact · prom $175.68/día · déficit proyectado -$406",
   "acciones_top": [
     {
       "nivel": "red",
@@ -678,6 +629,17 @@
   },
   "dias_recientes": [
     {
+      "fecha": "2026-04-25",
+      "dia": "Sábado",
+      "total": 327.54,
+      "facturas": 23,
+      "ticket": 14.24,
+      "prom_dia": 228,
+      "vs_prom_pct": 43.7,
+      "color": "green",
+      "producto_estrella": "Michelada Maracuyá x8"
+    },
+    {
       "label": "Jue 9 abr",
       "total": 37,
       "facturas": 3,
@@ -794,5 +756,5 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-04-25T00:00:00Z"
+  "ultima_actualizacion": "2026-04-26T18:10:08Z"
 }
