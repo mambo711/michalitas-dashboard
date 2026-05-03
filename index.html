@@ -291,7 +291,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div class="apr-prog">
   <div class="apr-header">
     <div>
-      <div style="font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--od)">Abril 2026 — En Vivo</div>
+      <div style="font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--od)">Mayo 2026 — En Vivo</div>
       <div class="apr-big" id="d-apr-acum"></div>
     </div>
     <div style="text-align:right">
@@ -325,7 +325,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 
 <!-- HOJA DE RUTA ESTRATÉGICA -->
 <div class="roadmap">
-  <div class="rm-title">Hoja de Ruta — Crecimiento Abril 2026</div>
+  <div class="rm-title">Hoja de Ruta — Crecimiento 2026</div>
   <div class="rm-track" id="d-roadmap-items">
   </div>
 </div>
@@ -333,7 +333,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <!-- GAUGE + ALERT -->
 <div class="g2" style="margin-bottom:12px">
   <div class="cd">
-    <div class="ct">Salud del Negocio — Abril 2026</div>
+    <div class="ct">Salud del Negocio — Mayo 2026</div>
     <div class="gauge-wrap">
       <svg class="gauge-svg" viewBox="0 0 200 110">
         <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="#F0E6D9" stroke-width="13" stroke-linecap="round"/>
@@ -394,7 +394,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div id="tab-overview" class="tc active">
 
 <div class="insight-box main">
-  <h3>Diagnóstico General — Abril 2026</h3>
+  <h3>Diagnóstico General — Mayo 2026</h3>
   <p id="d-diagnostico"></p>
   <ul class="action-list" id="d-acciones-list"></ul>
 </div>
@@ -434,7 +434,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   <div id="diasRecientes"><div style="color:var(--tm);font-size:.85rem;padding:8px">Cargando datos...</div></div>
 </div>
 
-<div class="st">Calendario de Ventas — Abril 2026</div>
+<div class="st">Calendario de Ventas — Mayo 2026</div>
 <div class="cd" style="margin-bottom:16px">
   <div class="cal-header" style="display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-bottom:6px">
     <div>Lun</div><div>Mar</div><div>Mié</div><div>Jue</div><div>Vie</div><div>Sáb</div><div>Dom</div>
@@ -1134,7 +1134,7 @@ id="tab-analysis" class="tc">
 
 <footer>
   MICHALITAS XPRESS · CORPMARYAL S.A.S. · V. Emilio Estrada y Laureles 1121, Urdesa, Guayaquil<br>
-  Dashboard con datos reales Practisis POS + Windsor.ai (IG · GMB · Meta Ads) · <span id="footerDate">17 abril 2026</span>
+  Dashboard con datos reales Practisis POS + Windsor.ai (IG · GMB · Meta Ads) · <span id="footerDate">3 mayo 2026</span>
 </footer>
 
 <!-- JS -->
@@ -1189,12 +1189,12 @@ if(localStorage.getItem('mxDark')==='1')document.body.classList.add('dark');
 
 function renderCalendar(data){
   const cal=document.getElementById('calApril');if(!cal)return;
-  const startDow=2;
-  const daysInMonth=30;
+  const startDow=4;
+  const daysInMonth=31;
   let html='';
   for(let i=0;i<startDow;i++) html+='<div class="cal-cell cal-empty"></div>';
   for(let d=1;d<=daysInMonth;d++){
-    const key='2026-04-'+String(d).padStart(2,'0');
+    const key='2026-05-'+String(d).padStart(2,'0');
     const v=data[key]||0;
     const today=new Date();
     const cellDate=new Date(2026,3,d);
@@ -1212,7 +1212,7 @@ function renderCalendar(data){
   cal.innerHTML=html;
 }
 // Render inicial con datos base (hasta que cargue el JSON)
-renderCalendar({'2026-04-01':138,'2026-04-02':372,'2026-04-05':236,'2026-04-07':78,'2026-04-08':3,'2026-04-09':37,'2026-04-10':218,'2026-04-11':232,'2026-04-12':194,'2026-04-15':111});
+renderCalendar({'2026-05-01':161,'2026-05-02':288});
 
 async function exportPDF(){
   const btn=document.querySelector('.btn-pdf');btn.textContent='Generando...';btn.disabled=true;
@@ -1245,9 +1245,9 @@ async function exportPDF(){
       const set=(id,val)=>{const el=document.getElementById(id);if(el&&val!=null)el.textContent=val;};
 
       // April tracker
-      set('d-apr-acum', d.abril.acumulado_fmt);
+      set('d-apr-acum', d.mayo ? d.mayo.acumulado_fmt : d.abril.acumulado_fmt);
       // Re-render calendario con datos frescos del JSON
-      if(d.abril && d.abril.dias_ventas) renderCalendar(d.abril.dias_ventas);
+      if(d.mayo && d.mayo.dias_ventas) renderCalendar(d.mayo.dias_ventas); else if(d.abril && d.abril.dias_ventas) renderCalendar(d.abril.dias_ventas);
 
       // Render Días Recientes dinámicamente
       if(d.dias_recientes){
@@ -1277,16 +1277,16 @@ async function exportPDF(){
         const wi=document.getElementById('weeklyInsight');
         if(wi) wi.innerHTML='<strong>Tendencia:</strong> '+sw.insight;
       }
-      set('d-apr-coverage', d.abril.coverage_txt);
-      set('d-apr-prom', d.abril.prom_dia_fmt);
-      set('d-apr-proj', d.abril.proyeccion_fmt);
-      set('d-apr-fact', d.abril.facturas);
-      set('d-apr-ticket', d.abril.ticket_fmt);
-      set('d-apr-deficit', d.abril.deficit_fmt);
+      set('d-apr-coverage', d.mayo ? d.mayo.coverage_txt : d.abril.coverage_txt);
+      set('d-apr-prom', d.mayo ? d.mayo.prom_dia_fmt : d.abril.prom_dia_fmt);
+      set('d-apr-proj', d.mayo ? d.mayo.proyeccion_fmt : d.abril.proyeccion_fmt);
+      set('d-apr-fact', d.mayo ? d.mayo.facturas : d.abril.facturas);
+      set('d-apr-ticket', d.mayo ? d.mayo.ticket_fmt : d.abril.ticket_fmt);
+      set('d-apr-deficit', d.mayo ? d.mayo.deficit_fmt : d.abril.deficit_fmt);
       const fill=document.getElementById('d-apr-fill');
-      if(fill) fill.style.width=d.abril.pct_cubierto+'%';
+      if(fill) fill.style.width=(d.mayo ? d.mayo.pct_cubierto : d.abril.pct_cubierto)+'%';
       const note=document.getElementById('d-apr-note');
-      if(note) note.innerHTML='<strong>Proyección abril: '+d.abril.proyeccion_fmt+'</strong> — '+d.abril.tracker_note;
+      const _m=d.mayo||d.abril; if(note) note.innerHTML='<strong>Proyección mayo: '+_m.proyeccion_fmt+'</strong> — '+_m.tracker_note;
 
 
 
