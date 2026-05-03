@@ -1,22 +1,44 @@
 {
-  "updated": "2026-05-03T13:44:35-04:00",
+  "updated": "2026-05-03T13:50:53-04:00",
   "abril": {
-    "total": 3717.36,
+    "acumulado_fmt": "$3,717",
+    "coverage_txt": "22 días operativos — MES CERRADO",
+    "prom_dia_fmt": "$168.97",
+    "proyeccion_fmt": "$3,717 (Cerrado)",
     "facturas": 238,
-    "dias_operativos": 22,
-    "prom_diario": 168.97,
-    "proyeccion_mes": 3717.36,
-    "deficit_proyectado": -498.64,
-    "punto_equilibrio": 4216,
-    "dias_restantes": 0,
-    "estado": "CERRADO",
-    "nota": "Cierre final. Mejor que marzo ($3,624)."
+    "ticket_fmt": "$15.62",
+    "deficit_fmt": "-$499",
+    "pct_cubierto": 88.2,
+    "tracker_note": "Abril cerró en $3,717 — mejor que marzo ($3,625). Déficit -$499 vs PE. Tendencia positiva: +2.5% mes sobre mes.",
+    "dias_ventas": {
+      "2026-04-01": 138,
+      "2026-04-02": 372,
+      "2026-04-05": 236,
+      "2026-04-07": 78,
+      "2026-04-08": 3,
+      "2026-04-09": 37,
+      "2026-04-10": 218,
+      "2026-04-11": 232,
+      "2026-04-12": 194,
+      "2026-04-15": 111,
+      "2026-04-16": 86,
+      "2026-04-17": 296,
+      "2026-04-18": 218,
+      "2026-04-19": 148,
+      "2026-04-22": 108,
+      "2026-04-23": 215,
+      "2026-04-24": 319,
+      "2026-04-25": 328,
+      "2026-04-26": 151,
+      "2026-04-29": 78,
+      "2026-04-30": 150
+    }
   },
   "kpis_mes": {
     "mes": "mayo 2026",
     "gauge_pct": 10.7,
-    "gauge_txt": "$449.19",
-    "gauge_sub": "10.7% del PE (2 días)",
+    "gauge_txt": "$449",
+    "gauge_sub": "Mayo: 2 días · 10.7% del PE",
     "gauge_color": "#ef4444",
     "filas": [
       {
@@ -35,7 +57,7 @@
         "color": "orange"
       },
       {
-        "label": "Proyección tendencia actual",
+        "label": "Proyección tendencia",
         "valor": "~$4,384",
         "color": "blue"
       },
@@ -45,12 +67,12 @@
         "color": "orange"
       },
       {
-        "label": "Promedio diario (2 días)",
-        "valor": "$224.60/día (+22% vs hist.)",
+        "label": "Prom. diario (2 días)",
+        "valor": "$224.60/día (+22% hist.)",
         "color": "green"
       },
       {
-        "label": "Cierre abril (final)",
+        "label": "Cierre abril",
         "valor": "$3,717 (-$499 vs PE)",
         "color": "orange"
       }
@@ -362,50 +384,70 @@
   "alertas": [
     {
       "tipo": "rojo",
-      "texto": "Déficit abril proyectado -$406. Solo 3 días operativos restantes. Mes cierra en rojo."
+      "texto": "❗ Renta $700 vence días 1-5 del mes — hoy día 3. ¿Confirmada?"
+    },
+    {
+      "tipo": "rojo",
+      "texto": "❗ Nómina Marian: faltan $443.30. Alexis $600 sin confirmar."
     },
     {
       "tipo": "amarillo",
-      "texto": "Nómina Marian: faltan $143.30 (pagados $400 de $543.30)."
+      "texto": "🏆 Martes 5 mayo: BSC vs Boca Juniors, Copa Libertadores LOCAL. Bar cierra martes — evaluar apertura excepcional."
     },
     {
       "tipo": "amarillo",
-      "texto": "Nómina Alexis $600 abril — sin confirmar pago."
+      "texto": "📄 CHERUSKER — Factura a CORPMARYAL SAS (No. 2-130592, 2 may). Pasar a Cristina."
     },
     {
       "tipo": "amarillo",
-      "texto": "IESS $132.20 — sin confirmar (vencía día 15 abr)."
-    },
-    {
-      "tipo": "amarillo",
-      "texto": "Meta Ads cuenta restringida. Cristina boostea desde cuenta personal. Pendiente respuesta Meta."
-    },
-    {
-      "tipo": "amarillo",
-      "texto": "MARIAN: aceptar solicitud de acceso de Cristina en FB/IG (crítico para ads)."
+      "texto": "IESS $132.20 — vence ~día 15 de mayo. Preparar pago."
     },
     {
       "tipo": "verde",
-      "texto": "BSC vs U. Católica Chile — MIÉ 29 abr 7 PM (Copa Libertadores LOCAL) 🔥🔥. Preparar promo HOY."
+      "texto": "Mayo arranca fuerte: $449 en 2 días ($224/día avg, +22% vs histórico)."
     }
   ],
   "last_briefing": {
-    "fecha": "2026-04-25",
-    "ventas_ayer": 327.54,
-    "facturas_ayer": 23,
-    "ticket_prom": 14.24,
+    "fecha": "2026-05-02",
+    "ventas_ayer": 287.95,
+    "facturas_ayer": 24,
+    "ticket_prom": 12.0,
     "dia": "Sábado",
-    "vs_prom_pct": 43.7,
-    "vs_prom_label": "+43.7% vs prom $228"
+    "vs_prom_pct": 26.3,
+    "vs_prom_label": "+26.3% vs prom $228"
   },
   "foco_semana": {
-    "titulo": "Semana final de abril — 3 días restantes",
-    "subtitulo": "Dom 26 + Mié 29 (Libertadores BSC) + Jue 30",
+    "titulo": "Semana 3-9 Mayo",
+    "subtitulo": "Martes 5: BSC vs Boca (Copa Lib) · Renta vence día 5",
     "items": [
-      "🔥 MIÉ 29: BSC vs U. Católica Chile (Libertadores LOCAL 7PM) — promo combo miche+alitas",
-      "📢 Publicar promo Libertadores HOY en IG — no esperar al miércoles",
-      "💰 Nómina: completar $143.30 de Marian antes de fin de mes",
-      "✅ Marian: aceptar acceso de Cristina en FB/IG"
+      {
+        "num": "1",
+        "nombre": "Renta $700",
+        "why": "Vence el día 5 — plazo contractual",
+        "who": "Alberto hoy",
+        "estado": "crit"
+      },
+      {
+        "num": "2",
+        "nombre": "Nómina Marian + Alexis",
+        "why": "$443.30 Marian pendientes · Alexis $600 sin confirmar",
+        "who": "Alberto esta semana",
+        "estado": "warn"
+      },
+      {
+        "num": "3",
+        "nombre": "¿Abrir martes 5 mayo?",
+        "why": "BSC vs Boca Juniors Copa Libertadores LOCAL — evento de máximo impacto",
+        "who": "Marian confirmar hoy",
+        "estado": "active"
+      },
+      {
+        "num": "4",
+        "nombre": "Convertir tráfico dominical",
+        "why": "Domingo histórico $207 avg — aprovechar apertura 1 PM",
+        "who": "Marian",
+        "estado": "active"
+      }
     ]
   },
   "roadmap_items": [
@@ -637,73 +679,6 @@
   },
   "dias_recientes": [
     {
-      "fecha": "2026-04-25",
-      "dia": "Sábado",
-      "total": 327.54,
-      "facturas": 23,
-      "ticket": 14.24,
-      "prom_dia": 228,
-      "vs_prom_pct": 43.7,
-      "color": "green",
-      "producto_estrella": "Michelada Maracuyá x8"
-    },
-    {
-      "label": "Jue 9 abr",
-      "total": 37,
-      "facturas": 3,
-      "hl": ""
-    },
-    {
-      "label": "Vie 10 abr",
-      "total": 218,
-      "facturas": 16,
-      "hl": "g"
-    },
-    {
-      "label": "Sáb 11 abr",
-      "total": 232,
-      "facturas": 20,
-      "hl": "od",
-      "star": true
-    },
-    {
-      "label": "Dom 12 abr",
-      "total": 194,
-      "facturas": 11,
-      "hl": ""
-    },
-    {
-      "label": "Mié 15 abr",
-      "total": 111,
-      "facturas": 5,
-      "hl": "g"
-    },
-    {
-      "label": "Jue 16 abr",
-      "total": 86,
-      "facturas": 6,
-      "hl": ""
-    },
-    {
-      "label": "Vie 17 abr",
-      "total": 296,
-      "facturas": 24,
-      "hl": "g",
-      "star": true
-    },
-    {
-      "label": "Sáb 18 abr",
-      "total": 218,
-      "facturas": 17,
-      "hl": "od"
-    },
-    {
-      "label": "Dom 19 abr",
-      "total": 148,
-      "facturas": 9,
-      "hl": ""
-    },
-    {
       "label": "Mié 22 abr",
       "total": 108,
       "facturas": 7,
@@ -711,14 +686,57 @@
     },
     {
       "label": "Jue 23 abr",
-      "total": 215.03,
+      "total": 215,
       "facturas": 11,
       "hl": "g"
+    },
+    {
+      "label": "Vie 24 abr",
+      "total": 319,
+      "facturas": 15,
+      "hl": "g",
+      "star": true
+    },
+    {
+      "label": "Sáb 25 abr",
+      "total": 328,
+      "facturas": 23,
+      "hl": "od",
+      "star": true
+    },
+    {
+      "label": "Dom 26 abr",
+      "total": 151,
+      "facturas": 11,
+      "hl": ""
+    },
+    {
+      "label": "Mié 29 abr",
+      "total": 78,
+      "facturas": 4,
+      "hl": ""
+    },
+    {
+      "label": "Jue 30 abr",
+      "total": 150,
+      "facturas": 11,
+      "hl": ""
+    },
+    {
+      "label": "Vie 1 may",
+      "total": 161.24,
+      "facturas": 15,
+      "hl": "g"
+    },
+    {
+      "label": "Sáb 2 may",
+      "total": 287.95,
+      "facturas": 24,
+      "hl": "od"
     }
   ],
   "semanas_ventas": {
     "labels": [
-      "Sem 8\n(Feb 23)",
       "Sem 9\n(Mar 2)",
       "Sem 10\n(Mar 9)",
       "Sem 11\n(Mar 16)",
@@ -726,10 +744,10 @@
       "Sem 13\n(Mar 30)",
       "Sem 14\n(Abr 7-12)",
       "Sem 15\n(Abr 13-19)",
-      "Sem 16\n(Abr 20+)"
+      "Sem 16\n(Abr 20-26)",
+      "Sem 17\n(Abr 29-May 2)"
     ],
     "data": [
-      174,
       1119,
       1070,
       625,
@@ -737,9 +755,10 @@
       884,
       763,
       859,
-      108
+      1121,
+      677
     ],
-    "insight": "Sem 15 (Abr 13–19) cerró con $859 — mejor semana completa de abril 🟢. Vie 17 abr fue récord histórico ($296). Sem 16 en curso: $108 (solo mié 22, quedan jue–dom esta semana). Vie+Sáb siguen generando 70%+ del ingreso semanal."
+    "insight": "Sem 16 (Abr 20-26) = $901 — mejor semana completa del mes 🟢. Sem 17 (Abr 29–May 2, 4 días) = $697. Mayo arranca con $449 en solo 2 días ($224/día promedio, 22% sobre histórico)."
   },
   "ventas": {
     "abril_2026": {
@@ -770,24 +789,9 @@
     "facturas": 39,
     "dias_operativos": 2,
     "prom_diario": 224.6,
-    "proyeccion_mes_conservadora": 3728,
-    "proyeccion_mes_tendencia": 4384,
-    "deficit_proyectado": -488,
+    "proyeccion_conservadora": 3728,
+    "proyeccion_tendencia": 4384,
     "punto_equilibrio": 4216,
-    "dias_restantes": 21,
-    "ventas_diarias": [
-      {
-        "dia": "2026-05-01",
-        "dia_semana": "Vie",
-        "total": 161.24,
-        "facturas": 15
-      },
-      {
-        "dia": "2026-05-02",
-        "dia_semana": "Sáb",
-        "total": 287.95,
-        "facturas": 24
-      }
-    ]
+    "dias_restantes": 21
   }
 }
