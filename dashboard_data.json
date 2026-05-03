@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-03T14:20:13",
+  "updated": "2026-05-03T19:07:15Z",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -762,7 +762,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-03 14:20 ET",
+  "ultima_actualizacion": "2026-05-03T19:07:15Z",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -792,15 +792,15 @@
     "primer_dia": 4,
     "pe_label": "$4,216",
     "pe_valor": 4216,
-    "acumulado_fmt": "$449",
-    "coverage_txt": "10.7% del PE",
-    "prom_dia_fmt": "$225",
-    "proyeccion_fmt": "~$4072 (tend) / ~$3599 (cons)",
+    "acumulado_fmt": "$449.19",
+    "coverage_txt": "al 2 may · 2/23 días operativos",
+    "prom_dia_fmt": "$224.59",
+    "proyeccion_fmt": "$3,997.56",
     "facturas": 39,
     "ticket_fmt": "$11.52",
-    "deficit_fmt": "$3767 bajo PE",
+    "deficit_fmt": "$218.44",
     "pct_cubierto": 10.7,
-    "tracker_note": "May 3: $449 / 2 días. Proyección tendencia $4072 — primer mes en ruta a superar PE si ritmo sostiene.",
+    "tracker_note": "Mayo arrancó fuerte. Vie 1: $161 (+15% vs prom). Sáb 2: $288 (+26% vs prom). Día operativo prom: $225 — muy sobre histórico ($169). Proyección conservadora $3,998 vs PE $4,216.",
     "dias_ventas": {
       "2026-05-01": 161,
       "2026-05-02": 288
