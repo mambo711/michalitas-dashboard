@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-03T13:59:34-04:00",
+  "updated": "2026-05-03T14:20:13",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -679,60 +679,39 @@
   },
   "dias_recientes": [
     {
-      "label": "Mié 22 abr",
-      "total": 108,
-      "facturas": 7,
-      "hl": ""
+      "dia": "Sáb 2 May",
+      "total": "$287.95",
+      "fact": 24,
+      "ticket": "$12.00",
+      "nota": "Maracuyá x9 estrella. Trasnoche 00h domina."
     },
     {
-      "label": "Jue 23 abr",
-      "total": 215,
-      "facturas": 11,
-      "hl": "g"
+      "dia": "Vie 1 May",
+      "total": "$161.24",
+      "fact": 15,
+      "ticket": "$10.75",
+      "nota": "+15% vs prom vie. Mayo arranca bien."
     },
     {
-      "label": "Vie 24 abr",
-      "total": 319,
-      "facturas": 15,
-      "hl": "g",
-      "star": true
+      "dia": "Jue 30 Abr",
+      "total": "$149.89",
+      "fact": 11,
+      "ticket": "$13.63",
+      "nota": "+30% vs prom jue."
     },
     {
-      "label": "Sáb 25 abr",
-      "total": 328,
-      "facturas": 23,
-      "hl": "od",
-      "star": true
+      "dia": "Mié 29 Abr",
+      "total": "$78.33",
+      "fact": 4,
+      "ticket": "$19.58",
+      "nota": "En línea con promedio."
     },
     {
-      "label": "Dom 26 abr",
-      "total": 151,
-      "facturas": 11,
-      "hl": ""
-    },
-    {
-      "label": "Mié 29 abr",
-      "total": 78,
-      "facturas": 4,
-      "hl": ""
-    },
-    {
-      "label": "Jue 30 abr",
-      "total": 150,
-      "facturas": 11,
-      "hl": ""
-    },
-    {
-      "label": "Vie 1 may",
-      "total": 161.24,
-      "facturas": 15,
-      "hl": "g"
-    },
-    {
-      "label": "Sáb 2 may",
-      "total": 287.95,
-      "facturas": 24,
-      "hl": "od"
+      "dia": "Dom 26 Abr",
+      "total": "$151.26",
+      "fact": 11,
+      "ticket": "$13.75",
+      "nota": "-27% vs prom dom."
     }
   ],
   "semanas_ventas": {
@@ -783,7 +762,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-04-26T18:10:08Z",
+  "ultima_actualizacion": "2026-05-03 14:20 ET",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -814,14 +793,14 @@
     "pe_label": "$4,216",
     "pe_valor": 4216,
     "acumulado_fmt": "$449",
-    "coverage_txt": "2 días op. de 23 — en curso",
-    "prom_dia_fmt": "$224.60",
-    "proyeccion_fmt": "~$3,728–$4,384",
+    "coverage_txt": "10.7% del PE",
+    "prom_dia_fmt": "$225",
+    "proyeccion_fmt": "~$4072 (tend) / ~$3599 (cons)",
     "facturas": 39,
     "ticket_fmt": "$11.52",
-    "deficit_fmt": "proy. -$488",
+    "deficit_fmt": "$3767 bajo PE",
     "pct_cubierto": 10.7,
-    "tracker_note": "Mayo arranca fuerte: $224/día promedio (+22% vs histórico). Si la tendencia se mantiene, mayo puede alcanzar el PE por primera vez.",
+    "tracker_note": "May 3: $449 / 2 días. Proyección tendencia $4072 — primer mes en ruta a superar PE si ritmo sostiene.",
     "dias_ventas": {
       "2026-05-01": 161,
       "2026-05-02": 288
