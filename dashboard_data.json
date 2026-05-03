@@ -1,24 +1,27 @@
 {
-  "updated": "2026-04-26T14:10:08-04:00",
+  "updated": "2026-05-03T13:44:35-04:00",
   "abril": {
-    "total": 3337.88,
-    "facturas": 212,
-    "dias_operativos": 19,
-    "prom_diario": 175.68,
-    "proyeccion_mes": 3810,
-    "deficit_proyectado": -406,
+    "total": 3717.36,
+    "facturas": 238,
+    "dias_operativos": 22,
+    "prom_diario": 168.97,
+    "proyeccion_mes": 3717.36,
+    "deficit_proyectado": -498.64,
     "punto_equilibrio": 4216,
-    "dias_restantes": 3
+    "dias_restantes": 0,
+    "estado": "CERRADO",
+    "nota": "Cierre final. Mejor que marzo ($3,624)."
   },
   "kpis_mes": {
-    "gauge_pct": 79.2,
-    "gauge_txt": "$3,337.88",
-    "gauge_sub": "79.2% del PE",
-    "gauge_color": "#f59e0b",
+    "mes": "mayo 2026",
+    "gauge_pct": 10.7,
+    "gauge_txt": "$449.19",
+    "gauge_sub": "10.7% del PE (2 días)",
+    "gauge_color": "#ef4444",
     "filas": [
       {
-        "label": "Acumulado al 25 abr",
-        "valor": "$3,337.88",
+        "label": "Acumulado mayo (2 días)",
+        "valor": "$449.19",
         "color": "green"
       },
       {
@@ -27,24 +30,29 @@
         "color": "gray"
       },
       {
-        "label": "Déficit proyectado",
-        "valor": "-$406",
-        "color": "red"
-      },
-      {
-        "label": "Días restantes",
-        "valor": "3 (dom26, mié29, jue30)",
+        "label": "Proyección conservadora",
+        "valor": "~$3,728",
         "color": "orange"
       },
       {
-        "label": "Promedio diario (mes)",
-        "valor": "$175.68/día",
+        "label": "Proyección tendencia actual",
+        "valor": "~$4,384",
         "color": "blue"
       },
       {
-        "label": "Días operativos",
-        "valor": "19 de ~22",
-        "color": "gray"
+        "label": "Días restantes",
+        "valor": "21 días operativos",
+        "color": "orange"
+      },
+      {
+        "label": "Promedio diario (2 días)",
+        "valor": "$224.60/día (+22% vs hist.)",
+        "color": "green"
+      },
+      {
+        "label": "Cierre abril (final)",
+        "valor": "$3,717 (-$499 vs PE)",
+        "color": "orange"
       }
     ]
   },
@@ -756,5 +764,30 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-04-26T18:10:08Z"
+  "ultima_actualizacion": "2026-04-26T18:10:08Z",
+  "mayo": {
+    "total": 449.19,
+    "facturas": 39,
+    "dias_operativos": 2,
+    "prom_diario": 224.6,
+    "proyeccion_mes_conservadora": 3728,
+    "proyeccion_mes_tendencia": 4384,
+    "deficit_proyectado": -488,
+    "punto_equilibrio": 4216,
+    "dias_restantes": 21,
+    "ventas_diarias": [
+      {
+        "dia": "2026-05-01",
+        "dia_semana": "Vie",
+        "total": 161.24,
+        "facturas": 15
+      },
+      {
+        "dia": "2026-05-02",
+        "dia_semana": "Sáb",
+        "total": 287.95,
+        "facturas": 24
+      }
+    ]
+  }
 }
