@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-03T13:57:30-04:00",
+  "updated": "2026-05-03T13:59:34-04:00",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -804,5 +804,27 @@
     "punto_equilibrio": 4216,
     "proyeccion_conservadora": 3728,
     "proyeccion_tendencia": 4384
+  },
+  "mes_actual": {
+    "label": "Mayo 2026",
+    "anio": 2026,
+    "mes": 5,
+    "dias": 31,
+    "primer_dia": 4,
+    "pe_label": "$4,216",
+    "pe_valor": 4216,
+    "acumulado_fmt": "$449",
+    "coverage_txt": "2 días op. de 23 — en curso",
+    "prom_dia_fmt": "$224.60",
+    "proyeccion_fmt": "~$3,728–$4,384",
+    "facturas": 39,
+    "ticket_fmt": "$11.52",
+    "deficit_fmt": "proy. -$488",
+    "pct_cubierto": 10.7,
+    "tracker_note": "Mayo arranca fuerte: $224/día promedio (+22% vs histórico). Si la tendencia se mantiene, mayo puede alcanzar el PE por primera vez.",
+    "dias_ventas": {
+      "2026-05-01": 161,
+      "2026-05-02": 288
+    }
   }
 }
