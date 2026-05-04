@@ -792,18 +792,19 @@
     "primer_dia": 4,
     "pe_label": "$4,216",
     "pe_valor": 4216,
-    "acumulado_fmt": "$449.19",
-    "coverage_txt": "al 2 may · 2/23 días operativos",
-    "prom_dia_fmt": "$224.59",
-    "proyeccion_fmt": "$3,997.56",
-    "facturas": 39,
-    "ticket_fmt": "$11.52",
-    "deficit_fmt": "$218.44",
-    "pct_cubierto": 10.7,
-    "tracker_note": "Mayo arrancó fuerte. Vie 1: $161 (+15% vs prom). Sáb 2: $288 (+26% vs prom). Día operativo prom: $225 — muy sobre histórico ($169). Proyección conservadora $3,998 vs PE $4,216.",
+    "acumulado_fmt": "$488.44",
+    "coverage_txt": "al 3 may · 3/23 días operativos",
+    "prom_dia_fmt": "$162.81",
+    "proyeccion_fmt": "$3,560.44",
+    "facturas": 42,
+    "ticket_fmt": "$11.63",
+    "deficit_fmt": "$655.56",
+    "pct_cubierto": 11.6,
+    "tracker_note": "Mayo arrancó fuerte vie/sáb. DOM 3: $39 (-81% vs prom $207, -74% vs dom anterior $151). Posible feriado Día del Trabajador desplazó tráfico. Proj conservadora $3,560 vs PE $4,216 → déficit -$656. Tendencia actual $3,745.",
     "dias_ventas": {
       "2026-05-01": 161,
-      "2026-05-02": 288
+      "2026-05-02": 288,
+      "2026-05-03": 39
     }
   }
 }
