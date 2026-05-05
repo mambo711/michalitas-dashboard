@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-03T19:07:15Z",
+  "updated": "2026-05-05 15:07 ET",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -407,15 +407,7 @@
       "texto": "Mayo arranca fuerte: $449 en 2 días ($224/día avg, +22% vs histórico)."
     }
   ],
-  "last_briefing": {
-    "fecha": "2026-05-02",
-    "ventas_ayer": 287.95,
-    "facturas_ayer": 24,
-    "ticket_prom": 12.0,
-    "dia": "Sábado",
-    "vs_prom_pct": 26.3,
-    "vs_prom_label": "+26.3% vs prom $228"
-  },
+  "last_briefing": "2026-05-05 15:07 ET",
   "foco_semana": {
     "titulo": "Semana 3-9 Mayo",
     "subtitulo": "Martes 5: BSC vs Boca (Copa Lib) · Renta vence día 5",
@@ -762,7 +754,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-03T19:07:15Z",
+  "ultima_actualizacion": "2026-05-05 15:07 ET",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -793,14 +785,14 @@
     "pe_label": "$4,216",
     "pe_valor": 4216,
     "acumulado_fmt": "$488.44",
-    "coverage_txt": "al 3 may · 3/23 días operativos",
+    "coverage_txt": "al 3 may · 3/23 días operativos · lun-mar cerrado",
     "prom_dia_fmt": "$162.81",
-    "proyeccion_fmt": "$3,560.44",
+    "proyeccion_fmt": "$3,560",
     "facturas": 42,
     "ticket_fmt": "$11.63",
-    "deficit_fmt": "$655.56",
+    "deficit_fmt": "$656",
     "pct_cubierto": 11.6,
-    "tracker_note": "Mayo arrancó fuerte vie/sáb. DOM 3: $39 (-81% vs prom $207, -74% vs dom anterior $151). Posible feriado Día del Trabajador desplazó tráfico. Proj conservadora $3,560 vs PE $4,216 → déficit -$656. Tendencia actual $3,745.",
+    "tracker_note": "Mayo arrancó bien: vie 1 $161 (+15%), sáb 2 $288 (+26%). DOM 3: $39 PEOR DOMINGO (-81% vs prom). Lun/mar cerrado. Próximo día operativo: mié 6 may. Proyección $3,560 vs PE $4,216 → déficit -$656.",
     "dias_ventas": {
       "2026-05-01": 161,
       "2026-05-02": 288,
