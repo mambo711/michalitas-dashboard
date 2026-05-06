@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05 15:07 ET",
+  "updated": "2026-05-06 14:00 ET",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -785,14 +785,14 @@
     "pe_label": "$4,216",
     "pe_valor": 4216,
     "acumulado_fmt": "$488.44",
-    "coverage_txt": "al 3 may · 3/23 días operativos · lun-mar cerrado",
+    "coverage_txt": "al 5 may · 3/24 días operativos · lun-mar cerrado",
     "prom_dia_fmt": "$162.81",
     "proyeccion_fmt": "$3,560",
     "facturas": 42,
     "ticket_fmt": "$11.63",
     "deficit_fmt": "$656",
     "pct_cubierto": 11.6,
-    "tracker_note": "Mayo arrancó bien: vie 1 $161 (+15%), sáb 2 $288 (+26%). DOM 3: $39 PEOR DOMINGO (-81% vs prom). Lun/mar cerrado. Próximo día operativo: mié 6 may. Proyección $3,560 vs PE $4,216 → déficit -$656.",
+    "tracker_note": "Mié 6 may primer día operativo de la semana (nuevo horario 4PM-11PM, 2x1 + alitas). Mayo: vie 1 $161, sáb 2 $288, DOM 3 $39 PEOR DOMINGO -81%. Lun-mar cerrado. Proyección $3,560 vs PE $4,216 → déficit -$656.",
     "dias_ventas": {
       "2026-05-01": 161,
       "2026-05-02": 288,
