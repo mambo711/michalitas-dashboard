@@ -754,7 +754,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-07",
+  "ultima_actualizacion": "2026-05-08 18:14",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -785,14 +785,14 @@
     "pe_label": "$4,216",
     "pe_valor": 4216,
     "acumulado_fmt": "$568.09",
-    "coverage_txt": "al 6 may · 4/22 días operativos · lun-mar cerrado",
+    "coverage_txt": "al 8 may · 4/22 días op · jue 7 mayo sin datos ⚠️",
     "prom_dia_fmt": "$142.02",
-    "proyeccion_fmt": "$3,562",
+    "proyeccion_fmt": "$3,307",
     "facturas": 46,
     "ticket_fmt": "$12.35",
-    "deficit_fmt": "$654",
+    "deficit_fmt": "$909",
     "pct_cubierto": 13.5,
-    "tracker_note": "Mayo arrancó con vie 1 $161, sáb 2 $288, DOM 3 $39 (peor dom registrado -81%), MIÉ 6 $79.65 (en línea con prom histórico $78). 4 días operativos = $568.09. Lun-mar cerrado. Proyección $3,562 vs PE $4,216 → déficit -$654.",
+    "tracker_note": "Mayo arrancó: vie 1 $161, sáb 2 $288, dom 3 $39 (peor dom registrado -81%), mié 6 $79.65 (en línea prom $78). JUE 7 MAYO: $0 en Practisis ⚠️ — pero Diners Club emitió 2 comprobantes de retención por liquidación 07-05-2026 → hubo transacciones con tarjeta que no aparecen en POS. Investigar con Marian. Acumulado $568.09 / 4 días op. Proyección $3,307 vs PE $4,216 → déficit -$909.",
     "dias_ventas": {
       "2026-05-01": 161,
       "2026-05-02": 288,
