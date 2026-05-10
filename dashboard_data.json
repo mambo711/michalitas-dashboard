@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09T18:08:59Z",
+  "updated": "2026-05-10",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -671,34 +671,39 @@
   },
   "dias_recientes": [
     {
-      "dia": "Vie 8 may",
-      "ventas": "$381.50",
-      "facts": 21,
-      "nota": "🏆 RÉCORD VIERNES"
+      "fecha": "2026-05-09",
+      "dia": "Sáb",
+      "total": 346.1,
+      "facturas": 19,
+      "nota": "🟢 +52% vs prom"
     },
     {
-      "dia": "Mié 6 may",
-      "ventas": "$79.65",
-      "facts": 4,
-      "nota": "en línea prom"
+      "fecha": "2026-05-08",
+      "dia": "Vie",
+      "total": 381.5,
+      "facturas": 21,
+      "nota": "🏆 Récord viernes"
     },
     {
-      "dia": "Dom 3 may",
-      "ventas": "$39.25",
-      "facts": 3,
-      "nota": "⚠️ peor domingo"
+      "fecha": "2026-05-06",
+      "dia": "Mié",
+      "total": 79.65,
+      "facturas": 4,
+      "nota": "🟡 Curfew"
     },
     {
-      "dia": "Sáb 2 may",
-      "ventas": "$287.95",
-      "facts": 24,
-      "nota": "+26% vs prom"
+      "fecha": "2026-05-03",
+      "dia": "Dom",
+      "total": 39.25,
+      "facturas": 3,
+      "nota": "🔴 Dom débil"
     },
     {
-      "dia": "Vie 1 may",
-      "ventas": "$161.24",
-      "facts": 15,
-      "nota": "+15% vs prom"
+      "fecha": "2026-05-02",
+      "dia": "Sáb",
+      "total": 287.95,
+      "facturas": 24,
+      "nota": "🟢 +26% vs prom"
     }
   ],
   "semanas_ventas": {
@@ -749,7 +754,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-09 18:08 UTC",
+  "ultima_actualizacion": "2026-05-10 18:09",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -776,25 +781,26 @@
     "anio": 2026,
     "mes": 5,
     "dias": 31,
-    "primer_dia": 4,
-    "pe_label": "$4,216",
+    "primer_dia": "viernes",
+    "pe_label": "Punto Equilibrio",
     "pe_valor": 4216,
-    "acumulado_fmt": "$949.59",
-    "coverage_txt": "22.5% del PE",
-    "prom_dia_fmt": "$189.92/día",
-    "proyeccion_fmt": "$3,688.59",
-    "facturas": 67,
-    "ticket_fmt": "$14.17",
-    "deficit_fmt": "$527.41",
-    "pct_cubierto": 22.5,
-    "tracker_note": "Acumulado al 8 mayo (5 días op). Vie 8 mayo RÉCORD: $381.50",
+    "acumulado_fmt": "$1,295.69",
+    "coverage_txt": "7 días op / 23 días op totales en mayo",
+    "prom_dia_fmt": "$185.10/día",
+    "proyeccion_fmt": "$4,100",
+    "facturas": 86,
+    "ticket_fmt": "$15.07",
+    "deficit_fmt": "$-116",
+    "pct_cubierto": 30.7,
+    "tracker_note": "Viernes y sábados récord bajo toque de queda. Si mantiene ritmo, mayo puede cerrar cerca del PE por 1ra vez.",
     "dias_ventas": {
       "2026-05-01": 161,
       "2026-05-02": 288,
       "2026-05-03": 39,
       "2026-05-06": 80,
       "2026-05-07": 0,
-      "2026-05-08": 382
+      "2026-05-08": 382,
+      "2026-05-09": 346
     }
   }
 }
