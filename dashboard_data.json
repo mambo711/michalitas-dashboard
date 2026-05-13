@@ -754,7 +754,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-11 18:07",
+  "ultima_actualizacion": "2026-05-13 20:30",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -784,22 +784,21 @@
     "primer_dia": "viernes",
     "pe_label": "Punto Equilibrio",
     "pe_valor": 4216,
-    "acumulado_fmt": "$1,357.03",
-    "coverage_txt": "32.2% del punto de equilibrio",
-    "prom_dia_fmt": "$193.86",
-    "proyeccion_fmt": "$3,957",
+    "acumulado_fmt": "$1,357",
+    "coverage_txt": "32% cubierto (32%)",
+    "prom_dia_fmt": "$170/día",
+    "proyeccion_fmt": "~$3901",
     "facturas": 91,
     "ticket_fmt": "$14.91",
-    "deficit_fmt": "$-259",
-    "pct_cubierto": 32.2,
-    "tracker_note": "15 días op restantes (5 curfew + 10 normal). Toque de queda activo mié-dom hasta 17 may.",
+    "deficit_fmt": "$-315 proy.",
+    "pct_cubierto": 32,
+    "tracker_note": "13 may: curfew hasta 18 may | 15 días op restantes",
     "dias_ventas": {
       "2026-05-01": 161,
       "2026-05-02": 288,
       "2026-05-03": 39,
       "2026-05-06": 80,
-      "2026-05-07": 0,
-      "2026-05-08": 382,
+      "2026-05-08": 381,
       "2026-05-09": 346,
       "2026-05-10": 61
     }
