@@ -754,7 +754,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-15 15:25",
+  "ultima_actualizacion": "2026-05-15 18:51",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -784,25 +784,25 @@
     "primer_dia": "viernes",
     "pe_label": "Punto Equilibrio",
     "pe_valor": 4216,
-    "acumulado_fmt": "$1,551",
-    "coverage_txt": "37% cubierto",
-    "prom_dia_fmt": "$172/día",
-    "proyeccion_fmt": "~$4239 [curfew]",
-    "facturas": 102,
-    "ticket_fmt": "$15.21",
-    "deficit_fmt": "$+23 proy.",
-    "pct_cubierto": 36,
+    "acumulado_fmt": "$1,649",
+    "coverage_txt": "39% cubierto",
+    "prom_dia_fmt": "$183/día",
+    "proyeccion_fmt": "~$4,337 [curfew]",
+    "facturas": 108,
+    "ticket_fmt": "$15.27",
+    "deficit_fmt": "$+121 proy.",
+    "pct_cubierto": 39,
     "tracker_note": "15 May: 13 días op restantes [curfew]",
     "dias_ventas": {
-      "2026-05-08": 382,
-      "2026-05-13": 162,
-      "2026-05-14": 32,
-      "2026-05-09": 346,
       "2026-05-01": 161,
       "2026-05-02": 288,
-      "2026-05-06": 80,
       "2026-05-03": 39,
-      "2026-05-10": 61
+      "2026-05-06": 80,
+      "2026-05-08": 382,
+      "2026-05-09": 346,
+      "2026-05-10": 61,
+      "2026-05-13": 162,
+      "2026-05-14": 130
     }
   },
   "textos": {
