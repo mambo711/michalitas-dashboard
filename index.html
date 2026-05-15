@@ -325,7 +325,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 
 <!-- HOJA DE RUTA ESTRATÉGICA -->
 <div class="roadmap">
-  <div class="rm-title">Hoja de Ruta — Crecimiento 2026</div>
+  <div class="rm-title" id="d-roadmap-titulo">Hoja de Ruta — Crecimiento 2026</div>
   <div class="rm-track" id="d-roadmap-items">
   </div>
 </div>
@@ -455,9 +455,9 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div id="tab-analysis" class="tc">
 <div class="insight-box tab-insight">
   <h3>Insight Análisis</h3>
-  <p>Sábado+Viernes = 51% de las ventas. Miércoles es el peor día ($72 prom.) — martes no está lejos ($78). Hora pico absoluta: 11PM ($3,285 acumulado). 78% del revenue se concentra entre 7PM–2AM. Las primeras 2 horas de apertura (4–6PM) solo generan 3% del revenue: considerar abrir a las 6PM.</p>
+  <p id="d-insight-analisis">Sábado+Viernes = 51% de las ventas. Miércoles es el peor día ($72 prom.) — martes no está lejos ($78). Hora pico absoluta: 11PM ($3,285 acumulado). 78% del revenue se concentra entre 7PM–2AM. Las primeras 2 horas de apertura (4–6PM) solo generan 3% del revenue: considerar abrir a las 6PM.</p>
 </div>
-<div class="st">Ventas Promedio por Día de Semana (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
+<div class="st" id="d-chart-dow-titulo">Ventas Promedio por Día de Semana (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
 <div class="g2">
   <div class="cd"><div class="ct">Promedio Diario</div><div class="cw" style="height:210px"><canvas id="cDow"></canvas></div></div>
   <div class="cd">
@@ -473,7 +473,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   </div>
 </div>
 
-<div class="st">Heatmap Ventas por Hora × Día (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
+<div class="st" id="d-chart-heatmap-titulo">Heatmap Ventas por Hora × Día (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
 <div class="cd" style="margin-bottom:16px;overflow-x:auto">
   <div class="hm" id="heatmap"></div>
   <div style="display:flex;gap:10px;margin-top:8px;font-size:.80rem;color:var(--tm)">
@@ -496,9 +496,9 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div id="tab-products" class="tc">
 <div class="insight-box tab-insight">
   <h3>Insight Productos</h3>
-  <p>Michelada Maracuyá domina con $1,755 (10.5% del revenue total) y 406 unidades en 6 meses. Es el producto estrella indiscutible — nunca debe faltar insumo. Alitas combinadas (8+15+30) suman $1,846, la comida más rentable con diferencia. Maracumango y Chamochela son las miches premium con mejor ticket. Priorizar alitas sobre hamburguesas ($543 en 6 meses) en la carta.</p>
+  <p id="d-insight-productos">Michelada Maracuyá domina con $1,755 (10.5% del revenue total) y 406 unidades en 6 meses. Es el producto estrella indiscutible — nunca debe faltar insumo. Alitas combinadas (8+15+30) suman $1,846, la comida más rentable con diferencia. Maracumango y Chamochela son las miches premium con mejor ticket. Priorizar alitas sobre hamburguesas ($543 en 6 meses) en la carta.</p>
 </div>
-<div class="st">Top 10 Productos (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
+<div class="st" id="d-chart-productos-titulo">Top 10 Productos (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
 <div class="g2">
   <div class="cd">
     <div class="ct">Por Revenue ($)</div>
@@ -538,9 +538,9 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div id="tab-combos" class="tc">
 <div class="insight-box tab-insight">
   <h3>Insight Combos</h3>
-  <p>Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.</p>
+  <p id="d-insight-combos">Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.</p>
 </div>
-<div class="st">Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)</div>
+<div class="st" id="d-chart-combos-titulo">Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)</div>
 <div class="g2">
   <div class="cd">
     <div class="ct">Top 10 Parejas Más Frecuentes</div>
@@ -743,9 +743,9 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 id="tab-analysis" class="tc">
 <div class="insight-box tab-insight">
   <h3>Insight Análisis</h3>
-  <p>Sábado+Viernes = 51% de las ventas. Miércoles es el peor día ($72 prom.) — martes no está lejos ($78). Hora pico absoluta: 11PM ($3,285 acumulado). 78% del revenue se concentra entre 7PM–2AM. Las primeras 2 horas de apertura (4–6PM) solo generan 3% del revenue: considerar abrir a las 6PM.</p>
+  <p id="d-insight-analisis">Sábado+Viernes = 51% de las ventas. Miércoles es el peor día ($72 prom.) — martes no está lejos ($78). Hora pico absoluta: 11PM ($3,285 acumulado). 78% del revenue se concentra entre 7PM–2AM. Las primeras 2 horas de apertura (4–6PM) solo generan 3% del revenue: considerar abrir a las 6PM.</p>
 </div>
-<div class="st">Ventas Promedio por Día de Semana (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
+<div class="st" id="d-chart-dow-titulo">Ventas Promedio por Día de Semana (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
 <div class="g2">
   <div class="cd"><div class="ct">Promedio Diario</div><div class="cw" style="height:210px"><canvas id="cDow"></canvas></div></div>
   <div class="cd">
@@ -761,7 +761,7 @@ id="tab-analysis" class="tc">
   </div>
 </div>
 
-<div class="st">Heatmap Ventas por Hora × Día (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
+<div class="st" id="d-chart-heatmap-titulo">Heatmap Ventas por Hora × Día (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
 <div class="cd" style="margin-bottom:16px;overflow-x:auto">
   <div class="hm" id="heatmap"></div>
   <div style="display:flex;gap:10px;margin-top:8px;font-size:.80rem;color:var(--tm)">
@@ -784,9 +784,9 @@ id="tab-analysis" class="tc">
 <div id="tab-products" class="tc">
 <div class="insight-box tab-insight">
   <h3>Insight Productos</h3>
-  <p>Michelada Maracuyá domina con $1,755 (10.5% del revenue total) y 406 unidades en 6 meses. Es el producto estrella indiscutible — nunca debe faltar insumo. Alitas combinadas (8+15+30) suman $1,846, la comida más rentable con diferencia. Maracumango y Chamochela son las miches premium con mejor ticket. Priorizar alitas sobre hamburguesas ($543 en 6 meses) en la carta.</p>
+  <p id="d-insight-productos">Michelada Maracuyá domina con $1,755 (10.5% del revenue total) y 406 unidades en 6 meses. Es el producto estrella indiscutible — nunca debe faltar insumo. Alitas combinadas (8+15+30) suman $1,846, la comida más rentable con diferencia. Maracumango y Chamochela son las miches premium con mejor ticket. Priorizar alitas sobre hamburguesas ($543 en 6 meses) en la carta.</p>
 </div>
-<div class="st">Top 10 Productos (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
+<div class="st" id="d-chart-productos-titulo">Top 10 Productos (Nov 2025 – Abr 2026 · 1,108 facturas)</div>
 <div class="g2">
   <div class="cd">
     <div class="ct">Por Revenue ($)</div>
@@ -826,9 +826,9 @@ id="tab-analysis" class="tc">
 <div id="tab-combos" class="tc">
 <div class="insight-box tab-insight">
   <h3>Insight Combos</h3>
-  <p>Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.</p>
+  <p id="d-insight-combos">Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.</p>
 </div>
-<div class="st">Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)</div>
+<div class="st" id="d-chart-combos-titulo">Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)</div>
 <div class="g2">
   <div class="cd">
     <div class="ct">Top 10 Parejas Más Frecuentes</div>
@@ -1015,7 +1015,7 @@ id="tab-analysis" class="tc">
 <div id="tab-actions" class="tc">
 <div class="insight-box tab-insight">
   <h3>Insight Acciones</h3>
-  <p>De 8 acciones, 1 sigue urgente (Uber Eats — dispositivo inestable), 4 están desbloqueadas por mesera confirmada (happy hour, fidelidad, eventos, venta a carros), y el resto en proceso. La prioridad ahora es ejecutar rápido las iniciativas desbloqueadas: cada semana sin happy hour o fidelidad activos es $200-400 en ventas potenciales no capturadas.</p>
+  <p id="d-insight-acciones">De 8 acciones, 1 sigue urgente (Uber Eats — dispositivo inestable), 4 están desbloqueadas por mesera confirmada (happy hour, fidelidad, eventos, venta a carros), y el resto en proceso. La prioridad ahora es ejecutar rápido las iniciativas desbloqueadas: cada semana sin happy hour o fidelidad activos es $200-400 en ventas potenciales no capturadas.</p>
 </div>
 <div class="g2">
   <div class="cd">
@@ -1048,8 +1048,8 @@ id="tab-analysis" class="tc">
 <!-- TAB: MARKETING -->
 <div id="tab-marketing" class="tc">
 <div class="insight-box tab-insight">
-  <h3>📱 Marketing Digital — Datos en tiempo real vía Windsor.ai</h3>
-  <p>Instagram Insights + Google My Business conectados directamente. Actualización diaria automática. Sin depender de reportes de nadie.</p>
+  <h3 id="d-marketing-titulo">📱 Marketing Digital — Datos en tiempo real vía Windsor.ai</h3>
+  <p id="d-marketing-descripcion">Instagram Insights + Google My Business conectados directamente. Actualización diaria automática. Sin depender de reportes de nadie.</p>
 </div>
 
 <!-- INSTAGRAM -->
@@ -1596,6 +1596,22 @@ async function exportPDF(){
           set('meta-objetivo', mkt.meta_ads.objetivo_actual||'—');
           set('meta-gasto', '$'+(mkt.meta_ads.gasto_mes||150)+'/mes');
         }
+      }
+
+      // === TEXTOS DINÁMICOS DESDE JSON ===
+      if(d.textos){
+        const tx=d.textos;
+        set('d-insight-analisis', tx.insight_analisis);
+        set('d-insight-productos', tx.insight_productos);
+        set('d-insight-combos', tx.insight_combos);
+        set('d-insight-acciones', tx.insight_acciones);
+        set('d-marketing-titulo', tx.marketing_titulo);
+        set('d-marketing-descripcion', tx.marketing_descripcion);
+        set('d-roadmap-titulo', tx.roadmap_titulo);
+        set('d-chart-dow-titulo', tx.chart_dow_titulo);
+        set('d-chart-heatmap-titulo', tx.chart_heatmap_titulo);
+        set('d-chart-productos-titulo', tx.chart_productos_titulo);
+        set('d-chart-combos-titulo', tx.chart_combos_titulo);
       }
     }).catch(e=>console.warn('dashboard_data.json no disponible:',e));
 })();
