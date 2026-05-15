@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10",
+  "updated": "2026-05-15T15:25:33",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -409,35 +409,35 @@
   ],
   "last_briefing": "2026-05-07",
   "foco_semana": {
-    "titulo": "Semana 3-9 Mayo",
-    "subtitulo": "Martes 5: BSC vs Boca (Copa Lib) · Renta vence día 5",
+    "titulo": "Semana 12-18 Mayo",
+    "subtitulo": "⚠️ Toque de queda activo (3PM-10PM) hasta el 18 mayo · Curfew afecta horario",
     "items": [
       {
         "num": "1",
-        "nombre": "Renta $700",
-        "why": "Vence el día 5 — plazo contractual",
-        "who": "Alberto hoy",
+        "nombre": "Toque de queda: operar después de 10PM",
+        "why": "Restricción 3PM-10PM vigente hasta el 18 mayo. Solo abrir después de 10PM.",
+        "who": "Marian",
         "estado": "crit"
       },
       {
         "num": "2",
-        "nombre": "Nómina Marian + Alexis",
-        "why": "$443.30 Marian pendientes · Alexis $600 sin confirmar",
+        "nombre": "IESS $132.20",
+        "why": "Vence hoy 15 mayo — multa si no se paga hoy",
+        "who": "Alberto HOY",
+        "estado": "crit"
+      },
+      {
+        "num": "3",
+        "nombre": "PedidosYa — estudio jurídico",
+        "why": "$6.24 pendiente de cobro — requiere seguimiento urgente",
         "who": "Alberto esta semana",
         "estado": "warn"
       },
       {
-        "num": "3",
-        "nombre": "¿Abrir martes 5 mayo?",
-        "why": "BSC vs Boca Juniors Copa Libertadores LOCAL — evento de máximo impacto",
-        "who": "Marian confirmar hoy",
-        "estado": "active"
-      },
-      {
         "num": "4",
-        "nombre": "Convertir tráfico dominical",
-        "why": "Domingo histórico $207 avg — aprovechar apertura 1 PM",
-        "who": "Marian",
+        "nombre": "Plan reapertura post-curfew",
+        "why": "Restricción termina el 18 mayo. Preparar horario normal y comunicar a clientes.",
+        "who": "Marian + Alberto",
         "estado": "active"
       }
     ]
@@ -754,7 +754,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-15 02:28",
+  "ultima_actualizacion": "2026-05-15 15:25",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -804,5 +804,18 @@
       "2026-05-03": 39,
       "2026-05-10": 61
     }
+  },
+  "textos": {
+    "roadmap_titulo": "Hoja de Ruta — Crecimiento 2026",
+    "marketing_titulo": "📱 Marketing Digital — Datos en tiempo real vía Windsor.ai",
+    "marketing_descripcion": "Instagram Insights + Google My Business conectados directamente. Actualización diaria automática. Sin depender de reportes de nadie.",
+    "insight_analisis": "Sábado+Viernes = 51% de las ventas. Miércoles es el peor día ($72 prom.) — martes no está lejos ($78). Hora pico absoluta: 11PM ($3,285 acumulado). 78% del revenue se concentra entre 7PM–2AM. Las primeras 2 horas de apertura (4–6PM) solo generan 3% del revenue: considerar abrir a las 6PM.",
+    "insight_productos": "Michelada Maracuyá domina con $1,755 (10.5% del revenue total) y 406 unidades en 6 meses. Es el producto estrella indiscutible — nunca debe faltar insumo. Alitas combinadas (8+15+30) suman $1,846, la comida más rentable con diferencia. Maracumango y Chamochela son las miches premium con mejor ticket. Priorizar alitas sobre hamburguesas ($543 en 6 meses) en la carta.",
+    "insight_combos": "Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.",
+    "insight_acciones": "De 8 acciones, 1 sigue urgente (Uber Eats — dispositivo inestable), 4 están desbloqueadas por mesera confirmada (happy hour, fidelidad, eventos, venta a carros), y el resto en proceso. La prioridad ahora es ejecutar rápido las iniciativas desbloqueadas: cada semana sin happy hour o fidelidad activos es $200-400 en ventas potenciales no capturadas.",
+    "chart_dow_titulo": "Ventas Promedio por Día de Semana (Nov 2025 – Abr 2026 · 1,108 facturas)",
+    "chart_heatmap_titulo": "Heatmap Ventas por Hora × Día (Nov 2025 – Abr 2026 · 1,108 facturas)",
+    "chart_productos_titulo": "Top 10 Productos (Nov 2025 – Abr 2026 · 1,108 facturas)",
+    "chart_combos_titulo": "Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)"
   }
 }
