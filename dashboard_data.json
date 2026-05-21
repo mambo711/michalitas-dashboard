@@ -401,11 +401,7 @@
   ],
   "last_briefing": {
     "fecha": "2026-05-21",
-    "hora": "15:29 ET",
-    "ventas_ayer": 169.09,
-    "facturas_ayer": 12,
-    "ticket_ayer": 14.09,
-    "dia_ayer": "Mié 20 may — 1er mié horario completo"
+    "resumen": "Ayer $169.09 | Mes $2,365 | 13 días op"
   },
   "foco_semana": {
     "titulo": "Semana 12-18 Mayo",
@@ -767,7 +763,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-21 15:29 ET",
+  "ultima_actualizacion": "2026-05-21 15:33",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -791,38 +787,29 @@
   },
   "mes_actual": {
     "label": "Mayo 2026",
-    "anio": 2026,
-    "mes": 5,
-    "dias": 31,
-    "pe_label": "Punto Equilibrio",
-    "pe_valor": 4216,
-    "acumulado_fmt": "$2,364.72",
-    "coverage_txt": "56% cubierto",
-    "prom_dia_fmt": "$182/día",
-    "proyeccion_fmt": "~$3,895–$4,345",
+    "acumulado": 2364.72,
+    "acumulado_fmt": "$2,365",
     "facturas": 157,
-    "ticket_fmt": "$15.06",
-    "deficit_fmt": "-$1,851",
-    "pct_cubierto": 56.1,
     "dias_operativos": 13,
-    "dias_restantes": 9,
+    "prom_dia": 181.9,
+    "ticket_prom": 15.06,
     "punto_equilibrio": 4216,
-    "tracker_note": "21 May: 13 días op, $2,364.72 acumulado. Curfew terminó, horario completo desde 20 may. 9 días op restantes.",
+    "proyeccion": 4001.8,
+    "diferencia_pe": -214.2,
     "dias_ventas": {
-      "2026-05-01": 161,
-      "2026-05-02": 288,
-      "2026-05-03": 39,
-      "2026-05-06": 80,
-      "2026-05-07": 0,
-      "2026-05-08": 382,
-      "2026-05-09": 346,
-      "2026-05-10": 61,
-      "2026-05-13": 162,
-      "2026-05-14": 130,
-      "2026-05-15": 259,
-      "2026-05-16": 165,
-      "2026-05-17": 122,
-      "2026-05-20": 169
+      "2026-05-01": 161.24,
+      "2026-05-02": 287.95,
+      "2026-05-03": 39.25,
+      "2026-05-06": 79.65,
+      "2026-05-08": 381.5,
+      "2026-05-09": 346.1,
+      "2026-05-10": 61.34,
+      "2026-05-13": 162.44,
+      "2026-05-14": 129.5,
+      "2026-05-15": 259.21,
+      "2026-05-16": 164.98,
+      "2026-05-17": 122.47,
+      "2026-05-20": 169.09
     }
   },
   "textos": {
