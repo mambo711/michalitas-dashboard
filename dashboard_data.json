@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T15:25:33",
+  "updated": "2026-05-21T15:29:16",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -383,31 +383,30 @@
   },
   "alertas": [
     {
-      "tipo": "rojo",
-      "texto": "❗ Renta $700 vence días 1-5 del mes — hoy día 3. ¿Confirmada?"
+      "tipo": "warning",
+      "msg": "DATAFAST deuda pendiente — recibió otro email de cobro hoy 21 may. Pagar urgente."
     },
     {
-      "tipo": "rojo",
-      "texto": "❗ Nómina Marian: faltan $443.30. Alexis $600 sin confirmar."
+      "tipo": "info",
+      "msg": "José Miguel (Coordinador) + Alejandro (Soporte) confirmaron roles. Inician 1 jun 2026."
     },
     {
-      "tipo": "amarillo",
-      "texto": "🏆 Martes 5 mayo: BSC vs Boca Juniors, Copa Libertadores LOCAL. Bar cierra martes — evaluar apertura excepcional."
+      "tipo": "info",
+      "msg": "Cristina compartió carpeta 'Redes michalitas xpress' en Google Drive."
     },
     {
-      "tipo": "amarillo",
-      "texto": "📄 CHERUSKER — Factura a CORPMARYAL SAS (No. 2-130592, 2 may). Pasar a Cristina."
-    },
-    {
-      "tipo": "amarillo",
-      "texto": "IESS $132.20 — vence ~día 15 de mayo. Preparar pago."
-    },
-    {
-      "tipo": "verde",
-      "texto": "Mayo arranca fuerte: $449 en 2 días ($224/día avg, +22% vs histórico)."
+      "tipo": "success",
+      "msg": "Curfew terminado. Horario completo desde miércoles 20 mayo."
     }
   ],
-  "last_briefing": "2026-05-07",
+  "last_briefing": {
+    "fecha": "2026-05-21",
+    "hora": "15:29 ET",
+    "ventas_ayer": 169.09,
+    "facturas_ayer": 12,
+    "ticket_ayer": 14.09,
+    "dia_ayer": "Mié 20 may — 1er mié horario completo"
+  },
   "foco_semana": {
     "titulo": "Semana 12-18 Mayo",
     "subtitulo": "⚠️ Toque de queda activo (3PM-10PM) hasta el 18 mayo · Curfew afecta horario",
@@ -671,39 +670,53 @@
   },
   "dias_recientes": [
     {
-      "fecha": "2026-05-09",
-      "dia": "Sáb",
-      "total": 346.1,
-      "facturas": 19,
-      "nota": "🟢 +52% vs prom"
-    },
-    {
-      "fecha": "2026-05-08",
-      "dia": "Vie",
-      "total": 381.5,
-      "facturas": 21,
-      "nota": "🏆 Récord viernes"
-    },
-    {
-      "fecha": "2026-05-06",
+      "fecha": "2026-05-20",
       "dia": "Mié",
-      "total": 79.65,
-      "facturas": 4,
-      "nota": "🟡 Curfew"
+      "total": 169.09,
+      "facturas": 12,
+      "nota": "🟢 1er mié horario completo"
     },
     {
-      "fecha": "2026-05-03",
+      "fecha": "2026-05-17",
       "dia": "Dom",
-      "total": 39.25,
-      "facturas": 3,
-      "nota": "🔴 Dom débil"
+      "total": 122.47,
+      "facturas": 7,
+      "nota": "🟡 Dom post-curfew"
     },
     {
-      "fecha": "2026-05-02",
+      "fecha": "2026-05-16",
       "dia": "Sáb",
-      "total": 287.95,
-      "facturas": 24,
-      "nota": "🟢 +26% vs prom"
+      "total": 164.98,
+      "facturas": 12,
+      "nota": "🟡 En línea"
+    },
+    {
+      "fecha": "2026-05-15",
+      "dia": "Vie",
+      "total": 259.21,
+      "facturas": 18,
+      "nota": "🟢 Sobre promedio"
+    },
+    {
+      "fecha": "2026-05-14",
+      "dia": "Jue",
+      "total": 129.5,
+      "facturas": 8,
+      "nota": "🟡 En línea"
+    },
+    {
+      "fecha": "2026-05-13",
+      "dia": "Mié",
+      "total": 162.44,
+      "facturas": 9,
+      "nota": "🟡 En línea"
+    },
+    {
+      "fecha": "2026-05-10",
+      "dia": "Dom",
+      "total": 61.34,
+      "facturas": 5,
+      "nota": "🔴 Bajo"
     }
   ],
   "semanas_ventas": {
@@ -754,7 +767,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-17 18:08",
+  "ultima_actualizacion": "2026-05-21 15:29 ET",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -781,30 +794,35 @@
     "anio": 2026,
     "mes": 5,
     "dias": 31,
-    "primer_dia": "viernes",
     "pe_label": "Punto Equilibrio",
     "pe_valor": 4216,
-    "acumulado_fmt": "$2,073",
-    "coverage_txt": "49% cubierto",
-    "prom_dia_fmt": "$188/día",
-    "proyeccion_fmt": "~$4233 [curfew]",
-    "facturas": 138,
-    "ticket_fmt": "$15.02",
-    "deficit_fmt": "$+17 proy.",
-    "pct_cubierto": 49,
-    "tracker_note": "17 May: 11 días op restantes [curfew]",
+    "acumulado_fmt": "$2,364.72",
+    "coverage_txt": "56% cubierto",
+    "prom_dia_fmt": "$182/día",
+    "proyeccion_fmt": "~$3,895–$4,345",
+    "facturas": 157,
+    "ticket_fmt": "$15.06",
+    "deficit_fmt": "-$1,851",
+    "pct_cubierto": 56.1,
+    "dias_operativos": 13,
+    "dias_restantes": 9,
+    "punto_equilibrio": 4216,
+    "tracker_note": "21 May: 13 días op, $2,364.72 acumulado. Curfew terminó, horario completo desde 20 may. 9 días op restantes.",
     "dias_ventas": {
-      "2026-05-13": 162,
-      "2026-05-10": 61,
-      "2026-05-08": 382,
-      "2026-05-15": 259,
-      "2026-05-09": 346,
       "2026-05-01": 161,
       "2026-05-02": 288,
-      "2026-05-14": 130,
-      "2026-05-06": 80,
       "2026-05-03": 39,
-      "2026-05-16": 165
+      "2026-05-06": 80,
+      "2026-05-07": 0,
+      "2026-05-08": 382,
+      "2026-05-09": 346,
+      "2026-05-10": 61,
+      "2026-05-13": 162,
+      "2026-05-14": 130,
+      "2026-05-15": 259,
+      "2026-05-16": 165,
+      "2026-05-17": 122,
+      "2026-05-20": 169
     }
   },
   "textos": {
