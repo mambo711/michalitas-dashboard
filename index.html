@@ -1601,17 +1601,19 @@ async function exportPDF(){
       // === TEXTOS DINÁMICOS DESDE JSON ===
       if(d.textos){
         const tx=d.textos;
-        set('d-insight-analisis', tx.insight_analisis);
-        set('d-insight-productos', tx.insight_productos);
-        set('d-insight-combos', tx.insight_combos);
+        // setAll handles duplicate IDs (desktop + mobile tabs)
+        const setAll=(id,val)=>{if(!val)return;document.querySelectorAll('[id="'+id+'"]').forEach(el=>el.textContent=val);};
+        setAll('d-insight-analisis', tx.insight_analisis);
+        setAll('d-insight-productos', tx.insight_productos);
+        setAll('d-insight-combos', tx.insight_combos);
         set('d-insight-acciones', tx.insight_acciones);
         set('d-marketing-titulo', tx.marketing_titulo);
         set('d-marketing-descripcion', tx.marketing_descripcion);
         set('d-roadmap-titulo', tx.roadmap_titulo);
-        set('d-chart-dow-titulo', tx.chart_dow_titulo);
-        set('d-chart-heatmap-titulo', tx.chart_heatmap_titulo);
-        set('d-chart-productos-titulo', tx.chart_productos_titulo);
-        set('d-chart-combos-titulo', tx.chart_combos_titulo);
+        setAll('d-chart-dow-titulo', tx.chart_dow_titulo);
+        setAll('d-chart-heatmap-titulo', tx.chart_heatmap_titulo);
+        setAll('d-chart-productos-titulo', tx.chart_productos_titulo);
+        setAll('d-chart-combos-titulo', tx.chart_combos_titulo);
       }
     }).catch(e=>console.warn('dashboard_data.json no disponible:',e));
 })();
