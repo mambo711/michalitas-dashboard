@@ -763,7 +763,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-21 15:33",
+  "ultima_actualizacion": "2026-05-21 20:06",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -794,8 +794,8 @@
     "prom_dia": 181.9,
     "ticket_prom": 15.06,
     "punto_equilibrio": 4216,
-    "proyeccion": 4001.8,
-    "diferencia_pe": -214.2,
+    "proyeccion": 4001.83,
+    "diferencia_pe": -214.17,
     "dias_ventas": {
       "2026-05-01": 161.24,
       "2026-05-02": 287.95,
