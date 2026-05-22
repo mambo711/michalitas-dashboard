@@ -383,20 +383,36 @@
   },
   "alertas": [
     {
+      "tipo": "error",
+      "msg": "CNEL $80.77 — Vence 27/05/2026. Cuenta 201016747317. Pagar antes del miércoles."
+    },
+    {
+      "tipo": "error",
+      "msg": "PedidosYa $6.24 — Escalado a estudio jurídico. Reintentar transferencia urgente."
+    },
+    {
       "tipo": "warning",
-      "msg": "DATAFAST deuda pendiente — recibió otro email de cobro hoy 21 may. Pagar urgente."
+      "msg": "Renta Mayo $700 — Sin confirmar pago. Urgente verificar con Marian."
     },
     {
-      "tipo": "info",
-      "msg": "José Miguel (Coordinador) + Alejandro (Soporte) confirmaron roles. Inician 1 jun 2026."
+      "tipo": "warning",
+      "msg": "IESS $132.20 — Sin confirmar estado de pago. Vencía ~día 15 mayo."
     },
     {
-      "tipo": "info",
-      "msg": "Cristina compartió carpeta 'Redes michalitas xpress' en Google Drive."
+      "tipo": "warning",
+      "msg": "Meta For Business restringida desde 19 abr — Ads de Instagram sin activar."
     },
     {
       "tipo": "success",
-      "msg": "Curfew terminado. Horario completo desde miércoles 20 mayo."
+      "msg": "Curfew terminado. Horario completo desde miércoles 20 mayo. ¡Horario nocturno de vuelta!"
+    },
+    {
+      "tipo": "success",
+      "msg": "Datafast PAGADO por Marian. ✅ Cerrado."
+    },
+    {
+      "tipo": "info",
+      "msg": "José Miguel + Alejandro confirmados. Inician 1 jun 2026. Cronograma activo esta semana."
     }
   ],
   "last_briefing": {
@@ -404,36 +420,43 @@
     "resumen": "Ayer $131.13 | Mes $2,496 | 14 días op"
   },
   "foco_semana": {
-    "titulo": "Semana 12-18 Mayo",
-    "subtitulo": "⚠️ Toque de queda activo (3PM-10PM) hasta el 18 mayo · Curfew afecta horario",
+    "titulo": "Semana 19-25 Mayo",
+    "subtitulo": "🍺 Horario completo restaurado · Equipo en terreno esta semana",
     "items": [
       {
         "num": "1",
-        "nombre": "Toque de queda: operar después de 10PM",
-        "why": "Restricción 3PM-10PM vigente hasta el 18 mayo. Solo abrir después de 10PM.",
-        "who": "Marian",
+        "nombre": "CNEL $80.77 — Pagar antes del 27 mayo",
+        "why": "Factura vence miércoles 27 mayo. Cuenta/Suministro 201016747317. Pagar HOY o lunes máximo.",
+        "who": "Alberto",
         "estado": "crit"
       },
       {
         "num": "2",
-        "nombre": "IESS $132.20",
-        "why": "Vence hoy 15 mayo — multa si no se paga hoy",
-        "who": "Alberto HOY",
+        "nombre": "PedidosYa $6.24 — Reintentar transferencia",
+        "why": "Pago enviado pero no procesado. Escalado a estudio jurídico. Banco Citibank Cta 0001076027 USD",
+        "who": "Marian",
         "estado": "crit"
       },
       {
         "num": "3",
-        "nombre": "PedidosYa — estudio jurídico",
-        "why": "$6.24 pendiente de cobro — requiere seguimiento urgente",
-        "who": "Alberto esta semana",
+        "nombre": "Renta Mayo $700 — Confirmar pago",
+        "why": "Sin confirmar. Contrato exige primeros 5 días del mes. Día 22 — verificar urgente.",
+        "who": "Alberto",
         "estado": "warn"
       },
       {
         "num": "4",
-        "nombre": "Plan reapertura post-curfew",
-        "why": "Restricción termina el 18 mayo. Preparar horario normal y comunicar a clientes.",
-        "who": "Marian + Alberto",
-        "estado": "active"
+        "nombre": "Nómina Alexis — $360 pendiente",
+        "why": "40% pagado ($240). Falta $360 de mayo. Definir fecha de pago.",
+        "who": "Alberto + Marian",
+        "estado": "warn"
+      },
+      {
+        "num": "5",
+        "nombre": "Viernes a sábado — Meta $250/noche",
+        "why": "José Miguel entrega volantes hoy. Focus group Cabeza Jabalí. Posts QR en mesas. Promo IG activa.",
+        "who": "Equipo",
+        "estado": "ok"
       }
     ]
   },
@@ -763,7 +786,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-22 18:07",
+  "ultima_actualizacion": "2026-05-22 14:30",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -824,6 +847,8 @@
     "chart_dow_titulo": "Ventas Promedio por Día de Semana (Nov 2025 – Abr 2026 · 1,108 facturas)",
     "chart_heatmap_titulo": "Heatmap Ventas por Hora × Día (Nov 2025 – Abr 2026 · 1,108 facturas)",
     "chart_productos_titulo": "Top 10 Productos (Nov 2025 – Abr 2026 · 1,108 facturas)",
-    "chart_combos_titulo": "Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)"
+    "chart_combos_titulo": "Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)",
+    "banner_alerta": "",
+    "semana_label": "Semana 19-25 Mayo 2026"
   }
 }
