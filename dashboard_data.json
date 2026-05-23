@@ -416,8 +416,8 @@
     }
   ],
   "last_briefing": {
-    "fecha": "2026-05-22",
-    "resumen": "Ayer $131.13 | Mes $2,496 | 14 días op"
+    "fecha": "2026-05-23",
+    "resumen": "Ayer $231.27 | Mes $2,727 | 15 días op"
   },
   "foco_semana": {
     "titulo": "Semana 19-25 Mayo",
@@ -786,7 +786,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-22 14:30",
+  "ultima_actualizacion": "2026-05-23 12:47",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -810,15 +810,15 @@
   },
   "mes_actual": {
     "label": "Mayo 2026",
-    "acumulado": 2495.85,
-    "acumulado_fmt": "$2,496",
-    "facturas": 165,
-    "dias_operativos": 14,
-    "prom_dia": 178.28,
-    "ticket_prom": 15.13,
+    "acumulado": 2727.12,
+    "acumulado_fmt": "$2,727",
+    "facturas": 180,
+    "dias_operativos": 15,
+    "prom_dia": 181.81,
+    "ticket_prom": 15.15,
     "punto_equilibrio": 4216,
-    "proyeccion": 3922.05,
-    "diferencia_pe": -293.95,
+    "proyeccion": 3999.78,
+    "diferencia_pe": -216.22,
     "dias_ventas": {
       "2026-05-09": 346.1,
       "2026-05-21": 131.13,
@@ -831,6 +831,7 @@
       "2026-05-08": 381.5,
       "2026-05-13": 162.44,
       "2026-05-14": 129.5,
+      "2026-05-22": 231.27,
       "2026-05-03": 39.25,
       "2026-05-06": 79.65,
       "2026-05-17": 122.47
