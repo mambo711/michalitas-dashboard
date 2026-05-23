@@ -689,53 +689,53 @@
   },
   "dias_recientes": [
     {
-      "fecha": "2026-05-20",
-      "dia": "Mié",
-      "total": 169.09,
-      "facturas": 12,
-      "nota": "🟢 1er mié horario completo"
+      "label": "Vie 22/5",
+      "total": 231.0,
+      "facturas": null,
+      "hl": "od",
+      "star": false
     },
     {
-      "fecha": "2026-05-17",
-      "dia": "Dom",
-      "total": 122.47,
-      "facturas": 7,
-      "nota": "🟡 Dom post-curfew"
+      "label": "Jue 21/5",
+      "total": 131.0,
+      "facturas": null,
+      "hl": "r",
+      "star": false
     },
     {
-      "fecha": "2026-05-16",
-      "dia": "Sáb",
-      "total": 164.98,
-      "facturas": 12,
-      "nota": "🟡 En línea"
+      "label": "Mié 20/5",
+      "total": 169.0,
+      "facturas": null,
+      "hl": "g",
+      "star": false
     },
     {
-      "fecha": "2026-05-15",
-      "dia": "Vie",
-      "total": 259.21,
-      "facturas": 18,
-      "nota": "🟢 Sobre promedio"
+      "label": "Dom 17/5",
+      "total": 122.0,
+      "facturas": null,
+      "hl": "r",
+      "star": false
     },
     {
-      "fecha": "2026-05-14",
-      "dia": "Jue",
-      "total": 129.5,
-      "facturas": 8,
-      "nota": "🟡 En línea"
+      "label": "Sáb 16/5",
+      "total": 165.0,
+      "facturas": null,
+      "hl": "r",
+      "star": false
     },
     {
-      "fecha": "2026-05-13",
-      "dia": "Mié",
-      "total": 162.44,
-      "facturas": 9,
-      "nota": "🟡 En línea"
+      "label": "Vie 15/5",
+      "total": 259.0,
+      "facturas": null,
+      "hl": "od",
+      "star": false
     },
     {
-      "fecha": "2026-05-10",
-      "dia": "Dom",
-      "total": 61.34,
-      "facturas": 5,
-      "nota": "🔴 Bajo"
+      "label": "Jue 14/5",
+      "total": 130.0,
+      "facturas": null,
+      "hl": "r",
+      "star": false
     }
   ],
   "semanas_ventas": {
@@ -786,7 +786,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-23 12:47",
+  "ultima_actualizacion": "2026-05-23 13:24",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -835,7 +835,14 @@
       "2026-05-03": 39.25,
       "2026-05-06": 79.65,
       "2026-05-17": 122.47
-    }
+    },
+    "prom_dia_fmt": "$181.81",
+    "proyeccion_fmt": "$4,000",
+    "ticket_fmt": "$15.15",
+    "deficit_fmt": "$-216",
+    "coverage_txt": "15 días operativos — EN VIVO",
+    "pct_cubierto": 64.7,
+    "tracker_note": "Acumulado $2,727 en 15 días. Promedio $182/día. Déficit proyectado $-216 vs PE. 7 días restantes."
   },
   "textos": {
     "roadmap_titulo": "Hoja de Ruta — Crecimiento 2026",
