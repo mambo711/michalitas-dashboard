@@ -689,53 +689,53 @@
   },
   "dias_recientes": [
     {
-      "label": "Vie 22/5",
-      "total": 231.0,
-      "facturas": null,
-      "hl": "od",
-      "star": false
+      "label": "Sáb 23 may",
+      "total": 8.0,
+      "facturas": 1,
+      "hl": "bad",
+      "star": ""
     },
     {
-      "label": "Jue 21/5",
-      "total": 131.0,
-      "facturas": null,
-      "hl": "r",
-      "star": false
+      "label": "Vie 22 may",
+      "total": 231.27,
+      "facturas": 15,
+      "hl": "neutral",
+      "star": ""
     },
     {
-      "label": "Mié 20/5",
-      "total": 169.0,
-      "facturas": null,
-      "hl": "g",
-      "star": false
+      "label": "Jue 21 may",
+      "total": 131.13,
+      "facturas": 8,
+      "hl": "neutral",
+      "star": ""
     },
     {
-      "label": "Dom 17/5",
-      "total": 122.0,
-      "facturas": null,
-      "hl": "r",
-      "star": false
+      "label": "Mié 20 may",
+      "total": 169.09,
+      "facturas": 12,
+      "hl": "good",
+      "star": "⭐"
     },
     {
-      "label": "Sáb 16/5",
-      "total": 165.0,
-      "facturas": null,
-      "hl": "r",
-      "star": false
+      "label": "Dom 17 may",
+      "total": 122.47,
+      "facturas": 7,
+      "hl": "bad",
+      "star": ""
     },
     {
-      "label": "Vie 15/5",
-      "total": 259.0,
-      "facturas": null,
-      "hl": "od",
-      "star": false
+      "label": "Sáb 16 may",
+      "total": 164.98,
+      "facturas": 12,
+      "hl": "bad",
+      "star": ""
     },
     {
-      "label": "Jue 14/5",
-      "total": 130.0,
-      "facturas": null,
-      "hl": "r",
-      "star": false
+      "label": "Vie 15 may",
+      "total": 259.21,
+      "facturas": 18,
+      "hl": "neutral",
+      "star": ""
     }
   ],
   "semanas_ventas": {
@@ -786,7 +786,7 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-23 13:24",
+  "ultima_actualizacion": "2026-05-23 23:50",
   "mayo": {
     "acumulado_fmt": "$449",
     "coverage_txt": "2 días operativos de 23 — en curso",
@@ -815,10 +815,17 @@
     "facturas": 180,
     "dias_operativos": 15,
     "prom_dia": 181.81,
+    "prom_dia_fmt": "$182",
     "ticket_prom": 15.15,
+    "ticket_fmt": "$15.15",
     "punto_equilibrio": 4216,
-    "proyeccion": 3999.78,
-    "diferencia_pe": -216.22,
+    "proyeccion": 3999.82,
+    "proyeccion_fmt": "$4,000",
+    "diferencia_pe": -216.18,
+    "deficit_fmt": "$-216",
+    "pct_cubierto": 65.0,
+    "coverage_txt": "65% cubierto · 15 días operativos",
+    "tracker_note": "necesario $213/día los próximos 7 días",
     "dias_ventas": {
       "2026-05-09": 346.1,
       "2026-05-21": 131.13,
@@ -832,17 +839,14 @@
       "2026-05-13": 162.44,
       "2026-05-14": 129.5,
       "2026-05-22": 231.27,
+      "2026-05-23": 8.0,
       "2026-05-03": 39.25,
       "2026-05-06": 79.65,
       "2026-05-17": 122.47
     },
-    "prom_dia_fmt": "$181.81",
-    "proyeccion_fmt": "$4,000",
-    "ticket_fmt": "$15.15",
-    "deficit_fmt": "$-216",
-    "coverage_txt": "15 días operativos — EN VIVO",
-    "pct_cubierto": 64.7,
-    "tracker_note": "Acumulado $2,727 en 15 días. Promedio $182/día. Déficit proyectado $-216 vs PE. 7 días restantes."
+    "insight": "Mayo (al 22): $2,727 acumulado en 15 días op, 180 facturas, ticket $15.15. Proyección: ~$4,000 vs PE $4,216 (déficit $216).",
+    "anio": 2026,
+    "mes": 5
   },
   "textos": {
     "roadmap_titulo": "Hoja de Ruta — Crecimiento 2026",
@@ -858,5 +862,97 @@
     "chart_combos_titulo": "Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)",
     "banner_alerta": "",
     "semana_label": "Semana 19-25 Mayo 2026"
+  },
+  "tendencia_semanal": {
+    "miercoles": [
+      {
+        "fecha": "2026-04-29",
+        "total": 78.33
+      },
+      {
+        "fecha": "2026-05-06",
+        "total": 79.65
+      },
+      {
+        "fecha": "2026-05-13",
+        "total": 162.44
+      },
+      {
+        "fecha": "2026-05-20",
+        "total": 169.09
+      }
+    ],
+    "jueves": [
+      {
+        "fecha": "2026-04-23",
+        "total": 215.03
+      },
+      {
+        "fecha": "2026-04-30",
+        "total": 149.89
+      },
+      {
+        "fecha": "2026-05-14",
+        "total": 129.5
+      },
+      {
+        "fecha": "2026-05-21",
+        "total": 131.13
+      }
+    ],
+    "viernes": [
+      {
+        "fecha": "2026-05-01",
+        "total": 161.24
+      },
+      {
+        "fecha": "2026-05-08",
+        "total": 381.5
+      },
+      {
+        "fecha": "2026-05-15",
+        "total": 259.21
+      },
+      {
+        "fecha": "2026-05-22",
+        "total": 231.27
+      }
+    ],
+    "sabado": [
+      {
+        "fecha": "2026-05-02",
+        "total": 287.95
+      },
+      {
+        "fecha": "2026-05-09",
+        "total": 346.1
+      },
+      {
+        "fecha": "2026-05-16",
+        "total": 164.98
+      },
+      {
+        "fecha": "2026-05-23",
+        "total": 8.0
+      }
+    ],
+    "domingo": [
+      {
+        "fecha": "2026-04-26",
+        "total": 151.26
+      },
+      {
+        "fecha": "2026-05-03",
+        "total": 39.25
+      },
+      {
+        "fecha": "2026-05-10",
+        "total": 61.34
+      },
+      {
+        "fecha": "2026-05-17",
+        "total": 122.47
+      }
+    ]
   }
 }
