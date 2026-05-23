@@ -399,11 +399,11 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   <ul class="action-list" id="d-acciones-list"></ul>
 </div>
 
-<div class="g4">
-  <div class="cd"><div class="ct">Ventas Marzo</div><div class="mv">$3,625</div><div class="ms">221 fact · 26 días</div><div class="mc up">▲ 63% vs Feb</div></div>
-  <div class="cd"><div class="ct">Prom. Diario</div><div class="mv">$139</div><div class="ms">Objetivo: $162/día</div><div class="mc dn">▼ -$23 vs PE</div></div>
-  <div class="cd"><div class="ct">Ticket Prom.</div><div class="mv">$16.40</div><div class="ms">8.5 fact/día</div><div class="mc wr">Aceptable</div></div>
-  <div class="cd"><div class="ct">Déficit vs PE</div><div class="mv" style="color:var(--r)">-$591</div><div class="ms">PE: ~$4,216/mes</div><div class="mc dn">▼ 14% debajo</div></div>
+<div class="g4" id="d-salud-cards">
+  <div class="cd"><div class="ct" id="d-sc-title1">Ventas Mes</div><div class="mv" id="d-sc-ventas">—</div><div class="ms" id="d-sc-ventas-sub">—</div><div class="mc" id="d-sc-ventas-badge"></div></div>
+  <div class="cd"><div class="ct">Prom. Diario</div><div class="mv" id="d-sc-prom">—</div><div class="ms" id="d-sc-prom-sub">—</div><div class="mc" id="d-sc-prom-badge"></div></div>
+  <div class="cd"><div class="ct">Ticket Prom.</div><div class="mv" id="d-sc-ticket">—</div><div class="ms" id="d-sc-ticket-sub">—</div><div class="mc" id="d-sc-ticket-badge"></div></div>
+  <div class="cd"><div class="ct">Déficit vs PE</div><div class="mv" id="d-sc-deficit" style="color:var(--r)">—</div><div class="ms">PE: ~$4,216/mes</div><div class="mc" id="d-sc-deficit-badge"></div></div>
 </div>
 <div class="g12">
   <div class="cd">
@@ -1261,6 +1261,8 @@ async function exportPDF(){
 
       // Render Días Recientes dinámicamente
       if(d.dias_recientes){
+        // Normalize hl values: accept both 'good'/'bad'/'neutral' and 'g'/'r'/'od'
+        d.dias_recientes.forEach(r=>{if(r.hl==='good')r.hl='g';if(r.hl==='bad')r.hl='r';if(r.hl==='neutral')r.hl='od';});
         const maxV=Math.max(...d.dias_recientes.map(r=>r.total||0),1);
         const DR=document.getElementById('diasRecientes');
         if(DR) DR.innerHTML=d.dias_recientes.map(r=>{
@@ -1297,6 +1299,31 @@ async function exportPDF(){
       if(fill) fill.style.width=(MA.pct_cubierto||0)+'%';
       const note=document.getElementById('d-apr-note');
       if(note) note.innerHTML='<strong>Proyección: '+MA.proyeccion_fmt+'</strong> — '+MA.tracker_note;
+
+      // SALUD DEL NEGOCIO — 4 tarjetas dinámicas desde mes_actual
+      if(MA){
+        set('d-sc-title1', 'Ventas '+MA.label);
+        set('d-sc-ventas', MA.acumulado_fmt);
+        set('d-sc-ventas-sub', MA.facturas+' fact · '+MA.dias_operativos+' días');
+        set('d-sc-prom', MA.prom_dia_fmt);
+        const pctPE=MA.prom_dia?Math.round((MA.prom_dia/192-1)*100):0;
+        set('d-sc-prom-sub', 'Objetivo: $192/día');
+        const promBadge=document.getElementById('d-sc-prom-badge');
+        if(promBadge){promBadge.textContent=(pctPE>=0?'▲ +':'▼ ')+pctPE+'% vs PE';promBadge.className='mc '+(pctPE>=0?'up':'dn');}
+        set('d-sc-ticket', MA.ticket_fmt);
+        const factDia=MA.dias_operativos?Math.round(MA.facturas/MA.dias_operativos*10)/10:0;
+        set('d-sc-ticket-sub', factDia+' fact/día');
+        const tickBadge=document.getElementById('d-sc-ticket-badge');
+        if(tickBadge){const tv=MA.ticket_prom||0;tickBadge.textContent=tv>=18?'Bueno':tv>=14?'Aceptable':'Bajo';tickBadge.className='mc '+(tv>=18?'up':tv>=14?'wr':'dn');}
+        set('d-sc-deficit', MA.deficit_fmt);
+        const defBadge=document.getElementById('d-sc-deficit-badge');
+        const defEl=document.getElementById('d-sc-deficit');
+        if(defBadge&&MA.diferencia_pe!=null){
+          const pctDef=Math.round(Math.abs(MA.diferencia_pe)/4216*100);
+          if(MA.diferencia_pe>=0){defBadge.textContent='▲ '+pctDef+'% sobre PE';defBadge.className='mc up';if(defEl)defEl.style.color='var(--g)';}
+          else{defBadge.textContent='▼ '+pctDef+'% debajo';defBadge.className='mc dn';if(defEl)defEl.style.color='var(--r)';}
+        }
+      }
 
 
 
