@@ -1473,7 +1473,7 @@ async function exportPDF(){
               <span style="font-size:.85rem;color:var(--tm);font-weight:600">${f.label}</span>
               <span style="display:flex;align-items:center;gap:6px">
                 <span style="font-size:.92rem;font-weight:700;color:${f.color}">${f.valor}</span>
-                <span style="font-size:.78rem;color:var(--tm);font-weight:600">${f.det}</span>
+                <span style="font-size:.78rem;color:var(--tm);font-weight:600">${f.det||''}</span>
               </span>
             </div>`).join('');
         }
@@ -1497,9 +1497,10 @@ async function exportPDF(){
       // Diagnostico
       if (d.diagnostico) set('d-diagnostico', d.diagnostico);
 
-      // April tracker note
-      if (d.abril && d.abril.tracker_note) {
-        const n2=document.getElementById('d-apr-note'); if(n2) n2.innerHTML='<strong>Proyección: '+d.abril.proyeccion_fmt+'</strong> — '+d.abril.tracker_note;
+      // Tracker note — use MA (mes_actual) with fallback
+      const tn_src = MA || d.abril;
+      if (tn_src && tn_src.tracker_note) {
+        const n2=document.getElementById('d-apr-note'); if(n2) n2.innerHTML='<strong>Proyección: '+(tn_src.proyeccion_fmt||'')+'</strong> — '+tn_src.tracker_note;
       }
 
       // Acciones top
@@ -1515,26 +1516,31 @@ async function exportPDF(){
         }
       }
 
-            // KPIs Gauge
-      set('d-gauge-txt', d.kpis_mes.gauge_txt);
-      set('d-gauge-sub', d.kpis_mes.gauge_sub);
-      set('d-kpi-uber', d.kpis_mes.uber_fmt);
-      set('d-kpi-uber-det', d.kpis_mes.uber_detalle);
+            // KPIs Gauge (fallback — already set above if kpis_mes.filas exists)
+      if(d.kpis_mes){
+        set('d-gauge-txt', d.kpis_mes.gauge_txt);
+        set('d-gauge-sub', d.kpis_mes.gauge_sub);
+        if(d.kpis_mes.uber_fmt) set('d-kpi-uber', d.kpis_mes.uber_fmt);
+        if(d.kpis_mes.uber_detalle) set('d-kpi-uber-det', d.kpis_mes.uber_detalle);
+      }
 
       // Insights
-      const alerta=document.getElementById('d-alert-peor');
-      if(alerta) alerta.innerHTML='<div style="font-size:1.1rem;flex-shrink:0">🚨</div><div><strong>'+d.insights.peor_dia_titulo+'</strong><p>'+d.insights.peor_dia_detalle+'</p></div>';
-      set('d-ins-mejor', d.insights.mejor_dia);
-      set('d-ins-mejor-det', d.insights.mejor_dia_prom);
-      set('d-ins-hora', d.insights.hora_pico);
-      set('d-ins-hora-det', d.insights.hora_pico_detalle);
-      set('d-ins-prod1', d.insights.producto_1);
-      set('d-ins-prod1-det', d.insights.producto_1_detalle);
-      set('d-ins-combo', d.insights.combo_top);
-      set('d-ins-combo-det', d.insights.combo_top_detalle);
+      if(d.insights){
+        const alerta2=document.getElementById('d-alert-peor');
+        if(alerta2&&d.insights.peor_dia_titulo) alerta2.innerHTML='<div style="font-size:1.1rem;flex-shrink:0">🚨</div><div><strong>'+d.insights.peor_dia_titulo+'</strong><p>'+(d.insights.peor_dia_detalle||'')+'</p></div>';
+        if(d.insights.mejor_dia) set('d-ins-mejor', d.insights.mejor_dia);
+        if(d.insights.mejor_dia_prom) set('d-ins-mejor-det', d.insights.mejor_dia_prom);
+        if(d.insights.hora_pico) set('d-ins-hora', d.insights.hora_pico);
+        if(d.insights.hora_pico_detalle) set('d-ins-hora-det', d.insights.hora_pico_detalle);
+        if(d.insights.producto_1) set('d-ins-prod1', d.insights.producto_1);
+        if(d.insights.producto_1_detalle) set('d-ins-prod1-det', d.insights.producto_1_detalle);
+        if(d.insights.combo_top) set('d-ins-combo', d.insights.combo_top);
+        if(d.insights.combo_top_detalle) set('d-ins-combo-det', d.insights.combo_top_detalle);
+      }
 
-      // Diagnóstico
-      set('d-diagnostico', d.abril.insight);
+      // Diagnóstico — use MA (mes_actual) with fallback to d.abril
+      const diagSource = MA || d.abril;
+      if(diagSource && diagSource.insight) set('d-diagnostico', diagSource.insight);
 
       // Roadmap — render completo
       const rm=document.getElementById('d-roadmap');
