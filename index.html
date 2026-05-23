@@ -1605,7 +1605,7 @@ async function exportPDF(){
           const fd=ig.reach_mejor_fecha?new Date(ig.reach_mejor_fecha).toLocaleDateString('es-EC',{day:'numeric',month:'long'}):ig.reach_mejor_fecha;
           set('ig-best-fecha', fd||'—');
           set('ig-conversion', ig.conversion_miche||0);
-          set('ig-tendencia', '↑ '+ig.tendencia_nota);
+          if(ig.tendencia_nota) set('ig-tendencia', '↑ '+ig.tendencia_nota);
 
           // Preparar datos para chart
           if(ig.dias){
