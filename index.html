@@ -1655,6 +1655,27 @@ async function exportPDF(){
         setAll('d-chart-productos-titulo', tx.chart_productos_titulo);
         setAll('d-chart-combos-titulo', tx.chart_combos_titulo);
       }
+
+      // ── STALENESS FOOTER — días desde última actualización dentro de cada bloque ──
+      const _ua = d.ultima_actualizacion || '';
+      const _su = d.section_updates || {};
+      const _hist = _su.historico || '2026-04-30';
+      const _mkt  = _su.marketing  || '2026-05-03';
+      function staleFooter(ts){
+        if(!ts) return '';
+        const _dt=new Date((ts||'').replace(' ','T'));
+        if(isNaN(_dt.getTime())) return '';
+        const days=Math.floor((Date.now()-_dt)/86400000);
+        const cls=days===0?'stf-hoy':days<=4?'stf-rec':'stf-old';
+        const txt=days===0?'hoy':days===1?'ayer':('hace '+days+'d');
+        return '<div class="stale-foot">Actualizado: <span class="'+cls+'">'+txt+'</span></div>';
+      }
+      const staleKeys={'daily':_ua,'weekly':_su.weekly||_ua,'historico':_hist,'marketing':_mkt};
+      document.querySelectorAll('[data-stale]').forEach(function(el){
+        if(el.querySelector('.stale-foot')) return;
+        const ts=staleKeys[el.getAttribute('data-stale')]||_ua;
+        el.insertAdjacentHTML('beforeend',staleFooter(ts));
+      });
     }).catch(e=>console.warn('dashboard_data.json no disponible:',e));
 })();
 
@@ -1679,29 +1700,6 @@ fetch('https://api.github.com/repos/mambo711/michalitas-dashboard/commits?per_pa
     const etMesLargo=mesesLargo[et.getMonth()];
     const etAño=et.getFullYear();
     // Actualizar todos los timestamps
-
-      // ── STALENESS FOOTER — días desde última actualización dentro de cada bloque ──
-      const _ua = d.ultima_actualizacion || '';
-      const _su = d.section_updates || {};
-      const _hist = _su.historico || '2026-04-30';
-      const _mkt  = _su.marketing  || '2026-05-03';
-      function staleFooter(ts){
-        if(!ts) return '';
-        const dt=new Date((ts||'').replace(' ','T'));
-        if(isNaN(dt.getTime())) return '';
-        const days=Math.floor((Date.now()-dt)/86400000);
-        const cls=days===0?'stf-hoy':days<=4?'stf-rec':'stf-old';
-        const txt=days===0?'hoy':days===1?'ayer':('hace '+days+'d');
-        return '<div class="stale-foot">Actualizado: <span class="'+cls+'">'+txt+'</span></div>';
-      }
-      const staleKeys={'daily':_ua,'weekly':_su.weekly||_ua,'historico':_hist,'marketing':_mkt};
-      document.querySelectorAll('[data-stale]').forEach(function(el){
-        if(el.querySelector('.stale-foot')) return; // ya inyectado
-        const ts=staleKeys[el.getAttribute('data-stale')]||_ua;
-        el.insertAdjacentHTML('beforeend',staleFooter(ts));
-      });
-      });
-
     document.getElementById('lastUpdate').textContent=
       `Última actualización: ${etDia} ${etMes} ${etAño}, ${h12}:${mET} ${ampm} ET`;
     const badge=document.getElementById('practisisBadge');
