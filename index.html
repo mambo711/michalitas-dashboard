@@ -1670,10 +1670,25 @@ async function exportPDF(){
         const txt=days===0?'hoy':days===1?'ayer':('hace '+days+'d');
         return '<div class="stale-foot">Actualizado: <span class="'+cls+'">'+txt+'</span></div>';
       }
-      const staleKeys={'daily':_ua,'weekly':_su.weekly||_ua,'historico':_hist,'marketing':_mkt};
-      document.querySelectorAll('[data-stale]').forEach(function(el){
+      const staleKeys={'daily':_ua,'weekly':_su.weekly||'2026-05-07','historico':_hist,'marketing':_mkt};
+      function getStaleKey(el){
+        if(el.hasAttribute&&el.hasAttribute('data-stale')) return el.getAttribute('data-stale');
+        let p=el.parentElement;
+        while(p){
+          const pid=p.id||'';
+          if(pid.startsWith('tab-')){
+            if(pid.includes('analysis')||pid.includes('products')||pid.includes('combos')) return 'historico';
+            if(pid.includes('marketing')) return 'marketing';
+            if(pid.includes('ops')) return 'weekly';
+            return 'daily';
+          }
+          p=p.parentElement;
+        }
+        return 'daily';
+      }
+      document.querySelectorAll('.cd,.apr-prog,.focus-week,.roadmap,.insight-box').forEach(function(el){
         if(el.querySelector('.stale-foot')) return;
-        const ts=staleKeys[el.getAttribute('data-stale')]||_ua;
+        const ts=staleKeys[getStaleKey(el)]||_ua;
         el.insertAdjacentHTML('beforeend',staleFooter(ts));
       });
     }).catch(e=>console.warn('dashboard_data.json no disponible:',e));
