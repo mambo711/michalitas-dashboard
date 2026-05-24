@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T21:50:35.190473",
+  "updated": "2026-05-24T21:56:11.626899",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -334,9 +334,27 @@
     "titulo": "Cerrar Mayo arriba del PE",
     "subtitulo": "$3,215 acumulado · faltan $1,001 · 6 días restantes",
     "items": [
-      "Vie 29: objetivo >$280 (trasnoche + promo)",
-      "Sáb 30: réplica de sáb 23 ($15 récord)",
-      "Dom 31: cerrar mes fuerte, objetivo >$180"
+      {
+        "num": "1",
+        "nombre": "Viernes 29 mayo",
+        "why": "Objetivo >$280. Activar trasnoche (23h-02h). Promo combo alitas+miche.",
+        "who": "Marian",
+        "estado": "pendiente"
+      },
+      {
+        "num": "2",
+        "nombre": "Sábado 30 mayo",
+        "why": "Réplica del récord sáb 23 ($472). Investigar si fue grupo — si sí, repetir convocatoria.",
+        "who": "Marian + José Miguel",
+        "estado": "pendiente"
+      },
+      {
+        "num": "3",
+        "nombre": "Domingo 31 mayo",
+        "why": "Cierre de mes. Objetivo >$180. Apertura 1PM. Promo apertura para atraer tráfico temprano.",
+        "who": "Marian",
+        "estado": "pendiente"
+      }
     ]
   },
   "roadmap_items": [
@@ -723,7 +741,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-05-24 21:50",
+  "ultima_actualizacion": "2026-05-24 21:56",
   "mayo": {
     "label": "Mayo 2026",
     "acumulado": 3215.08,
