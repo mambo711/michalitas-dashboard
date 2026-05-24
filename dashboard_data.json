@@ -792,16 +792,16 @@
   },
   "textos": {
     "roadmap_titulo": "Hoja de Ruta — Crecimiento 2026",
-    "marketing_titulo": "📱 Marketing Digital — Datos en tiempo real vía Windsor.ai",
-    "marketing_descripcion": "Instagram Insights + Google My Business conectados directamente. Actualización diaria automática. Sin depender de reportes de nadie.",
+    "marketing_titulo": "📱 Marketing Digital",
+    "marketing_descripcion": "Windsor.ai descontinuado 3 may 2026. Sin métricas IG/GMB disponibles hasta nueva integración.",
     "insight_analisis": "Sábado+Viernes = 51% de las ventas. Miércoles es el peor día ($72 prom.) — martes no está lejos ($78). Hora pico absoluta: 11PM ($3,285 acumulado). 78% del revenue se concentra entre 7PM–2AM. Las primeras 2 horas de apertura (4–6PM) solo generan 3% del revenue: considerar abrir a las 6PM.",
     "insight_productos": "Michelada Maracuyá domina con $1,755 (10.5% del revenue total) y 406 unidades en 6 meses. Es el producto estrella indiscutible — nunca debe faltar insumo. Alitas combinadas (8+15+30) suman $1,846, la comida más rentable con diferencia. Maracumango y Chamochela son las miches premium con mejor ticket. Priorizar alitas sobre hamburguesas ($543 en 6 meses) en la carta.",
     "insight_combos": "Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.",
     "insight_acciones": "De 8 acciones, 1 sigue urgente (Uber Eats — dispositivo inestable), 4 están desbloqueadas por mesera confirmada (happy hour, fidelidad, eventos, venta a carros), y el resto en proceso. La prioridad ahora es ejecutar rápido las iniciativas desbloqueadas: cada semana sin happy hour o fidelidad activos es $200-400 en ventas potenciales no capturadas.",
-    "chart_dow_titulo": "Ventas Promedio por Día de Semana (Nov 2025 – Abr 2026 · 1,108 facturas)",
-    "chart_heatmap_titulo": "Heatmap Ventas por Hora × Día (Nov 2025 – Abr 2026 · 1,108 facturas)",
-    "chart_productos_titulo": "Top 10 Productos (Nov 2025 – Abr 2026 · 1,108 facturas)",
-    "chart_combos_titulo": "Análisis de Combos — Qué se Pide Junto (801 órdenes multi-item · Nov 2025 – Abr 2026)",
+    "chart_dow_titulo": "Ventas Promedio por Día de Semana (Nov 2025 – may 2026 · 1,465 facturas)",
+    "chart_heatmap_titulo": "Heatmap Ventas por Hora × Día (Nov 2025 – may 2026 · 1,465 facturas)",
+    "chart_productos_titulo": "Top 10 Productos (Nov 2025 – may 2026 · 1,465 facturas)",
+    "chart_combos_titulo": "Análisis de Combos — Qué se Pide Junto (Nov 2025 – may 2026)",
     "banner_alerta": "",
     "semana_label": "Semana 19-25 Mayo 2026"
   },
@@ -930,7 +930,7 @@
     ]
   },
   "section_updates": {
-    "historico": "2026-05-24 21:46",
+    "historico": "2026-05-24 22:54",
     "marketing": "2026-05-03 00:00",
     "ops": "2026-05-21 00:00",
     "roadmap": "2026-05-17 20:00",
