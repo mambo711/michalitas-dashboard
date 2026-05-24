@@ -1666,7 +1666,7 @@ async function exportPDF(){
       const _road   = _su.roadmap    || '2026-05-21';
       const _acciones = _su.acciones || _ua;
       // Máximo de días antes de considerar datos DESACTUALIZADOS por tipo
-      const _staleLimits={'daily':2,'acciones':2,'roadmap':21,'weekly':45,'historico':60,'marketing':21};
+      const _staleLimits={'daily':1,'acciones':1,'roadmap':14,'weekly':14,'historico':21,'marketing':14};
       function staleFooter(ts, tipo){
         if(!ts) return '';
         const _dt=new Date((ts||'').replace(' ','T'));
@@ -1688,7 +1688,7 @@ async function exportPDF(){
           txt=_dt.getDate()+' '+meses[_dt.getMonth()];
         }
         const limit=_staleLimits[tipo]||_staleLimits.daily;
-        const staleTag=days>limit?'<span class="stf-stale">Stale</span>':'';
+        const staleTag=days>=limit?'<span class="stf-stale">Stale</span>':'';
         return '<div class="stale-foot">Datos de: <span class="'+cls+'">'+txt+'</span>'+staleTag+'</div>';
       }
       const staleKeys={'daily':_ua,'weekly':_ops,'historico':_hist,'marketing':_mkt,'roadmap':_road,'acciones':_acciones};
