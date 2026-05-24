@@ -269,11 +269,12 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 /* Print */
 @media print{.tabs,.btn-pdf,.btn-refresh,.dm-toggle{display:none!important}.tc{display:block!important}}
 
-/* ── STALENESS BADGES ── */
-.stbdg{display:inline-block;font-size:.68rem;padding:1px 7px;border-radius:10px;margin-left:8px;font-weight:600;vertical-align:middle;white-space:nowrap}
-.stb-hoy{background:var(--gl,#ECFDF5);color:var(--g,#065F46)}
-.stb-rec{background:#FEF9C3;color:#854D0E}
-.stb-old{background:#FEE2E2;color:#991B1B}
+/* ── STALE FOOTER dentro de cada bloque ── */
+.stale-foot{display:flex;align-items:center;gap:5px;font-size:.68rem;color:var(--tl);margin-top:10px;padding-top:8px;border-top:1px solid var(--b)}
+.stale-foot::before{content:'🕐';font-size:.75rem}
+.stf-hoy{color:var(--g,#065F46);font-weight:700}
+.stf-rec{color:#B45309;font-weight:700}
+.stf-old{color:var(--r,#B91C1C);font-weight:700}
 </style>
 </head>
 <body id="dashBody">
@@ -294,7 +295,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 
 <!-- APRIL TRACKER -->
-<div class="apr-prog">
+<div class="apr-prog" data-stale="daily">
   <div class="apr-header">
     <div>
       <div id="sec-tracker" style="font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--od)"><span id="d-mes-label">—</span> — En Vivo</div>
@@ -320,7 +321,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 
 <!-- FOCO DE LA SEMANA -->
-<div class="focus-week">
+<div class="focus-week" data-stale="weekly">
   <div class="fw-header">
     <div class="fw-title" id="d-foco-titulo">Foco de la Semana</div>
     <div class="fw-deadline" id="d-foco-subtitulo"></div>
@@ -330,7 +331,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 
 <!-- HOJA DE RUTA ESTRATÉGICA -->
-<div class="roadmap">
+<div class="roadmap" data-stale="weekly">
   <div class="rm-title" id="d-roadmap-titulo">Hoja de Ruta — Crecimiento 2026</div>
   <div class="rm-track" id="d-roadmap-items">
   </div>
@@ -338,7 +339,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 
 <!-- GAUGE + ALERT -->
 <div class="g2" style="margin-bottom:12px">
-  <div class="cd">
+  <div class="cd" data-stale="daily">
     <div class="ct" id="sec-gauge">Salud del Negocio — <span id="d-mes-gauge">—</span></div>
     <div class="gauge-wrap">
       <svg class="gauge-svg" viewBox="0 0 200 110">
@@ -358,7 +359,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
     <!-- KPI Metrics — dynamic from JSON -->
     <div style="margin-top:12px;border-top:1px solid var(--b);padding-top:12px" id="d-kpi-rows"></div>
   </div>
-  <div class="cd" style="display:flex;flex-direction:column;justify-content:center">
+  <div class="cd" data-stale="daily" style="display:flex;flex-direction:column;justify-content:center">
     <div class="alert" id="d-alert-peor"></div>
     <div class="g2" style="margin-bottom:0;gap:8px">
       <div style="background:var(--ol);border-radius:8px;padding:10px;text-align:center">
@@ -399,20 +400,20 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <!-- TAB: RESUMEN -->
 <div id="tab-overview" class="tc active">
 
-<div class="insight-box main">
+<div class="insight-box main" data-stale="daily">
   <h3 id="sec-diag">Diagnóstico General — <span id="d-mes-diag">—</span></h3>
   <p id="d-diagnostico"></p>
   <ul class="action-list" id="d-acciones-list"></ul>
 </div>
 
-<div class="g4" id="d-salud-cards">
-  <div class="cd"><div class="ct" id="d-sc-title1">Ventas Mes</div><div class="mv" id="d-sc-ventas">—</div><div class="ms" id="d-sc-ventas-sub">—</div><div class="mc" id="d-sc-ventas-badge"></div></div>
+<div class="g4" id="d-salud-cards" data-stale="daily">
+  <div class="cd" data-stale="daily"><div class="ct" id="d-sc-title1">Ventas Mes</div><div class="mv" id="d-sc-ventas">—</div><div class="ms" id="d-sc-ventas-sub">—</div><div class="mc" id="d-sc-ventas-badge"></div></div>
   <div class="cd"><div class="ct">Prom. Diario</div><div class="mv" id="d-sc-prom">—</div><div class="ms" id="d-sc-prom-sub">—</div><div class="mc" id="d-sc-prom-badge"></div></div>
   <div class="cd"><div class="ct">Ticket Prom.</div><div class="mv" id="d-sc-ticket">—</div><div class="ms" id="d-sc-ticket-sub">—</div><div class="mc" id="d-sc-ticket-badge"></div></div>
   <div class="cd"><div class="ct">Déficit vs PE</div><div class="mv" id="d-sc-deficit" style="color:var(--r)">—</div><div class="ms">PE: ~$4,216/mes</div><div class="mc" id="d-sc-deficit-badge"></div></div>
 </div>
 <div class="g12">
-  <div class="cd">
+  <div class="cd" data-stale="daily">
     <div class="ct">Tendencia Mensual vs PE</div>
     <div style="display:flex;flex-direction:column;gap:7px">
       <div><div style="font-size:.82rem;color:var(--tm);margin-bottom:2px">Ene — $2,533 (60%)</div><div class="bt"><div class="bf dg" style="width:60%"></div></div></div>
@@ -430,18 +431,18 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 
 <div class="st" id="sec-semana">Semana sobre Semana</div>
-<div class="cd" style="margin-bottom:16px">
+<div class="cd" data-stale="daily" style="margin-bottom:16px">
   <div class="cw" style="height:170px"><canvas id="cWeekly"></canvas></div>
   <div class="ins" id="weeklyInsight"><strong>Tendencia:</strong> Sem 9 ($1,119) fue la mejor. Sem 15 (Abr 13–19) cerró con $859 — mejor semana de abril. Sem 16 en curso: $108 (solo mié 22).</div>
 </div>
 
 <div class="st" id="sec-dias">Días Recientes</div>
-<div class="cd" style="margin-bottom:16px">
+<div class="cd" data-stale="daily" style="margin-bottom:16px">
   <div id="diasRecientes"><div style="color:var(--tm);font-size:.85rem;padding:8px">Cargando datos...</div></div>
 </div>
 
 <div class="st" id="sec-cal">Calendario de Ventas — <span id="d-mes-cal">—</span></div>
-<div class="cd" style="margin-bottom:16px">
+<div class="cd" data-stale="daily" style="margin-bottom:16px">
   <div class="cal-header" style="display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-bottom:6px">
     <div>Lun</div><div>Mar</div><div>Mié</div><div>Jue</div><div>Vie</div><div>Sáb</div><div>Dom</div>
   </div>
@@ -458,7 +459,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 
 <!-- TAB: ANÁLISIS -->
-<div id="tab-analysis" class="tc">
+<div id="tab-analysis" class="tc" data-stale="historico">
 <div class="insight-box tab-insight">
   <h3>Insight Análisis</h3>
   <p id="d-insight-analisis">Sábado+Viernes = 51% de las ventas. Miércoles es el peor día ($72 prom.) — martes no está lejos ($78). Hora pico absoluta: 11PM ($3,285 acumulado). 78% del revenue se concentra entre 7PM–2AM. Las primeras 2 horas de apertura (4–6PM) solo generan 3% del revenue: considerar abrir a las 6PM.</p>
@@ -499,7 +500,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 
 <!-- TAB: PRODUCTOS -->
-<div id="tab-products" class="tc">
+<div id="tab-products" class="tc" data-stale="historico">
 <div class="insight-box tab-insight">
   <h3>Insight Productos</h3>
   <p id="d-insight-productos">Michelada Maracuyá domina con $1,755 (10.5% del revenue total) y 406 unidades en 6 meses. Es el producto estrella indiscutible — nunca debe faltar insumo. Alitas combinadas (8+15+30) suman $1,846, la comida más rentable con diferencia. Maracumango y Chamochela son las miches premium con mejor ticket. Priorizar alitas sobre hamburguesas ($543 en 6 meses) en la carta.</p>
@@ -541,7 +542,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 
 <!-- TAB: COMBOS -->
-<div id="tab-combos" class="tc">
+<div id="tab-combos" class="tc" data-stale="historico">
 <div class="insight-box tab-insight">
   <h3>Insight Combos</h3>
   <p id="d-insight-combos">Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.</p>
@@ -591,7 +592,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 
 <!-- TAB: OPERACIONES -->
-<div id="tab-ops" class="tc">
+<div id="tab-ops" class="tc" data-stale="daily">
 <div class="insight-box tab-insight">
   <h3>Insight Operaciones</h3>
   <p id="d-ops-insight">cargando...</p>
@@ -730,7 +731,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 </div>
 
 <!-- TAB: ACCIONES -->
-<div id="tab-actions" class="tc">
+<div id="tab-actions" class="tc" data-stale="daily">
 <div class="insight-box tab-insight">
   <h3>Acciones &amp; Problemas</h3>
   <p id="d-acciones-insight">cargando...</p>
@@ -787,7 +788,7 @@ id="tab-analysis" class="tc">
 </div>
 
 <!-- TAB: PRODUCTOS -->
-<div id="tab-products" class="tc">
+<div id="tab-products" class="tc" data-stale="historico">
 <div class="insight-box tab-insight">
   <h3>Insight Productos</h3>
   <p id="d-insight-productos">Michelada Maracuyá domina con $1,755 (10.5% del revenue total) y 406 unidades en 6 meses. Es el producto estrella indiscutible — nunca debe faltar insumo. Alitas combinadas (8+15+30) suman $1,846, la comida más rentable con diferencia. Maracumango y Chamochela son las miches premium con mejor ticket. Priorizar alitas sobre hamburguesas ($543 en 6 meses) en la carta.</p>
@@ -829,7 +830,7 @@ id="tab-analysis" class="tc">
 </div>
 
 <!-- TAB: COMBOS -->
-<div id="tab-combos" class="tc">
+<div id="tab-combos" class="tc" data-stale="historico">
 <div class="insight-box tab-insight">
   <h3>Insight Combos</h3>
   <p id="d-insight-combos">Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.</p>
@@ -1052,7 +1053,7 @@ id="tab-analysis" class="tc">
 </div>
 
 <!-- TAB: MARKETING -->
-<div id="tab-marketing" class="tc">
+<div id="tab-marketing" class="tc" data-stale="marketing">
 <div class="insight-box tab-insight">
   <h3 id="d-marketing-titulo">📱 Marketing Digital — Datos en tiempo real vía Windsor.ai</h3>
   <p id="d-marketing-descripcion">Instagram Insights + Google My Business conectados directamente. Actualización diaria automática. Sin depender de reportes de nadie.</p>
@@ -1679,40 +1680,26 @@ fetch('https://api.github.com/repos/mambo711/michalitas-dashboard/commits?per_pa
     const etAño=et.getFullYear();
     // Actualizar todos los timestamps
 
-      // ── STALENESS BADGES ── días desde última actualización por sección
-      function staleBadge(ts){
-        if(!ts) return '';
-        const dt=new Date((ts||'').replace(' ','T'));
-        if(isNaN(dt.getTime())) return '';
-        const days=Math.floor((Date.now()-dt)/86400000);
-        if(days===0) return '<span class="stbdg stb-hoy">hoy</span>';
-        if(days===1) return '<span class="stbdg stb-rec">ayer</span>';
-        if(days<=5) return '<span class="stbdg stb-rec">hace '+days+'d</span>';
-        return '<span class="stbdg stb-old">hace '+days+'d</span>';
-      }
+      // ── STALENESS FOOTER — días desde última actualización dentro de cada bloque ──
       const _ua = d.ultima_actualizacion || '';
       const _su = d.section_updates || {};
       const _hist = _su.historico || '2026-04-30';
       const _mkt  = _su.marketing  || '2026-05-03';
-      [
-        ['sec-tracker', _ua],
-        ['sec-gauge',   _ua],
-        ['sec-diag',    _ua],
-        ['sec-semana',  _ua],
-        ['sec-dias',    _ua],
-        ['sec-cal',     _ua],
-        ['d-chart-dow-titulo',      _hist],
-        ['d-chart-heatmap-titulo',  _hist],
-        ['d-chart-productos-titulo',_hist],
-        ['d-chart-combos-titulo',   _hist],
-        ['sec-mkt-ig',  _mkt],
-        ['sec-mkt-gmb', _mkt],
-        ['sec-mkt-ads', _mkt],
-        ['d-marketing-titulo', _mkt]
-      ].forEach(function([id,ts]){
-        document.querySelectorAll('#'+id).forEach(function(el){
-          if(!el.querySelector('.stbdg')) el.insertAdjacentHTML('beforeend', staleBadge(ts));
-        });
+      function staleFooter(ts){
+        if(!ts) return '';
+        const dt=new Date((ts||'').replace(' ','T'));
+        if(isNaN(dt.getTime())) return '';
+        const days=Math.floor((Date.now()-dt)/86400000);
+        const cls=days===0?'stf-hoy':days<=4?'stf-rec':'stf-old';
+        const txt=days===0?'hoy':days===1?'ayer':('hace '+days+'d');
+        return '<div class="stale-foot">Actualizado: <span class="'+cls+'">'+txt+'</span></div>';
+      }
+      const staleKeys={'daily':_ua,'weekly':_su.weekly||_ua,'historico':_hist,'marketing':_mkt};
+      document.querySelectorAll('[data-stale]').forEach(function(el){
+        if(el.querySelector('.stale-foot')) return; // ya inyectado
+        const ts=staleKeys[el.getAttribute('data-stale')]||_ua;
+        el.insertAdjacentHTML('beforeend',staleFooter(ts));
+      });
       });
 
     document.getElementById('lastUpdate').textContent=
