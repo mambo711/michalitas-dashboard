@@ -36,14 +36,14 @@
   },
   "kpis_mes": {
     "mes": "mayo 2026",
-    "gauge_pct": 10.7,
-    "gauge_txt": "$449",
-    "gauge_sub": "Mayo: 2 días · 10.7% del PE",
-    "gauge_color": "#ef4444",
+    "gauge_pct": 76.3,
+    "gauge_txt": "$3,215",
+    "gauge_sub": "Mayo: 17 días · 76.3% del PE",
+    "gauge_color": "#16a34a",
     "filas": [
       {
-        "label": "Acumulado mayo (2 días)",
-        "valor": "$449.19",
+        "label": "Acumulado mayo (17 días)",
+        "valor": "$3,215.08",
         "color": "green"
       },
       {
@@ -63,13 +63,13 @@
       },
       {
         "label": "Días restantes",
-        "valor": "21 días operativos",
+        "valor": "7 días operativos",
         "color": "orange"
       },
       {
-        "label": "Prom. diario (2 días)",
-        "valor": "$224.60/día (+22% hist.)",
-        "color": "green"
+        "label": "Prom. diario (17 días)",
+        "valor": "$189.12/día (-1.5% obj.)",
+        "color": "orange"
       },
       {
         "label": "Cierre abril",
@@ -814,9 +814,9 @@
   "mes_actual": {
     "label": "Mayo 2026",
     "acumulado": 3199.83,
-    "acumulado_fmt": "$3,200",
+    "acumulado_fmt": "$3,215",
     "facturas": 203,
-    "dias_operativos": 16,
+    "dias_operativos": 17,
     "prom_dia": 199.99,
     "prom_dia_fmt": "$200",
     "ticket_prom": 15.76,
@@ -826,7 +826,7 @@
     "proyeccion_fmt": "$4,400",
     "diferencia_pe": 183.78,
     "deficit_fmt": "$+184",
-    "pct_cubierto": 76.0,
+    "pct_cubierto": 76.3,
     "coverage_txt": "76% cubierto · 16 días operativos",
     "tracker_note": "necesario $169/día los próximos 6 días",
     "dias_ventas": {
