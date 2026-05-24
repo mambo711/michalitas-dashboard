@@ -1657,7 +1657,7 @@ async function exportPDF(){
         setAll('d-chart-combos-titulo', tx.chart_combos_titulo);
       }
 
-      // ── STALENESS FOOTER — edad real del dato + badge DESACTUALIZADO si supera umbral ──
+      // ── STALENESS FOOTER — edad real del dato + badge Stale si supera umbral por card ──
       const _ua = d.ultima_actualizacion || '';
       const _su = d.section_updates || {};
       const _hist   = _su.historico  || '2026-04-30';
@@ -1665,7 +1665,28 @@ async function exportPDF(){
       const _ops    = _su.ops        || _su.weekly || '2026-05-07';
       const _road   = _su.roadmap    || '2026-05-21';
       const _acciones = _su.acciones || _ua;
-      // Máximo de días antes de considerar datos DESACTUALIZADOS por tipo
+      function staleFooter(ts, limit){
+        if(!ts) return '';
+        const _dt=new Date((ts||'').replace(' ','T'));
+        if(isNaN(_dt.getTime())) return '';
+        const days=Math.max(0,Math.floor((Date.now()-_dt)/86400000));
+        const cls=days===0?'stf-hoy':days<=4?'stf-rec':'stf-old';
+        let txt;
+        if(days===0){
+          const h=_dt.getHours(),m=_dt.getMinutes().toString().padStart(2,'0');
+          const ampm=h>=12?'pm':'am'; const h12=h%12||12;
+          txt='hoy '+h12+':'+m+ampm;
+        } else if(days===1){
+          txt='ayer';
+        } else if(days<30){
+          txt='hace '+days+' días';
+        } else {
+          const meses=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+          txt=_dt.getDate()+' '+meses[_dt.getMonth()];
+        }
+        const staleTag=(limit!=null&&days>=limit)?'<span class="stf-stale">Stale</span>':'';
+        return '<div class="stale-foot">Datos de: <span class="'+cls+'">'+txt+'</span>'+staleTag+'</div>';
+      }
       // Per-card stale limit — detected from class, title text, and parent tab
       function getStaleLimitDays(el){
         // 1. Explicit override via data-stale-limit attribute
