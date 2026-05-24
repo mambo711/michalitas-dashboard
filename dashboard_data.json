@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T21:46:40.210583",
+  "updated": "2026-05-24T21:48:37.124513",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -424,44 +424,12 @@
     "resumen": "Ayer $472.71 | Mayo $3,215 | 17 días op"
   },
   "foco_semana": {
-    "titulo": "Semana 19-25 Mayo",
-    "subtitulo": "🍺 Horario completo restaurado · Equipo en terreno esta semana",
+    "titulo": "Cerrar Mayo arriba del PE",
+    "subtitulo": "$3,215 acumulado · faltan $1,001 · 6 días restantes",
     "items": [
-      {
-        "num": "1",
-        "nombre": "CNEL $80.77 — Pagar antes del 27 mayo",
-        "why": "Factura vence miércoles 27 mayo. Cuenta/Suministro 201016747317. Pagar HOY o lunes máximo.",
-        "who": "Alberto",
-        "estado": "crit"
-      },
-      {
-        "num": "2",
-        "nombre": "PedidosYa $6.24 — Reintentar transferencia",
-        "why": "Pago enviado pero no procesado. Escalado a estudio jurídico. Banco Citibank Cta 0001076027 USD",
-        "who": "Marian",
-        "estado": "crit"
-      },
-      {
-        "num": "3",
-        "nombre": "Renta Mayo $700 — Confirmar pago",
-        "why": "Sin confirmar. Contrato exige primeros 5 días del mes. Día 22 — verificar urgente.",
-        "who": "Alberto",
-        "estado": "warn"
-      },
-      {
-        "num": "4",
-        "nombre": "Nómina Alexis — $360 pendiente",
-        "why": "40% pagado ($240). Falta $360 de mayo. Definir fecha de pago.",
-        "who": "Alberto + Marian",
-        "estado": "warn"
-      },
-      {
-        "num": "5",
-        "nombre": "Viernes a sábado — Meta $250/noche",
-        "why": "José Miguel entrega volantes hoy. Focus group Cabeza Jabalí. Posts QR en mesas. Promo IG activa.",
-        "who": "Equipo",
-        "estado": "ok"
-      }
+      "Vie 29: objetivo >$280 (trasnoche + promo)",
+      "Sáb 30: réplica de sáb 23 ($15 récord)",
+      "Dom 31: cerrar mes fuerte, objetivo >$180"
     ]
   },
   "roadmap_items": [
@@ -517,105 +485,93 @@
   "diagnostico": "Mayo 2026 (al 24 may): $3,215 acumulado · 17 días op · 204 facturas · ticket $15.76/fact · $189/día. Proyección ~$4,350 vs PE $4,216 (superávit $134). Ayer (2026-05-23): $472.71.",
   "acciones_top": [
     {
-      "nivel": "red",
-      "num": "1",
-      "titulo": "Apelar restricción Meta Ads",
-      "detalle": "Cristina necesita respuesta de Alberto sobre el dashboard para redactar la apelación. Sin esto, $150/mes bloqueados indefinidamente."
+      "titulo": "Mantener momentum de ventas",
+      "detalle": "Prom mayo $189/día. Proyección $4,350 vs PE $4,216.",
+      "prioridad": "alta"
     },
     {
-      "nivel": "orange",
-      "num": "2",
-      "titulo": "Evaluar rentabilidad ads Uber Eats",
-      "detalle": "9 pedidos campaña = $9.17 neto total. Semana 1 fue negativa (-$1.08). Decidir si pausar ads y operar solo orgánico."
+      "titulo": "Foco en viernes-sábado",
+      "detalle": "Sáb 23 may: $15 (récord). Próximos Viernes/Sábado: objetivo >$300/día. Activar promo trasnoche.",
+      "prioridad": "alta"
     },
     {
-      "nivel": "orange",
-      "num": "3",
-      "titulo": "Convertir reach IG en clientes reales",
-      "detalle": "Spike de 1,366 reach el 21 abr pero 0 conversiones MICHE detectadas. Cristina necesita llamada a la acción en los posts, no solo fotos."
+      "titulo": "Revisar Uber Eats conectividad",
+      "detalle": "Rating 4.2/5 (meta 4.8). Online rate 73% (meta 95%). Cada hora offline destruye ranking. Verificar con Marian.",
+      "prioridad": "media"
     }
   ],
   "acciones_checklist": [
     {
-      "estado": "done",
-      "titulo": "Contratar mesera",
-      "detalle": "Confirmada 11 abr — repartió volantes el mismo día.",
-      "tag": "COMPLETADO ✅"
+      "texto": "Confirmar con Marian: ¿qué generó $15 el sáb 23? (grupo especial o flujo orgánico)",
+      "hecho": false,
+      "prioridad": "alta"
     },
     {
-      "estado": "done",
-      "titulo": "Cristina asume Instagram",
-      "detalle": "1 abr. Manager anterior cortado ($250/mes ahorrado). Sube contenido diariamente.",
-      "tag": "COMPLETADO ✅"
+      "texto": "PE de mayo: faltan $1,001 en 6 días — necesario $167/día",
+      "hecho": false,
+      "prioridad": "alta"
     },
     {
-      "estado": "done",
-      "titulo": "Renovar dominio",
-      "detalle": "Auto-renovado 3 abr vía Squarespace.",
-      "tag": "COMPLETADO ✅"
+      "texto": "Instagram: verificar código de recuperación llegado el 23 mayo 11:24 PM (posible hackeo)",
+      "hecho": false,
+      "prioridad": "alta"
     },
     {
-      "estado": "done",
-      "titulo": "Nuevo horario 5 días/sem",
-      "detalle": "Mié 4PM-11PM con 2x1. Sáb/Dom desde 1PM. Activo desde 12 abr.",
-      "tag": "COMPLETADO ✅"
+      "texto": "CNEL $80.77 — pagar martes 26 mayo (vence)",
+      "hecho": false,
+      "prioridad": "alta"
     },
     {
-      "estado": "urg",
-      "titulo": "Apelar restricción Meta Ads",
-      "detalle": "Cuenta restringida desde 19 abr. $150/mes bloqueados. Alberto debe responder email de Cristina para iniciar apelación.",
-      "tag": "URGENTE 🔴"
+      "texto": "Confirmar nómina Alexis $600 mayo (sin confirmar)",
+      "hecho": false,
+      "prioridad": "media"
     },
     {
-      "estado": "prog",
-      "titulo": "Evaluar ads Uber Eats",
-      "detalle": "9 pedidos campaña = $9.17 neto. Sem 1 fue negativa (-$1.08). Decidir si pausar ads y operar solo orgánico.",
-      "tag": "DECISIÓN PENDIENTE"
+      "texto": "Confirmar con Marian: José Miguel y Alejandro listos para inicio 1 junio",
+      "hecho": false,
+      "prioridad": "media"
     },
     {
-      "estado": "prog",
-      "titulo": "Cargar costos en Practisis",
-      "detalle": "Cristina terminó marzo. Falta feb + ene. Sin costos no hay márgenes reales.",
-      "tag": "EN PROCESO — Cristina"
+      "texto": "Uber Eats: reconectar dispositivo — Online rate 73% muy por debajo de meta 95%",
+      "hecho": false,
+      "prioridad": "media"
     },
     {
-      "estado": "todo",
-      "titulo": "Fidelización — tarjeta 10ma gratis",
-      "detalle": "Mesera disponible. Pendiente diseño e impresión de tarjeta.",
-      "tag": "POR LANZAR"
+      "texto": "Meta Ads restricción activa — seguimiento con Cristina + construmac",
+      "hecho": false,
+      "prioridad": "baja"
     },
     {
-      "estado": "todo",
-      "titulo": "Convertir reach IG en clientes",
-      "detalle": "2,795 reach 7d pero 0 conversiones MICHE. Cristina necesita CTA claros y Reels, no solo fotos.",
-      "tag": "POR EJECUTAR"
+      "texto": "PedidosYa $6.24 escalado a estudio jurídico — pagar antes de reporte a buró",
+      "hecho": false,
+      "prioridad": "alta"
     }
   ],
   "problemas": [
     {
-      "num": "1",
-      "titulo": "Bajo tráfico peatonal",
-      "detalle": "Urdesa no genera visitas espontáneas. 100% depende de marketing digital y fútbol."
+      "titulo": "Lunes-Martes cerrados = 2 días sin ingresos/semana",
+      "impacto": "alto",
+      "detalle": "28% de la semana sin operación. Evaluar apertura limitada para eventos o delivery."
     },
     {
-      "num": "2",
-      "titulo": "Meta Ads bloqueado",
-      "detalle": "Cuenta restringida desde 19 abr. $150/mes sin ejecutar. Cristina no puede activar campañas."
+      "titulo": "Meta Ads cuenta restringida",
+      "impacto": "alto",
+      "detalle": "Cristina envió contestación 24 abr. Sin resolución = sin ads pagados. Cristina + construmac trabajando."
     },
     {
-      "num": "3",
-      "titulo": "6 meses bajo PE",
-      "detalle": "Proyección abril ~$3,553 vs PE $4,216. Déficit -$663. Nunca se ha alcanzado el punto de equilibrio."
+      "titulo": "Uber Eats online rate 73% (meta 95%)",
+      "impacto": "medio",
+      "detalle": "Dispositivo se desconecta. Rating 4.2 (meta 4.8). Canal casi a pérdida pero visibilidad importante."
     },
     {
-      "num": "4",
-      "titulo": "Uber Eats casi a pérdida",
-      "detalle": "9 pedidos campaña = $9.17 neto total. Comisión + ads + descuentos consumen casi todo el ingreso."
+      "titulo": "Mayo: necesario $167/día en 6 días",
+      "impacto": "medio",
+      "detalle": "Acumulado $3,215, PE $4,216. Próximo viernes/sábado son críticos."
     },
     {
-      "num": "5",
-      "titulo": "Sin márgenes reales",
-      "detalle": "Costos cargados solo en marzo. Sin datos de feb/ene. Imposible calcular rentabilidad por producto."
+      "titulo": "Código recuperación Instagram 23 mayo — posible hackeo",
+      "impacto": "alto",
+      "detalle": "Email a marian@michalitasxpress.com el 23 may 11:24 PM. Verificar si fue Marian o intento externo."
     }
   ],
   "ops_insight": "Horario actual: 5 días/semana (lun+mar cerrado desde 12 abr). Miércoles: 4PM-11PM con 2x1 + promos alitas — primer mié nuevo horario: $111 (+42% vs histórico). Sáb/Dom desde 1PM capturan tarde/noche. Viernes 17 abr: mejor viernes histórico $295 (+111%). Marian sigue sobrecargada: bartender + caja + compras + gerencia. Con 5 días op necesitas $169/día promedio para acercarte al PE — actualmente en $169/día. Muy justo.",
@@ -845,7 +801,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-05-24 21:46",
+  "ultima_actualizacion": "2026-05-24 21:48",
   "mayo": {
     "label": "Mayo 2026",
     "acumulado": 3215.08,
@@ -1038,7 +994,7 @@
     "marketing": "2026-05-03",
     "ops": "2026-05-07",
     "roadmap": "2026-05-17 20:00",
-    "acciones": "2026-05-17 20:00",
+    "acciones": "2026-05-24 21:48",
     "ventas": "2026-05-24 21:46"
   }
 }
