@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T21:56:11.626899",
+  "updated": "2026-05-24T22:05:31.525629",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -53,23 +53,23 @@
       },
       {
         "label": "Proyección conservadora",
-        "valor": "~$3,728",
-        "color": "orange"
+        "valor": "~$4,350",
+        "color": "green"
       },
       {
         "label": "Proyección tendencia",
-        "valor": "~$4,384",
-        "color": "blue"
+        "valor": "~$4,335",
+        "color": "green"
       },
       {
         "label": "Días restantes",
-        "valor": "7 días operativos",
-        "color": "orange"
+        "valor": "6 días operativos",
+        "color": "blue"
       },
       {
         "label": "Prom. diario (17 días)",
-        "valor": "$189.12/día (-1.5% obj.)",
-        "color": "orange"
+        "valor": "$189.12/día (necesario $167)",
+        "color": "green"
       },
       {
         "label": "Cierre abril",
@@ -741,7 +741,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-05-24 21:56",
+  "ultima_actualizacion": "2026-05-24 22:05",
   "mayo": {
     "label": "Mayo 2026",
     "acumulado": 3215.08,
@@ -935,6 +935,6 @@
     "ops": "2026-05-24 21:50",
     "roadmap": "2026-05-17 20:00",
     "acciones": "2026-05-24 21:48",
-    "ventas": "2026-05-24 21:46"
+    "ventas": "2026-05-24 22:05"
   }
 }
