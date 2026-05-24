@@ -1251,7 +1251,7 @@ async function exportPDF(){
 // ── DATA LOADER — lee dashboard_data.json y actualiza el DOM ──────────────
 (function loadDashData(){
   const REPO='mambo711/michalitas-dashboard';
-  fetch(`https://raw.githubusercontent.com/${REPO}/main/dashboard_data.json?_=${Date.now()}`)
+  fetch(`./dashboard_data.json?_=${Date.now()}`)
     .then(r=>r.json()).then(d=>{
       const set=(id,val)=>{const el=document.getElementById(id);if(el&&val!=null)el.textContent=val;};
 
