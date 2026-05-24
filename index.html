@@ -1723,7 +1723,40 @@ async function exportPDF(){
         }
         return 1;
       }
-      document.querySelectorAll('.cd,.apr-prog,.focus-week,.roadmap,.insight-box').forEach(function(el){
+      // Mapa tipo→timestamp
+      const staleKeys={
+        daily:   _ua,
+        historico: _hist,
+        marketing: _mkt,
+        ops:     _ops,
+        roadmap: _road,
+        acciones: _acciones
+      };
+      // Determina qué timestamp usar para cada card
+      function getStaleKey(el){
+        const cls=el.className||'';
+        const title=(el.querySelector('.ct')?.textContent||'').toLowerCase();
+        if(cls.includes('roadmap')) return 'roadmap';
+        if(title.includes('equipo')||title.includes('horario')||title.includes('gastos')) return 'ops';
+        if(title.includes('reach')||title.includes('interacciones')||title.includes('impresiones')||
+           title.includes('solicitudes')||title.includes('clicks')||title.includes('mejor día')||
+           title.includes('conversión')||title.includes('performance')||
+           title.includes('métricas meta')||title.includes('campañas')) return 'marketing';
+        let p=el.parentElement;
+        while(p){
+          const pid=p.id||'';
+          if(pid.startsWith('tab-')){
+            if(pid.includes('analysis')||pid.includes('products')||pid.includes('combos')) return 'historico';
+            if(pid.includes('marketing')) return 'marketing';
+            if(pid.includes('ops')) return 'ops';
+            if(pid.includes('actions')) return 'acciones';
+            return 'daily';
+          }
+          p=p.parentElement;
+        }
+        return 'daily';
+      }
+            document.querySelectorAll('.cd,.apr-prog,.focus-week,.roadmap,.insight-box').forEach(function(el){
         if(el.querySelector('.stale-foot')) return;
         const tipo=getStaleKey(el);
         const ts=staleKeys[tipo]||_ua;
