@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T21:48:37.124513",
+  "updated": "2026-05-24T21:50:35.190473",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -272,117 +272,24 @@
     }
   ],
   "marketing": {
-    "fuente": "Windsor.ai",
-    "actualizado": "2026-04-26",
+    "fuente": "Manual (Windsor descontinuado 3 may 2026)",
+    "actualizado": "2026-05-24",
     "instagram": {
-      "cuenta": "@michalitasxpress",
-      "reach_total": 17242,
-      "reach_prom_dia": 2463,
-      "reach_mejor_dia": 6055,
-      "reach_mejor_fecha": "2026-04-25",
-      "interactions_total": 134,
-      "likes_total": 101,
-      "comments_total": 2,
-      "shares_total": 10,
-      "saves_total": 5,
-      "engagement_rate": 0.78,
-      "conversion_miche": 0,
-      "nota_semana": "Nuevo récord 6,055 reach el 25 abr. Boost Cristina $5/día en nuevo Reel. +65% vs semana anterior.",
-      "dias": [
-        {
-          "fecha": "2026-04-20",
-          "reach": 49,
-          "interactions": 2,
-          "likes": 0
-        },
-        {
-          "fecha": "2026-04-21",
-          "reach": 1366,
-          "interactions": 13,
-          "likes": 10
-        },
-        {
-          "fecha": "2026-04-22",
-          "reach": 3802,
-          "interactions": 25,
-          "likes": 25
-        },
-        {
-          "fecha": "2026-04-23",
-          "reach": 4848,
-          "interactions": 53,
-          "likes": 36
-        },
-        {
-          "fecha": "2026-04-24",
-          "reach": 250,
-          "interactions": 12,
-          "likes": 9
-        },
-        {
-          "fecha": "2026-04-25",
-          "reach": 6055,
-          "interactions": 27,
-          "likes": 19
-        },
-        {
-          "fecha": "2026-04-26",
-          "reach": 872,
-          "interactions": 2,
-          "likes": 2
-        }
-      ]
+      "reach_semana": "6,055 (récord — sáb 25 abr con boost $5)",
+      "reach_promedio": "~253/día con Cristina (vs 47/día antes)",
+      "seguidores": "pendiente",
+      "conversiones_miche": 0,
+      "nota": "Cristina maneja diseño y publicaciones. Construmac gestiona Meta Ads."
     },
     "google_my_business": {
-      "impressions_total": 29,
-      "impressions_prom_dia": 4.1,
-      "direction_requests_total": 15,
-      "website_clicks_total": 0,
-      "nota": "MUY BAJO. Meta: 100-300/día. Últimos 3 días en cero (posible delay GMB).",
-      "dias": [
-        {
-          "fecha": "2026-04-20",
-          "impressions": 11,
-          "direction_requests": 5
-        },
-        {
-          "fecha": "2026-04-21",
-          "impressions": 8,
-          "direction_requests": 0
-        },
-        {
-          "fecha": "2026-04-22",
-          "impressions": 7,
-          "direction_requests": 5
-        },
-        {
-          "fecha": "2026-04-23",
-          "impressions": 3,
-          "direction_requests": 5
-        },
-        {
-          "fecha": "2026-04-24",
-          "impressions": 0,
-          "direction_requests": 0
-        },
-        {
-          "fecha": "2026-04-25",
-          "impressions": 0,
-          "direction_requests": 0
-        },
-        {
-          "fecha": "2026-04-26",
-          "impressions": 0,
-          "direction_requests": 0
-        }
-      ]
+      "vistas_abril": 82,
+      "resenas": "5.0 ⭐ (10 reseñas)",
+      "nota": "Reporte oficial recibido 6 may"
     },
     "meta_ads": {
-      "estado": "restringida",
-      "nota": "Cuenta business restringida por Meta (19 abr). Cristina boostea desde cuenta personal $5/día. Pendiente respuesta Meta a contestación enviada 24 abr.",
-      "gasto_mes": 10,
-      "objetivo_actual": "Boost Reels",
-      "problema": "Cuenta business restringida. Cristina usa cuenta personal temporalmente."
+      "estado": "⚠️ Cuenta restringida — Cristina contestó 24 abr, sin respuesta de Meta",
+      "nueva_cuenta": "Cristina configuró cuenta alternativa (método de pago pendiente)",
+      "historico": "Facebook: 13 conversaciones a $1.13 c/u | Instagram: 2 a $2.85 c/u"
     }
   },
   "alertas": [
@@ -574,58 +481,73 @@
       "detalle": "Email a marian@michalitasxpress.com el 23 may 11:24 PM. Verificar si fue Marian o intento externo."
     }
   ],
-  "ops_insight": "Horario actual: 5 días/semana (lun+mar cerrado desde 12 abr). Miércoles: 4PM-11PM con 2x1 + promos alitas — primer mié nuevo horario: $111 (+42% vs histórico). Sáb/Dom desde 1PM capturan tarde/noche. Viernes 17 abr: mejor viernes histórico $295 (+111%). Marian sigue sobrecargada: bartender + caja + compras + gerencia. Con 5 días op necesitas $169/día promedio para acercarte al PE — actualmente en $169/día. Muy justo.",
+  "ops_insight": "Horario: Mié 4PM-11PM | Jue 4PM-12AM | Vie 5PM-2AM | Sáb 1PM-2AM | Dom 1PM-11PM. Lun+Mar CERRADO. Equipo actual: Marian (socia operativa $543.30/mes) + Alexis (cocinero $600/mes) + Mesera Franyelis. NUEVO desde 1 jun 2026: José Miguel (Coord. Crecimiento $200+$75 bonus) + Alejandro (Soporte Ejecución $100). Curfew terminado 18 may — horarios completos desde mié 20 may.",
   "gastos_fijos": [
     {
       "concepto": "Renta",
-      "monto": "$700"
-    },
-    {
-      "concepto": "Marian",
-      "monto": "$543"
-    },
-    {
-      "concepto": "Alexis (cocinero)",
-      "monto": "$600"
-    },
-    {
-      "concepto": "Mesera",
-      "monto": "~$243"
+      "monto": 700.0,
+      "frecuencia": "mensual",
+      "estado": "pagado"
     },
     {
       "concepto": "IESS",
-      "monto": "$132"
+      "monto": 132.2,
+      "frecuencia": "mensual",
+      "estado": "pagado"
     },
     {
-      "concepto": "Internet+Fútbol",
-      "monto": "$43"
+      "concepto": "Nómina Marian",
+      "monto": 543.3,
+      "frecuencia": "mensual",
+      "estado": "pagado"
     },
     {
-      "concepto": "Marketing",
-      "monto": "$200"
+      "concepto": "Nómina Alexis",
+      "monto": 600.0,
+      "frecuencia": "mensual",
+      "estado": "pendiente confirmar"
     },
     {
-      "concepto": "TOTAL FIJOS",
-      "monto": "~$2,461",
-      "es_total": true
+      "concepto": "Internet + fútbol",
+      "monto": 42.51,
+      "frecuencia": "mensual",
+      "estado": "activo"
+    },
+    {
+      "concepto": "Practisis POS",
+      "monto": 79.35,
+      "frecuencia": "mensual",
+      "estado": "activo"
+    },
+    {
+      "concepto": "CNEL electricidad",
+      "monto": 80.77,
+      "frecuencia": "variable",
+      "estado": "⚠️ pagar martes 26 may"
+    },
+    {
+      "concepto": "PedidosYa deuda",
+      "monto": 6.24,
+      "frecuencia": "única",
+      "estado": "⚠️ URGENTE — estudio jurídico"
+    },
+    {
+      "concepto": "José Miguel (jun)",
+      "monto": 200.0,
+      "frecuencia": "mensual",
+      "estado": "inicio 1 jun 2026"
+    },
+    {
+      "concepto": "Alejandro (jun)",
+      "monto": 100.0,
+      "frecuencia": "mensual",
+      "estado": "inicio 1 jun 2026"
     }
   ],
   "marketing_diagnostico": {
-    "ig": {
-      "funciona": "Reach creció 5x desde que Cristina tomó IG (antes ~47/día, ahora 399/día). Spike de 1,366 reach el 21 abr — el mejor día histórico. Publica diariamente.",
-      "problema": "0 conversiones MICHE detectadas en ventas. 0 comentarios en 7 días. Likes pasivos. Se necesitan Reels y CTAs claros para convertir reach en clientes.",
-      "meta": "1,000 reach/día con Reels + 5 clientes/semana con código MICHE = ~$250 adicional/mes atribuible a IG."
-    },
-    "gmb": {
-      "problema": "7.7 impresiones/día vs meta 100-300/día. Casi nadie encuentra Michalitas buscando 'micheladas Urdesa'. El perfil necesita más fotos, responder reseñas y posts semanales para subir en rankings locales.",
-      "positivo": "12 solicitudes de ruta en 7 días — señal de intención real de visita.",
-      "accion": "Subir fotos nuevas del local y productos. Publicar 1 post/semana en Google Business. Responder todas las reseñas. Es gratis y puede doblar las impresiones en 30 días."
-    },
-    "meta_ads": {
-      "estado": "RESTRINGIDO 🔴",
-      "detalle": "Cuenta Meta Business Suite restringida desde 19 abr. Cristina bloqueada para activar $150/mes. Pendiente apelación por Alberto.",
-      "presupuesto": "$150/mes · Jue–Sáb · 3km radio · 18-45 años"
-    }
+    "ig": "Cristina publica diariamente. Boost $5 → ~6K reach. Meta Ads RESTRINGIDA desde 19 abr.",
+    "gmb": "82 vistas abril. 5.0 estrellas, 10 reseñas. Gratis y efectivo.",
+    "meta_ads": "Cuenta restringida activa. Construmac gestiona alternativa. $5/día por anuncio."
   },
   "uber_eats_metrics": {
     "actualizado": "22 abr 2026",
@@ -801,7 +723,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-05-24 21:48",
+  "ultima_actualizacion": "2026-05-24 21:50",
   "mayo": {
     "label": "Mayo 2026",
     "acumulado": 3215.08,
@@ -991,8 +913,8 @@
   },
   "section_updates": {
     "historico": "2026-05-24 21:46",
-    "marketing": "2026-05-03",
-    "ops": "2026-05-07",
+    "marketing": "2026-05-24 21:50",
+    "ops": "2026-05-24 21:50",
     "roadmap": "2026-05-17 20:00",
     "acciones": "2026-05-24 21:48",
     "ventas": "2026-05-24 21:46"
