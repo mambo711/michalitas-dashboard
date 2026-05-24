@@ -648,10 +648,7 @@
       "Sem 14\n(Abr 7-12)",
       "Sem 15\n(Abr 13-19)",
       "Sem 16\n(Abr 20-26)",
-      "Sem 17\n(Abr 29-May 2)",
-      "Sem 18\n(May 4-10)",
-      "Sem 19\n(May 11-17)",
-      "Sem 20\n(May 18-24)"
+      "Sem 17\n(Abr 29-May 2)"
     ],
     "data": [
       1119,
@@ -662,12 +659,9 @@
       763,
       859,
       1121,
-      677,
-      0.0,
-      0.0,
-      0.0
+      677
     ],
-    "insight": "Sem 19 (May 11-17) = $0 — mejor semana de mayo 🟢. Sem 20 (May 18-24, en curso) = $0. Mayo lleva $0 acumulado en estas 3 semanas."
+    "insight": "Sem 16 (Abr 20-26) = $1,121 — mejor semana de abril 🟢. Sem 17 (Abr 29-May 2) = $677. Mayo en curso — semanas se actualizan en el próximo briefing."
   },
   "ventas": {
     "abril_2026": {
