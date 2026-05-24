@@ -648,7 +648,10 @@
       "Sem 14\n(Abr 7-12)",
       "Sem 15\n(Abr 13-19)",
       "Sem 16\n(Abr 20-26)",
-      "Sem 17\n(Abr 29-May 2)"
+      "Sem 17\n(Abr 29-May 2)",
+      "Sem 18\n(May 4-10)",
+      "Sem 19\n(May 11-17)",
+      "Sem 20\n(May 18-24)"
     ],
     "data": [
       1119,
@@ -659,9 +662,12 @@
       763,
       859,
       1121,
-      677
+      677,
+      0.0,
+      0.0,
+      0.0
     ],
-    "insight": "Sem 16 (Abr 20-26) = $901 — mejor semana completa del mes 🟢. Sem 17 (Abr 29–May 2, 4 días) = $697. Mayo arranca con $449 en solo 2 días ($224/día promedio, 22% sobre histórico)."
+    "insight": "Sem 19 (May 11-17) = $0 — mejor semana de mayo 🟢. Sem 20 (May 18-24, en curso) = $0. Mayo lleva $0 acumulado en estas 3 semanas."
   },
   "ventas": {
     "abril_2026": {
