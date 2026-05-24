@@ -1665,7 +1665,7 @@ async function exportPDF(){
         if(!ts) return '';
         const _dt=new Date((ts||'').replace(' ','T'));
         if(isNaN(_dt.getTime())) return '';
-        const days=Math.floor((Date.now()-_dt)/86400000);
+        const days=Math.max(0,Math.floor((Date.now()-_dt)/86400000));
         const cls=days===0?'stf-hoy':days<=4?'stf-rec':'stf-old';
         const txt=days===0?'hoy':days===1?'ayer':('hace '+days+'d');
         return '<div class="stale-foot">Actualizado: <span class="'+cls+'">'+txt+'</span></div>';
