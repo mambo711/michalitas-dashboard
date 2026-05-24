@@ -38,11 +38,11 @@
     "mes": "mayo 2026",
     "gauge_pct": 76.3,
     "gauge_txt": "$3,215",
-    "gauge_sub": "Mayo: 17 días · 76% del PE",
+    "gauge_sub": "al 24 may · 17 días · 76% del PE",
     "gauge_color": "#16a34a",
     "filas": [
       {
-        "label": "Acumulado mayo (17 días)",
+        "label": "Acumulado mayo (al 24 may)",
         "valor": "$3,215.08",
         "color": "green"
       },
@@ -758,7 +758,7 @@
     "diferencia_pe": 133.8,
     "deficit_fmt": "$+134",
     "pct_cubierto": 76.0,
-    "coverage_txt": "76% cubierto · 17 días operativos",
+    "coverage_txt": "76% cubierto · al 24 may (17 días op)",
     "tracker_note": "necesario $167/día en 6 días restantes",
     "dias_restantes": 6,
     "necesario_dia": 166.82,
@@ -782,7 +782,7 @@
     "diferencia_pe": 133.8,
     "deficit_fmt": "$+134",
     "pct_cubierto": 76.0,
-    "coverage_txt": "76% cubierto · 17 días operativos",
+    "coverage_txt": "76% cubierto · al 24 may (17 días op)",
     "tracker_note": "necesario $167/día en 6 días restantes",
     "dias_restantes": 6,
     "necesario_dia": 166.82,
