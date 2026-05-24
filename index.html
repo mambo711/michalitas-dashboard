@@ -416,13 +416,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div class="g12">
   <div class="cd" data-stale="daily">
     <div class="ct">Tendencia Mensual vs PE</div>
-    <div style="display:flex;flex-direction:column;gap:7px">
-      <div><div style="font-size:.82rem;color:var(--tm);margin-bottom:2px">Ene — $2,533 (60%)</div><div class="bt"><div class="bf dg" style="width:60%"></div></div></div>
-      <div><div style="font-size:.82rem;color:var(--tm);margin-bottom:2px">Feb — $2,225 (53%)</div><div class="bt"><div class="bf dg" style="width:53%"></div></div></div>
-      <div><div style="font-size:.82rem;color:var(--tm);margin-bottom:2px">Mar — $3,625 (86%)</div><div class="bt"><div class="bf wn" style="width:86%"></div></div></div>
-      <div><div style="font-size:.68rem;color:var(--tm);margin-bottom:2px;font-weight:600">Abr (proy.) — $3,461 (82%)</div><div class="bt"><div class="bf wn" style="width:82%"></div></div></div>
-      <div><div style="font-size:.68rem;color:var(--tm);margin-bottom:2px;font-weight:600">Meta — $4,216+</div><div class="bt"><div class="bf gd" style="width:100%"></div></div></div>
-    </div>
+    <div id="d-tend-mensual" style="display:flex;flex-direction:column;gap:7px"></div>
   </div>
   <div class="cd">
     <div class="ct">Ventas Mensuales vs PE</div>
@@ -1484,6 +1478,26 @@ async function exportPDF(){
                 <span style="font-size:.78rem;color:var(--tm);font-weight:600">${f.det||''}</span>
               </span>
             </div>`).join('');
+        }
+      }
+
+      // Tendencia mensual — dynamic from ventas.historico_meses
+      if (d.ventas && d.ventas.historico_meses) {
+        const tmEl = document.getElementById('d-tend-mensual');
+        if (tmEl) {
+          const PE = 4216;
+          const meses = d.ventas.historico_meses.slice(-5);
+          const rows = meses.map((m, i) => {
+            const isCurrent = i === meses.length - 1;
+            const pct = Math.round(m.total / PE * 100);
+            const cls = pct >= 90 ? 'gd' : pct >= 70 ? 'wn' : 'dg';
+            const label = isCurrent ? m.mes + ' (acum.)' : m.mes;
+            const fs = isCurrent ? '.68rem' : '.82rem';
+            const fw = isCurrent ? 'font-weight:600;' : '';
+            return '<div><div style="font-size:'+fs+';color:var(--tm);margin-bottom:2px;'+fw+'">'+label+' — '+m.total_fmt+' ('+pct+'%)</div><div class="bt"><div class="bf '+cls+'" style="width:'+Math.min(pct,100)+'%"></div></div></div>';
+          });
+          rows.push('<div><div style="font-size:.68rem;color:var(--tm);margin-bottom:2px;font-weight:600">Meta — $4,216+</div><div class="bt"><div class="bf gd" style="width:100%"></div></div></div>');
+          tmEl.innerHTML = rows.join('');
         }
       }
 
