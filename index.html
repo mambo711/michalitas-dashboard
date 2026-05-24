@@ -421,14 +421,14 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   <div class="cd">
     <div class="ct">Ventas Mensuales vs PE</div>
     <div class="cw"><canvas id="cVentas"></canvas></div>
-    <div style="margin-top:10px"><div class="ct">Canales de Pago (Ene–Feb)</div><div class="cw" style="height:110px"><canvas id="cCanales"></canvas></div></div>
+    <div style="margin-top:10px"><div class="ct">Canales de Pago <span style="font-size:.72rem;color:var(--tl);font-weight:400">(nov–abr histórico)</span></div><div class="cw" style="height:110px"><canvas id="cCanales"></canvas></div></div>
   </div>
 </div>
 
 <div class="st" id="sec-semana">Semana sobre Semana</div>
 <div class="cd" data-stale="daily" style="margin-bottom:16px">
   <div class="cw" style="height:170px"><canvas id="cWeekly"></canvas></div>
-  <div class="ins" id="weeklyInsight"><strong>Tendencia:</strong> Sem 9 ($1,119) fue la mejor. Sem 15 (Abr 13–19) cerró con $859 — mejor semana de abril. Sem 16 en curso: $108 (solo mié 22).</div>
+  <div class="ins" id="weeklyInsight"><strong>Tendencia:</strong> cargando...</div>
 </div>
 
 <div class="st" id="sec-dias">Días Recientes</div>
@@ -1158,11 +1158,24 @@ function renderMarketing(){
 const fc='#57534E',gc='#D6CFC5',o='#D97706',od='#B45309',r='#B91C1C',g='#15803D',y='#F59E0B',m='#1C1210';
 const cDef={responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:fc,font:{size:12}}}}};
 
-new Chart(document.getElementById('cVentas'),{type:'bar',data:{labels:['Ene','Feb','Mar','Abr (proy)'],datasets:[{label:'Ventas',data:[2533,2225,3625,3400],backgroundColor:[o+'88',o+'88',o,g+'88'],borderColor:od,borderWidth:1,borderRadius:5},{label:'PE',data:[4216,4216,4216,4216],type:'line',borderColor:r,borderDash:[5,3],borderWidth:2,pointRadius:0,fill:false}]},options:{...cDef,scales:{x:{ticks:{color:fc,font:{size:12}},grid:{color:gc}},y:{ticks:{color:fc,font:{size:12},callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
+(function(){
+  const hm=(d.ventas&&d.ventas.historico_meses)?d.ventas.historico_meses.slice(-6):[];
+  const vmLabels=hm.map((m,i)=>i===hm.length-1?m.mes.substring(0,3)+' (acum.)':m.mes.substring(0,3));
+  const vmData=hm.map(m=>m.total);
+  const vmColors=hm.map((m,i)=>i===hm.length-1?g+'88':o);
+  const vmPE=hm.map(()=>4216);
+  new Chart(document.getElementById('cVentas'),{type:'bar',data:{labels:vmLabels,datasets:[{label:'Ventas',data:vmData,backgroundColor:vmColors,borderColor:od,borderWidth:1,borderRadius:5},{label:'PE',data:vmPE,type:'line',borderColor:r,borderDash:[5,3],borderWidth:2,pointRadius:0,fill:false}]},options:{...cDef,scales:{x:{ticks:{color:fc,font:{size:12}},grid:{color:gc}},y:{ticks:{color:fc,font:{size:12},callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
+})();
 
 new Chart(document.getElementById('cCanales'),{type:'doughnut',data:{labels:['Efectivo','Tarjetas','Uber','Alexis'],datasets:[{data:[4140,2762,38.5,758],backgroundColor:[o,y,'#5DADE2',g],borderColor:'#fff',borderWidth:2}]},options:{...cDef,plugins:{legend:{position:'right',labels:{color:fc,font:{size:12},boxWidth:10,padding:6}}},cutout:'60%'}});
 
-window.chartWeekly=new Chart(document.getElementById('cWeekly'),{type:'line',data:{labels:['Sem 8\n(Feb 23)','Sem 9\n(Mar 2)','Sem 10\n(Mar 9)','Sem 11\n(Mar 16)','Sem 12\n(Mar 23)','Sem 13\n(Mar 30)','Sem 14\n(Abr 7-12)'],datasets:[{label:'Ventas/semana',data:[174,1119,1070,625,535,1002,763],fill:true,backgroundColor:o+'22',borderColor:o,borderWidth:2,tension:.3,pointBackgroundColor:[o,g,o,r,r,g,y],pointRadius:5},{label:'PE semanal ($1,054)',data:[1054,1054,1054,1054,1054,1054,1054],borderColor:r,borderDash:[5,3],borderWidth:1.5,pointRadius:0,fill:false}]},options:{...cDef,scales:{x:{ticks:{color:fc,font:{size:11}},grid:{color:gc}},y:{ticks:{color:fc,font:{size:11},callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
+window.chartWeekly=(function(){
+  const sw=d.semanas_ventas||{labels:[],data:[],insight:''};
+  const swColors=sw.data.map(v=>v>=1054?g:v>=800?y:r);
+  const swPE=sw.data.map(()=>1054);
+  window.chartWeekly=new Chart(document.getElementById('cWeekly'),{type:'line',data:{labels:sw.labels,datasets:[{label:'Ventas/semana',data:sw.data,fill:true,backgroundColor:o+'22',borderColor:o,borderWidth:2,tension:.3,pointBackgroundColor:swColors,pointRadius:5},{label:'PE semanal ($1,054)',data:swPE,borderColor:r,borderDash:[5,3],borderWidth:1.5,pointRadius:0,fill:false}]},options:{...cDef,scales:{x:{ticks:{color:fc,font:{size:11}},grid:{color:gc}},y:{ticks:{color:fc,font:{size:11},callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
+  if(sw.insight){const wi=document.getElementById('weeklyInsight');if(wi)wi.innerHTML='<strong>Tendencia:</strong> '+sw.insight;}
+})();
 
 let aR=false;
 function renderA(){if(aR)return;aR=true;
