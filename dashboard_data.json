@@ -76,7 +76,11 @@
         "valor": "$3,717 (-$499 vs PE)",
         "color": "orange"
       }
-    ]
+    ],
+    "acumulado": 3215.08,
+    "acumulado_fmt": "$3,215",
+    "dias_operativos": 17,
+    "pct_cubierto": 76.3
   },
   "uber_eats": {
     "auditado": "2026-04-16",
@@ -786,27 +790,26 @@
       }
     }
   },
-  "ultima_actualizacion": "2026-05-24 10:09",
+  "ultima_actualizacion": "2026-05-24 19:49",
   "mayo": {
-    "acumulado_fmt": "$449",
-    "coverage_txt": "2 días operativos de 23 — en curso",
-    "prom_dia_fmt": "$224.60",
-    "proyeccion_fmt": "~$3,728–$4,384",
-    "facturas": 39,
-    "ticket_fmt": "$11.52",
-    "deficit_fmt": "proy. -$488",
-    "pct_cubierto": 10.7,
-    "tracker_note": "Mayo: 2 días, $449.19 acumulado. Prom $224.60/día (+22% vs histórico). Si la tendencia se mantiene, mayo podría alcanzar el PE por primera vez.",
-    "dias_ventas": {
-      "2026-05-01": 161,
-      "2026-05-02": 288
-    },
-    "total": 449.19,
-    "dias_operativos": 2,
-    "dias_restantes": 21,
+    "acumulado_fmt": "$3,215",
+    "acumulado": 3215.08,
+    "coverage_txt": "17 días operativos de 22 — 76.3% del PE",
+    "prom_dia_fmt": "$189.12",
+    "prom_dia": 189.12,
+    "proyeccion_fmt": "~$4,161",
+    "proyeccion": 4160.64,
+    "facturas": 205,
+    "ticket_fmt": "$15.68",
+    "ticket": 15.68,
+    "deficit_fmt": "$-55 vs PE",
+    "deficit": -55.36,
+    "dias_operativos": 17,
+    "pct_cubierto": 76.3,
     "punto_equilibrio": 4216,
-    "proyeccion_conservadora": 3728,
-    "proyeccion_tendencia": 4384
+    "tracker_note": "necesario $200/día los próximos 5 días",
+    "necesario_dia": 200.18,
+    "dias_restantes": 5
   },
   "mes_actual": {
     "label": "Mayo 2026",
