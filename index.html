@@ -275,6 +275,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 .stf-hoy{color:var(--g,#065F46);font-weight:700}
 .stf-rec{color:#B45309;font-weight:700}
 .stf-old{color:var(--r,#B91C1C);font-weight:700}
+.stf-stale{margin-left:6px;background:#B91C1C;color:#fff;font-size:.6rem;font-weight:700;padding:1px 5px;border-radius:3px;letter-spacing:.04em;text-transform:uppercase}
 </style>
 </head>
 <body id="dashBody">
@@ -1656,7 +1657,7 @@ async function exportPDF(){
         setAll('d-chart-combos-titulo', tx.chart_combos_titulo);
       }
 
-      // ── STALENESS FOOTER — días desde última actualización dentro de cada bloque ──
+      // ── STALENESS FOOTER — edad real del dato + badge DESACTUALIZADO si supera umbral ──
       const _ua = d.ultima_actualizacion || '';
       const _su = d.section_updates || {};
       const _hist   = _su.historico  || '2026-04-30';
@@ -1664,7 +1665,9 @@ async function exportPDF(){
       const _ops    = _su.ops        || _su.weekly || '2026-05-07';
       const _road   = _su.roadmap    || '2026-05-21';
       const _acciones = _su.acciones || _ua;
-      function staleFooter(ts){
+      // Máximo de días antes de considerar datos DESACTUALIZADOS por tipo
+      const _staleLimits={'daily':2,'acciones':2,'roadmap':21,'weekly':45,'historico':60,'marketing':21};
+      function staleFooter(ts, tipo){
         if(!ts) return '';
         const _dt=new Date((ts||'').replace(' ','T'));
         if(isNaN(_dt.getTime())) return '';
@@ -1672,7 +1675,6 @@ async function exportPDF(){
         const cls=days===0?'stf-hoy':days<=4?'stf-rec':'stf-old';
         let txt;
         if(days===0){
-          // Mostrar hora exacta para datos de hoy
           const h=_dt.getHours(),m=_dt.getMinutes().toString().padStart(2,'0');
           const ampm=h>=12?'pm':'am';
           const h12=h%12||12;
@@ -1685,7 +1687,9 @@ async function exportPDF(){
           const meses=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
           txt=_dt.getDate()+' '+meses[_dt.getMonth()];
         }
-        return '<div class="stale-foot">Datos de: <span class="'+cls+'">'+txt+'</span></div>';
+        const limit=_staleLimits[tipo]||_staleLimits.daily;
+        const staleTag=days>limit?'<span class="stf-stale">⚠ DESACTUALIZADO</span>':'';
+        return '<div class="stale-foot">Datos de: <span class="'+cls+'">'+txt+'</span>'+staleTag+'</div>';
       }
       const staleKeys={'daily':_ua,'weekly':_ops,'historico':_hist,'marketing':_mkt,'roadmap':_road,'acciones':_acciones};
       function getStaleKey(el){
@@ -1709,8 +1713,9 @@ async function exportPDF(){
       }
       document.querySelectorAll('.cd,.apr-prog,.focus-week,.roadmap,.insight-box').forEach(function(el){
         if(el.querySelector('.stale-foot')) return;
-        const ts=staleKeys[getStaleKey(el)]||_ua;
-        el.insertAdjacentHTML('beforeend',staleFooter(ts));
+        const tipo=getStaleKey(el);
+        const ts=staleKeys[tipo]||_ua;
+        el.insertAdjacentHTML('beforeend',staleFooter(ts,tipo));
       });
     }).catch(e=>console.warn('dashboard_data.json no disponible:',e));
 })();
