@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T19:43:25.404500",
+  "updated": "2026-05-24T21:46:40.210583",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -38,7 +38,7 @@
     "mes": "mayo 2026",
     "gauge_pct": 76.3,
     "gauge_txt": "$3,215",
-    "gauge_sub": "Mayo: 17 días · 76.3% del PE",
+    "gauge_sub": "Mayo: 17 días · 76% del PE",
     "gauge_color": "#16a34a",
     "filas": [
       {
@@ -421,7 +421,7 @@
   ],
   "last_briefing": {
     "fecha": "2026-05-24",
-    "resumen": "Ayer $472.71 | Mes $3,200 | 16 días op"
+    "resumen": "Ayer $472.71 | Mayo $3,215 | 17 días op"
   },
   "foco_semana": {
     "titulo": "Semana 19-25 Mayo",
@@ -514,7 +514,7 @@
       "status": "Activo ✅"
     }
   ],
-  "diagnostico": "Abril (al 25 abr): $3,337.88 acumulado · 19 días op · 212 facturas · ticket $15.74/fact · prom $175.68/día · déficit proyectado -$406",
+  "diagnostico": "Mayo 2026 (al 24 may): $3,215 acumulado · 17 días op · 204 facturas · ticket $15.76/fact · $189/día. Proyección ~$4,350 vs PE $4,216 (superávit $134). Ayer (2026-05-23): $472.71.",
   "acciones_top": [
     {
       "nivel": "red",
@@ -693,6 +693,13 @@
   },
   "dias_recientes": [
     {
+      "label": "Dom 24 may",
+      "total": 15.25,
+      "facturas": 2,
+      "hl": "bad",
+      "star": ""
+    },
+    {
       "label": "Sáb 23 may",
       "total": 472.71,
       "facturas": 23,
@@ -716,7 +723,7 @@
     {
       "label": "Mié 20 may",
       "total": 169.09,
-      "facturas": 12,
+      "facturas": 11,
       "hl": "good",
       "star": "⭐"
     },
@@ -732,13 +739,6 @@
       "total": 164.98,
       "facturas": 12,
       "hl": "bad",
-      "star": ""
-    },
-    {
-      "label": "Vie 15 may",
-      "total": 259.21,
-      "facturas": 18,
-      "hl": "neutral",
       "star": ""
     }
   ],
@@ -769,87 +769,130 @@
   },
   "ventas": {
     "abril_2026": {
-      "total_acumulado": 3010.34,
-      "dias_operativos": 18,
-      "prom_diario": 167.24,
-      "meta_mes": 4216,
-      "deficit_proyectado": -578,
-      "dias_restantes": 4,
-      "proyeccion_cierre": 3638,
-      "actualizado": "2026-04-25",
-      "ventas_ayer": {
-        "fecha": "2026-04-24",
-        "dia": "Viernes",
-        "total": 319.16,
-        "facturas": 15,
-        "ticket_prom": 21.28,
-        "producto_estrella": "Promo Margarita + Maracumango",
-        "toppings_por_factura": 0.73,
-        "hora_pico": "23h ($177.15 = 55%)",
-        "vs_prom_viernes": "+128%"
+      "total": 3717.36,
+      "facturas": 238,
+      "dias_op": 21
+    },
+    "historico_meses": [
+      {
+        "mes": "Nov 2025",
+        "total": 3736.46,
+        "total_fmt": "$3,736",
+        "facturas": 222,
+        "dias_op": 25,
+        "prom_dia": 149.46,
+        "prom_dia_fmt": "$149"
+      },
+      {
+        "mes": "Dic 2025",
+        "total": 3983.41,
+        "total_fmt": "$3,983",
+        "facturas": 231,
+        "dias_op": 26,
+        "prom_dia": 153.21,
+        "prom_dia_fmt": "$153"
+      },
+      {
+        "mes": "Ene 2026",
+        "total": 2983.43,
+        "total_fmt": "$2,983",
+        "facturas": 173,
+        "dias_op": 26,
+        "prom_dia": 114.75,
+        "prom_dia_fmt": "$115"
+      },
+      {
+        "mes": "Feb 2026",
+        "total": 3251.18,
+        "total_fmt": "$3,251",
+        "facturas": 180,
+        "dias_op": 23,
+        "prom_dia": 141.36,
+        "prom_dia_fmt": "$141"
+      },
+      {
+        "mes": "Mar 2026",
+        "total": 3570.0,
+        "total_fmt": "$3,570",
+        "facturas": 217,
+        "dias_op": 27,
+        "prom_dia": 132.22,
+        "prom_dia_fmt": "$132"
+      },
+      {
+        "mes": "Abr 2026",
+        "total": 3717.36,
+        "total_fmt": "$3,717",
+        "facturas": 238,
+        "dias_op": 21,
+        "prom_dia": 177.02,
+        "prom_dia_fmt": "$177"
+      },
+      {
+        "mes": "Mayo 2026",
+        "total": 3215.08,
+        "total_fmt": "$3,215",
+        "facturas": 204,
+        "dias_op": 17,
+        "prom_dia": 189.12,
+        "prom_dia_fmt": "$189"
       }
+    ],
+    "mayo_2026": {
+      "total": 3215.08,
+      "facturas": 204,
+      "dias_op": 17,
+      "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-05-17 20:00",
+  "ultima_actualizacion": "2026-05-24 21:46",
   "mayo": {
-    "acumulado_fmt": "$3,215",
-    "acumulado": 3215.08,
-    "coverage_txt": "17 días operativos de 22 — 76.3% del PE",
-    "prom_dia_fmt": "$189.12",
-    "prom_dia": 189.12,
-    "proyeccion_fmt": "~$4,161",
-    "proyeccion": 4160.64,
-    "facturas": 205,
-    "ticket_fmt": "$15.68",
-    "ticket": 15.68,
-    "deficit_fmt": "$-55 vs PE",
-    "deficit": -55.36,
-    "dias_operativos": 17,
-    "pct_cubierto": 76.3,
-    "punto_equilibrio": 4216,
-    "tracker_note": "necesario $200/día los próximos 5 días",
-    "necesario_dia": 200.18,
-    "dias_restantes": 5
-  },
-  "mes_actual": {
     "label": "Mayo 2026",
-    "acumulado": 3199.83,
+    "acumulado": 3215.08,
     "acumulado_fmt": "$3,215",
-    "facturas": 203,
+    "facturas": 204,
     "dias_operativos": 17,
-    "prom_dia": 199.99,
-    "prom_dia_fmt": "$200",
+    "prom_dia": 189.12,
+    "prom_dia_fmt": "$189",
     "ticket_prom": 15.76,
     "ticket_fmt": "$15.76",
     "punto_equilibrio": 4216,
-    "proyeccion": 4399.78,
-    "proyeccion_fmt": "$4,400",
-    "diferencia_pe": 183.78,
-    "deficit_fmt": "$+184",
-    "pct_cubierto": 76.3,
-    "coverage_txt": "76% cubierto · 16 días operativos",
-    "tracker_note": "necesario $169/día los próximos 6 días",
-    "dias_ventas": {
-      "2026-05-09": 346.1,
-      "2026-05-21": 131.13,
-      "2026-05-20": 169.09,
-      "2026-05-15": 259.21,
-      "2026-05-02": 287.95,
-      "2026-05-10": 61.34,
-      "2026-05-01": 161.24,
-      "2026-05-16": 164.98,
-      "2026-05-08": 381.5,
-      "2026-05-13": 162.44,
-      "2026-05-14": 129.5,
-      "2026-05-22": 231.27,
-      "2026-05-23": 472.71,
-      "2026-05-03": 39.25,
-      "2026-05-06": 79.65,
-      "2026-05-17": 122.47
-    },
-    "insight": "Mayo (al 24): $3,200 acumulado en 16 días op, 203 facturas, ticket $15.76. Proyección: ~$4,400 vs PE $4,216 (superávit $184).",
+    "proyeccion": 4349.8,
+    "proyeccion_fmt": "~$4,350",
+    "diferencia_pe": 133.8,
+    "deficit_fmt": "$+134",
+    "pct_cubierto": 76.0,
+    "coverage_txt": "76% cubierto · 17 días operativos",
+    "tracker_note": "necesario $167/día en 6 días restantes",
+    "dias_restantes": 6,
+    "necesario_dia": 166.82,
     "anio": 2026,
-    "mes": 5
+    "mes": 5,
+    "insight": "Mayo (al 24): $3,215 acumulado en 17 días op, 204 facturas, ticket $15.76. Proyección: ~$4,350 vs PE $4,216 (superávit $134)."
+  },
+  "mes_actual": {
+    "label": "Mayo 2026",
+    "acumulado": 3215.08,
+    "acumulado_fmt": "$3,215",
+    "facturas": 204,
+    "dias_operativos": 17,
+    "prom_dia": 189.12,
+    "prom_dia_fmt": "$189",
+    "ticket_prom": 15.76,
+    "ticket_fmt": "$15.76",
+    "punto_equilibrio": 4216,
+    "proyeccion": 4349.8,
+    "proyeccion_fmt": "~$4,350",
+    "diferencia_pe": 133.8,
+    "deficit_fmt": "$+134",
+    "pct_cubierto": 76.0,
+    "coverage_txt": "76% cubierto · 17 días operativos",
+    "tracker_note": "necesario $167/día en 6 días restantes",
+    "dias_restantes": 6,
+    "necesario_dia": 166.82,
+    "anio": 2026,
+    "mes": 5,
+    "insight": "Mayo (al 24): $3,215 acumulado en 17 días op, 204 facturas, ticket $15.76. Proyección: ~$4,350 vs PE $4,216 (superávit $134)."
   },
   "textos": {
     "roadmap_titulo": "Hoja de Ruta — Crecimiento 2026",
@@ -867,6 +910,38 @@
     "semana_label": "Semana 19-25 Mayo 2026"
   },
   "tendencia_semanal": {
+    "lunes": [
+      {
+        "fecha": "2025-12-22",
+        "total": 78.55
+      },
+      {
+        "fecha": "2025-12-29",
+        "total": 96.65
+      },
+      {
+        "fecha": "2026-03-30",
+        "total": 101.96
+      }
+    ],
+    "martes": [
+      {
+        "fecha": "2026-03-17",
+        "total": 72.74
+      },
+      {
+        "fecha": "2026-03-24",
+        "total": 150.95
+      },
+      {
+        "fecha": "2026-03-31",
+        "total": 35.25
+      },
+      {
+        "fecha": "2026-04-07",
+        "total": 78.24
+      }
+    ],
     "miercoles": [
       {
         "fecha": "2026-04-29",
@@ -941,10 +1016,6 @@
     ],
     "domingo": [
       {
-        "fecha": "2026-04-26",
-        "total": 151.26
-      },
-      {
         "fecha": "2026-05-03",
         "total": 39.25
       },
@@ -955,15 +1026,19 @@
       {
         "fecha": "2026-05-17",
         "total": 122.47
+      },
+      {
+        "fecha": "2026-05-24",
+        "total": 15.25
       }
     ]
   },
   "section_updates": {
-    "historico": "2026-04-30",
+    "historico": "2026-05-24 21:46",
     "marketing": "2026-05-03",
     "ops": "2026-05-07",
     "roadmap": "2026-05-17 20:00",
     "acciones": "2026-05-17 20:00",
-    "ventas": "2026-05-17 20:00"
+    "ventas": "2026-05-24 21:46"
   }
 }
