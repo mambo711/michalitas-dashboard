@@ -1667,42 +1667,44 @@ async function exportPDF(){
       const _acciones = _su.acciones || _ua;
       function staleFooter(ts, limit){
         if(!ts) return '';
-        // Timestamps stored in ET — extract date/time parts directly from string
+        // Timestamps stored in UTC (sandbox uses datetime.now() = UTC)
+        // Parse as UTC, convert to ET for display
         const parts=(ts||'').trim().split(' ');
         const datePart=parts[0]||'';
-        const timePart=parts[1]||'';
+        const timePart=parts[1]||'00:00';
         if(!datePart) return '';
-        // Current date in ET (handles EST/EDT automatically)
-        const nowUTC=Date.now();
-        const utcMs=nowUTC;
-        const utcMonth=new Date(utcMs).getUTCMonth();
-        const utcDay=new Date(utcMs).getUTCDate();
-        // EDT (UTC-4) from ~Mar 8 to ~Nov 1, else EST (UTC-5)
+        // Parse stored timestamp as UTC
+        const storedUTC=new Date(datePart+'T'+timePart+':00Z');
+        if(isNaN(storedUTC.getTime())) return '';
+        // Determine ET offset (EDT=UTC-4 Mar8–Nov1, else EST=UTC-5)
+        const utcNow=Date.now();
+        const utcMonth=new Date(utcNow).getUTCMonth();
+        const utcDay=new Date(utcNow).getUTCDate();
         const isEDT=(utcMonth>2&&utcMonth<10)||(utcMonth===2&&utcDay>=8);
         const etOffset=isEDT?-4:-5;
-        const etNow=new Date(utcMs+etOffset*3600000);
+        // Convert stored time to ET
+        const storedET=new Date(storedUTC.getTime()+etOffset*3600000);
+        // Current date in ET
+        const etNow=new Date(utcNow+etOffset*3600000);
         const todayET=etNow.toISOString().slice(0,10);
-        // Days difference (compare date strings, avoid timezone boundary issues)
-        const storedD=new Date(datePart+'T12:00:00Z');
-        const todayD=new Date(todayET+'T12:00:00Z');
-        const days=Math.max(0,Math.floor((todayD-storedD)/86400000));
+        const storedDateET=storedET.toISOString().slice(0,10);
+        // Days difference using ET dates
+        const days=Math.max(0,Math.floor(
+          (new Date(todayET+'T12:00:00Z')-new Date(storedDateET+'T12:00:00Z'))/86400000
+        ));
         const cls=days===0?'stf-hoy':days<=4?'stf-rec':'stf-old';
         let txt;
         if(days===0){
-          if(timePart){
-            const tp=timePart.split(':');
-            const h=parseInt(tp[0]),m=(tp[1]||'00').padStart(2,'0');
-            const ampm=h>=12?'pm':'am'; const h12=h%12||12;
-            txt='hoy '+h12+':'+m+ampm+' ET';
-          } else { txt='hoy'; }
+          const h=storedET.getUTCHours(),m=storedET.getUTCMinutes().toString().padStart(2,'0');
+          const ampm=h>=12?'pm':'am'; const h12=h%12||12;
+          txt='hoy '+h12+':'+m+ampm+' ET';
         } else if(days===1){
           txt='ayer';
         } else if(days<30){
           txt='hace '+days+' días';
         } else {
           const meses=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
-          const d=new Date(datePart+'T12:00:00Z');
-          txt=d.getUTCDate()+' '+meses[d.getUTCMonth()];
+          txt=storedET.getUTCDate()+' '+meses[storedET.getUTCMonth()];
         }
         const staleTag=(limit!=null&&days>=limit)?'<span class="stf-stale">Stale</span>':'';
         return '<div class="stale-foot">Datos de: <span class="'+cls+'">'+txt+'</span>'+staleTag+'</div>';
