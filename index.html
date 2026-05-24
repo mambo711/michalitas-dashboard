@@ -1688,7 +1688,7 @@ async function exportPDF(){
           txt=_dt.getDate()+' '+meses[_dt.getMonth()];
         }
         const limit=_staleLimits[tipo]||_staleLimits.daily;
-        const staleTag=days>limit?'<span class="stf-stale">⚠ DESACTUALIZADO</span>':'';
+        const staleTag=days>limit?'<span class="stf-stale">Stale</span>':'';
         return '<div class="stale-foot">Datos de: <span class="'+cls+'">'+txt+'</span>'+staleTag+'</div>';
       }
       const staleKeys={'daily':_ua,'weekly':_ops,'historico':_hist,'marketing':_mkt,'roadmap':_road,'acciones':_acciones};
