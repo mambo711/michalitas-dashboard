@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T10:10:10.467551",
+  "updated": "2026-05-26T07:15:13.347884",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -327,8 +327,8 @@
     }
   ],
   "last_briefing": {
-    "fecha": "2026-05-25",
-    "resumen": "Ayer $193.83 | Mes $3,394 | 17 días op"
+    "fecha": "2026-05-26",
+    "resumen": "Ayer (lun cerrado) | Dom 24 may $193.83 | Mes $3,394 | 17 días op"
   },
   "foco_semana": {
     "titulo": "Cerrar Mayo arriba del PE",
@@ -789,7 +789,7 @@
       "2026-05-06": 79.65,
       "2026-05-17": 122.47
     },
-    "insight": "Mayo (al 25): $3,394 acumulado en 17 días op, 218 facturas, ticket $15.57. Proyección: ~$4,392 vs PE $4,216 (superávit $176).",
+    "insight": "Mayo (al 26): $3,394 acumulado en 17 días op, 218 facturas, ticket $15.57. Proyección: ~$4,392 vs PE $4,216 (superávit $176).",
     "anio": 2026,
     "mes": 5
   },
@@ -830,7 +830,7 @@
       "2026-05-06": 79.65,
       "2026-05-17": 122.47
     },
-    "insight": "Mayo (al 25): $3,394 acumulado en 17 días op, 218 facturas, ticket $15.57. Proyección: ~$4,392 vs PE $4,216 (superávit $176).",
+    "insight": "Mayo (al 26): $3,394 acumulado en 17 días op, 218 facturas, ticket $15.57. Proyección: ~$4,392 vs PE $4,216 (superávit $176).",
     "anio": 2026,
     "mes": 5
   },
@@ -950,5 +950,5 @@
     "ventas": "2026-05-25 10:10",
     "horario": "2026-05-24 23:28"
   },
-  "ultima_ejecucion": "2026-05-25 10:10"
+  "ultima_ejecucion": "2026-05-26 07:15"
 }
