@@ -332,8 +332,8 @@
     }
   ],
   "last_briefing": {
-    "fecha": "2026-06-01",
-    "resumen": "MAYO CERRADO $4,234 (+$18 vs PE) | Ayer Dom $119.70 | Junio arranca mié 3"
+    "fecha": "2026-06-02",
+    "resumen": "Mar 2 jun: bar cerrado (lun/mar). Junio arranca mié 3. Mayo cerró $4,234 (+$18 PE)."
   },
   "foco_semana": {
     "titulo": "Cerrar Mayo arriba del PE",
@@ -965,5 +965,5 @@
     "ventas": "2026-06-01 07:08",
     "horario": "2026-05-24 23:28"
   },
-  "ultima_ejecucion": "2026-06-01 07:08"
+  "ultima_ejecucion": "2026-06-02 07:08"
 }
