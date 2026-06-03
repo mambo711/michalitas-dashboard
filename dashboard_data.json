@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T07:08:38.983264",
+  "updated": "2026-06-03T07:08:23.352842",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -36,14 +36,14 @@
   },
   "kpis_mes": {
     "mes": "mayo 2026 (cerrado)",
-    "gauge_pct": 100.4,
-    "gauge_txt": "$4,234",
-    "gauge_sub": "CERRADO · 22 días · 100% del PE · superávit $+18",
-    "gauge_color": "#16a34a",
+    "gauge_pct": 0.0,
+    "gauge_txt": "$0",
+    "gauge_sub": "al 3 jun · 0 días · 0% del PE",
+    "gauge_color": "#ef4444",
     "filas": [
       {
-        "label": "Cierre mayo (FINAL, 22 días op)",
-        "valor": "$4,234.17",
+        "label": "Acumulado junio (al 3 jun)",
+        "valor": "$0.00",
         "color": "green"
       },
       {
@@ -52,40 +52,35 @@
         "color": "gray"
       },
       {
-        "label": "Resultado vs PE",
-        "valor": "$+18.17 (superávit)",
-        "color": "green"
+        "label": "Proyección conservadora",
+        "valor": "~$0",
+        "color": "red"
       },
       {
-        "label": "Hito",
-        "valor": "PRIMER mes sobre PE en 8 meses 🟢",
-        "color": "green"
+        "label": "Proyección tendencia",
+        "valor": "~$0",
+        "color": "red"
       },
       {
-        "label": "Prom. diario (22 días)",
-        "valor": "$192.46/día",
-        "color": "green"
-      },
-      {
-        "label": "Ticket promedio",
-        "valor": "$15.80",
+        "label": "Días restantes",
+        "valor": "22 días operativos",
         "color": "blue"
       },
       {
-        "label": "Junio 2026",
-        "valor": "Arranca mié 3 jun — PE $4,216",
-        "color": "blue"
-      },
-      {
-        "label": "Cierre abril (referencia)",
-        "valor": "$3,717 (-$499 vs PE)",
+        "label": "Prom. diario (0 días)",
+        "valor": "$0.00/día (necesario $192)",
         "color": "orange"
+      },
+      {
+        "label": "Cierre mes anterior",
+        "valor": "$4,234 (+$18 vs PE)",
+        "color": "green"
       }
     ],
     "acumulado": 4234.17,
-    "acumulado_fmt": "$4,234",
-    "dias_operativos": 22,
-    "pct_cubierto": 100.4
+    "acumulado_fmt": "$0",
+    "dias_operativos": 0,
+    "pct_cubierto": 0.0
   },
   "uber_eats": {
     "auditado": "2026-04-16",
@@ -332,8 +327,8 @@
     }
   ],
   "last_briefing": {
-    "fecha": "2026-06-02",
-    "resumen": "Mar 2 jun: bar cerrado (lun/mar). Junio arranca mié 3. Mayo cerró $4,234 (+$18 PE)."
+    "fecha": "2026-06-03",
+    "resumen": "Ayer $0.00 | Mes $0 | 0 días op"
   },
   "foco_semana": {
     "titulo": "Cerrar Mayo arriba del PE",
@@ -596,57 +591,7 @@
     },
     "alerta": "Ads + comisión Uber + descuentos consumen casi todo el ingreso. Evaluar pausar ads y operar solo orgánico."
   },
-  "dias_recientes": [
-    {
-      "label": "Dom 31 may",
-      "total": 119.7,
-      "facturas": 8,
-      "hl": "bad",
-      "star": ""
-    },
-    {
-      "label": "Sáb 30 may",
-      "total": 126.65,
-      "facturas": 7,
-      "hl": "bad",
-      "star": ""
-    },
-    {
-      "label": "Vie 29 may",
-      "total": 149.75,
-      "facturas": 11,
-      "hl": "bad",
-      "star": ""
-    },
-    {
-      "label": "Jue 28 may",
-      "total": 232.28,
-      "facturas": 14,
-      "hl": "good",
-      "star": "⭐"
-    },
-    {
-      "label": "Mié 27 may",
-      "total": 212.13,
-      "facturas": 10,
-      "hl": "good",
-      "star": "⭐"
-    },
-    {
-      "label": "Dom 24 may",
-      "total": 193.83,
-      "facturas": 15,
-      "hl": "neutral",
-      "star": ""
-    },
-    {
-      "label": "Sáb 23 may",
-      "total": 472.71,
-      "facturas": 23,
-      "hl": "good",
-      "star": "⭐"
-    }
-  ],
+  "dias_recientes": [],
   "semanas_ventas": {
     "labels": [
       "Sem 11\n(Mar 16)",
@@ -756,98 +701,52 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-06-01 07:08",
+  "ultima_actualizacion": "2026-06-03 07:08",
   "mayo": {
-    "label": "Mayo 2026 (cerrado)",
-    "acumulado": 4234.17,
-    "acumulado_fmt": "$4,234",
-    "facturas": 268,
-    "dias_operativos": 22,
-    "prom_dia": 192.46,
-    "prom_dia_fmt": "$192",
-    "ticket_prom": 15.8,
-    "ticket_fmt": "$15.80",
+    "label": "Junio 2026",
+    "acumulado": 0,
+    "acumulado_fmt": "$0",
+    "facturas": 0,
+    "dias_operativos": 0,
+    "prom_dia": 0.0,
+    "prom_dia_fmt": "$0",
+    "ticket_prom": 0.0,
+    "ticket_fmt": "$0.00",
     "punto_equilibrio": 4216,
-    "proyeccion": 4234.17,
-    "proyeccion_fmt": "$4,234",
-    "diferencia_pe": 18.17,
-    "deficit_fmt": "$+18",
-    "pct_cubierto": 100.0,
-    "coverage_txt": "CERRADO 100% del PE · 22 días op · superávit $+18",
-    "tracker_note": "PE ALCANZADO — primer mes en verde en 8 meses 🟢",
-    "dias_ventas": {
-      "2026-05-09": 346.1,
-      "2026-05-21": 131.13,
-      "2026-05-20": 169.09,
-      "2026-05-30": 126.65,
-      "2026-05-31": 119.7,
-      "2026-05-15": 259.21,
-      "2026-05-24": 193.83,
-      "2026-05-02": 287.95,
-      "2026-05-10": 61.34,
-      "2026-05-28": 232.28,
-      "2026-05-01": 161.24,
-      "2026-05-16": 164.98,
-      "2026-05-29": 149.75,
-      "2026-05-08": 381.5,
-      "2026-05-13": 162.44,
-      "2026-05-27": 212.13,
-      "2026-05-14": 129.5,
-      "2026-05-22": 231.27,
-      "2026-05-23": 472.71,
-      "2026-05-03": 39.25,
-      "2026-05-06": 79.65,
-      "2026-05-17": 122.47
-    },
-    "insight": "MAYO CERRADO: $4,234 en 22 días op, 268 facturas, ticket $15.80. Superávit +$18 vs PE $4,216 — PRIMER mes sobre punto de equilibrio en 8 meses. Junio arranca mié 3 jun.",
+    "proyeccion": 0.0,
+    "proyeccion_fmt": "$0",
+    "diferencia_pe": -4216.0,
+    "deficit_fmt": "$-4,216",
+    "pct_cubierto": 0.0,
+    "coverage_txt": "0% cubierto · al 3 jun (0 días op)",
+    "tracker_note": "necesario $192/día los próximos 22 días",
+    "dias_ventas": {},
+    "insight": "Junio (al 3): $0 acumulado en 0 días op, 0 facturas, ticket $0.00. Proyección: ~$0 vs PE $4,216 (déficit $4,216).",
     "anio": 2026,
-    "mes": 5
+    "mes": 6
   },
   "mes_actual": {
-    "label": "Mayo 2026 (cerrado)",
-    "acumulado": 4234.17,
-    "acumulado_fmt": "$4,234",
-    "facturas": 268,
-    "dias_operativos": 22,
-    "prom_dia": 192.46,
-    "prom_dia_fmt": "$192",
-    "ticket_prom": 15.8,
-    "ticket_fmt": "$15.80",
+    "label": "Junio 2026",
+    "acumulado": 0,
+    "acumulado_fmt": "$0",
+    "facturas": 0,
+    "dias_operativos": 0,
+    "prom_dia": 0.0,
+    "prom_dia_fmt": "$0",
+    "ticket_prom": 0.0,
+    "ticket_fmt": "$0.00",
     "punto_equilibrio": 4216,
-    "proyeccion": 4234.17,
-    "proyeccion_fmt": "$4,234",
-    "diferencia_pe": 18.17,
-    "deficit_fmt": "$+18",
-    "pct_cubierto": 100.0,
-    "coverage_txt": "CERRADO 100% del PE · 22 días op · superávit $+18",
-    "tracker_note": "PE ALCANZADO — primer mes en verde en 8 meses 🟢",
-    "dias_ventas": {
-      "2026-05-09": 346.1,
-      "2026-05-21": 131.13,
-      "2026-05-20": 169.09,
-      "2026-05-30": 126.65,
-      "2026-05-31": 119.7,
-      "2026-05-15": 259.21,
-      "2026-05-24": 193.83,
-      "2026-05-02": 287.95,
-      "2026-05-10": 61.34,
-      "2026-05-28": 232.28,
-      "2026-05-01": 161.24,
-      "2026-05-16": 164.98,
-      "2026-05-29": 149.75,
-      "2026-05-08": 381.5,
-      "2026-05-13": 162.44,
-      "2026-05-27": 212.13,
-      "2026-05-14": 129.5,
-      "2026-05-22": 231.27,
-      "2026-05-23": 472.71,
-      "2026-05-03": 39.25,
-      "2026-05-06": 79.65,
-      "2026-05-17": 122.47
-    },
-    "insight": "MAYO CERRADO: $4,234 en 22 días op, 268 facturas, ticket $15.80. Superávit +$18 vs PE $4,216 — PRIMER mes sobre punto de equilibrio en 8 meses. Junio arranca mié 3 jun.",
+    "proyeccion": 0.0,
+    "proyeccion_fmt": "$0",
+    "diferencia_pe": -4216.0,
+    "deficit_fmt": "$-4,216",
+    "pct_cubierto": 0.0,
+    "coverage_txt": "0% cubierto · al 3 jun (0 días op)",
+    "tracker_note": "necesario $192/día los próximos 22 días",
+    "dias_ventas": {},
+    "insight": "Junio (al 3): $0 acumulado en 0 días op, 0 facturas, ticket $0.00. Proyección: ~$0 vs PE $4,216 (déficit $4,216).",
     "anio": 2026,
-    "mes": 5
+    "mes": 6
   },
   "textos": {
     "roadmap_titulo": "Hoja de Ruta — Crecimiento 2026",
@@ -962,8 +861,8 @@
     "ops": "2026-05-21 00:00",
     "roadmap": "2026-05-17 20:00",
     "acciones": "2026-05-24 21:48",
-    "ventas": "2026-06-01 07:08",
+    "ventas": "2026-06-03 07:08",
     "horario": "2026-05-24 23:28"
   },
-  "ultima_ejecucion": "2026-06-02 07:08"
+  "ultima_ejecucion": "2026-06-03 07:08"
 }
