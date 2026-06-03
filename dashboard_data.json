@@ -294,8 +294,8 @@
   },
   "alertas": [
     {
-      "tipo": "error",
-      "msg": "CNEL $80.77 — Vence 27/05/2026. Cuenta 201016747317. Pagar antes del miércoles."
+      "tipo": "success",
+      "msg": "CNEL $80.77 PAGADO ✅ (confirmado Alberto 2/jun). Cerrado."
     },
     {
       "tipo": "error",
