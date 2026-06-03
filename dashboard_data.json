@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T12:18:53.880658",
+  "updated": "2026-06-03T12:56:17.357389",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -374,51 +374,59 @@
   "roadmap_items": [
     {
       "num": "1",
-      "estado": "crit",
       "label": "Meta Ads — apelar restricción",
-      "desc": "Cuenta restringida desde 19 abr por Meta. Cristina bloqueada. Sin esto no hay ads digitales.",
-      "impact": "BLOQUEADO 🔴",
-      "status": "Urgente — Alberto"
+      "desc": "Restringida desde 19 abr. Cristina apeló 24 abr + configuró cuenta nueva. Sin confirmación de resolución.",
+      "estado": "crit",
+      "status": "Verificar con Cristina 🔴",
+      "impact": "Bloquea ads pagados"
     },
     {
       "num": "2",
+      "label": "Uber Eats — campaña Mundial junio",
+      "desc": "Nueva campaña junio 30% cofinanciada (desde 1 jun). Histórico: 9 pedidos = $9.17 neto, casi a pérdida.",
       "estado": "warn",
-      "label": "Uber Eats — revisar rentabilidad ads",
-      "desc": "9 pedidos campaña = $9.17 neto. Sem 1 fue negativa. Ads + comisión + descuentos consumen casi todo el ingreso.",
-      "impact": "Pérdida potencial",
-      "status": "Decisión pendiente"
+      "status": "Medir rentabilidad",
+      "impact": "Riesgo pérdida"
     },
     {
       "num": "3",
-      "estado": "active",
       "label": "Instagram — convertir reach en clientes",
-      "desc": "Cristina publica diariamente. Spike 1,366 reach el 21 abr. Problema: 0 comentarios, 0 conversiones MICHE detectadas en ventas.",
-      "impact": "Sin conversión aún",
-      "status": "Activo — sin resultado"
+      "desc": "Cristina publica a diario. Boost $5 → ~6K reach. Conversión MICHE: 0 usos.",
+      "estado": "active",
+      "status": "Activo — sin conversión",
+      "impact": "Tráfico sin captura"
     },
     {
       "num": "4",
-      "estado": "active",
       "label": "Costos en Practisis",
-      "desc": "Cristina terminó marzo. Falta feb + ene. Sin costos cargados no hay márgenes reales ni rentabilidad por producto.",
-      "impact": "Control real",
-      "status": "En proceso"
+      "desc": "Cristina cargó marzo + cierre abril. Falta feb + ene. Sin costos no hay margen real.",
+      "estado": "active",
+      "status": "En proceso",
+      "impact": "Control de márgenes"
     },
     {
       "num": "5",
-      "estado": "active",
       "label": "Fidelización — tarjeta 10ma gratis",
-      "desc": "Mesera disponible para registrar visitas. Pendiente diseño e impresión de tarjeta.",
-      "impact": "Retención",
-      "status": "Por lanzar"
+      "desc": "Por lanzar. José Miguel/Alejandro (desde 1 jun) pueden ejecutar el registro de visitas.",
+      "estado": "active",
+      "status": "Por lanzar — asignar a equipo",
+      "impact": "Retención"
+    },
+    {
+      "num": "6",
+      "label": "Equipo de crecimiento activo",
+      "desc": "José Miguel (Coordinador) + Alejandro (Soporte) iniciaron 1 jun. $300/mes. Foco: terreno y contenido.",
+      "estado": "active",
+      "status": "Nuevo — 1ra semana",
+      "impact": "Ejecución en campo"
     },
     {
       "num": "✓",
-      "estado": "done",
       "label": "Nuevo horario + promos miércoles",
-      "desc": "5 días/semana desde 12 abr. Mié 4PM-11PM con 2x1 + alitas. Sáb/Dom desde 1PM. Primer mié: $111 (+42% vs prom histórico).",
-      "impact": "+$200/mes",
-      "status": "Activo ✅"
+      "desc": "5 días/semana desde 12 abr. Mié 4PM-11PM con 2x1 + alitas.",
+      "estado": "done",
+      "status": "Activo ✅",
+      "impact": "+$200/mes"
     }
   ],
   "diagnostico": "Junio: $0 en 0 días op (prom $0/día). Necesario $192/día para PE $4,216. Prioridad operativa: horas reales de apertura Vie/Sáb/Dom.",
@@ -843,7 +851,7 @@
     "historico": "2026-05-24 22:54",
     "marketing": "2026-05-03 00:00",
     "ops": "2026-06-03 12:18",
-    "roadmap": "2026-05-17 20:00",
+    "roadmap": "2026-06-03 12:56",
     "acciones": "2026-06-03 12:18",
     "ventas": "2026-06-03 07:08",
     "horario": "2026-05-24 23:28",
