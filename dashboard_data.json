@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T07:08:23.352842",
+  "updated": "2026-06-03T12:18:53.880658",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -331,27 +331,41 @@
     "resumen": "Ayer $0.00 | Mes $0 | 0 días op"
   },
   "foco_semana": {
-    "titulo": "Cerrar Mayo arriba del PE",
-    "subtitulo": "$3,215 acumulado · faltan $1,001 · 6 días restantes",
+    "titulo": "Construir hacia el PE de Junio",
+    "subtitulo": "$0 acumulado · faltan $4,216 · 22 días op restantes · necesario $192/día",
     "items": [
       {
         "num": "1",
-        "nombre": "Viernes 29 mayo",
-        "why": "Objetivo >$280. Activar trasnoche (23h-02h). Promo combo alitas+miche.",
+        "nombre": "Miércoles 3 jun",
+        "why": "Objetivo >$156. Abrir puntual, promo temprana para atraer tráfico.",
         "who": "Marian",
         "estado": "pendiente"
       },
       {
         "num": "2",
-        "nombre": "Sábado 30 mayo",
-        "why": "Réplica del récord sáb 23 ($472). Investigar si fue grupo — si sí, repetir convocatoria.",
-        "who": "Marian + José Miguel",
+        "nombre": "Jueves 4 jun",
+        "why": "Objetivo >$164. Mantener ritmo, empujar micheladas top.",
+        "who": "Marian",
         "estado": "pendiente"
       },
       {
         "num": "3",
-        "nombre": "Domingo 31 mayo",
-        "why": "Cierre de mes. Objetivo >$180. Apertura 1PM. Promo apertura para atraer tráfico temprano.",
+        "nombre": "Viernes 5 jun",
+        "why": "Objetivo >$255. Activar trasnoche (23h-02h) + combo alitas+miche. Aquí está el volumen.",
+        "who": "Marian + José Miguel",
+        "estado": "pendiente"
+      },
+      {
+        "num": "4",
+        "nombre": "Sábado 6 jun",
+        "why": "Objetivo >$278. Activar trasnoche (23h-02h) + combo alitas+miche. Aquí está el volumen.",
+        "who": "Marian + José Miguel",
+        "estado": "pendiente"
+      },
+      {
+        "num": "5",
+        "nombre": "Domingo 7 jun",
+        "why": "Objetivo >$124. Abrir puntual, promo temprana para atraer tráfico.",
         "who": "Marian",
         "estado": "pendiente"
       }
@@ -407,69 +421,39 @@
       "status": "Activo ✅"
     }
   ],
-  "diagnostico": "Mayo 2026 (al 24 may): $3,215 acumulado · 17 días op · 204 facturas · ticket $15.76/fact · $189/día. Proyección ~$4,350 vs PE $4,216 (superávit $134). Ayer (2026-05-23): $472.71.",
+  "diagnostico": "Junio: $0 en 0 días op (prom $0/día). Necesario $192/día para PE $4,216. Prioridad operativa: horas reales de apertura Vie/Sáb/Dom.",
   "acciones_top": [
     {
-      "titulo": "Mantener momentum de ventas",
-      "detalle": "Prom mayo $189/día. Proyección $4,350 vs PE $4,216.",
+      "titulo": "Ritmo vs PE",
+      "detalle": "Prom junio $0/día. Necesario $192/día. Faltan $4,216 en 22 días op.",
       "prioridad": "alta"
     },
     {
-      "titulo": "Foco en viernes-sábado",
-      "detalle": "Sáb 23 may: $15 (récord). Próximos Viernes/Sábado: objetivo >$300/día. Activar promo trasnoche.",
+      "titulo": "Foco en sábado",
+      "detalle": "Mejor día (prom $278). Replicar y superar; activar promo trasnoche el fin de semana.",
       "prioridad": "alta"
     },
     {
-      "titulo": "Revisar Uber Eats conectividad",
-      "detalle": "Rating 4.2/5 (meta 4.8). Online rate 73% (meta 95%). Cada hora offline destruye ranking. Verificar con Marian.",
-      "prioridad": "media"
+      "titulo": "Cerrar el gap horario",
+      "detalle": "Peor día domingo ($124). El bar opera pocas horas Vie/Sáb/Dom — abrir puntual es la palanca #1.",
+      "prioridad": "alta"
     }
   ],
   "acciones_checklist": [
     {
-      "texto": "Confirmar con Marian: ¿qué generó $15 el sáb 23? (grupo especial o flujo orgánico)",
+      "texto": "Abrir puntual y operar todas las horas — meta hoy >$156",
       "hecho": false,
       "prioridad": "alta"
     },
     {
-      "texto": "PE de mayo: faltan $1,001 en 6 días — necesario $167/día",
+      "texto": "José Miguel + Alejandro: plan de terreno para el fin de semana (Vie/Sáb)",
       "hecho": false,
       "prioridad": "alta"
     },
     {
-      "texto": "Instagram: verificar código de recuperación llegado el 23 mayo 11:24 PM (posible hackeo)",
-      "hecho": false,
-      "prioridad": "alta"
-    },
-    {
-      "texto": "CNEL $80.77 — pagar martes 26 mayo (vence)",
-      "hecho": false,
-      "prioridad": "alta"
-    },
-    {
-      "texto": "Confirmar nómina Alexis $600 mayo (sin confirmar)",
+      "texto": "Vigilar egresos del mes con Cristina (el PE es ventas, no caja)",
       "hecho": false,
       "prioridad": "media"
-    },
-    {
-      "texto": "Confirmar con Marian: José Miguel y Alejandro listos para inicio 1 junio",
-      "hecho": false,
-      "prioridad": "media"
-    },
-    {
-      "texto": "Uber Eats: reconectar dispositivo — Online rate 73% muy por debajo de meta 95%",
-      "hecho": false,
-      "prioridad": "media"
-    },
-    {
-      "texto": "Meta Ads restricción activa — seguimiento con Cristina + construmac",
-      "hecho": false,
-      "prioridad": "baja"
-    },
-    {
-      "texto": "PedidosYa $6.24 escalado a estudio jurídico — pagar antes de reporte a buró",
-      "hecho": false,
-      "prioridad": "alta"
     }
   ],
   "problemas": [
@@ -499,7 +483,7 @@
       "detalle": "Email a marian@michalitasxpress.com el 23 may 11:24 PM. Verificar si fue Marian o intento externo."
     }
   ],
-  "ops_insight": "Horario: Mié 4PM-11PM | Jue 4PM-12AM | Vie 5PM-2AM | Sáb 1PM-2AM | Dom 1PM-11PM. Lun+Mar CERRADO. Equipo actual: Marian (socia operativa $543.30/mes) + Alexis (cocinero $600/mes) + Mesera Franyelis. NUEVO desde 1 jun 2026: José Miguel (Coord. Crecimiento $200+$75 bonus) + Alejandro (Soporte Ejecución $100). Curfew terminado 18 may — horarios completos desde mié 20 may.",
+  "ops_insight": "Junio: $0 en 0 días op (prom $0/día). Necesario $192/día para PE $4,216. Prioridad operativa: horas reales de apertura Vie/Sáb/Dom.",
   "gastos_fijos": [
     {
       "concepto": "Renta",
@@ -701,7 +685,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-06-03 07:08",
+  "ultima_actualizacion": "2026-06-03 12:18",
   "mayo": {
     "label": "Junio 2026",
     "acumulado": 0,
@@ -858,11 +842,12 @@
   "section_updates": {
     "historico": "2026-05-24 22:54",
     "marketing": "2026-05-03 00:00",
-    "ops": "2026-05-21 00:00",
+    "ops": "2026-06-03 12:18",
     "roadmap": "2026-05-17 20:00",
-    "acciones": "2026-05-24 21:48",
+    "acciones": "2026-06-03 12:18",
     "ventas": "2026-06-03 07:08",
-    "horario": "2026-05-24 23:28"
+    "horario": "2026-05-24 23:28",
+    "weekly": "2026-06-03 12:18"
   },
-  "ultima_ejecucion": "2026-06-03 07:08"
+  "ultima_ejecucion": "2026-06-03 12:18"
 }
