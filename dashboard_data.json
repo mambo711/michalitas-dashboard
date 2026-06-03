@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T13:06:30.287977",
+  "updated": "2026-06-03T13:19:13.043188",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -38,8 +38,8 @@
     "mes": "mayo 2026 (cerrado)",
     "gauge_pct": 0.0,
     "gauge_txt": "$0",
-    "gauge_sub": "al 3 jun · 0 días · 0% del PE",
-    "gauge_color": "#ef4444",
+    "gauge_sub": "mes arranca · necesario $192/día",
+    "gauge_color": "#94a3b8",
     "filas": [
       {
         "label": "Acumulado junio (al 3 jun)",
@@ -704,7 +704,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-06-03 13:06",
+  "ultima_actualizacion": "2026-06-03 13:19",
   "mayo": {
     "label": "Junio 2026",
     "acumulado": 0,
