@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T13:55:51.709608",
+  "updated": "2026-06-03T14:08:38.918491",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -704,7 +704,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-06-03 13:55",
+  "ultima_actualizacion": "2026-06-03 14:08",
   "mayo": {
     "label": "Junio 2026",
     "acumulado": 0,
@@ -1239,36 +1239,6 @@
         "pct": 19.4
       },
       {
-        "a": "BBQ",
-        "b": "HONEY MUSTARD",
-        "count": 21,
-        "pct": 12.4
-      },
-      {
-        "a": "HONEY MUSTARD",
-        "b": "MICHELADA MARACUYA",
-        "count": 15,
-        "pct": 8.8
-      },
-      {
-        "a": "ALITAS 15",
-        "b": "HONEY MUSTARD",
-        "count": 15,
-        "pct": 8.8
-      },
-      {
-        "a": "ALITAS 8",
-        "b": "HONEY MUSTARD",
-        "count": 13,
-        "pct": 7.6
-      },
-      {
-        "a": "MORO DE LENTEJA",
-        "b": "PAPAS RUSTICAS",
-        "count": 13,
-        "pct": 7.6
-      },
-      {
         "a": "MICHELADA CLASICA",
         "b": "TOPPINGS MANGO",
         "count": 13,
@@ -1287,14 +1257,78 @@
         "pct": 7.1
       },
       {
+        "a": "MARACUMANGO",
+        "b": "TOPPINGS MANGO",
+        "count": 10,
+        "pct": 5.9
+      },
+      {
+        "a": "MICHELADA PERSONAL",
+        "b": "TOPPINGS MANGO",
+        "count": 8,
+        "pct": 4.7
+      },
+      {
+        "a": "MARACUMANGO",
+        "b": "MICHELADA MARACUYA",
+        "count": 8,
+        "pct": 4.7
+      },
+      {
+        "a": "ALITAS 15",
+        "b": "MICHELADA MARACUYA",
+        "count": 7,
+        "pct": 4.1
+      },
+      {
         "a": "ALITAS 8",
-        "b": "BBQ",
-        "count": 12,
-        "pct": 7.1
+        "b": "MICHELADA MARACUYA",
+        "count": 7,
+        "pct": 4.1
+      },
+      {
+        "a": "MICHELADA MARACUYA",
+        "b": "PAPAS CON QUESO CH",
+        "count": 6,
+        "pct": 3.5
       }
     ],
     "insight_analisis": "Mejor día: Sáb ($278/día prom). Peor: Dom ($124). Hora pico: 21h. Período: Últimos 30 días · 04 May–03 Jun · 226 facturas.",
     "insight_productos": "Producto estrella: MICHELADA MARACUYA ($410 en 30d). Top categoría: Micheladas.",
-    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (33 veces, 19.4%). Formalizar como combo sube el ticket."
+    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (33 veces, 19.4%). Formalizar como combo sube el ticket.",
+    "combos_sugeridos": [
+      {
+        "label": "COMBO ESTRELLA",
+        "nombre": "MICHELADA MARACUYA + TOPPINGS MANGO",
+        "count": 33,
+        "pct": 19.4,
+        "precio_actual": 4.67,
+        "precio_sugerido": 4.29
+      },
+      {
+        "label": "COMBO #2",
+        "nombre": "MICHELADA CLASICA + TOPPINGS MANGO",
+        "count": 13,
+        "pct": 7.6,
+        "precio_actual": 5.43,
+        "precio_sugerido": 5.0
+      },
+      {
+        "label": "COMBO #3",
+        "nombre": "MICHELADA MARACUYA + MICHELADA PERSONAL",
+        "count": 12,
+        "pct": 7.1,
+        "precio_actual": 6.47,
+        "precio_sugerido": 5.95
+      },
+      {
+        "label": "COMBO #4",
+        "nombre": "MICHELADA CLASICA + MICHELADA MARACUYA",
+        "count": 12,
+        "pct": 7.1,
+        "precio_actual": 8.36,
+        "precio_sugerido": 7.69
+      }
+    ]
   }
 }
