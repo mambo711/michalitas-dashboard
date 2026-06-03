@@ -1092,15 +1092,15 @@ async function exportPDF(){
           <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
             <div style="flex:1;min-width:180px;background:var(--gl);border-radius:8px;padding:12px">
               <div style="font-weight:700;color:var(--g);margin-bottom:6px">✅ Lo que funciona</div>
-              <div style="font-size:.88rem;color:var(--tm);line-height:1.6">${ig.funciona}</div>
+              <div style="font-size:.88rem;color:var(--tm);line-height:1.6">${ig.funciona||'Sin datos — fuente descontinuada'}</div>
             </div>
             <div style="flex:1;min-width:180px;background:var(--rl);border-radius:8px;padding:12px">
               <div style="font-weight:700;color:var(--r);margin-bottom:6px">❌ El problema</div>
-              <div style="font-size:.88rem;color:var(--tm);line-height:1.6">${ig.problema}</div>
+              <div style="font-size:.88rem;color:var(--tm);line-height:1.6">${ig.problema||'Sin datos'}</div>
             </div>
             <div style="flex:1;min-width:180px;background:var(--yl);border-radius:8px;padding:12px">
               <div style="font-weight:700;color:#92400E;margin-bottom:6px">⚡ Meta realista</div>
-              <div style="font-size:.88rem;color:var(--tm);line-height:1.6">${ig.meta}</div>
+              <div style="font-size:.88rem;color:var(--tm);line-height:1.6">${ig.meta||'Sin datos'}</div>
             </div>
           </div>`;
       }
@@ -1111,9 +1111,9 @@ async function exportPDF(){
         const el = document.getElementById('d-gmb-diagnostico');
         if (el) el.innerHTML = `
           <div class="ct">Por qué GMB es crítico</div>
-          <div class="ins" style="margin-top:8px"><strong>El problema:</strong> ${gmb.problema}</div>
-          <div class="ins" style="margin-top:6px;background:var(--gl)"><strong>✅ Señal positiva:</strong> ${gmb.positivo}</div>
-          <div class="ins" style="margin-top:6px;background:var(--yl)"><strong>⚡ Acción:</strong> ${gmb.accion}</div>`;
+          <div class="ins" style="margin-top:8px"><strong>El problema:</strong> ${gmb.problema||'Sin datos'}</div>
+          <div class="ins" style="margin-top:6px;background:var(--gl)"><strong>✅ Señal positiva:</strong> ${gmb.positivo||'Sin datos'}</div>
+          <div class="ins" style="margin-top:6px;background:var(--yl)"><strong>⚡ Acción:</strong> ${gmb.accion||'Sin datos'}</div>`;
       }
 
       // META ADS STATUS
