@@ -525,29 +525,8 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   </div>
   <div class="cd">
     <div class="ct">Combos Sugeridos para el Menú</div>
-    <div style="display:flex;flex-direction:column;gap:10px">
-      <div style="background:var(--gl);border-radius:10px;padding:12px;border-left:3px solid var(--g)">
-        <div style="font-size:.92rem;font-weight:700;color:var(--g)">COMBO ESTRELLA</div>
-        <div style="font-size:1rem;font-weight:600;color:var(--m);margin-top:4px">Miche Maracuyá + Toppings Mango</div>
-        <div style="font-size:.88rem;color:var(--tm);margin-top:3px">14.6% ya lo piden junto (117 de 801 órdenes). Precio actual: $5.87. Combo sugerido: <strong>$5.50</strong> (descuento mínimo, percepción de oferta).</div>
-      </div>
-      <div style="background:var(--ol);border-radius:10px;padding:12px;border-left:3px solid var(--o)">
-        <div style="font-size:.92rem;font-weight:700;color:var(--od)">COMBO ALITAS</div>
-        <div style="font-size:1rem;font-weight:600;color:var(--m);margin-top:4px">Alitas 8 + Miche Maracuyá</div>
-        <div style="font-size:.88rem;color:var(--tm);margin-top:3px">26 de 801 órdenes lo piden junto (3.2%). Precio actual: $12.39. Combo sugerido: <strong>$11.50</strong>. Sube ticket promedio.</div>
-      </div>
-      <div style="background:var(--ol);border-radius:10px;padding:12px;border-left:3px solid var(--o)">
-        <div style="font-size:.92rem;font-weight:700;color:var(--od)">COMBO COMPARTIR</div>
-        <div style="font-size:1rem;font-weight:600;color:var(--m);margin-top:4px">2 Miches diferentes (cualquier sabor)</div>
-        <div style="font-size:.88rem;color:var(--tm);margin-top:3px">Maracumango+Maracuyá es la pareja más frecuente (31 veces, 3.9%). Para parejas/amigos. Precio actual: ~$11.91. Combo sugerido: <strong>$10.99</strong> + topping gratis.</div>
-      </div>
-      <div style="background:var(--yl);border-radius:10px;padding:12px;border-left:3px solid var(--y)">
-        <div style="font-size:.80rem;font-weight:700;color:#B8860B">COMBO COMIDA</div>
-        <div style="font-size:1rem;font-weight:600;color:var(--m);margin-top:4px">Costilla BBQ + Papas + Coca Cola</div>
-        <div style="font-size:.88rem;color:var(--tm);margin-top:3px">Patrón real de compra. Precio actual: ~$10.96. Combo sugerido: <strong>$9.99</strong>. Atrae al público que viene a comer, no a beber.</div>
-      </div>
-    </div>
-    <div class="ins"><strong>Lógica:</strong> Basado en 801 órdenes multi-item en 6 meses. El patrón dominante es "miche + topping" (14.6%). Los combos formalizan lo que la gente ya compra — el descuento es mínimo (5-10%) pero la percepción de oferta sube la conversión.</div>
+    <div id="d-combos-sugeridos" style="display:flex;flex-direction:column;gap:10px"></div>
+    <div class="ins" id="d-combos-logica"><strong>Lógica:</strong> Combos basados en las parejas que la gente YA pide junto (últimos 30 días). El descuento es mínimo (~8%) pero la percepción de oferta sube la conversión y el ticket.</div>
   </div>
 </div>
 </div>
@@ -868,6 +847,8 @@ function renderAnalytics(){
   if(pr&&A.prod_rev){pr.innerHTML=A.prod_rev.map(p=>`<div class="pdr"><div class="prk${p.rank<=3?' gld':''}">${p.rank}</div><div class="pnm">${p.nombre}</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:${p.width}%"></div></div></div><div class="pvl">$${(p.total||0).toLocaleString()}</div><div class="pqt">${p.qty}u</div></div>`).join('');}
   const pq=document.getElementById('d-prod-qty');
   if(pq&&A.prod_qty){pq.innerHTML=A.prod_qty.map(p=>`<div class="pdr"><div class="prk${p.rank<=3?' gld':''}">${p.rank}</div><div class="pnm">${p.nombre}</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:${p.width}%"></div></div></div><div class="pvl">${p.qty}u</div><div class="pqt">$${(p.total||0).toLocaleString()}</div></div>`).join('');}
+  const cs=document.getElementById('d-combos-sugeridos');
+  if(cs&&A.combos_sugeridos){cs.innerHTML=A.combos_sugeridos.map((s,i)=>{const bg=i===0?'var(--gl)':'var(--ol)';const bc=i===0?'var(--g)':'var(--o)';const tc=i===0?'var(--g)':'var(--od)';return `<div style="background:${bg};border-radius:10px;padding:12px;border-left:3px solid ${bc}"><div style="font-size:.92rem;font-weight:700;color:${tc}">${s.label}</div><div style="font-size:1rem;font-weight:600;color:var(--m);margin-top:4px">${s.nombre}</div><div style="font-size:.88rem;color:var(--tm);margin-top:3px">${s.count} órdenes lo piden junto (${s.pct}%). Precio actual: $${s.precio_actual}. Combo sugerido: <strong>$${s.precio_sugerido}</strong>.</div></div>`}).join('');}
   const cp=document.getElementById('d-combos-pairs');
   if(cp&&A.combos_pairs){cp.innerHTML=A.combos_pairs.map(c=>`<div class="combo-row"><div class="combo-pair"><span>${c.a}</span> <span class="combo-plus">+</span> <span>${c.b}</span></div><div class="combo-count">${c.count}</div><div class="combo-pct">${c.pct}%</div></div>`).join('');}
 }
