@@ -850,7 +850,7 @@ const A=(window._dash&&window._dash.analytics)||{};
 const cl=A.cat_labels||['Micheladas','Cervezas','Alitas','Hamburguesas','Cócteles','Comida','Toppings','Otros'];
 const cd=A.cat_data||[6513,1166,2253,543,2425,2078,616,534];
 const pal=[o,y,'#D35400','#8E44AD',g,'#2980B9','#F0C78E',gc];
-new Chart(document.getElementById('cCat'),{type:'bar',data:{labels:cl,datasets:[{label:'Revenue ($)',data:cd,backgroundColor:cl.map((_,i)=>pal[i%pal.length]),borderRadius:3}]},options:{...cDef,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{color:fc,callback:v=>'$'+v},grid:{color:gc}},y:{ticks:{color:fc,font:{size:12}},grid:{display:false}}}})}
+new Chart(document.getElementById('cCat'),{type:'bar',data:{labels:cl,datasets:[{label:'Revenue ($)',data:cd,backgroundColor:cl.map((_,i)=>pal[i%pal.length]),borderRadius:3}]},options:{...cDef,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{color:fc,callback:v=>'$'+v},grid:{color:gc}},y:{ticks:{color:fc,font:{size:12}},grid:{display:false}}}}})}
 
 function renderAnalytics(){
   const A=(window._dash&&window._dash.analytics);if(!A)return;
