@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T13:19:13.043188",
+  "updated": "2026-06-03T13:55:51.709608",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -704,7 +704,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-06-03 13:19",
+  "ultima_actualizacion": "2026-06-03 13:55",
   "mayo": {
     "label": "Junio 2026",
     "acumulado": 0,
@@ -859,7 +859,7 @@
     ]
   },
   "section_updates": {
-    "historico": "2026-05-24 22:54",
+    "historico": "2026-06-03 13:55",
     "marketing": "2026-05-03 00:00",
     "ops": "2026-06-03 12:18",
     "roadmap": "2026-06-03 12:56",
@@ -868,5 +868,433 @@
     "horario": "2026-05-24 23:28",
     "weekly": "2026-06-03 12:18"
   },
-  "ultima_ejecucion": "2026-06-03 12:18"
+  "ultima_ejecucion": "2026-06-03 12:18",
+  "analytics": {
+    "periodo_txt": "Últimos 30 días · 04 May–03 Jun · 226 facturas",
+    "dow_data": [
+      0,
+      0,
+      156.0,
+      164.0,
+      255.0,
+      278.0,
+      124.0
+    ],
+    "dow_ranking": [
+      {
+        "dia": "Sáb",
+        "prom": 278,
+        "fact": 61,
+        "width": 100
+      },
+      {
+        "dia": "Vie",
+        "prom": 255,
+        "fact": 65,
+        "width": 91
+      },
+      {
+        "dia": "Jue",
+        "prom": 164,
+        "fact": 30,
+        "width": 58
+      },
+      {
+        "dia": "Mié",
+        "prom": 156,
+        "fact": 35,
+        "width": 56
+      },
+      {
+        "dia": "Dom",
+        "prom": 124,
+        "fact": 35,
+        "width": 44
+      }
+    ],
+    "pe_diario": 192,
+    "horas_labels": [
+      "13h",
+      "15h",
+      "16h",
+      "17h",
+      "18h",
+      "19h",
+      "20h",
+      "21h",
+      "22h",
+      "23h",
+      "0h",
+      "1h"
+    ],
+    "horas_data": [
+      15.0,
+      76.0,
+      93.0,
+      201.0,
+      312.0,
+      401.0,
+      428.0,
+      837.0,
+      498.0,
+      549.0,
+      204.0,
+      130.0
+    ],
+    "heatmap": {
+      "hours": [
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        0,
+        1
+      ],
+      "matrix": {
+        "13": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05
+        ],
+        "15": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.08,
+          0.16,
+          0.0
+        ],
+        "16": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.22,
+          0.05,
+          0.02
+        ],
+        "17": [
+          0.0,
+          0.0,
+          0.15,
+          0.0,
+          0.23,
+          0.07,
+          0.19
+        ],
+        "18": [
+          0.0,
+          0.0,
+          0.16,
+          0.15,
+          0.28,
+          0.23,
+          0.16
+        ],
+        "19": [
+          0.0,
+          0.0,
+          0.21,
+          0.27,
+          0.07,
+          0.47,
+          0.26
+        ],
+        "20": [
+          0.0,
+          0.0,
+          0.19,
+          0.26,
+          0.29,
+          0.23,
+          0.4
+        ],
+        "21": [
+          0.0,
+          0.0,
+          0.37,
+          0.22,
+          0.88,
+          1.0,
+          0.21
+        ],
+        "22": [
+          0.0,
+          0.0,
+          0.34,
+          0.16,
+          0.44,
+          0.49,
+          0.16
+        ],
+        "23": [
+          0.0,
+          0.0,
+          0.56,
+          0.14,
+          0.61,
+          0.31,
+          0.14
+        ],
+        "0": [
+          0.0,
+          0.0,
+          0.0,
+          0.38,
+          0.04,
+          0.23,
+          0.0
+        ],
+        "1": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.12,
+          0.3,
+          0.0
+        ]
+      }
+    },
+    "prod_rev": [
+      {
+        "rank": 1,
+        "nombre": "MICHELADA MARACUYA",
+        "total": 410,
+        "qty": 108,
+        "width": 100
+      },
+      {
+        "rank": 2,
+        "nombre": "MARACUMANGO",
+        "total": 228,
+        "qty": 33,
+        "width": 55
+      },
+      {
+        "rank": 3,
+        "nombre": "ALITAS 15",
+        "total": 216,
+        "qty": 16,
+        "width": 52
+      },
+      {
+        "rank": 4,
+        "nombre": "MICHELADA CLASICA",
+        "total": 210,
+        "qty": 46,
+        "width": 51
+      },
+      {
+        "rank": 5,
+        "nombre": "CERVEZA CORONA",
+        "total": 157,
+        "qty": 36,
+        "width": 38
+      },
+      {
+        "rank": 6,
+        "nombre": "ALITAS 8",
+        "total": 155,
+        "qty": 21,
+        "width": 37
+      },
+      {
+        "rank": 7,
+        "nombre": "HAMBURGUESA CLASICA CO",
+        "total": 120,
+        "qty": 23,
+        "width": 29
+      },
+      {
+        "rank": 8,
+        "nombre": "CORDON BLEU",
+        "total": 104,
+        "qty": 15,
+        "width": 25
+      },
+      {
+        "rank": 9,
+        "nombre": "COMBO 15ALI 2MICH",
+        "total": 87,
+        "qty": 4,
+        "width": 21
+      },
+      {
+        "rank": 10,
+        "nombre": "CERVEZA CLUB 330ML",
+        "total": 82,
+        "qty": 27,
+        "width": 20
+      }
+    ],
+    "prod_qty": [
+      {
+        "rank": 1,
+        "nombre": "MICHELADA MARACUYA",
+        "qty": 108,
+        "total": 410,
+        "width": 100
+      },
+      {
+        "rank": 2,
+        "nombre": "TOPPINGS MANGO",
+        "qty": 78,
+        "total": 68,
+        "width": 72
+      },
+      {
+        "rank": 3,
+        "nombre": "MICHELADA CLASICA",
+        "qty": 46,
+        "total": 210,
+        "width": 42
+      },
+      {
+        "rank": 4,
+        "nombre": "HONEY MUSTARD",
+        "qty": 39,
+        "total": 0,
+        "width": 36
+      },
+      {
+        "rank": 5,
+        "nombre": "CERVEZA CORONA",
+        "qty": 36,
+        "total": 157,
+        "width": 33
+      },
+      {
+        "rank": 6,
+        "nombre": "MARACUMANGO",
+        "qty": 33,
+        "total": 228,
+        "width": 30
+      },
+      {
+        "rank": 7,
+        "nombre": "PAPAS RUSTICAS",
+        "qty": 32,
+        "total": 0,
+        "width": 29
+      },
+      {
+        "rank": 8,
+        "nombre": "BBQ",
+        "qty": 31,
+        "total": 0,
+        "width": 28
+      },
+      {
+        "rank": 9,
+        "nombre": "COCA COLA ORIGINAL 300",
+        "qty": 29,
+        "total": 25,
+        "width": 26
+      },
+      {
+        "rank": 10,
+        "nombre": "CERVEZA CLUB 330ML",
+        "qty": 27,
+        "total": 82,
+        "width": 25
+      }
+    ],
+    "cat_labels": [
+      "Micheladas",
+      "Cervezas",
+      "Alitas",
+      "Hamburguesas",
+      "Cócteles",
+      "Comida",
+      "Toppings",
+      "Otros"
+    ],
+    "cat_data": [
+      1427,
+      288,
+      407,
+      49,
+      454,
+      521,
+      70,
+      232
+    ],
+    "combos_pairs": [
+      {
+        "a": "MICHELADA MARACUYA",
+        "b": "TOPPINGS MANGO",
+        "count": 33,
+        "pct": 19.4
+      },
+      {
+        "a": "BBQ",
+        "b": "HONEY MUSTARD",
+        "count": 21,
+        "pct": 12.4
+      },
+      {
+        "a": "HONEY MUSTARD",
+        "b": "MICHELADA MARACUYA",
+        "count": 15,
+        "pct": 8.8
+      },
+      {
+        "a": "ALITAS 15",
+        "b": "HONEY MUSTARD",
+        "count": 15,
+        "pct": 8.8
+      },
+      {
+        "a": "ALITAS 8",
+        "b": "HONEY MUSTARD",
+        "count": 13,
+        "pct": 7.6
+      },
+      {
+        "a": "MORO DE LENTEJA",
+        "b": "PAPAS RUSTICAS",
+        "count": 13,
+        "pct": 7.6
+      },
+      {
+        "a": "MICHELADA CLASICA",
+        "b": "TOPPINGS MANGO",
+        "count": 13,
+        "pct": 7.6
+      },
+      {
+        "a": "MICHELADA MARACUYA",
+        "b": "MICHELADA PERSONAL",
+        "count": 12,
+        "pct": 7.1
+      },
+      {
+        "a": "MICHELADA CLASICA",
+        "b": "MICHELADA MARACUYA",
+        "count": 12,
+        "pct": 7.1
+      },
+      {
+        "a": "ALITAS 8",
+        "b": "BBQ",
+        "count": 12,
+        "pct": 7.1
+      }
+    ],
+    "insight_analisis": "Mejor día: Sáb ($278/día prom). Peor: Dom ($124). Hora pico: 21h. Período: Últimos 30 días · 04 May–03 Jun · 226 facturas.",
+    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($410 en 30d). Top categoría: Micheladas.",
+    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (33 veces, 19.4%). Formalizar como combo sube el ticket."
+  }
 }
