@@ -1524,6 +1524,7 @@ async function exportPDF(){
         const limit=getStaleLimitDays(el);
         el.insertAdjacentHTML('beforeend',staleFooter(ts,limit));
       });
+      try{renderAnalytics();}catch(e){console.warn('renderAnalytics2',e);}
     }).catch(e=>console.warn('dashboard_data.json no disponible:',e));
 })();
 
