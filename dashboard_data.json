@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T12:56:17.357389",
+  "updated": "2026-06-03T13:06:30.287977",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -432,63 +432,74 @@
   "diagnostico": "Junio: $0 en 0 días op (prom $0/día). Necesario $192/día para PE $4,216. Prioridad operativa: horas reales de apertura Vie/Sáb/Dom.",
   "acciones_top": [
     {
+      "num": "1",
+      "nivel": "red",
       "titulo": "Ritmo vs PE",
-      "detalle": "Prom junio $0/día. Necesario $192/día. Faltan $4,216 en 22 días op.",
-      "prioridad": "alta"
+      "detalle": "Prom junio $0/día. Necesario $192/día. Faltan $4,216 en 22 días op."
     },
     {
+      "num": "2",
+      "nivel": "orange",
       "titulo": "Foco en sábado",
-      "detalle": "Mejor día (prom $278). Replicar y superar; activar promo trasnoche el fin de semana.",
-      "prioridad": "alta"
+      "detalle": "Mejor día (prom $278). Replicar y superar; activar promo trasnoche el fin de semana."
     },
     {
+      "num": "3",
+      "nivel": "orange",
       "titulo": "Cerrar el gap horario",
-      "detalle": "Peor día domingo ($124). El bar opera pocas horas Vie/Sáb/Dom — abrir puntual es la palanca #1.",
-      "prioridad": "alta"
+      "detalle": "Peor día domingo ($124). El bar opera pocas horas Vie/Sáb/Dom — abrir puntual es la palanca #1."
     }
   ],
   "acciones_checklist": [
     {
-      "texto": "Abrir puntual y operar todas las horas — meta hoy >$156",
-      "hecho": false,
-      "prioridad": "alta"
+      "estado": "urg",
+      "titulo": "Abrir puntual y operar todas las horas",
+      "detalle": "Meta hoy >$156. Franja clave 20h-23h.",
+      "tag": "HOY"
     },
     {
-      "texto": "José Miguel + Alejandro: plan de terreno para el fin de semana (Vie/Sáb)",
-      "hecho": false,
-      "prioridad": "alta"
+      "estado": "todo",
+      "titulo": "Plan de terreno fin de semana",
+      "detalle": "José Miguel + Alejandro: volanteo/presencia Vie y Sáb.",
+      "tag": "SEMANA"
     },
     {
-      "texto": "Vigilar egresos del mes con Cristina (el PE es ventas, no caja)",
-      "hecho": false,
-      "prioridad": "media"
+      "estado": "prog",
+      "titulo": "Vigilar egresos del mes con Cristina",
+      "detalle": "El PE es ventas, no caja — confirmar utilidad real.",
+      "tag": "MENSUAL"
     }
   ],
   "problemas": [
     {
       "titulo": "Lunes-Martes cerrados = 2 días sin ingresos/semana",
       "impacto": "alto",
-      "detalle": "28% de la semana sin operación. Evaluar apertura limitada para eventos o delivery."
+      "detalle": "28% de la semana sin operación. Evaluar apertura limitada para eventos o delivery.",
+      "num": "1"
     },
     {
       "titulo": "Meta Ads cuenta restringida",
       "impacto": "alto",
-      "detalle": "Cristina envió contestación 24 abr. Sin resolución = sin ads pagados. Cristina + construmac trabajando."
+      "detalle": "Cristina envió contestación 24 abr. Sin resolución = sin ads pagados. Cristina + construmac trabajando.",
+      "num": "2"
     },
     {
       "titulo": "Uber Eats online rate 73% (meta 95%)",
       "impacto": "medio",
-      "detalle": "Dispositivo se desconecta. Rating 4.2 (meta 4.8). Canal casi a pérdida pero visibilidad importante."
+      "detalle": "Dispositivo se desconecta. Rating 4.2 (meta 4.8). Canal casi a pérdida pero visibilidad importante.",
+      "num": "3"
     },
     {
       "titulo": "Mayo: necesario $167/día en 6 días",
       "impacto": "medio",
-      "detalle": "Acumulado $3,215, PE $4,216. Próximo viernes/sábado son críticos."
+      "detalle": "Acumulado $3,215, PE $4,216. Próximo viernes/sábado son críticos.",
+      "num": "4"
     },
     {
       "titulo": "Código recuperación Instagram 23 mayo — posible hackeo",
       "impacto": "alto",
-      "detalle": "Email a marian@michalitasxpress.com el 23 may 11:24 PM. Verificar si fue Marian o intento externo."
+      "detalle": "Email a marian@michalitasxpress.com el 23 may 11:24 PM. Verificar si fue Marian o intento externo.",
+      "num": "5"
     }
   ],
   "ops_insight": "Junio: $0 en 0 días op (prom $0/día). Necesario $192/día para PE $4,216. Prioridad operativa: horas reales de apertura Vie/Sáb/Dom.",
@@ -693,7 +704,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-06-03 12:18",
+  "ultima_actualizacion": "2026-06-03 13:06",
   "mayo": {
     "label": "Junio 2026",
     "acumulado": 0,
@@ -852,7 +863,7 @@
     "marketing": "2026-05-03 00:00",
     "ops": "2026-06-03 12:18",
     "roadmap": "2026-06-03 12:56",
-    "acciones": "2026-06-03 12:18",
+    "acciones": "2026-06-03 13:06",
     "ventas": "2026-06-03 07:08",
     "horario": "2026-05-24 23:28",
     "weekly": "2026-06-03 12:18"
