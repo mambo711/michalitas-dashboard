@@ -464,14 +464,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   <div class="cd"><div class="ct">Promedio Diario</div><div class="cw" style="height:210px"><canvas id="cDow"></canvas></div></div>
   <div class="cd">
     <div class="ct">Ranking de Días</div>
-    <div class="dr"><div class="dl" style="font-weight:600;color:var(--g)">Sábado</div><div class="dw"><div class="dbg"><div class="dfg" style="width:100%;background:var(--g)"></div></div></div><div class="dv" style="color:var(--g)">$239</div><div class="dx">321f</div></div>
-    <div class="dr"><div class="dl" style="font-weight:600">Viernes</div><div class="dw"><div class="dbg"><div class="dfg" style="width:79%"></div></div></div><div class="dv">$189</div><div class="dx">259f</div></div>
-    <div class="dr"><div class="dl">Domingo</div><div class="dw"><div class="dbg"><div class="dfg" style="width:59%"></div></div></div><div class="dv">$140</div><div class="dx">184f</div></div>
-    <div class="dr"><div class="dl">Jueves</div><div class="dw"><div class="dbg"><div class="dfg" style="width:49%"></div></div></div><div class="dv">$116</div><div class="dx">124f</div></div>
-    <div class="dr"><div class="dl" style="color:var(--tm)">Lunes</div><div class="dw"><div class="dbg"><div class="dfg" style="width:38%"></div></div></div><div class="dv" style="color:var(--tm)">$92</div><div class="dx">18f*</div></div>
-    <div class="dr"><div class="dl" style="color:var(--r)">Martes</div><div class="dw"><div class="dbg"><div class="dfg" style="width:33%;background:var(--r)"></div></div></div><div class="dv" style="color:var(--r)">$78</div><div class="dx">100f</div></div>
-    <div class="dr"><div class="dl" style="color:var(--r)">Miércoles</div><div class="dw"><div class="dbg"><div class="dfg" style="width:30%;background:var(--r)"></div></div></div><div class="dv" style="color:var(--r)">$72</div><div class="dx">102f</div></div>
-    <div class="ins"><strong>Insight:</strong> Vie+Sáb = 51% de ventas. Mar+Mié generan solo $75/día prom. — evaluar cerrar un día o promo agresiva. *Lunes: solo 3 días con ventas (feriados).</div>
+    <div id="d-dow-ranking"></div>
   </div>
 </div>
 
@@ -504,29 +497,11 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div class="g2">
   <div class="cd">
     <div class="ct">Por Revenue ($)</div>
-    <div class="pdr"><div class="prk gld">1</div><div class="pnm">Michelada Maracuyá</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:100%"></div></div></div><div class="pvl">$1,755</div><div class="pqt">406u</div></div>
-    <div class="pdr"><div class="prk gld">2</div><div class="pnm">Maracumango</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:61%"></div></div></div><div class="pvl">$1,072</div><div class="pqt">155u</div></div>
-    <div class="pdr"><div class="prk gld">3</div><div class="pnm">Miche Chamochela</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:55%"></div></div></div><div class="pvl">$960</div><div class="pqt">139u</div></div>
-    <div class="pdr"><div class="prk">4</div><div class="pnm">Alitas 15</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:48%"></div></div></div><div class="pvl">$836</div><div class="pqt">62u</div></div>
-    <div class="pdr"><div class="prk">5</div><div class="pnm">Miche Clásica</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:47%"></div></div></div><div class="pvl">$820</div><div class="pqt">182u</div></div>
-    <div class="pdr"><div class="prk">6</div><div class="pnm">Alitas 8</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:39%"></div></div></div><div class="pvl">$687</div><div class="pqt">93u</div></div>
-    <div class="pdr"><div class="prk">7</div><div class="pnm">Cerveza Club 330ml</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:29%"></div></div></div><div class="pvl">$511</div><div class="pqt">169u</div></div>
-    <div class="pdr"><div class="prk">8</div><div class="pnm">Bandera Michalitas</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:23%"></div></div></div><div class="pvl">$407</div><div class="pqt">47u</div></div>
-    <div class="pdr"><div class="prk">9</div><div class="pnm">Promo Corona (3)</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:22%"></div></div></div><div class="pvl">$386</div><div class="pqt">37u</div></div>
-    <div class="pdr"><div class="prk">10</div><div class="pnm">Promo Mojito</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:21%"></div></div></div><div class="pvl">$373</div><div class="pqt">33u</div></div>
+    <div id="d-prod-rev"></div>
   </div>
   <div class="cd">
     <div class="ct">Por Cantidad Vendida</div>
-    <div class="pdr"><div class="prk gld">1</div><div class="pnm">Michelada Maracuyá</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:100%"></div></div></div><div class="pvl">406u</div><div class="pqt">$1,755</div></div>
-    <div class="pdr"><div class="prk gld">2</div><div class="pnm">Miche Clásica</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:45%"></div></div></div><div class="pvl">182u</div><div class="pqt">$820</div></div>
-    <div class="pdr"><div class="prk gld">3</div><div class="pnm">Cerveza Club 330ml</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:42%"></div></div></div><div class="pvl">169u</div><div class="pqt">$511</div></div>
-    <div class="pdr"><div class="prk">4</div><div class="pnm">Maracumango</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:38%"></div></div></div><div class="pvl">155u</div><div class="pqt">$1,072</div></div>
-    <div class="pdr"><div class="prk">5</div><div class="pnm">Miche Chamochela</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:34%"></div></div></div><div class="pvl">139u</div><div class="pqt">$960</div></div>
-    <div class="pdr"><div class="prk">6</div><div class="pnm">Alitas 8</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:23%"></div></div></div><div class="pvl">93u</div><div class="pqt">$687</div></div>
-    <div class="pdr"><div class="prk">7</div><div class="pnm">Jugo en Agua</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:21%"></div></div></div><div class="pvl">86u</div><div class="pqt">$187</div></div>
-    <div class="pdr"><div class="prk">8</div><div class="pnm">Nachos con Queso</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:21%"></div></div></div><div class="pvl">85u</div><div class="pqt">$111</div></div>
-    <div class="pdr"><div class="prk">9</div><div class="pnm">Coca Cola 500ml</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:16%"></div></div></div><div class="pvl">66u</div><div class="pqt">$72</div></div>
-    <div class="pdr"><div class="prk">10</div><div class="pnm">Alitas 15</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:15%"></div></div></div><div class="pvl">62u</div><div class="pqt">$836</div></div>
+    <div id="d-prod-qty"></div>
   </div>
 </div>
 <div class="cd" style="margin-bottom:16px">
@@ -546,16 +521,7 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
 <div class="g2">
   <div class="cd">
     <div class="ct">Top 10 Parejas Más Frecuentes</div>
-    <div class="combo-row"><div class="combo-pair"><span>Maracuyá</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">117</div><div class="combo-pct">14.6%</div></div>
-    <div class="combo-row"><div class="combo-pair"><span>Maracumango</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">46</div><div class="combo-pct">5.7%</div></div>
-    <div class="combo-row"><div class="combo-pair"><span>Miche Clásica</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">45</div><div class="combo-pct">5.6%</div></div>
-    <div class="combo-row"><div class="combo-pair"><span>Chamochela</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">38</div><div class="combo-pct">4.7%</div></div>
-    <div class="combo-row"><div class="combo-pair"><span>Maracumango</span> <span class="combo-plus">+</span> <span>Maracuyá</span></div><div class="combo-count">31</div><div class="combo-pct">3.9%</div></div>
-    <div class="combo-row"><div class="combo-pair"><span>Alitas 8</span> <span class="combo-plus">+</span> <span>Maracuyá</span></div><div class="combo-count">26</div><div class="combo-pct">3.2%</div></div>
-    <div class="combo-row"><div class="combo-pair"><span>Maracuyá</span> <span class="combo-plus">+</span> <span>Nachos</span></div><div class="combo-count">24</div><div class="combo-pct">3.0%</div></div>
-    <div class="combo-row"><div class="combo-pair"><span>Alitas 8</span> <span class="combo-plus">+</span> <span>Toppings Mango</span></div><div class="combo-count">23</div><div class="combo-pct">2.9%</div></div>
-    <div class="combo-row"><div class="combo-pair"><span>Clásica</span> <span class="combo-plus">+</span> <span>Maracuyá</span></div><div class="combo-count">23</div><div class="combo-pct">2.9%</div></div>
-    <div class="combo-row"><div class="combo-pair"><span>Maracumango</span> <span class="combo-plus">+</span> <span>Clásica</span></div><div class="combo-count">19</div><div class="combo-pct">2.4%</div></div>
+    <div id="d-combos-pairs"></div>
   </div>
   <div class="cd">
     <div class="ct">Combos Sugeridos para el Menú</div>
@@ -862,23 +828,49 @@ window.chartWeekly=new Chart(document.getElementById('cWeekly'),{type:'line',dat
 
 let aR=false;
 function renderA(){if(aR)return;aR=true;
-new Chart(document.getElementById('cDow'),{type:'bar',data:{labels:['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'],datasets:[{label:'Prom/día ($)',data:[92,78,72,116,189,239,140],backgroundColor:['#F0C78E','#E8A09A','#F0C78E',o+'bb',o,g,o+'99'],borderColor:od,borderWidth:1,borderRadius:5},{label:'PE diario ($162)',data:[162,162,162,162,162,162,162],type:'line',borderColor:r,borderDash:[5,3],borderWidth:2,pointRadius:0,fill:false}]},options:{...cDef,scales:{x:{ticks:{color:fc},grid:{color:gc}},y:{ticks:{color:fc,callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
-
-const hrs=[16,17,18,19,20,21,22,23,0,1];
-const hD=[362,860,1246,1610,1864,2690,3080,3285,1974,863];
-const hC=hD.map(v=>v>2500?'#92400E':v>1500?o:v>800?y:'#F0C78E');
-new Chart(document.getElementById('cHoras'),{type:'bar',data:{labels:hrs.map(h=>h+'h'),datasets:[{label:'Ventas ($)',data:hD,backgroundColor:hC,borderRadius:3}]},options:{...cDef,plugins:{legend:{display:false}},scales:{x:{ticks:{color:fc},grid:{color:gc}},y:{ticks:{color:fc,callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
-
-const hm=document.getElementById('heatmap');
-const days=['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'];
-const hData={16:[0,.04,0,.02,.04,.16,.08],17:[0,.03,.12,.08,.15,.09,.35],18:[0,.05,.10,.12,.25,.27,.42],19:[.04,.18,.06,.18,.37,.44,.29],20:[.05,.34,.25,.20,.31,.36,.32],21:[.09,.24,.29,.40,.53,.54,.53],22:[.04,.22,.37,.55,.49,1,.34],23:[.05,.29,.15,.74,.60,.83,.53],0:[0,.17,.08,.06,.67,.90,.05]};
+const A=(window._dash&&window._dash.analytics)||{};
+const dowData=A.dow_data||[92,78,72,116,189,239,140];const peD=A.pe_diario||162;
+new Chart(document.getElementById('cDow'),{type:'bar',data:{labels:['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'],datasets:[{label:'Prom/día ($)',data:dowData,backgroundColor:['#F0C78E','#E8A09A','#F0C78E',o+'bb',o,g,o+'99'],borderColor:od,borderWidth:1,borderRadius:5},{label:'PE diario ($'+peD+')',data:[peD,peD,peD,peD,peD,peD,peD],type:'line',borderColor:r,borderDash:[5,3],borderWidth:2,pointRadius:0,fill:false}]},options:{...cDef,scales:{x:{ticks:{color:fc},grid:{color:gc}},y:{ticks:{color:fc,callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
+const hrs=A.horas_labels||['16h','17h','18h','19h','20h','21h','22h','23h','0h','1h'];
+const hD=A.horas_data||[362,860,1246,1610,1864,2690,3080,3285,1974,863];
+const mxh=Math.max.apply(null,hD)||1;const hC=hD.map(v=>v>mxh*0.8?'#92400E':v>mxh*0.5?o:v>mxh*0.25?y:'#F0C78E');
+new Chart(document.getElementById('cHoras'),{type:'bar',data:{labels:hrs,datasets:[{label:'Ventas ($)',data:hD,backgroundColor:hC,borderRadius:3}]},options:{...cDef,plugins:{legend:{display:false}},scales:{x:{ticks:{color:fc},grid:{color:gc}},y:{ticks:{color:fc,callback:v=>'$'+v},grid:{color:gc},beginAtZero:true}}}});
+const hm=document.getElementById('heatmap');const days=['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'];
+let hHours,hData;
+if(A.heatmap&&A.heatmap.matrix){hHours=A.heatmap.hours;hData={};hHours.forEach(h=>{hData[h]=A.heatmap.matrix[String(h)]||[0,0,0,0,0,0,0]});}
+else{hHours=[16,17,18,19,20,21,22,23,0];hData={16:[0,.04,0,.02,.04,.16,.08],17:[0,.03,.12,.08,.15,.09,.35],18:[0,.05,.10,.12,.25,.27,.42],19:[.04,.18,.06,.18,.37,.44,.29],20:[.05,.34,.25,.20,.31,.36,.32],21:[.09,.24,.29,.40,.53,.54,.53],22:[.04,.22,.37,.55,.49,1,.34],23:[.05,.29,.15,.74,.60,.83,.53],0:[0,.17,.08,.06,.67,.90,.05]};}
 hm.innerHTML='<div class="hml"></div>'+days.map(d=>`<div class="hmh">${d}</div>`).join('');
-Object.entries(hData).forEach(([h,vals])=>{const hr=parseInt(h);const lb=hr<10?'0'+hr+':00':hr+':00';hm.innerHTML+=`<div class="hml">${lb}</div>`;vals.forEach((v,i)=>{const c=v>.75?'#92400E':v>.5?'#E88A1A':v>.25?'#FBBF24':v>.1?'#FFF3E3':'#FBF7F2';const tc=v>.5?'#fff':'#7A6250';hm.innerHTML+=`<div class="hmc" style="background:${c};color:${tc}" data-t="${days[i]} ${lb}: ${Math.round(v*100)}%">${v>.3?Math.round(v*100)+'%':''}</div>`})})
+hHours.forEach(h=>{const hr=parseInt(h);const lb=hr<10?'0'+hr+':00':hr+':00';const vals=hData[h]||[0,0,0,0,0,0,0];hm.innerHTML+=`<div class="hml">${lb}</div>`;vals.forEach((v,i)=>{const c=v>.75?'#92400E':v>.5?'#E88A1A':v>.25?'#FBBF24':v>.1?'#FFF3E3':'#FBF7F2';const tc=v>.5?'#fff':'#7A6250';hm.innerHTML+=`<div class="hmc" style="background:${c};color:${tc}" data-t="${days[i]} ${lb}: ${Math.round(v*100)}%">${v>.3?Math.round(v*100)+'%':''}</div>`})});
 }
+
 
 let pR=false;
 function renderP(){if(pR)return;pR=true;
-new Chart(document.getElementById('cCat'),{type:'bar',data:{labels:['Micheladas','Cervezas','Alitas','Hamburguesas','Cócteles','Comida','Toppings (616u)','Otros'],datasets:[{label:'Revenue ($)',data:[6513,1166,2253,543,2425,2078,616,534],backgroundColor:[o,y,'#D35400','#8E44AD',g,'#2980B9','#F0C78E',gc],borderRadius:3}]},options:{...cDef,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{color:fc,callback:v=>'$'+v},grid:{color:gc}},y:{ticks:{color:fc,font:{size:12}},grid:{display:false}}}}})}
+const A=(window._dash&&window._dash.analytics)||{};
+const cl=A.cat_labels||['Micheladas','Cervezas','Alitas','Hamburguesas','Cócteles','Comida','Toppings','Otros'];
+const cd=A.cat_data||[6513,1166,2253,543,2425,2078,616,534];
+const pal=[o,y,'#D35400','#8E44AD',g,'#2980B9','#F0C78E',gc];
+new Chart(document.getElementById('cCat'),{type:'bar',data:{labels:cl,datasets:[{label:'Revenue ($)',data:cd,backgroundColor:cl.map((_,i)=>pal[i%pal.length]),borderRadius:3}]},options:{...cDef,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{color:fc,callback:v=>'$'+v},grid:{color:gc}},y:{ticks:{color:fc,font:{size:12}},grid:{display:false}}}})}
+
+function renderAnalytics(){
+  const A=(window._dash&&window._dash.analytics);if(!A)return;
+  const set=(id,v)=>{const e=document.getElementById(id);if(e&&v!=null)e.textContent=v;};
+  set('d-chart-dow-titulo','Ventas Promedio por Día de Semana ('+(A.periodo_txt||'')+')');
+  set('d-chart-heatmap-titulo','Heatmap Ventas por Hora × Día ('+(A.periodo_txt||'')+')');
+  set('d-chart-productos-titulo','Top 10 Productos ('+(A.periodo_txt||'')+')');
+  set('d-chart-combos-titulo','Análisis de Combos — Qué se Pide Junto ('+(A.periodo_txt||'')+')');
+  set('d-insight-analisis',A.insight_analisis);
+  set('d-insight-productos',A.insight_productos);
+  set('d-insight-combos',A.insight_combos);
+  const dr=document.getElementById('d-dow-ranking');
+  if(dr&&A.dow_ranking){const N=A.dow_ranking.length;dr.innerHTML=A.dow_ranking.map((x,i)=>{const col=i===0?'var(--g)':(i>=N-2?'var(--r)':'var(--m)');const bg=i===0?'var(--g)':(i>=N-2?'var(--r)':'var(--o)');return `<div class="dr"><div class="dl" style="color:${col};font-weight:${i===0?600:400}">${x.dia}</div><div class="dw"><div class="dbg"><div class="dfg" style="width:${x.width}%;background:${bg}"></div></div></div><div class="dv" style="color:${col}">$${x.prom}</div><div class="dx">${x.fact}f</div></div>`}).join('')+'<div class="ins"><strong>Insight:</strong> '+(A.insight_analisis||'')+'</div>';}
+  const pr=document.getElementById('d-prod-rev');
+  if(pr&&A.prod_rev){pr.innerHTML=A.prod_rev.map(p=>`<div class="pdr"><div class="prk${p.rank<=3?' gld':''}">${p.rank}</div><div class="pnm">${p.nombre}</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:${p.width}%"></div></div></div><div class="pvl">$${(p.total||0).toLocaleString()}</div><div class="pqt">${p.qty}u</div></div>`).join('');}
+  const pq=document.getElementById('d-prod-qty');
+  if(pq&&A.prod_qty){pq.innerHTML=A.prod_qty.map(p=>`<div class="pdr"><div class="prk${p.rank<=3?' gld':''}">${p.rank}</div><div class="pnm">${p.nombre}</div><div class="pbw"><div class="pbg"><div class="pbf" style="width:${p.width}%"></div></div></div><div class="pvl">${p.qty}u</div><div class="pqt">$${(p.total||0).toLocaleString()}</div></div>`).join('');}
+  const cp=document.getElementById('d-combos-pairs');
+  if(cp&&A.combos_pairs){cp.innerHTML=A.combos_pairs.map(c=>`<div class="combo-row"><div class="combo-pair"><span>${c.a}</span> <span class="combo-plus">+</span> <span>${c.b}</span></div><div class="combo-count">${c.count}</div><div class="combo-pct">${c.pct}%</div></div>`).join('');}
+}
 
 document.querySelectorAll('.cb:not(.done)').forEach(b=>{b.addEventListener('click',function(){const i=this.closest('.ci'),t=i.querySelector('.cttl'),tg=i.querySelector('.ctag');this.classList.remove('urg','prog');this.classList.add('done');this.textContent='✓';t.classList.add('dtxt');if(tg){tg.className='ctag td';tg.textContent='COMPLETADO'}})});
 
@@ -943,6 +935,7 @@ async function exportPDF(){
   const REPO='mambo711/michalitas-dashboard';
   fetch(`https://raw.githubusercontent.com/mambo711/michalitas-dashboard/main/dashboard_data.json?_=${Date.now()}`)
     .then(r=>r.json()).then(d=>{
+      window._dash=d; try{renderAnalytics();}catch(e){console.warn("renderAnalytics",e);}
       const set=(id,val)=>{const el=document.getElementById(id);if(el&&val!=null)el.textContent=val;};
 
       // April tracker
