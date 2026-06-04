@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T14:08:38.918491",
+  "updated": "2026-06-04T07:08:38.259824",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -36,14 +36,14 @@
   },
   "kpis_mes": {
     "mes": "mayo 2026 (cerrado)",
-    "gauge_pct": 0.0,
-    "gauge_txt": "$0",
-    "gauge_sub": "mes arranca · necesario $192/día",
-    "gauge_color": "#94a3b8",
+    "gauge_pct": 3.3,
+    "gauge_txt": "$138",
+    "gauge_sub": "al 3 jun · 1 días · 3% del PE",
+    "gauge_color": "#ef4444",
     "filas": [
       {
         "label": "Acumulado junio (al 3 jun)",
-        "valor": "$0.00",
+        "valor": "$137.69",
         "color": "green"
       },
       {
@@ -53,34 +53,34 @@
       },
       {
         "label": "Proyección conservadora",
-        "valor": "~$0",
+        "valor": "~$3,029",
         "color": "red"
       },
       {
         "label": "Proyección tendencia",
-        "valor": "~$0",
+        "valor": "~$3,029",
         "color": "red"
       },
       {
         "label": "Días restantes",
-        "valor": "22 días operativos",
+        "valor": "21 días operativos",
         "color": "blue"
       },
       {
-        "label": "Prom. diario (0 días)",
-        "valor": "$0.00/día (necesario $192)",
+        "label": "Prom. diario (1 días)",
+        "valor": "$137.69/día (necesario $194)",
         "color": "orange"
       },
       {
         "label": "Cierre mes anterior",
-        "valor": "$4,234 (+$18 vs PE)",
-        "color": "green"
+        "valor": "$3,717 (-$499 vs PE)",
+        "color": "orange"
       }
     ],
     "acumulado": 4234.17,
-    "acumulado_fmt": "$0",
-    "dias_operativos": 0,
-    "pct_cubierto": 0.0
+    "acumulado_fmt": "$138",
+    "dias_operativos": 1,
+    "pct_cubierto": 3.3
   },
   "uber_eats": {
     "auditado": "2026-04-16",
@@ -327,43 +327,36 @@
     }
   ],
   "last_briefing": {
-    "fecha": "2026-06-03",
-    "resumen": "Ayer $0.00 | Mes $0 | 0 días op"
+    "fecha": "2026-06-04",
+    "resumen": "Ayer $137.69 | Mes $138 | 1 días op"
   },
   "foco_semana": {
     "titulo": "Construir hacia el PE de Junio",
-    "subtitulo": "$0 acumulado · faltan $4,216 · 22 días op restantes · necesario $192/día",
+    "subtitulo": "$138 acumulado · faltan $4,078 · 21 días op restantes · necesario $194/día",
     "items": [
       {
         "num": "1",
-        "nombre": "Miércoles 3 jun",
-        "why": "Objetivo >$156. Abrir puntual, promo temprana para atraer tráfico.",
-        "who": "Marian",
-        "estado": "pendiente"
-      },
-      {
-        "num": "2",
         "nombre": "Jueves 4 jun",
         "why": "Objetivo >$164. Mantener ritmo, empujar micheladas top.",
         "who": "Marian",
         "estado": "pendiente"
       },
       {
-        "num": "3",
+        "num": "2",
         "nombre": "Viernes 5 jun",
         "why": "Objetivo >$255. Activar trasnoche (23h-02h) + combo alitas+miche. Aquí está el volumen.",
         "who": "Marian + José Miguel",
         "estado": "pendiente"
       },
       {
-        "num": "4",
+        "num": "3",
         "nombre": "Sábado 6 jun",
         "why": "Objetivo >$278. Activar trasnoche (23h-02h) + combo alitas+miche. Aquí está el volumen.",
         "who": "Marian + José Miguel",
         "estado": "pendiente"
       },
       {
-        "num": "5",
+        "num": "4",
         "nombre": "Domingo 7 jun",
         "why": "Objetivo >$124. Abrir puntual, promo temprana para atraer tráfico.",
         "who": "Marian",
@@ -429,13 +422,13 @@
       "impact": "+$200/mes"
     }
   ],
-  "diagnostico": "Junio: $0 en 0 días op (prom $0/día). Necesario $192/día para PE $4,216. Prioridad operativa: horas reales de apertura Vie/Sáb/Dom.",
+  "diagnostico": "Junio: $138 en 1 días op (prom $138/día). Necesario $194/día para PE $4,216. Prioridad operativa: horas reales de apertura Vie/Sáb/Dom.",
   "acciones_top": [
     {
       "num": "1",
       "nivel": "red",
       "titulo": "Ritmo vs PE",
-      "detalle": "Prom junio $0/día. Necesario $192/día. Faltan $4,216 en 22 días op."
+      "detalle": "Prom junio $138/día. Necesario $194/día. Faltan $4,078 en 21 días op."
     },
     {
       "num": "2",
@@ -454,13 +447,13 @@
     {
       "estado": "urg",
       "titulo": "Abrir puntual y operar todas las horas",
-      "detalle": "Meta hoy >$156. Franja clave 20h-23h.",
+      "detalle": "Meta hoy >$164. La franja clave es 20h-23h.",
       "tag": "HOY"
     },
     {
       "estado": "todo",
       "titulo": "Plan de terreno fin de semana",
-      "detalle": "José Miguel + Alejandro: volanteo/presencia Vie y Sáb.",
+      "detalle": "José Miguel + Alejandro: volanteo/presencia Vie y Sáb, donde está el volumen.",
       "tag": "SEMANA"
     },
     {
@@ -502,7 +495,7 @@
       "num": "5"
     }
   ],
-  "ops_insight": "Junio: $0 en 0 días op (prom $0/día). Necesario $192/día para PE $4,216. Prioridad operativa: horas reales de apertura Vie/Sáb/Dom.",
+  "ops_insight": "Junio: $138 en 1 días op (prom $138/día). Necesario $194/día para PE $4,216. Prioridad operativa: horas reales de apertura Vie/Sáb/Dom.",
   "gastos_fijos": [
     {
       "concepto": "Renta",
@@ -594,10 +587,17 @@
     },
     "alerta": "Ads + comisión Uber + descuentos consumen casi todo el ingreso. Evaluar pausar ads y operar solo orgánico."
   },
-  "dias_recientes": [],
+  "dias_recientes": [
+    {
+      "label": "Mié 3 jun",
+      "total": 137.69,
+      "facturas": 8,
+      "hl": "good",
+      "star": "⭐"
+    }
+  ],
   "semanas_ventas": {
     "labels": [
-      "Sem 11\n(Mar 16)",
       "Sem 12\n(Mar 23)",
       "Sem 13\n(Mar 30)",
       "Sem 14\n(Abr 7-12)",
@@ -608,10 +608,10 @@
       "Sem 19\n(May 4-10)",
       "Sem 20\n(May 11-17)",
       "Sem 21\n(May 18-24)",
-      "Sem 22\n(May 25-31)"
+      "Sem 22\n(May 25-31)",
+      "Sem 23\n(Jun 1-7)"
     ],
     "data": [
-      625,
       535,
       884,
       763,
@@ -622,9 +622,10 @@
       868.59,
       838.6,
       1198.03,
-      840.51
+      840.51,
+      137.69
     ],
-    "insight": "Sem 21 (May 18-24) = $1,198 — mejor semana 🟢. Última: Sem 22 (May 25-31) = $841."
+    "insight": "Sem 21 (May 18-24) = $1,198 — mejor semana 🟢. Última: Sem 23 (Jun 1-7) = $138."
   },
   "ventas": {
     "abril_2026": {
@@ -704,50 +705,54 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-06-03 14:08",
+  "ultima_actualizacion": "2026-06-04 07:08",
   "mayo": {
     "label": "Junio 2026",
-    "acumulado": 0,
-    "acumulado_fmt": "$0",
-    "facturas": 0,
-    "dias_operativos": 0,
-    "prom_dia": 0.0,
-    "prom_dia_fmt": "$0",
-    "ticket_prom": 0.0,
-    "ticket_fmt": "$0.00",
+    "acumulado": 137.69,
+    "acumulado_fmt": "$138",
+    "facturas": 8,
+    "dias_operativos": 1,
+    "prom_dia": 137.69,
+    "prom_dia_fmt": "$138",
+    "ticket_prom": 17.21,
+    "ticket_fmt": "$17.21",
     "punto_equilibrio": 4216,
-    "proyeccion": 0.0,
-    "proyeccion_fmt": "$0",
-    "diferencia_pe": -4216.0,
-    "deficit_fmt": "$-4,216",
-    "pct_cubierto": 0.0,
-    "coverage_txt": "0% cubierto · al 3 jun (0 días op)",
-    "tracker_note": "necesario $192/día los próximos 22 días",
-    "dias_ventas": {},
-    "insight": "Junio (al 3): $0 acumulado en 0 días op, 0 facturas, ticket $0.00. Proyección: ~$0 vs PE $4,216 (déficit $4,216).",
+    "proyeccion": 3029.18,
+    "proyeccion_fmt": "$3,029",
+    "diferencia_pe": -1186.82,
+    "deficit_fmt": "$-1,187",
+    "pct_cubierto": 3.0,
+    "coverage_txt": "3% cubierto · al 3 jun (1 días op)",
+    "tracker_note": "necesario $194/día los próximos 21 días",
+    "dias_ventas": {
+      "2026-06-03": 137.69
+    },
+    "insight": "Junio (al 4): $138 acumulado en 1 días op, 8 facturas, ticket $17.21. Proyección: ~$3,029 vs PE $4,216 (déficit $1,187).",
     "anio": 2026,
     "mes": 6
   },
   "mes_actual": {
     "label": "Junio 2026",
-    "acumulado": 0,
-    "acumulado_fmt": "$0",
-    "facturas": 0,
-    "dias_operativos": 0,
-    "prom_dia": 0.0,
-    "prom_dia_fmt": "$0",
-    "ticket_prom": 0.0,
-    "ticket_fmt": "$0.00",
+    "acumulado": 137.69,
+    "acumulado_fmt": "$138",
+    "facturas": 8,
+    "dias_operativos": 1,
+    "prom_dia": 137.69,
+    "prom_dia_fmt": "$138",
+    "ticket_prom": 17.21,
+    "ticket_fmt": "$17.21",
     "punto_equilibrio": 4216,
-    "proyeccion": 0.0,
-    "proyeccion_fmt": "$0",
-    "diferencia_pe": -4216.0,
-    "deficit_fmt": "$-4,216",
-    "pct_cubierto": 0.0,
-    "coverage_txt": "0% cubierto · al 3 jun (0 días op)",
-    "tracker_note": "necesario $192/día los próximos 22 días",
-    "dias_ventas": {},
-    "insight": "Junio (al 3): $0 acumulado en 0 días op, 0 facturas, ticket $0.00. Proyección: ~$0 vs PE $4,216 (déficit $4,216).",
+    "proyeccion": 3029.18,
+    "proyeccion_fmt": "$3,029",
+    "diferencia_pe": -1186.82,
+    "deficit_fmt": "$-1,187",
+    "pct_cubierto": 3.0,
+    "coverage_txt": "3% cubierto · al 3 jun (1 días op)",
+    "tracker_note": "necesario $194/día los próximos 21 días",
+    "dias_ventas": {
+      "2026-06-03": 137.69
+    },
+    "insight": "Junio (al 4): $138 acumulado en 1 días op, 8 facturas, ticket $17.21. Proyección: ~$3,029 vs PE $4,216 (déficit $1,187).",
     "anio": 2026,
     "mes": 6
   },
@@ -769,10 +774,6 @@
   "tendencia_semanal": {
     "miercoles": [
       {
-        "fecha": "2026-05-06",
-        "total": 79.65
-      },
-      {
         "fecha": "2026-05-13",
         "total": 162.44
       },
@@ -783,6 +784,10 @@
       {
         "fecha": "2026-05-27",
         "total": 212.13
+      },
+      {
+        "fecha": "2026-06-03",
+        "total": 137.69
       }
     ],
     "jueves": [
@@ -859,22 +864,22 @@
     ]
   },
   "section_updates": {
-    "historico": "2026-06-03 13:55",
+    "historico": "2026-06-04 07:08",
     "marketing": "2026-05-03 00:00",
-    "ops": "2026-06-03 12:18",
+    "ops": "2026-06-04 07:08",
     "roadmap": "2026-06-03 12:56",
-    "acciones": "2026-06-03 13:06",
-    "ventas": "2026-06-03 07:08",
+    "acciones": "2026-06-04 07:08",
+    "ventas": "2026-06-04 07:08",
     "horario": "2026-05-24 23:28",
-    "weekly": "2026-06-03 12:18"
+    "weekly": "2026-06-04 07:08"
   },
-  "ultima_ejecucion": "2026-06-03 12:18",
+  "ultima_ejecucion": "2026-06-04 07:08",
   "analytics": {
-    "periodo_txt": "Últimos 30 días · 04 May–03 Jun · 226 facturas",
+    "periodo_txt": "Últimos 30 días · 05 May–04 Jun · 234 facturas",
     "dow_data": [
       0,
       0,
-      156.0,
+      152.0,
       164.0,
       255.0,
       278.0,
@@ -901,9 +906,9 @@
       },
       {
         "dia": "Mié",
-        "prom": 156,
-        "fact": 35,
-        "width": 56
+        "prom": 152,
+        "fact": 43,
+        "width": 54
       },
       {
         "dia": "Dom",
@@ -932,11 +937,11 @@
       76.0,
       93.0,
       201.0,
-      312.0,
+      357.0,
       401.0,
-      428.0,
-      837.0,
-      498.0,
+      445.0,
+      850.0,
+      560.0,
       549.0,
       204.0,
       130.0
@@ -996,7 +1001,7 @@
         "18": [
           0.0,
           0.0,
-          0.16,
+          0.31,
           0.15,
           0.28,
           0.23,
@@ -1014,7 +1019,7 @@
         "20": [
           0.0,
           0.0,
-          0.19,
+          0.24,
           0.26,
           0.29,
           0.23,
@@ -1023,7 +1028,7 @@
         "21": [
           0.0,
           0.0,
-          0.37,
+          0.41,
           0.22,
           0.88,
           1.0,
@@ -1032,7 +1037,7 @@
         "22": [
           0.0,
           0.0,
-          0.34,
+          0.54,
           0.16,
           0.44,
           0.49,
@@ -1071,29 +1076,29 @@
       {
         "rank": 1,
         "nombre": "MICHELADA MARACUYA",
-        "total": 410,
-        "qty": 108,
+        "total": 430,
+        "qty": 112,
         "width": 100
       },
       {
         "rank": 2,
-        "nombre": "MARACUMANGO",
-        "total": 228,
-        "qty": 33,
-        "width": 55
+        "nombre": "ALITAS 15",
+        "total": 229,
+        "qty": 17,
+        "width": 53
       },
       {
         "rank": 3,
-        "nombre": "ALITAS 15",
-        "total": 216,
-        "qty": 16,
-        "width": 52
+        "nombre": "MARACUMANGO",
+        "total": 228,
+        "qty": 33,
+        "width": 53
       },
       {
         "rank": 4,
         "nombre": "MICHELADA CLASICA",
-        "total": 210,
-        "qty": 46,
+        "total": 220,
+        "qty": 48,
         "width": 51
       },
       {
@@ -1101,98 +1106,98 @@
         "nombre": "CERVEZA CORONA",
         "total": 157,
         "qty": 36,
-        "width": 38
+        "width": 36
       },
       {
         "rank": 6,
         "nombre": "ALITAS 8",
         "total": 155,
         "qty": 21,
-        "width": 37
+        "width": 36
       },
       {
         "rank": 7,
         "nombre": "HAMBURGUESA CLASICA CO",
-        "total": 120,
-        "qty": 23,
-        "width": 29
+        "total": 130,
+        "qty": 25,
+        "width": 30
       },
       {
         "rank": 8,
         "nombre": "CORDON BLEU",
         "total": 104,
         "qty": 15,
-        "width": 25
+        "width": 24
       },
       {
         "rank": 9,
         "nombre": "COMBO 15ALI 2MICH",
         "total": 87,
         "qty": 4,
-        "width": 21
+        "width": 20
       },
       {
         "rank": 10,
         "nombre": "CERVEZA CLUB 330ML",
-        "total": 82,
-        "qty": 27,
-        "width": 20
+        "total": 85,
+        "qty": 28,
+        "width": 19
       }
     ],
     "prod_qty": [
       {
         "rank": 1,
         "nombre": "MICHELADA MARACUYA",
-        "qty": 108,
-        "total": 410,
+        "qty": 112,
+        "total": 430,
         "width": 100
       },
       {
         "rank": 2,
         "nombre": "TOPPINGS MANGO",
-        "qty": 78,
-        "total": 68,
-        "width": 72
+        "qty": 79,
+        "total": 69,
+        "width": 70
       },
       {
         "rank": 3,
         "nombre": "MICHELADA CLASICA",
-        "qty": 46,
-        "total": 210,
+        "qty": 48,
+        "total": 220,
         "width": 42
       },
       {
         "rank": 4,
         "nombre": "HONEY MUSTARD",
-        "qty": 39,
+        "qty": 40,
         "total": 0,
-        "width": 36
+        "width": 35
       },
       {
         "rank": 5,
         "nombre": "CERVEZA CORONA",
         "qty": 36,
         "total": 157,
-        "width": 33
+        "width": 32
       },
       {
         "rank": 6,
         "nombre": "MARACUMANGO",
         "qty": 33,
         "total": 228,
-        "width": 30
-      },
-      {
-        "rank": 7,
-        "nombre": "PAPAS RUSTICAS",
-        "qty": 32,
-        "total": 0,
         "width": 29
       },
       {
-        "rank": 8,
+        "rank": 7,
         "nombre": "BBQ",
-        "qty": 31,
+        "qty": 32,
+        "total": 0,
+        "width": 28
+      },
+      {
+        "rank": 8,
+        "nombre": "PAPAS RUSTICAS",
+        "qty": 32,
         "total": 0,
         "width": 28
       },
@@ -1201,13 +1206,13 @@
         "nombre": "COCA COLA ORIGINAL 300",
         "qty": 29,
         "total": 25,
-        "width": 26
+        "width": 25
       },
       {
         "rank": 10,
         "nombre": "CERVEZA CLUB 330ML",
-        "qty": 27,
-        "total": 82,
+        "qty": 28,
+        "total": 85,
         "width": 25
       }
     ],
@@ -1222,113 +1227,113 @@
       "Otros"
     ],
     "cat_data": [
-      1427,
-      288,
-      407,
-      49,
-      454,
-      521,
+      1516,
+      295,
+      420,
+      56,
+      456,
+      524,
       70,
-      232
+      239
     ],
     "combos_pairs": [
       {
         "a": "MICHELADA MARACUYA",
         "b": "TOPPINGS MANGO",
-        "count": 33,
-        "pct": 19.4
+        "count": 34,
+        "pct": 21.0
+      },
+      {
+        "a": "MICHELADA CLASICA",
+        "b": "MICHELADA MARACUYA",
+        "count": 13,
+        "pct": 8.0
       },
       {
         "a": "MICHELADA CLASICA",
         "b": "TOPPINGS MANGO",
         "count": 13,
-        "pct": 7.6
+        "pct": 8.0
       },
       {
         "a": "MICHELADA MARACUYA",
         "b": "MICHELADA PERSONAL",
         "count": 12,
-        "pct": 7.1
-      },
-      {
-        "a": "MICHELADA CLASICA",
-        "b": "MICHELADA MARACUYA",
-        "count": 12,
-        "pct": 7.1
+        "pct": 7.4
       },
       {
         "a": "MARACUMANGO",
         "b": "TOPPINGS MANGO",
         "count": 10,
-        "pct": 5.9
+        "pct": 6.2
       },
       {
         "a": "MICHELADA PERSONAL",
         "b": "TOPPINGS MANGO",
         "count": 8,
-        "pct": 4.7
+        "pct": 4.9
       },
       {
         "a": "MARACUMANGO",
         "b": "MICHELADA MARACUYA",
         "count": 8,
-        "pct": 4.7
+        "pct": 4.9
       },
       {
         "a": "ALITAS 15",
         "b": "MICHELADA MARACUYA",
         "count": 7,
-        "pct": 4.1
+        "pct": 4.3
       },
       {
         "a": "ALITAS 8",
         "b": "MICHELADA MARACUYA",
         "count": 7,
-        "pct": 4.1
+        "pct": 4.3
       },
       {
         "a": "MICHELADA MARACUYA",
         "b": "PAPAS CON QUESO CH",
         "count": 6,
-        "pct": 3.5
+        "pct": 3.7
       }
     ],
-    "insight_analisis": "Mejor día: Sáb ($278/día prom). Peor: Dom ($124). Hora pico: 21h. Período: Últimos 30 días · 04 May–03 Jun · 226 facturas.",
-    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($410 en 30d). Top categoría: Micheladas.",
-    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (33 veces, 19.4%). Formalizar como combo sube el ticket.",
     "combos_sugeridos": [
       {
         "label": "COMBO ESTRELLA",
         "nombre": "MICHELADA MARACUYA + TOPPINGS MANGO",
-        "count": 33,
-        "pct": 19.4,
-        "precio_actual": 4.67,
-        "precio_sugerido": 4.29
+        "count": 34,
+        "pct": 21.0,
+        "precio_actual": 4.71,
+        "precio_sugerido": 4.33
       },
       {
         "label": "COMBO #2",
-        "nombre": "MICHELADA CLASICA + TOPPINGS MANGO",
+        "nombre": "MICHELADA CLASICA + MICHELADA MARACUYA",
         "count": 13,
-        "pct": 7.6,
-        "precio_actual": 5.43,
-        "precio_sugerido": 5.0
+        "pct": 8.0,
+        "precio_actual": 8.42,
+        "precio_sugerido": 7.75
       },
       {
         "label": "COMBO #3",
-        "nombre": "MICHELADA MARACUYA + MICHELADA PERSONAL",
-        "count": 12,
-        "pct": 7.1,
-        "precio_actual": 6.47,
-        "precio_sugerido": 5.95
+        "nombre": "MICHELADA CLASICA + TOPPINGS MANGO",
+        "count": 13,
+        "pct": 8.0,
+        "precio_actual": 5.45,
+        "precio_sugerido": 5.02
       },
       {
         "label": "COMBO #4",
-        "nombre": "MICHELADA CLASICA + MICHELADA MARACUYA",
+        "nombre": "MICHELADA MARACUYA + MICHELADA PERSONAL",
         "count": 12,
-        "pct": 7.1,
-        "precio_actual": 8.36,
-        "precio_sugerido": 7.69
+        "pct": 7.4,
+        "precio_actual": 6.51,
+        "precio_sugerido": 5.99
       }
-    ]
+    ],
+    "insight_analisis": "Mejor día: Sáb ($278/día). Peor: Dom ($124). Hora pico: 21h. Últimos 30 días · 05 May–04 Jun · 234 facturas.",
+    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($430 en 30d). Top categoría: Micheladas.",
+    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (34×, 21.0%). Formalizar como combo sube el ticket."
   }
 }
