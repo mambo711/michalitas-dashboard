@@ -537,6 +537,12 @@ body.dark .focus-week{background:linear-gradient(135deg,#0D0A07,#1A1108)}
   <h3>Insight Operaciones</h3>
   <p id="d-ops-insight">cargando...</p>
 </div>
+<div class="cd" id="d-pulso-card" style="display:none;margin-top:12px">
+  <div class="ct">📹 Pulso — clientes por corrida (cámaras) <span id="d-pulso-upd" style="font-size:.72rem;color:var(--tl);font-weight:400"></span></div>
+  <div id="d-pulso-rows"></div>
+  <div id="d-pulso-inc" style="font-size:.8rem;color:var(--r);margin-top:6px"></div>
+  <div id="d-pulso-concl" style="font-size:.82rem;color:var(--tm);margin-top:6px;padding-top:6px;border-top:1px solid var(--b)"></div>
+</div>
 <div class="g2">
   <div class="cd">
     <div class="ct">Equipo</div>
@@ -1048,6 +1054,22 @@ async function exportPDF(){
 
       // OPS INSIGHT + GASTOS FIJOS
       if (d.ops_insight) set('d-ops-insight', d.ops_insight);
+      // 📹 PULSO (cámaras) — añadido 2026-06-04
+      if(d.pulso){try{
+        const pc=document.getElementById('d-pulso-card');
+        if(pc){pc.style.display='block';
+          const pu=document.getElementById('d-pulso-upd');if(pu&&d.pulso.updated)pu.textContent='· actualizado '+d.pulso.updated;
+          const pr=document.getElementById('d-pulso-rows');
+          if(pr&&Array.isArray(d.pulso.last7))pr.innerHTML=d.pulso.last7.map(dy=>{
+            const runs=(dy.runs||[]).map(r=>`${r.h}h: <strong>${r.c!=null?r.c:'—'}</strong>${r.s&&r.s!=='⚪'?' '+r.s:''}`).join(' · ');
+            return `<div class="gr"><div class="gl">${dy.dow||''} ${dy.date?dy.date.slice(5):''}</div><div class="gv" style="font-size:.82rem">${runs||'sin corridas'}${dy.sales!=null?` <span style="color:var(--tm)">· $${dy.sales}</span>`:''}</div></div>`;
+          }).join('');
+          const pi=document.getElementById('d-pulso-inc');
+          if(pi)pi.innerHTML=(d.pulso.incidencias&&d.pulso.incidencias.length)?('🚨 '+d.pulso.incidencias.join(' · ')):'';
+          const pco=document.getElementById('d-pulso-concl');
+          if(pco&&d.pulso.conclusion)pco.innerHTML='💡 '+d.pulso.conclusion;
+        }
+      }catch(e){console.warn('pulso card',e);}}
       if (d.gastos_fijos) {
         const el = document.getElementById('d-gastos-rows');
         if (el) el.innerHTML = d.gastos_fijos.map(g => `
