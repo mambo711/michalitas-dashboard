@@ -1335,5 +1335,27 @@
     "insight_analisis": "Mejor día: Sáb ($278/día). Peor: Dom ($124). Hora pico: 21h. Últimos 30 días · 05 May–04 Jun · 234 facturas.",
     "insight_productos": "Producto estrella: MICHELADA MARACUYA ($430 en 30d). Top categoría: Micheladas.",
     "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (34×, 21.0%). Formalizar como combo sube el ticket."
+  },
+  "pulso": {
+    "updated": "2026-06-04",
+    "last7": [
+      {
+        "date": "2026-06-04",
+        "dow": "Jue",
+        "runs": [
+          {
+            "h": 19,
+            "c": 1,
+            "s": "⚪"
+          }
+        ],
+        "sales": 19.75
+      }
+    ],
+    "incidencias": [
+      "COCINA vloss x5 18:20-19:05 (06-04)",
+      "EXTERIOR vloss x1 19:11 (06-04)"
+    ],
+    "conclusion": "Hora más floja: 19h GYE (1.0 clientes prom). Promedios por corrida: 19h: 1.0 — primer día de datos, la curva real se forma esta semana."
   }
 }
