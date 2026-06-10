@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T07:08:59.166380",
+  "updated": "2026-06-10T07:11:18.230278",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -327,7 +327,7 @@
     }
   ],
   "last_briefing": {
-    "fecha": "2026-06-09",
+    "fecha": "2026-06-10",
     "resumen": "Ayer $0.00 | Mes $1,119 | 5 días op"
   },
   "foco_semana": {
@@ -429,7 +429,7 @@
       "impact": "+$200/mes"
     }
   ],
-  "diagnostico": "Junio: $1,119 en 5 días op (prom $224/día). Necesario $182/día para PE $4,216. Prioridad: plan Mundial + horas reales Vie/Sáb/Dom.",
+  "diagnostico": "Junio: $1,119 en 5 días op (prom $224/día). Necesario $182/día para PE $4,216. Prioridad: plan Mundial DOM 14 + horas reales de apertura.",
   "acciones_top": [
     {
       "num": "1",
@@ -446,22 +446,22 @@
     {
       "num": "3",
       "nivel": "orange",
-      "titulo": "Plan Mundial",
-      "detalle": "Arranca jue 11 jun; Ecuador debuta dom 14 jun vs Costa de Marfil 18h00 — bar abierto. Oportunidad #1 del mes, plan sin definir."
+      "titulo": "Mundial = oportunidad #1",
+      "detalle": "Ecuador debuta DOM 14 jun 18h vs Costa de Marfil — bar abierto 4PM-11PM. Plan SIN definir (4 días). Promo por partido es la palanca del mes."
     }
   ],
   "acciones_checklist": [
     {
       "estado": "urg",
-      "titulo": "Definir plan Mundial",
-      "detalle": "Ecuador debuta dom 14 jun vs Costa de Marfil; arranca jue 11. Promo por partido + Uber Eats 30%.",
+      "titulo": "Definir plan Mundial Ecuador (DOM 14)",
+      "detalle": "Promo + pantallas + difusión IG. El partido cae en horario de apertura. Quedan 4 días.",
       "tag": "SEMANA"
     },
     {
       "estado": "todo",
-      "titulo": "Plan de terreno fin de semana",
-      "detalle": "José Miguel + Alejandro: volanteo/presencia Vie y Sáb, donde está el volumen.",
-      "tag": "SEMANA"
+      "titulo": "Abrir puntual y operar todas las horas",
+      "detalle": "Meta hoy >$170. Franja clave 20h-23h.",
+      "tag": "HOY"
     },
     {
       "estado": "prog",
@@ -502,7 +502,7 @@
       "num": "5"
     }
   ],
-  "ops_insight": "Junio: $1,119 en 5 días op (prom $224/día). Necesario $182/día para PE $4,216. Prioridad: plan Mundial + horas reales Vie/Sáb/Dom.",
+  "ops_insight": "Junio: $1,119 en 5 días op (prom $224/día). Necesario $182/día para PE $4,216. Prioridad: plan Mundial DOM 14 + horas reales de apertura.",
   "gastos_fijos": [
     {
       "concepto": "Renta",
@@ -766,7 +766,7 @@
       "2026-06-03": 137.69,
       "2026-06-04": 197.5
     },
-    "insight": "Junio (al 9): $1,119 acumulado en 5 días op, 68 facturas, ticket $16.45. Proyección: ~$4,922 vs PE $4,216 (superávit $706).",
+    "insight": "Junio (al 10): $1,119 acumulado en 5 días op, 68 facturas, ticket $16.45. Proyección: ~$4,922 vs PE $4,216 (superávit $706).",
     "anio": 2026,
     "mes": 6
   },
@@ -795,7 +795,7 @@
       "2026-06-03": 137.69,
       "2026-06-04": 197.5
     },
-    "insight": "Junio (al 9): $1,119 acumulado en 5 días op, 68 facturas, ticket $16.45. Proyección: ~$4,922 vs PE $4,216 (superávit $706).",
+    "insight": "Junio (al 10): $1,119 acumulado en 5 días op, 68 facturas, ticket $16.45. Proyección: ~$4,922 vs PE $4,216 (superávit $706).",
     "anio": 2026,
     "mes": 6
   },
@@ -907,18 +907,18 @@
     ]
   },
   "section_updates": {
-    "historico": "2026-06-09 07:08",
+    "historico": "2026-06-10 07:11",
     "marketing": "2026-05-03 00:00",
-    "ops": "2026-06-09 07:08",
+    "ops": "2026-06-10 07:11",
     "roadmap": "2026-06-08 07:14",
-    "acciones": "2026-06-09 07:08",
+    "acciones": "2026-06-10 07:11",
     "ventas": "2026-06-08 07:14",
     "horario": "2026-05-24 23:28",
-    "weekly": "2026-06-09 07:08"
+    "weekly": "2026-06-10 07:11"
   },
-  "ultima_ejecucion": "2026-06-09 07:08",
+  "ultima_ejecucion": "2026-06-10 07:11",
   "analytics": {
-    "periodo_txt": "Últimos 30 días · 10 May–09 Jun · 250 facturas",
+    "periodo_txt": "Últimos 30 días · 11 May–10 Jun · 245 facturas",
     "dow_data": [
       0,
       0,
@@ -926,7 +926,7 @@
       173.0,
       246.0,
       263.0,
-      130.0
+      147.0
     ],
     "dow_ranking": [
       {
@@ -955,9 +955,9 @@
       },
       {
         "dia": "Dom",
-        "prom": 130,
-        "fact": 46,
-        "width": 49
+        "prom": 147,
+        "fact": 41,
+        "width": 55
       }
     ],
     "pe_diario": 192,
@@ -979,11 +979,11 @@
       15.0,
       34.0,
       110.0,
-      88.0,
+      64.0,
       292.0,
-      383.0,
+      359.0,
       465.0,
-      782.0,
+      768.0,
       666.0,
       758.0,
       304.0,
@@ -1039,7 +1039,7 @@
           0.0,
           0.06,
           0.0,
-          0.26
+          0.18
         ],
         "18": [
           0.0,
@@ -1057,7 +1057,7 @@
           0.37,
           0.12,
           0.29,
-          0.37
+          0.29
         ],
         "20": [
           0.0,
@@ -1075,7 +1075,7 @@
           0.3,
           1.0,
           0.76,
-          0.33
+          0.28
         ],
         "22": [
           0.0,
@@ -1119,30 +1119,30 @@
       {
         "rank": 1,
         "nombre": "MICHELADA MARACUYA",
-        "total": 475,
-        "qty": 112,
+        "total": 470,
+        "qty": 109,
         "width": 100
       },
       {
         "rank": 2,
         "nombre": "MICHELADA CLASICA",
-        "total": 225,
-        "qty": 48,
-        "width": 47
+        "total": 220,
+        "qty": 47,
+        "width": 46
       },
       {
         "rank": 3,
         "nombre": "ALITAS 15",
         "total": 202,
         "qty": 15,
-        "width": 42
+        "width": 43
       },
       {
         "rank": 4,
         "nombre": "MARACUMANGO",
-        "total": 194,
-        "qty": 28,
-        "width": 40
+        "total": 173,
+        "qty": 25,
+        "width": 36
       },
       {
         "rank": 5,
@@ -1156,7 +1156,7 @@
         "nombre": "CERVEZA CORONA",
         "total": 157,
         "qty": 36,
-        "width": 32
+        "width": 33
       },
       {
         "rank": 7,
@@ -1191,56 +1191,56 @@
       {
         "rank": 1,
         "nombre": "MICHELADA MARACUYA",
-        "qty": 112,
-        "total": 475,
+        "qty": 109,
+        "total": 470,
         "width": 100
       },
       {
         "rank": 2,
         "nombre": "TOPPINGS MANGO",
-        "qty": 86,
-        "total": 75,
-        "width": 76
+        "qty": 78,
+        "total": 68,
+        "width": 71
       },
       {
         "rank": 3,
         "nombre": "MICHELADA CLASICA",
-        "qty": 48,
-        "total": 225,
-        "width": 42
+        "qty": 47,
+        "total": 220,
+        "width": 43
       },
       {
         "rank": 4,
         "nombre": "CERVEZA CLUB 330ML",
         "qty": 41,
         "total": 125,
-        "width": 36
+        "width": 37
       },
       {
         "rank": 5,
         "nombre": "HONEY MUSTARD",
         "qty": 39,
         "total": 0,
-        "width": 34
+        "width": 35
       },
       {
         "rank": 6,
         "nombre": "CERVEZA CORONA",
         "qty": 36,
         "total": 157,
-        "width": 32
+        "width": 33
       },
       {
         "rank": 7,
         "nombre": "HAMBURGUESA CLASICA CO",
         "qty": 31,
         "total": 162,
-        "width": 27
+        "width": 28
       },
       {
         "rank": 8,
         "nombre": "BBQ",
-        "qty": 29,
+        "qty": 28,
         "total": 0,
         "width": 25
       },
@@ -1253,10 +1253,10 @@
       },
       {
         "rank": 10,
-        "nombre": "MARACUMANGO",
-        "qty": 28,
-        "total": 194,
-        "width": 25
+        "nombre": "PAPAS RUSTICAS",
+        "qty": 25,
+        "total": 0,
+        "width": 22
       }
     ],
     "cat_labels": [
@@ -1270,117 +1270,117 @@
       "Otros"
     ],
     "cat_data": [
-      1620,
+      1584,
       355,
       370,
       63,
-      451,
+      450,
       527,
-      77,
-      292
+      70,
+      281
     ],
     "combos_pairs": [
       {
         "a": "MICHELADA MARACUYA",
         "b": "TOPPINGS MANGO",
-        "count": 37,
-        "pct": 20.8
-      },
-      {
-        "a": "MICHELADA CLASICA",
-        "b": "TOPPINGS MANGO",
-        "count": 14,
-        "pct": 7.9
+        "count": 35,
+        "pct": 20.2
       },
       {
         "a": "MICHELADA CLASICA",
         "b": "MICHELADA MARACUYA",
         "count": 13,
-        "pct": 7.3
+        "pct": 7.5
       },
       {
-        "a": "MICHELADA MARACUYA",
-        "b": "MICHELADA PERSONAL",
-        "count": 9,
-        "pct": 5.1
-      },
-      {
-        "a": "MARACUMANGO",
+        "a": "MICHELADA CLASICA",
         "b": "TOPPINGS MANGO",
-        "count": 9,
-        "pct": 5.1
+        "count": 13,
+        "pct": 7.5
       },
       {
         "a": "COCA COLA ORIGINAL",
         "b": "HAMBURGUESA CLASIC",
         "count": 8,
-        "pct": 4.5
-      },
-      {
-        "a": "MICHELADA PERSONAL",
-        "b": "TOPPINGS MANGO",
-        "count": 8,
-        "pct": 4.5
+        "pct": 4.6
       },
       {
         "a": "MARACUMANGO",
-        "b": "MICHELADA MARACUYA",
+        "b": "TOPPINGS MANGO",
         "count": 8,
-        "pct": 4.5
+        "pct": 4.6
       },
       {
         "a": "MICHELADA MARACUYA",
         "b": "PAPAS CON QUESO CH",
         "count": 7,
-        "pct": 3.9
+        "pct": 4.0
+      },
+      {
+        "a": "MICHELADA MARACUYA",
+        "b": "MICHELADA PERSONAL",
+        "count": 7,
+        "pct": 4.0
       },
       {
         "a": "MICHELADA MARACUYA",
         "b": "MICHELADA TROPICAL",
         "count": 7,
-        "pct": 3.9
+        "pct": 4.0
+      },
+      {
+        "a": "ALITAS 15",
+        "b": "MICHELADA MARACUYA",
+        "count": 6,
+        "pct": 3.5
+      },
+      {
+        "a": "CERVEZA CLUB 330ML",
+        "b": "MICHELADA MARACUYA",
+        "count": 6,
+        "pct": 3.5
       }
     ],
     "combos_sugeridos": [
       {
         "label": "COMBO ESTRELLA",
         "nombre": "MICHELADA MARACUYA + TOPPINGS MANGO",
-        "count": 37,
-        "pct": 20.8,
-        "precio_actual": 5.11,
-        "precio_sugerido": 4.7
+        "count": 35,
+        "pct": 20.2,
+        "precio_actual": 5.18,
+        "precio_sugerido": 4.77
       },
       {
         "label": "COMBO #2",
-        "nombre": "MICHELADA CLASICA + TOPPINGS MANGO",
-        "count": 14,
-        "pct": 7.9,
-        "precio_actual": 5.56,
-        "precio_sugerido": 5.11
+        "nombre": "MICHELADA CLASICA + MICHELADA MARACUYA",
+        "count": 13,
+        "pct": 7.5,
+        "precio_actual": 8.99,
+        "precio_sugerido": 8.27
       },
       {
         "label": "COMBO #3",
-        "nombre": "MICHELADA CLASICA + MICHELADA MARACUYA",
+        "nombre": "MICHELADA CLASICA + TOPPINGS MANGO",
         "count": 13,
-        "pct": 7.3,
-        "precio_actual": 8.93,
-        "precio_sugerido": 8.21
+        "pct": 7.5,
+        "precio_actual": 5.55,
+        "precio_sugerido": 5.11
       },
       {
         "label": "COMBO #4",
-        "nombre": "MICHELADA MARACUYA + MICHELADA PERSONAL",
-        "count": 9,
-        "pct": 5.1,
-        "precio_actual": 6.97,
-        "precio_sugerido": 6.41
+        "nombre": "COCA COLA ORIGINAL + HAMBURGUESA CLASIC",
+        "count": 8,
+        "pct": 4.6,
+        "precio_actual": 6.18,
+        "precio_sugerido": 5.69
       }
     ],
-    "insight_analisis": "Mejor día: Sáb ($263/día). Peor: Dom ($130). Hora pico: 21h. Últimos 30 días · 10 May–09 Jun · 250 facturas.",
-    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($475 en 30d). Top categoría: Micheladas.",
-    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (37×, 20.8%). Formalizar como combo sube el ticket."
+    "insight_analisis": "Mejor día: Sáb ($263/día). Peor: Dom ($147). Hora pico: 21h. Últimos 30 días · 11 May–10 Jun · 245 facturas.",
+    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($470 en 30d). Top categoría: Micheladas.",
+    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (35×, 20.2%). Formalizar como combo sube el ticket."
   },
   "pulso": {
-    "updated": "2026-06-09",
+    "updated": "2026-06-10",
     "last7": [
       {
         "date": "2026-06-04",
