@@ -1384,35 +1384,8 @@
     "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (36×, 19.5%). Formalizar como combo sube el ticket."
   },
   "pulso": {
-    "updated": "2026-06-11",
+    "updated": "2026-06-12",
     "last7": [
-      {
-        "date": "2026-06-04",
-        "dow": "Jue",
-        "runs": [
-          {
-            "h": 19,
-            "c": 1,
-            "s": "⚪"
-          },
-          {
-            "h": 20,
-            "c": 6,
-            "s": "🟡"
-          },
-          {
-            "h": 21,
-            "c": null,
-            "s": "⚪"
-          },
-          {
-            "h": 22,
-            "c": 2,
-            "s": "⚪"
-          }
-        ],
-        "sales": 82.85
-      },
       {
         "date": "2026-06-05",
         "dow": "Vie",
@@ -1505,15 +1478,37 @@
           }
         ],
         "sales": 24.75
+      },
+      {
+        "date": "2026-06-11",
+        "dow": "Jue",
+        "runs": [
+          {
+            "h": 19,
+            "c": 1,
+            "s": "⚪"
+          },
+          {
+            "h": 20,
+            "c": null,
+            "s": "🟡"
+          },
+          {
+            "h": 21,
+            "c": null,
+            "s": "🟡"
+          }
+        ],
+        "sales": 0.0
       }
     ],
     "incidencias": [
-      "COCINA vloss x5 18:20-19:05 (06-04)",
-      "EXTERIOR vloss x1 19:11 (06-04)",
-      "COCINA vloss x5 18:20-19:05 (alertado Telegram) (06-04)",
-      "corrida fallida 2026-06-04 21h",
-      "cámaras inaccesibles — request_access timeout x2 (06-04)"
+      "corrida fallida 2026-06-05 17h",
+      "cámaras inaccesibles — request_access timeout x1 (06-05)",
+      "UniEase no se cerró (cmd+q/Quit/cerrar fallaron) (06-05)",
+      "corrida fallida 2026-06-06 19h",
+      "cámaras inaccesibles — request_access timeout x1 (06-06)"
     ],
-    "conclusion": "Hora más floja: 17h GYE (0.0 clientes prom). Promedios por corrida: 13h: 0.0 · 17h: 0.0 · 19h: 2.5 · 20h: 6.0 · 21h: 6.0 · 22h: 2.0"
+    "conclusion": "Hora más floja: 17h GYE (0.0 clientes prom). Promedios por corrida: 13h: 0.0 · 17h: 0.0 · 19h: 2.5 · 21h: 6.0"
   }
 }
