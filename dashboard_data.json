@@ -298,8 +298,8 @@
       "msg": "CNEL $80.77 PAGADO ✅ (confirmado Alberto 2/jun). Cerrado."
     },
     {
-      "tipo": "error",
-      "msg": "PedidosYa $6.24 — Escalado a estudio jurídico. Reintentar transferencia urgente."
+      "tipo": "success",
+      "msg": "PedidosYa $6.24 PAGADO/RESUELTO ✅ (confirmado Alberto 2026-06-15). Cerrado."
     },
     {
       "tipo": "warning",
