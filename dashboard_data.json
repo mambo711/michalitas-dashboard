@@ -927,7 +927,7 @@
     ]
   },
   "section_updates": {
-    "historico": "2026-06-16 07:10",
+    "historico": "2026-06-16 12:36",
     "marketing": "2026-06-16 12:36",
     "ops": "2026-06-16 07:09",
     "roadmap": "2026-06-16 12:36",
@@ -1415,30 +1415,8 @@
     "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (33×, 18.0%). Formalizar como combo sube el ticket."
   },
   "pulso": {
-    "updated": "2026-06-14",
+    "updated": "2026-06-16",
     "last7": [
-      {
-        "date": "2026-06-07",
-        "dow": "Dom",
-        "runs": [
-          {
-            "h": 13,
-            "c": 0,
-            "s": "⚪"
-          },
-          {
-            "h": 17,
-            "c": null,
-            "s": "⚪"
-          },
-          {
-            "h": 19,
-            "c": null,
-            "s": "⚪"
-          }
-        ],
-        "sales": 65.94
-      },
       {
         "date": "2026-06-10",
         "dow": "Mié",
@@ -1528,18 +1506,40 @@
             "h": 21,
             "c": 1,
             "s": "🟡"
+          },
+          {
+            "h": 2,
+            "c": null,
+            "s": "⚪"
           }
         ],
-        "sales": 38.85
+        "sales": 178.69
+      },
+      {
+        "date": "2026-06-14",
+        "dow": "Dom",
+        "runs": [
+          {
+            "h": 17,
+            "c": 1,
+            "s": "⚪"
+          },
+          {
+            "h": 21,
+            "c": null,
+            "s": "⚪"
+          }
+        ],
+        "sales": 74.69
       }
     ],
     "incidencias": [
-      "ANULADO: falsa alarma 🟡→🔴→⚪. Dom abre 16h desde 7 jun (SKILL tenía 13h). Bar cerrado correctamente. Falso staff = objeto fijo en CAM CAJA (06-07)",
-      "corrida fallida 2026-06-07 17h",
-      "cámaras inaccesibles — request_access timeout x1 (06-07)",
-      "corrida fallida 2026-06-07 19h",
-      "cámaras inaccesibles — request_access timeout x1 (4ª corrida consecutiva) (06-07)"
+      "corrida fallida 2026-06-10 17h",
+      "cámaras inaccesibles — request_access timeout x1 (5ª corrida afectada desde 6-jun) (06-10)",
+      "corrida fallida 2026-06-10 19h",
+      "cámaras inaccesibles — request_access timeout x1 (6ª corrida afectada desde 6-jun) (06-10)",
+      "corrida fallida 2026-06-10 21h"
     ],
-    "conclusion": "Hora más floja: 13h GYE (0.0 clientes prom). Promedios: 13h: 0.0 · 19h: 1.0 · 21h: 3.0"
+    "conclusion": "Hora más floja: 19h GYE (1.0 clientes prom). Promedios por corrida: 17h: 1.0 · 19h: 1.0 · 21h: 3.0"
   }
 }
