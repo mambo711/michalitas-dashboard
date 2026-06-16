@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T07:09:15.604065",
+  "updated": "2026-06-16T12:36:07.064673",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -74,7 +74,7 @@
       {
         "label": "Cierre mes anterior",
         "valor": "$4,234 (+$18 vs PE)",
-        "color": "orange"
+        "color": "green"
       }
     ],
     "acumulado": 4234.17,
@@ -208,16 +208,16 @@
   },
   "insights": {
     "peor_dia_titulo": "Dom — $152/día prom (día más débil)",
-    "peor_dia_detalle": "Día de semana con menor promedio en los últimos 30 días.",
+    "peor_dia_detalle": "Entre semana sigue flojo; el reto es el tráfico temprano, no el fin de semana.",
     "mejor_dia": "Vie",
-    "mejor_dia_prom": "$297/día prom (30 días)",
+    "mejor_dia_prom": "$297/día prom (últimos 30 días)",
     "hora_pico": "23h",
-    "hora_pico_detalle": "Mayor concentración de ventas por hora (30 días).",
+    "hora_pico_detalle": "Concentración de ventas 20h–23h (trasnoche Vie/Sáb)",
     "producto_1": "Michelada Maracuya",
-    "producto_1_detalle": "$490 en 30 días — producto estrella",
+    "producto_1_detalle": "$490 en últimos 30 días — producto estrella",
     "combo_top": "MICHELADA MARACUYA + TOPPINGS MANGO",
     "combo_top_detalle": "18.0% de las órdenes con +1 ítem",
-    "_fuente": "Recalculado de Practisis 30d · 2026-06-16 07:10"
+    "_fuente": "Recalculado de Practisis 30d · 2026-06-16 12:36"
   },
   "roadmap": [
     {
@@ -750,7 +750,7 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-06-15 14:21",
+  "ultima_actualizacion": "2026-06-16 12:36",
   "mayo": {
     "label": "Junio 2026",
     "acumulado": 2135.14,
@@ -928,16 +928,16 @@
   },
   "section_updates": {
     "historico": "2026-06-16 07:10",
-    "marketing": "2026-06-15 14:21",
+    "marketing": "2026-06-16 12:36",
     "ops": "2026-06-16 07:09",
-    "roadmap": "2026-06-15 14:21",
+    "roadmap": "2026-06-16 12:36",
     "acciones": "2026-06-16 07:09",
     "ventas": "2026-06-15 13:03",
     "horario": "2026-05-24 23:28",
     "weekly": "2026-06-16 07:09",
-    "insights": "2026-06-16 07:10",
-    "problemas": "2026-06-15 14:21",
-    "alertas": "2026-06-15 14:21"
+    "insights": "2026-06-16 12:36",
+    "problemas": "2026-06-16 12:36",
+    "alertas": "2026-06-16 12:36"
   },
   "ultima_ejecucion": "2026-06-16 07:09",
   "analytics": {
