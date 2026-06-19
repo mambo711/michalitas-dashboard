@@ -720,20 +720,35 @@
         "prom_dia_fmt": "$177"
       },
       {
-        "mes": "Mayo 2026",
-        "total": 3215.08,
-        "total_fmt": "$3,215",
-        "facturas": 204,
-        "dias_op": 17,
-        "prom_dia": 189.12,
-        "prom_dia_fmt": "$189"
+        "mes": "May 2026",
+        "total": 4234.17,
+        "total_fmt": "$4,234",
+        "facturas": 268,
+        "dias_op": 22,
+        "prom_dia": 192.46,
+        "prom_dia_fmt": "$192"
+      },
+      {
+        "mes": "Jun 2026",
+        "total": 2360.66,
+        "total_fmt": "$2,361",
+        "facturas": 131,
+        "dias_op": 12,
+        "prom_dia": 196.72,
+        "prom_dia_fmt": "$197"
       }
     ],
     "mayo_2026": {
-      "total": 3215.08,
-      "facturas": 204,
-      "dias_op": 17,
-      "pct_pe": 76.3
+      "total": 4234.17,
+      "facturas": 268,
+      "dias_op": 22,
+      "pct_pe": 100.4
+    },
+    "junio_2026": {
+      "total": 2360.66,
+      "facturas": 131,
+      "dias_op": 12,
+      "pct_pe": 56.0
     }
   },
   "ultima_actualizacion": "2026-06-19 07:10",
