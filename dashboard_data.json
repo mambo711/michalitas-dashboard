@@ -1,15 +1,15 @@
 {
-  "updated": "2026-06-18T07:10:37.907054",
+  "updated": "2026-06-19T07:10:28.568302",
   "abril": {
     "acumulado_fmt": "$3,717",
-    "coverage_txt": "22 d\u00edas operativos \u2014 MES CERRADO",
+    "coverage_txt": "22 días operativos — MES CERRADO",
     "prom_dia_fmt": "$168.97",
     "proyeccion_fmt": "$3,717 (Cerrado)",
     "facturas": 238,
     "ticket_fmt": "$15.62",
     "deficit_fmt": "-$499",
     "pct_cubierto": 88.2,
-    "tracker_note": "Abril cerr\u00f3 en $3,717 \u2014 mejor que marzo ($3,625). D\u00e9ficit -$499 vs PE. Tendencia positiva: +2.5% mes sobre mes.",
+    "tracker_note": "Abril cerró en $3,717 — mejor que marzo ($3,625). Déficit -$499 vs PE. Tendencia positiva: +2.5% mes sobre mes.",
     "dias_ventas": {
       "2026-04-01": 138,
       "2026-04-02": 372,
@@ -36,14 +36,14 @@
   },
   "kpis_mes": {
     "mes": "mayo 2026 (cerrado)",
-    "gauge_pct": 53.5,
-    "gauge_txt": "$2,254",
-    "gauge_sub": "al 17 jun \u00b7 11 d\u00edas \u00b7 54% del PE",
+    "gauge_pct": 56.0,
+    "gauge_txt": "$2,361",
+    "gauge_sub": "al 18 jun · 12 días · 56% del PE",
     "gauge_color": "#e88a1a",
     "filas": [
       {
-        "label": "Acumulado junio (al 17 jun)",
-        "valor": "$2,253.52",
+        "label": "Acumulado junio (al 18 jun)",
+        "valor": "$2,360.66",
         "color": "green"
       },
       {
@@ -52,23 +52,23 @@
         "color": "gray"
       },
       {
-        "label": "Proyecci\u00f3n conservadora",
-        "valor": "~$4,507",
+        "label": "Proyección conservadora",
+        "valor": "~$4,328",
         "color": "green"
       },
       {
-        "label": "Proyecci\u00f3n tendencia",
-        "valor": "~$4,507",
+        "label": "Proyección tendencia",
+        "valor": "~$4,328",
         "color": "green"
       },
       {
-        "label": "D\u00edas restantes",
-        "valor": "11 d\u00edas operativos",
+        "label": "Días restantes",
+        "valor": "10 días operativos",
         "color": "blue"
       },
       {
-        "label": "Prom. diario (11 d\u00edas)",
-        "valor": "$204.87/d\u00eda (necesario $178)",
+        "label": "Prom. diario (12 días)",
+        "valor": "$196.72/día (necesario $186)",
         "color": "green"
       },
       {
@@ -78,9 +78,9 @@
       }
     ],
     "acumulado": 4234.17,
-    "acumulado_fmt": "$2,254",
-    "dias_operativos": 11,
-    "pct_cubierto": 53.5,
+    "acumulado_fmt": "$2,361",
+    "dias_operativos": 12,
+    "pct_cubierto": 56.0,
     "cierre_mes_anterior": "$4,234 (+$18 vs PE)"
   },
   "uber_eats": {
@@ -119,7 +119,7 @@
     "campanas_activas": 5,
     "dispositivo_estado": "CONECTADO",
     "dispositivo_desde": "2026-04-11T22:15:00",
-    "dispositivo_alerta": "Reconectar HOY \u2014 es la prioridad #1",
+    "dispositivo_alerta": "Reconectar HOY — es la prioridad #1",
     "sem_actual": {
       "numero": 2,
       "fechas": "13-20 abr",
@@ -132,7 +132,7 @@
         "tipo": "Ad Campaign",
         "estado": "ACTIVA",
         "desde": "2025-09-19",
-        "budget": "$3/d\u00eda",
+        "budget": "$3/día",
         "roas": 3.64,
         "ventas": 58.14,
         "gasto": 15.96
@@ -176,25 +176,25 @@
         "sem": 1,
         "fechas": "6-12 abr",
         "promo": "Nachos 30% + Lomito 40% + Saltamontes 50%",
-        "resultado": "$21 \u00b7 1 pedido",
+        "resultado": "$21 · 1 pedido",
         "completada": true
       },
       {
         "sem": 2,
         "fechas": "13-20 abr",
         "promo": "2x1 Saltamontes",
-        "resultado": "Sin datos \u2014 dispositivo offline",
+        "resultado": "Sin datos — dispositivo offline",
         "completada": false
       },
       {
         "sem": 3,
         "fechas": "20-26 abr",
-        "promo": "Miche Maracuy\u00e1 $5.75 \u00b7 Nachos $8.50",
+        "promo": "Miche Maracuyá $5.75 · Nachos $8.50",
         "completada": false
       },
       {
         "sem": 4,
-        "fechas": "27 abr\u20133 may",
+        "fechas": "27 abr–3 may",
         "promo": "2x1 Papas Cheddar",
         "completada": false
       }
@@ -202,47 +202,47 @@
     "resenas_abril": 0,
     "google_maps_rating": 5.0,
     "google_maps_resenas": 10,
-    "nota_alertas": "Email de desconexi\u00f3n llega autom\u00e1ticamente cada d\u00eda al abrir \u2014 es normal, no indica problema real.",
-    "nota_frescura": "Auditor\u00eda 16 abr 2026 \u2014 SIN auditor\u00eda nueva. Canal dormido: \u00faltimo 'Resumen de ganancias' dic 2025, sin pedidos recientes.",
-    "_stale_nota": "Canal dormido \u2014 \u00faltimo 'Resumen de ganancias' dic 2025. M\u00e9tricas = \u00faltima auditor\u00eda (16 abr)."
+    "nota_alertas": "Email de desconexión llega automáticamente cada día al abrir — es normal, no indica problema real.",
+    "nota_frescura": "Auditoría 16 abr 2026 — SIN auditoría nueva. Canal dormido: último 'Resumen de ganancias' dic 2025, sin pedidos recientes.",
+    "_stale_nota": "Canal dormido — último 'Resumen de ganancias' dic 2025."
   },
   "insights": {
-    "peor_dia_titulo": "Mi\u00e9 \u2014 $146/d\u00eda prom (d\u00eda m\u00e1s d\u00e9bil)",
-    "peor_dia_detalle": "D\u00eda de semana con menor promedio en los \u00faltimos 30 d\u00edas.",
+    "peor_dia_titulo": "Mié — $146/día prom (día más débil)",
+    "peor_dia_detalle": "Día de semana con menor promedio en los últimos 30 días.",
     "mejor_dia": "Vie",
-    "mejor_dia_prom": "$297/d\u00eda prom (30 d\u00edas)",
+    "mejor_dia_prom": "$297/día prom (30 días)",
     "hora_pico": "23h",
-    "hora_pico_detalle": "Mayor concentraci\u00f3n de ventas por hora (30 d\u00edas).",
+    "hora_pico_detalle": "Mayor concentración de ventas por hora (30 días).",
     "producto_1": "Michelada Maracuya",
-    "producto_1_detalle": "$500 en 30 d\u00edas \u2014 producto estrella",
+    "producto_1_detalle": "$535 en 30 días — producto estrella",
     "combo_top": "MICHELADA MARACUYA + TOPPINGS MANGO",
-    "combo_top_detalle": "16.8% de las \u00f3rdenes con +1 \u00edtem",
-    "_fuente": "Recalculado de Practisis 30d \u00b7 2026-06-18 07:10"
+    "combo_top_detalle": "17.0% de las órdenes con +1 ítem",
+    "_fuente": "Recalculado de Practisis 30d · 2026-06-19 07:10"
   },
   "roadmap": [
     {
       "num": "1",
       "tipo": "active",
       "label": "Reconectar Uber Eats HOY",
-      "desc": "Dispositivo offline desde s\u00e1b 11 abr 10:15 PM. Online Rate 73.1% (meta 95%). Top Eats PERDIDO abril. Sem 2 BOGO activa pero sin capturar pedidos.",
-      "impact": "URGENTE \ud83d\udd34",
+      "desc": "Dispositivo offline desde sáb 11 abr 10:15 PM. Online Rate 73.1% (meta 95%). Top Eats PERDIDO abril. Sem 2 BOGO activa pero sin capturar pedidos.",
+      "impact": "URGENTE 🔴",
       "impact_tipo": "crit",
       "status": "Pendiente hoy"
     },
     {
       "num": "2",
       "tipo": "active",
-      "label": "Happy Hour mi\u00e9rcoles",
-      "desc": "4-7 PM mi\u00e9rcoles. Mesera disponible. Nuevo horario activo.",
+      "label": "Happy Hour miércoles",
+      "desc": "4-7 PM miércoles. Mesera disponible. Nuevo horario activo.",
       "impact": "+$200/mes",
       "impact_tipo": "high",
       "status": "Ejecutar hoy"
     },
     {
-      "num": "\u2713",
+      "num": "✓",
       "tipo": "done",
-      "label": "Instagram + C\u00f3digo MICHE15",
-      "desc": "Cristina publica diariamente. 0 conversiones detectadas \u2014 pendiente m\u00e1s tiempo",
+      "label": "Instagram + Código MICHE15",
+      "desc": "Cristina publica diariamente. 0 conversiones detectadas — pendiente más tiempo",
       "impact": "Medible",
       "impact_tipo": "high",
       "status": "Activo"
@@ -250,9 +250,9 @@
     {
       "num": "4",
       "tipo": "active",
-      "label": "Fidelizaci\u00f3n",
-      "desc": "Tarjeta 10ma gratis. Mesera disponible para registrar visitas. Pendiente dise\u00f1o tarjeta",
-      "impact": "Retenci\u00f3n",
+      "label": "Fidelización",
+      "desc": "Tarjeta 10ma gratis. Mesera disponible para registrar visitas. Pendiente diseño tarjeta",
+      "impact": "Retención",
       "impact_tipo": "med",
       "status": "Por lanzar"
     },
@@ -269,7 +269,7 @@
       "num": "6",
       "tipo": "active",
       "label": "Costos en Practisis",
-      "desc": "Cristina termin\u00f3 marzo. Falta feb+ene. Sin costos no hay m\u00e1rgenes reales",
+      "desc": "Cristina terminó marzo. Falta feb+ene. Sin costos no hay márgenes reales",
       "impact": "Control",
       "impact_tipo": "med",
       "status": "En proceso"
@@ -279,11 +279,11 @@
     "fuente": "Manual (Windsor descontinuado 3 may 2026)",
     "actualizado": "2026-06-09",
     "instagram": {
-      "reach_semana": "6,055 (r\u00e9cord \u2014 s\u00e1b 25 abr con boost $5)",
-      "reach_promedio": "~253/d\u00eda con Cristina (vs 47/d\u00eda antes)",
+      "reach_semana": "6,055 (récord — sáb 25 abr con boost $5)",
+      "reach_promedio": "~253/día con Cristina (vs 47/día antes)",
       "seguidores": "pendiente",
       "conversiones_miche": 0,
-      "nota": "Cristina maneja dise\u00f1o y publicaciones a diario. Conversi\u00f3n c\u00f3digo MICHE: 0 usos."
+      "nota": "Cristina maneja diseño y publicaciones a diario. Conversión código MICHE: 0 usos."
     },
     "google_my_business": {
       "vistas_mayo": 380,
@@ -293,72 +293,65 @@
       "como_llegar": 72,
       "clics_web": 0,
       "llamadas": 0,
-      "resenas": "5.0 \u2b50",
-      "nota": "Informe oficial mayo recibido 8-9 jun. Visibilidad org\u00e1nica sana; 0 clics web/llamadas."
+      "resenas": "5.0 ⭐",
+      "nota": "Informe oficial mayo recibido 8-9 jun. Visibilidad orgánica sana; 0 clics web/llamadas."
     },
     "meta_ads": {
-      "estado": "\u26a0\ufe0f Cuenta restringida \u2014 Cristina contest\u00f3 24 abr, sin respuesta de Meta",
-      "nueva_cuenta": "Cristina configur\u00f3 cuenta alternativa (m\u00e9todo de pago pendiente)",
+      "estado": "⚠️ Cuenta restringida — Cristina contestó 24 abr, sin respuesta de Meta",
+      "nueva_cuenta": "Cristina configuró cuenta alternativa (método de pago pendiente)",
       "historico": "Facebook: 13 conversaciones a $1.13 c/u | Instagram: 2 a $2.85 c/u"
     },
-    "_stale_dias": 1,
+    "_stale_dias": 2,
     "_stale_nota": ""
   },
   "alertas": [
     {
       "tipo": "warning",
-      "msg": "SRI deuda en firme \u2014 pagados $50. Verificar saldo CERO y guardar comprobante (recargos/coactiva sobre remanente)."
+      "msg": "SRI deuda en firme — pagados $50. Verificar saldo CERO y guardar comprobante (recargos/coactiva sobre remanente)."
     },
     {
       "tipo": "warning",
-      "msg": "P&L mayo pendiente \u2014 Cristina se disculp\u00f3 14 jun por el retraso. Confirmar entrega del informe."
+      "msg": "P&L mayo pendiente — Cristina se disculpó 14 jun por el retraso. Confirmar entrega del informe."
     },
     {
       "tipo": "warning",
-      "msg": "Meta for Business restringida desde 19 abr \u2014 ads de Instagram sin activar (Cristina + construmac en gesti\u00f3n)."
+      "msg": "Meta for Business restringida desde 19 abr — ads de Instagram sin activar (Cristina + construmac en gestión)."
     },
     {
       "tipo": "success",
-      "msg": "PedidosYa $6.24 RESUELTO \u2705 (confirmado 11 jun). Cerrado."
+      "msg": "PedidosYa $6.24 RESUELTO ✅ (confirmado 11 jun). Cerrado."
     },
     {
       "tipo": "info",
-      "msg": "Equipo Jos\u00e9 Miguel + Alejandro activos (desde 1 jun). JM env\u00eda reporte consolidado los viernes."
+      "msg": "Equipo José Miguel + Alejandro activos (desde 1 jun). JM envía reporte consolidado los viernes."
     }
   ],
   "last_briefing": {
-    "fecha": "2026-06-18",
-    "resumen": "Ayer $118.38 | Mes $2,254 | 11 d\u00edas op"
+    "fecha": "2026-06-19",
+    "resumen": "Ayer $107.14 | Mes $2,361 | 12 días op"
   },
   "foco_semana": {
     "titulo": "Construir hacia el PE de Junio",
-    "subtitulo": "$2,254 acumulado \u00b7 faltan $1,962 \u00b7 11 d\u00edas op restantes \u00b7 necesario $178/d\u00eda",
+    "subtitulo": "$2,361 acumulado · faltan $1,855 · 10 días op restantes · necesario $186/día",
     "items": [
       {
         "num": "1",
-        "nombre": "Jueves 18 jun",
-        "why": "Objetivo >$167. Mantener ritmo, empujar micheladas top.",
-        "who": "Marian",
+        "nombre": "Viernes 19 jun",
+        "why": "Objetivo >$297. Activar trasnoche (23h-02h) + combo alitas+miche. Aquí está el volumen.",
+        "who": "Marian + José Miguel",
         "estado": "pendiente"
       },
       {
         "num": "2",
-        "nombre": "Viernes 19 jun",
-        "why": "Objetivo >$297. Activar trasnoche (23h-02h) + combo alitas+miche. Aqu\u00ed est\u00e1 el volumen.",
-        "who": "Marian + Jos\u00e9 Miguel",
+        "nombre": "Sábado 20 jun",
+        "why": "Objetivo >$267. Activar trasnoche (23h-02h) + combo alitas+miche. Aquí está el volumen.",
+        "who": "Marian + José Miguel",
         "estado": "pendiente"
       },
       {
         "num": "3",
-        "nombre": "S\u00e1bado 20 jun",
-        "why": "Objetivo >$267. Activar trasnoche (23h-02h) + combo alitas+miche. Aqu\u00ed est\u00e1 el volumen.",
-        "who": "Marian + Jos\u00e9 Miguel",
-        "estado": "pendiente"
-      },
-      {
-        "num": "4",
         "nombre": "Domingo 21 jun",
-        "why": "Objetivo >$160. Abrir puntual, promo temprana para atraer tr\u00e1fico.",
+        "why": "Objetivo >$160. Abrir puntual, promo temprana para atraer tráfico.",
         "who": "Marian",
         "estado": "pendiente"
       }
@@ -367,114 +360,114 @@
   "roadmap_items": [
     {
       "num": "1",
-      "label": "Meta Ads \u2014 apelar restricci\u00f3n",
-      "desc": "Restringida desde 19 abr. Cristina apel\u00f3 24 abr + configur\u00f3 cuenta nueva. Sin confirmaci\u00f3n de resoluci\u00f3n.",
+      "label": "Meta Ads — apelar restricción",
+      "desc": "Restringida desde 19 abr. Cristina apeló 24 abr + configuró cuenta nueva. Sin confirmación de resolución.",
       "estado": "crit",
-      "status": "Verificar con Cristina \ud83d\udd34",
+      "status": "Verificar con Cristina 🔴",
       "impact": "Bloquea ads pagados"
     },
     {
       "num": "2",
-      "label": "Uber Eats \u2014 campa\u00f1a Mundial junio",
-      "desc": "Nueva campa\u00f1a junio 30% cofinanciada (desde 1 jun). Hist\u00f3rico: 9 pedidos = $9.17 neto, casi a p\u00e9rdida.",
+      "label": "Uber Eats — campaña Mundial junio",
+      "desc": "Nueva campaña junio 30% cofinanciada (desde 1 jun). Histórico: 9 pedidos = $9.17 neto, casi a pérdida.",
       "estado": "warn",
       "status": "Medir rentabilidad",
-      "impact": "Riesgo p\u00e9rdida"
+      "impact": "Riesgo pérdida"
     },
     {
       "num": "3",
-      "label": "Instagram \u2014 convertir reach en clientes",
-      "desc": "Cristina publica a diario. Boost $5 \u2192 ~6K reach. Conversi\u00f3n MICHE: 0 usos.",
+      "label": "Instagram — convertir reach en clientes",
+      "desc": "Cristina publica a diario. Boost $5 → ~6K reach. Conversión MICHE: 0 usos.",
       "estado": "active",
-      "status": "Activo \u2014 sin conversi\u00f3n",
-      "impact": "Tr\u00e1fico sin captura"
+      "status": "Activo — sin conversión",
+      "impact": "Tráfico sin captura"
     },
     {
       "num": "4",
       "label": "Costos en Practisis",
-      "desc": "Cristina carg\u00f3 marzo + cierre abril. Falta feb + ene. P&L mayo a\u00fan sin entregar (disculpa 14 jun). Cristina inici\u00f3 control semanal de efectivo (13 jun).",
+      "desc": "Cristina cargó marzo + cierre abril. Falta feb + ene. P&L mayo aún sin entregar (disculpa 14 jun). Cristina inició control semanal de efectivo (13 jun).",
       "estado": "active",
-      "status": "Pendiente P&L mayo \ud83d\udd34",
-      "impact": "Control de m\u00e1rgenes"
+      "status": "Pendiente P&L mayo 🔴",
+      "impact": "Control de márgenes"
     },
     {
       "num": "5",
-      "label": "Fidelizaci\u00f3n \u2014 tarjeta 10ma gratis",
-      "desc": "Por lanzar. Jos\u00e9 Miguel/Alejandro (desde 1 jun) pueden ejecutar el registro de visitas.",
+      "label": "Fidelización — tarjeta 10ma gratis",
+      "desc": "Por lanzar. José Miguel/Alejandro (desde 1 jun) pueden ejecutar el registro de visitas.",
       "estado": "active",
-      "status": "Por lanzar \u2014 asignar a equipo",
-      "impact": "Retenci\u00f3n"
+      "status": "Por lanzar — asignar a equipo",
+      "impact": "Retención"
     },
     {
       "num": "6",
       "label": "Equipo de crecimiento activo",
-      "desc": "Jos\u00e9 Miguel (Coordinador) + Alejandro (Soporte) iniciaron 1 jun. $300/mes. Foco: terreno y contenido.",
+      "desc": "José Miguel (Coordinador) + Alejandro (Soporte) iniciaron 1 jun. $300/mes. Foco: terreno y contenido.",
       "estado": "active",
-      "status": "Nuevo \u2014 1ra semana",
-      "impact": "Ejecuci\u00f3n en campo"
+      "status": "Nuevo — 1ra semana",
+      "impact": "Ejecución en campo"
     },
     {
-      "num": "\u2713",
-      "label": "Nuevo horario + promos mi\u00e9rcoles",
-      "desc": "5 d\u00edas/semana desde 12 abr. Mi\u00e9 4PM-11PM con 2x1 + alitas.",
+      "num": "✓",
+      "label": "Nuevo horario + promos miércoles",
+      "desc": "5 días/semana desde 12 abr. Mié 4PM-11PM con 2x1 + alitas.",
       "estado": "done",
-      "status": "Activo \u2705",
+      "status": "Activo ✅",
       "impact": "+$200/mes"
     }
   ],
-  "diagnostico": "Junio: $2,254 en 11 d\u00edas op (prom $205/d\u00eda). Necesario $178/d\u00eda para PE $4,216. Prioridad: horas reales de apertura Vie/S\u00e1b/Dom + partido s\u00e1bado.",
+  "diagnostico": "Junio: $2,361 en 12 días op (prom $197/día). Necesario $186/día para PE $4,216. Prioridad: aprovechar partido Ecuador sáb 20.",
   "acciones_top": [
     {
       "num": "1",
       "nivel": "red",
       "titulo": "Ritmo vs PE",
-      "detalle": "Prom junio $205/d\u00eda. Necesario $178/d\u00eda. Faltan $1,962 en 11 d\u00edas op."
+      "detalle": "Prom junio $197/día. Necesario $186/día. Faltan $1,855 en 10 días op."
     },
     {
       "num": "2",
       "nivel": "orange",
       "titulo": "Foco en viernes",
-      "detalle": "Mejor d\u00eda (prom $297). Replicar y superar; activar promo trasnoche el fin de semana."
+      "detalle": "Mejor día (prom $297). Replicar y superar; activar promo trasnoche el fin de semana."
     },
     {
       "num": "3",
       "nivel": "orange",
       "titulo": "Cerrar el gap horario",
-      "detalle": "Peor d\u00eda mi\u00e9rcoles ($146). El bar opera pocas horas \u2014 abrir puntual es la palanca #1."
+      "detalle": "Peor día miércoles ($141). El bar opera pocas horas — abrir puntual es la palanca #1."
     }
   ],
   "acciones_checklist": [
     {
       "estado": "urg",
       "titulo": "Abrir puntual y operar todas las horas",
-      "detalle": "Meta hoy >$167. Franja clave 20h-24h.",
+      "detalle": "Meta hoy >$297. La franja clave es 20h-23h.",
       "tag": "HOY"
     },
     {
       "estado": "todo",
-      "titulo": "Plan partido Ecuador vs Curazao S\u00e1b 20 jun 19h",
-      "detalle": "Bar abierto 4PM-2AM. GYE pone pantallas gratis = competencia. Definir promo YA.",
+      "titulo": "Plan de terreno fin de semana",
+      "detalle": "José Miguel + Alejandro: presencia Vie y Sáb. SÁBADO partido Ecuador vs Curazao 19h.",
       "tag": "SEMANA"
     },
     {
       "estado": "prog",
-      "titulo": "Conciliaci\u00f3n junio con Cristina",
-      "detalle": "Estado de cuenta corte 15 jun + aclarar efectivo $1,146.39 + m\u00e9todo Otro $50.99.",
+      "titulo": "Vigilar egresos del mes con Cristina",
+      "detalle": "El PE es ventas, no caja — confirmar utilidad real (mayo cerró en pérdida).",
       "tag": "MENSUAL"
     }
   ],
   "problemas": [
     {
       "num": "1",
-      "titulo": "Lunes-Martes cerrados = 2 d\u00edas sin ingresos/semana",
+      "titulo": "Lunes-Martes cerrados = 2 días sin ingresos/semana",
       "impacto": "alto",
-      "detalle": "28% de la semana sin operaci\u00f3n. Evaluar apertura para eventos/delivery."
+      "detalle": "28% de la semana sin operación. Evaluar apertura para eventos/delivery."
     },
     {
       "num": "2",
-      "titulo": "Apertura tard\u00eda / horas muertas 4PM-8PM",
+      "titulo": "Apertura tardía / horas muertas 4PM-8PM",
       "impacto": "alto",
-      "detalle": "Dom 14 jun: 1\u00aa venta a las 20h pese a abrir 4PM y partido a las 18h. Gap 14h-20h recurrente Vie/S\u00e1b/Dom \u2014 la palanca #1."
+      "detalle": "Dom 14 jun: 1ª venta a las 20h pese a abrir 4PM y partido a las 18h. Gap 14h-20h recurrente Vie/Sáb/Dom — la palanca #1."
     },
     {
       "num": "3",
@@ -484,12 +477,12 @@
     },
     {
       "num": "4",
-      "titulo": "Utilidad real sin confirmar \u2014 falta P&L",
+      "titulo": "Utilidad real sin confirmar — falta P&L",
       "impacto": "medio",
-      "detalle": "Mayo cerr\u00f3 $4,234 en ventas (sobre PE) pero sin egresos no hay utilidad. Cristina debe entregar P&L mayo + cargar feb/ene en Practisis."
+      "detalle": "Mayo cerró $4,234 en ventas (sobre PE) pero sin egresos no hay utilidad. Cristina debe entregar P&L mayo + cargar feb/ene en Practisis."
     }
   ],
-  "ops_insight": "Junio: $2,254 en 11 d\u00edas op (prom $205/d\u00eda). Necesario $178/d\u00eda para PE $4,216. Prioridad: horas reales de apertura Vie/S\u00e1b/Dom + partido s\u00e1bado.",
+  "ops_insight": "Junio: $2,361 en 12 días op (prom $197/día). Necesario $186/día para PE $4,216. Prioridad: aprovechar partido Ecuador sáb 20.",
   "gastos_fijos": [
     {
       "concepto": "Renta",
@@ -504,19 +497,19 @@
       "estado": "pagado"
     },
     {
-      "concepto": "N\u00f3mina Marian",
+      "concepto": "Nómina Marian",
       "monto": 543.3,
       "frecuencia": "mensual",
       "estado": "pagado"
     },
     {
-      "concepto": "N\u00f3mina Alexis",
+      "concepto": "Nómina Alexis",
       "monto": 600.0,
       "frecuencia": "mensual",
       "estado": "pendiente confirmar"
     },
     {
-      "concepto": "Internet + f\u00fatbol",
+      "concepto": "Internet + fútbol",
       "monto": 42.51,
       "frecuencia": "mensual",
       "estado": "activo"
@@ -531,16 +524,16 @@
       "concepto": "CNEL electricidad",
       "monto": 80.77,
       "frecuencia": "variable",
-      "estado": "\u26a0\ufe0f pagar martes 26 may"
+      "estado": "⚠️ pagar martes 26 may"
     },
     {
       "concepto": "PedidosYa deuda",
       "monto": 6.24,
-      "frecuencia": "\u00fanica",
-      "estado": "\u26a0\ufe0f URGENTE \u2014 estudio jur\u00eddico"
+      "frecuencia": "única",
+      "estado": "⚠️ URGENTE — estudio jurídico"
     },
     {
-      "concepto": "Jos\u00e9 Miguel (jun)",
+      "concepto": "José Miguel (jun)",
       "monto": 200.0,
       "frecuencia": "mensual",
       "estado": "inicio 1 jun 2026"
@@ -553,13 +546,13 @@
     }
   ],
   "marketing_diagnostico": {
-    "ig": "Cristina publica diariamente. Boost $5 \u2192 ~6K reach. Meta Ads RESTRINGIDA desde 19 abr.",
+    "ig": "Cristina publica diariamente. Boost $5 → ~6K reach. Meta Ads RESTRINGIDA desde 19 abr.",
     "gmb": {
-      "problema": "Solo 82 vistas en abril \u2014 tr\u00e1fico bajo para la zona de Urdesa. Sin fotos actualizadas ni posts recientes en GMB.",
-      "positivo": "5.0 estrellas con 10 rese\u00f1as \u2014 perfil bien valorado. Gratis y efectivo cuando se activa.",
-      "accion": "Publicar 1 foto semanal del local y activar 'Post de oferta' en GMB para atraer b\u00fasquedas locales."
+      "problema": "Solo 82 vistas en abril — tráfico bajo para la zona de Urdesa. Sin fotos actualizadas ni posts recientes en GMB.",
+      "positivo": "5.0 estrellas con 10 reseñas — perfil bien valorado. Gratis y efectivo cuando se activa.",
+      "accion": "Publicar 1 foto semanal del local y activar 'Post de oferta' en GMB para atraer búsquedas locales."
     },
-    "meta_ads": "Cuenta restringida activa. Construmac gestiona alternativa. $5/d\u00eda por anuncio."
+    "meta_ads": "Cuenta restringida activa. Construmac gestiona alternativa. $5/día por anuncio."
   },
   "uber_eats_metrics": {
     "actualizado": "22 abr 2026",
@@ -574,18 +567,25 @@
       "total_pedidos": 9,
       "ventas_brutas": "$130.40",
       "pago_neto": "$9.17",
-      "sem1_resultado": "3 pedidos \u00b7 $65.34 ventas \u00b7 pago neto -$1.08 (negativo)",
-      "sem2_resultado": "6 pedidos \u00b7 $65.06 ventas",
-      "sem3_promo": "Maracuy\u00e1 $5.75 \u00b7 Nachos queso/carne $8.50",
-      "sem4_promo": "2x1 Papas con Queso Cheddar (27 abr\u20133 may)"
+      "sem1_resultado": "3 pedidos · $65.34 ventas · pago neto -$1.08 (negativo)",
+      "sem2_resultado": "6 pedidos · $65.06 ventas",
+      "sem3_promo": "Maracuyá $5.75 · Nachos queso/carne $8.50",
+      "sem4_promo": "2x1 Papas con Queso Cheddar (27 abr–3 may)"
     },
-    "alerta": "Ads + comisi\u00f3n Uber + descuentos consumen casi todo el ingreso. Evaluar pausar ads y operar solo org\u00e1nico.",
-    "nota_frescura": "Auditor\u00eda 16 abr 2026 \u2014 SIN auditor\u00eda nueva. Canal dormido: \u00faltimo 'Resumen de ganancias' dic 2025, sin pedidos recientes.",
-    "_stale_nota": "Canal dormido \u2014 \u00faltimo 'Resumen de ganancias' dic 2025. M\u00e9tricas = \u00faltima auditor\u00eda (16 abr)."
+    "alerta": "Ads + comisión Uber + descuentos consumen casi todo el ingreso. Evaluar pausar ads y operar solo orgánico.",
+    "nota_frescura": "Auditoría 16 abr 2026 — SIN auditoría nueva. Canal dormido: último 'Resumen de ganancias' dic 2025, sin pedidos recientes.",
+    "_stale_nota": "Canal dormido — último 'Resumen de ganancias' dic 2025."
   },
   "dias_recientes": [
     {
-      "label": "Mi\u00e9 17 jun",
+      "label": "Jue 18 jun",
+      "total": 107.14,
+      "facturas": 6,
+      "hl": "bad",
+      "star": ""
+    },
+    {
+      "label": "Mié 17 jun",
       "total": 118.38,
       "facturas": 7,
       "hl": "good",
@@ -599,7 +599,7 @@
       "star": ""
     },
     {
-      "label": "S\u00e1b 13 jun",
+      "label": "Sáb 13 jun",
       "total": 178.69,
       "facturas": 12,
       "hl": "bad",
@@ -610,7 +610,7 @@
       "total": 463.8,
       "facturas": 16,
       "hl": "good",
-      "star": "\u2b50"
+      "star": "⭐"
     },
     {
       "label": "Jue 11 jun",
@@ -620,16 +620,9 @@
       "star": ""
     },
     {
-      "label": "Mi\u00e9 10 jun",
+      "label": "Mié 10 jun",
       "total": 94.75,
       "facturas": 5,
-      "hl": "neutral",
-      "star": ""
-    },
-    {
-      "label": "Dom 7 jun",
-      "total": 151.24,
-      "facturas": 11,
       "hl": "neutral",
       "star": ""
     }
@@ -661,9 +654,9 @@
       840.51,
       1118.74,
       1016.4,
-      118.38
+      225.52
     ],
-    "insight": "Sem 21 (May 18-24) = $1,198 \u2014 mejor semana \ud83d\udfe2. \u00daltima: Sem 25 (Jun 15-21) = $118."
+    "insight": "Sem 21 (May 18-24) = $1,198 — mejor semana. Última: Sem 25 (Jun 15-21) = $226."
   },
   "ventas": {
     "abril_2026": {
@@ -743,25 +736,25 @@
       "pct_pe": 76.3
     }
   },
-  "ultima_actualizacion": "2026-06-18 07:10",
+  "ultima_actualizacion": "2026-06-19 07:10",
   "mayo": {
     "label": "Junio 2026",
-    "acumulado": 2253.52,
-    "acumulado_fmt": "$2,254",
-    "facturas": 125,
-    "dias_operativos": 11,
-    "prom_dia": 204.87,
-    "prom_dia_fmt": "$205",
-    "ticket_prom": 18.03,
-    "ticket_fmt": "$18.03",
+    "acumulado": 2360.66,
+    "acumulado_fmt": "$2,361",
+    "facturas": 131,
+    "dias_operativos": 12,
+    "prom_dia": 196.72,
+    "prom_dia_fmt": "$197",
+    "ticket_prom": 18.02,
+    "ticket_fmt": "$18.02",
     "punto_equilibrio": 4216,
-    "proyeccion": 4507.14,
-    "proyeccion_fmt": "$4,507",
-    "diferencia_pe": 291.14,
-    "deficit_fmt": "$+291",
-    "pct_cubierto": 54.0,
-    "coverage_txt": "54% cubierto \u00b7 al 17 jun (11 d\u00edas op)",
-    "tracker_note": "necesario $178/d\u00eda los pr\u00f3ximos 11 d\u00edas",
+    "proyeccion": 4327.84,
+    "proyeccion_fmt": "$4,328",
+    "diferencia_pe": 111.84,
+    "deficit_fmt": "$+112",
+    "pct_cubierto": 56.0,
+    "coverage_txt": "56% cubierto · al 18 jun (12 días op)",
+    "tracker_note": "necesario $186/día los próximos 10 días",
     "dias_ventas": {
       "2026-06-07": 151.24,
       "2026-06-05": 343.09,
@@ -773,30 +766,31 @@
       "2026-06-03": 137.69,
       "2026-06-04": 197.5,
       "2026-06-17": 118.38,
+      "2026-06-18": 107.14,
       "2026-06-10": 94.75
     },
-    "insight": "Junio (al 18): $2,254 acumulado en 11 d\u00edas op, 125 facturas, ticket $18.03. Proyecci\u00f3n: ~$4,507 vs PE $4,216 (super\u00e1vit $291).",
+    "insight": "Junio (al 19): $2,361 acumulado en 12 días op, 131 facturas, ticket $18.02. Proyección: ~$4,328 vs PE $4,216 (superávit $112).",
     "anio": 2026,
     "mes": 6
   },
   "mes_actual": {
     "label": "Junio 2026",
-    "acumulado": 2253.52,
-    "acumulado_fmt": "$2,254",
-    "facturas": 125,
-    "dias_operativos": 11,
-    "prom_dia": 204.87,
-    "prom_dia_fmt": "$205",
-    "ticket_prom": 18.03,
-    "ticket_fmt": "$18.03",
+    "acumulado": 2360.66,
+    "acumulado_fmt": "$2,361",
+    "facturas": 131,
+    "dias_operativos": 12,
+    "prom_dia": 196.72,
+    "prom_dia_fmt": "$197",
+    "ticket_prom": 18.02,
+    "ticket_fmt": "$18.02",
     "punto_equilibrio": 4216,
-    "proyeccion": 4507.14,
-    "proyeccion_fmt": "$4,507",
-    "diferencia_pe": 291.14,
-    "deficit_fmt": "$+291",
-    "pct_cubierto": 54.0,
-    "coverage_txt": "54% cubierto \u00b7 al 17 jun (11 d\u00edas op)",
-    "tracker_note": "necesario $178/d\u00eda los pr\u00f3ximos 11 d\u00edas",
+    "proyeccion": 4327.84,
+    "proyeccion_fmt": "$4,328",
+    "diferencia_pe": 111.84,
+    "deficit_fmt": "$+112",
+    "pct_cubierto": 56.0,
+    "coverage_txt": "56% cubierto · al 18 jun (12 días op)",
+    "tracker_note": "necesario $186/día los próximos 10 días",
     "dias_ventas": {
       "2026-06-07": 151.24,
       "2026-06-05": 343.09,
@@ -808,24 +802,25 @@
       "2026-06-03": 137.69,
       "2026-06-04": 197.5,
       "2026-06-17": 118.38,
+      "2026-06-18": 107.14,
       "2026-06-10": 94.75
     },
-    "insight": "Junio (al 18): $2,254 acumulado en 11 d\u00edas op, 125 facturas, ticket $18.03. Proyecci\u00f3n: ~$4,507 vs PE $4,216 (super\u00e1vit $291).",
+    "insight": "Junio (al 19): $2,361 acumulado en 12 días op, 131 facturas, ticket $18.02. Proyección: ~$4,328 vs PE $4,216 (superávit $112).",
     "anio": 2026,
     "mes": 6
   },
   "textos": {
-    "roadmap_titulo": "Hoja de Ruta \u2014 Crecimiento 2026",
-    "marketing_titulo": "\ud83d\udcf1 Marketing Digital",
-    "marketing_descripcion": "Windsor.ai descontinuado 3 may 2026. Sin m\u00e9tricas IG/GMB disponibles hasta nueva integraci\u00f3n.",
-    "insight_analisis": "Mejor d\u00eda: Vie ($297/d\u00eda). Peor: Mi\u00e9 ($146). Hora pico: 23h. \u00daltimos 30 d\u00edas \u00b7 19 May\u201318 Jun \u00b7 248 facturas.",
-    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($500 en 30d). Top categor\u00eda: Micheladas.",
-    "insight_combos": "An\u00e1lisis de 801 \u00f3rdenes multi-item en 6 meses. El patr\u00f3n dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuy\u00e1 (3.9%), Alitas 8+Maracuy\u00e1 (3.2%), Maracuy\u00e1+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.",
-    "insight_acciones": "De 8 acciones, 1 sigue urgente (Uber Eats \u2014 dispositivo inestable), 4 est\u00e1n desbloqueadas por mesera confirmada (happy hour, fidelidad, eventos, venta a carros), y el resto en proceso. La prioridad ahora es ejecutar r\u00e1pido las iniciativas desbloqueadas: cada semana sin happy hour o fidelidad activos es $200-400 en ventas potenciales no capturadas.",
-    "chart_dow_titulo": "Ventas Promedio por D\u00eda de Semana (Nov 2025 \u2013 may 2026 \u00b7 1,465 facturas)",
-    "chart_heatmap_titulo": "Heatmap Ventas por Hora \u00d7 D\u00eda (Nov 2025 \u2013 may 2026 \u00b7 1,465 facturas)",
-    "chart_productos_titulo": "Top 10 Productos (Nov 2025 \u2013 may 2026 \u00b7 1,465 facturas)",
-    "chart_combos_titulo": "An\u00e1lisis de Combos \u2014 Qu\u00e9 se Pide Junto (Nov 2025 \u2013 may 2026)",
+    "roadmap_titulo": "Hoja de Ruta — Crecimiento 2026",
+    "marketing_titulo": "📱 Marketing Digital",
+    "marketing_descripcion": "Windsor.ai descontinuado 3 may 2026. Sin métricas IG/GMB disponibles hasta nueva integración.",
+    "insight_analisis": "Mejor día: Vie ($297/día). Peor: Mié ($146). Hora pico: 23h. Últimos 30 días · 20 May–19 Jun · 254 facturas.",
+    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($535 en 30d). Top categoría: Micheladas.",
+    "insight_combos": "Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.",
+    "insight_acciones": "De 8 acciones, 1 sigue urgente (Uber Eats — dispositivo inestable), 4 están desbloqueadas por mesera confirmada (happy hour, fidelidad, eventos, venta a carros), y el resto en proceso. La prioridad ahora es ejecutar rápido las iniciativas desbloqueadas: cada semana sin happy hour o fidelidad activos es $200-400 en ventas potenciales no capturadas.",
+    "chart_dow_titulo": "Ventas Promedio por Día de Semana (Nov 2025 – may 2026 · 1,465 facturas)",
+    "chart_heatmap_titulo": "Heatmap Ventas por Hora × Día (Nov 2025 – may 2026 · 1,465 facturas)",
+    "chart_productos_titulo": "Top 10 Productos (Nov 2025 – may 2026 · 1,465 facturas)",
+    "chart_combos_titulo": "Análisis de Combos — Qué se Pide Junto (Nov 2025 – may 2026)",
     "banner_alerta": "",
     "semana_label": "Semana 19-25 Mayo 2026"
   },
@@ -850,10 +845,6 @@
     ],
     "jueves": [
       {
-        "fecha": "2026-05-21",
-        "total": 131.13
-      },
-      {
         "fecha": "2026-05-28",
         "total": 232.28
       },
@@ -864,6 +855,10 @@
       {
         "fecha": "2026-06-11",
         "total": 105.22
+      },
+      {
+        "fecha": "2026-06-18",
+        "total": 107.14
       }
     ],
     "viernes": [
@@ -922,26 +917,26 @@
     ]
   },
   "section_updates": {
-    "historico": "2026-06-18 07:10",
+    "historico": "2026-06-19 07:10",
     "marketing": "2026-06-16 12:36",
-    "ops": "2026-06-18 07:10",
+    "ops": "2026-06-19 07:10",
     "roadmap": "2026-06-16 12:36",
-    "acciones": "2026-06-18 07:10",
-    "ventas": "2026-06-18 07:10",
+    "acciones": "2026-06-19 07:10",
+    "ventas": "2026-06-19 07:10",
     "horario": "2026-05-24 23:28",
-    "weekly": "2026-06-18 07:10",
-    "insights": "2026-06-18 07:10",
+    "weekly": "2026-06-19 07:10",
+    "insights": "2026-06-19 07:10",
     "problemas": "2026-06-16 12:36",
     "alertas": "2026-06-16 12:36"
   },
-  "ultima_ejecucion": "2026-06-18 07:10",
+  "ultima_ejecucion": "2026-06-19 07:10",
   "analytics": {
-    "periodo_txt": "\u00daltimos 30 d\u00edas \u00b7 19 May\u201318 Jun \u00b7 248 facturas",
+    "periodo_txt": "Últimos 30 días · 20 May–19 Jun · 254 facturas",
     "dow_data": [
       0,
       0,
       146.0,
-      167.0,
+      155.0,
       297.0,
       267.0,
       160.0
@@ -954,16 +949,10 @@
         "width": 100
       },
       {
-        "dia": "S\u00e1b",
+        "dia": "Sáb",
         "prom": 267,
         "fact": 63,
         "width": 89
-      },
-      {
-        "dia": "Jue",
-        "prom": 167,
-        "fact": 41,
-        "width": 56
       },
       {
         "dia": "Dom",
@@ -972,7 +961,13 @@
         "width": 53
       },
       {
-        "dia": "Mi\u00e9",
+        "dia": "Jue",
+        "prom": 155,
+        "fact": 47,
+        "width": 52
+      },
+      {
+        "dia": "Mié",
         "prom": 146,
         "fact": 42,
         "width": 49
@@ -1001,10 +996,10 @@
       51.0,
       209.0,
       329.0,
-      369.0,
+      406.0,
       633.0,
-      716.0,
-      893.0,
+      768.0,
+      911.0,
       668.0,
       215.0,
       72.0
@@ -1084,7 +1079,7 @@
           0.0,
           0.0,
           0.05,
-          0.34,
+          0.45,
           0.15,
           0.15,
           0.4
@@ -1102,7 +1097,7 @@
           0.0,
           0.0,
           0.61,
-          0.23,
+          0.39,
           0.57,
           0.45,
           0.26
@@ -1111,7 +1106,7 @@
           0.0,
           0.0,
           0.76,
-          0.43,
+          0.48,
           0.8,
           0.43,
           0.23
@@ -1149,8 +1144,8 @@
       {
         "rank": 1,
         "nombre": "MICHELADA MARACUYA",
-        "total": 500,
-        "qty": 113,
+        "total": 535,
+        "qty": 120,
         "width": 100
       },
       {
@@ -1158,27 +1153,27 @@
         "nombre": "MICHELADA CLASICA",
         "total": 220,
         "qty": 56,
-        "width": 44
+        "width": 41
       },
       {
         "rank": 3,
         "nombre": "ALITAS 15",
         "total": 189,
         "qty": 14,
-        "width": 37
+        "width": 35
       },
       {
         "rank": 4,
         "nombre": "HAMBURGUESA CLASICA CO",
-        "total": 162,
-        "qty": 31,
+        "total": 172,
+        "qty": 33,
         "width": 32
       },
       {
         "rank": 5,
         "nombre": "ALITAS 8",
-        "total": 155,
-        "qty": 21,
+        "total": 170,
+        "qty": 23,
         "width": 31
       },
       {
@@ -1186,106 +1181,106 @@
         "nombre": "CERVEZA CLUB 330ML",
         "total": 152,
         "qty": 50,
-        "width": 30
+        "width": 28
       },
       {
         "rank": 7,
         "nombre": "CERVEZA CORONA",
         "total": 148,
         "qty": 34,
-        "width": 29
+        "width": 27
       },
       {
         "rank": 8,
-        "nombre": "MOJITO",
-        "total": 134,
-        "qty": 22,
-        "width": 26
+        "nombre": "MARACUMANGO",
+        "total": 138,
+        "qty": 20,
+        "width": 25
       },
       {
         "rank": 9,
-        "nombre": "MARACUMANGO",
-        "total": 131,
-        "qty": 19,
-        "width": 26
+        "nombre": "MOJITO",
+        "total": 134,
+        "qty": 22,
+        "width": 25
       },
       {
         "rank": 10,
         "nombre": "COMBO 15ALI 2MICH",
         "total": 109,
         "qty": 5,
-        "width": 21
+        "width": 20
       }
     ],
     "prod_qty": [
       {
         "rank": 1,
         "nombre": "MICHELADA MARACUYA",
-        "qty": 113,
-        "total": 500,
+        "qty": 120,
+        "total": 535,
         "width": 100
       },
       {
         "rank": 2,
         "nombre": "TOPPINGS MANGO",
-        "qty": 73,
-        "total": 63,
-        "width": 64
+        "qty": 76,
+        "total": 66,
+        "width": 63
       },
       {
         "rank": 3,
         "nombre": "MICHELADA CLASICA",
         "qty": 56,
         "total": 220,
-        "width": 49
+        "width": 46
       },
       {
         "rank": 4,
         "nombre": "CERVEZA CLUB 330ML",
         "qty": 50,
         "total": 152,
-        "width": 44
+        "width": 41
       },
       {
         "rank": 5,
         "nombre": "HONEY MUSTARD",
-        "qty": 40,
+        "qty": 42,
         "total": 0,
         "width": 35
       },
       {
         "rank": 6,
-        "nombre": "AGUA",
-        "qty": 34,
-        "total": 30,
-        "width": 30
-      },
-      {
-        "rank": 7,
-        "nombre": "CERVEZA CORONA",
-        "qty": 34,
-        "total": 148,
-        "width": 30
-      },
-      {
-        "rank": 8,
         "nombre": "BBQ",
-        "qty": 33,
+        "qty": 35,
         "total": 0,
         "width": 29
       },
       {
-        "rank": 9,
+        "rank": 7,
+        "nombre": "AGUA",
+        "qty": 35,
+        "total": 30,
+        "width": 29
+      },
+      {
+        "rank": 8,
         "nombre": "PAPAS RUSTICAS",
-        "qty": 31,
+        "qty": 34,
         "total": 0,
-        "width": 27
+        "width": 28
+      },
+      {
+        "rank": 9,
+        "nombre": "CERVEZA CORONA",
+        "qty": 34,
+        "total": 148,
+        "width": 28
       },
       {
         "rank": 10,
         "nombre": "HAMBURGUESA CLASICA CO",
-        "qty": 31,
-        "total": 162,
+        "qty": 33,
+        "total": 172,
         "width": 27
       }
     ],
@@ -1294,51 +1289,51 @@
       "Cervezas",
       "Alitas",
       "Hamburguesas",
-      "C\u00f3cteles",
+      "Cócteles",
       "Comida",
       "Toppings",
       "Otros"
     ],
     "cat_data": [
-      1595,
+      1647,
       393,
-      376,
+      390,
       90,
-      543,
-      598,
-      68,
-      305
+      546,
+      622,
+      70,
+      311
     ],
     "combos_pairs": [
       {
         "a": "MICHELADA MARACUYA",
         "b": "TOPPINGS MANGO",
-        "count": 31,
-        "pct": 16.8
+        "count": 32,
+        "pct": 17.0
       },
       {
         "a": "MICHELADA CLASICA",
         "b": "MICHELADA MARACUYA",
         "count": 15,
-        "pct": 8.2
+        "pct": 8.0
       },
       {
         "a": "MICHELADA CLASICA",
         "b": "TOPPINGS MANGO",
         "count": 12,
-        "pct": 6.5
+        "pct": 6.4
       },
       {
         "a": "COCA COLA ORIGINAL",
         "b": "HAMBURGUESA CLASIC",
         "count": 9,
-        "pct": 4.9
+        "pct": 4.8
       },
       {
         "a": "MICHELADA MARACUYA",
         "b": "MICHELADA TROPICAL",
         "count": 9,
-        "pct": 4.9
+        "pct": 4.8
       },
       {
         "a": "MICHELADA MARACUYA",
@@ -1356,43 +1351,43 @@
         "a": "CERVEZA CLUB 330ML",
         "b": "MICHELADA MARACUYA",
         "count": 7,
-        "pct": 3.8
+        "pct": 3.7
       },
       {
         "a": "COCA COLA ORIGINAL",
         "b": "CORDON BLEU",
         "count": 7,
-        "pct": 3.8
+        "pct": 3.7
       },
       {
         "a": "HAMBURGUESA CLASIC",
         "b": "MICHELADA MARACUYA",
-        "count": 6,
-        "pct": 3.3
+        "count": 7,
+        "pct": 3.7
       }
     ],
     "combos_sugeridos": [
       {
         "label": "COMBO ESTRELLA",
         "nombre": "MICHELADA MARACUYA + TOPPINGS MANGO",
-        "count": 31,
-        "pct": 16.8,
-        "precio_actual": 5.29,
-        "precio_sugerido": 4.87
+        "count": 32,
+        "pct": 17.0,
+        "precio_actual": 5.33,
+        "precio_sugerido": 4.9
       },
       {
         "label": "COMBO #2",
         "nombre": "MICHELADA CLASICA + MICHELADA MARACUYA",
         "count": 15,
-        "pct": 8.2,
-        "precio_actual": 8.35,
-        "precio_sugerido": 7.69
+        "pct": 8.0,
+        "precio_actual": 8.39,
+        "precio_sugerido": 7.72
       },
       {
         "label": "COMBO #3",
         "nombre": "MICHELADA CLASICA + TOPPINGS MANGO",
         "count": 12,
-        "pct": 6.5,
+        "pct": 6.4,
         "precio_actual": 4.8,
         "precio_sugerido": 4.41
       },
@@ -1400,40 +1395,18 @@
         "label": "COMBO #4",
         "nombre": "COCA COLA ORIGINAL + HAMBURGUESA CLASIC",
         "count": 9,
-        "pct": 4.9,
+        "pct": 4.8,
         "precio_actual": 6.18,
         "precio_sugerido": 5.69
       }
     ],
-    "insight_analisis": "Mejor d\u00eda: Vie ($297/d\u00eda). Peor: Mi\u00e9 ($146). Hora pico: 23h. \u00daltimos 30 d\u00edas \u00b7 19 May\u201318 Jun \u00b7 248 facturas.",
-    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($500 en 30d). Top categor\u00eda: Micheladas.",
-    "insight_combos": "Pareja m\u00e1s pedida: MICHELADA MARACUYA + TOPPINGS MANGO (31\u00d7, 16.8%). Formalizar como combo sube el ticket."
+    "insight_analisis": "Mejor día: Vie ($297/día). Peor: Mié ($146). Hora pico: 23h. Últimos 30 días · 20 May–19 Jun · 254 facturas.",
+    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($535 en 30d). Top categoría: Micheladas.",
+    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (32×, 17.0%). Formalizar como combo sube el ticket."
   },
   "pulso": {
-    "updated": "2026-06-18",
+    "updated": "2026-06-19",
     "last7": [
-      {
-        "date": "2026-06-11",
-        "dow": "Jue",
-        "runs": [
-          {
-            "h": 19,
-            "c": 1,
-            "s": "\u26aa"
-          },
-          {
-            "h": 20,
-            "c": null,
-            "s": "\ud83d\udfe1"
-          },
-          {
-            "h": 21,
-            "c": null,
-            "s": "\ud83d\udfe1"
-          }
-        ],
-        "sales": 0.0
-      },
       {
         "date": "2026-06-12",
         "dow": "Vie",
@@ -1441,44 +1414,44 @@
           {
             "h": 17,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
           },
           {
             "h": 19,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
           }
         ],
         "sales": 65.47
       },
       {
         "date": "2026-06-13",
-        "dow": "S\u00e1b",
+        "dow": "Sáb",
         "runs": [
           {
             "h": 0,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
           },
           {
             "h": 17,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
           },
           {
             "h": 19,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
           },
           {
             "h": 21,
             "c": 1,
-            "s": "\ud83d\udfe1"
+            "s": "🟡"
           },
           {
             "h": 2,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
           }
         ],
         "sales": 178.69
@@ -1490,47 +1463,79 @@
           {
             "h": 17,
             "c": 1,
-            "s": "\u26aa"
+            "s": "⚪"
           },
           {
             "h": 21,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
           }
         ],
         "sales": 74.69
       },
       {
         "date": "2026-06-17",
-        "dow": "Mi\u00e9",
+        "dow": "Mié",
         "runs": [
           {
             "h": 17,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
           },
           {
             "h": 19,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
           },
           {
             "h": 21,
             "c": null,
-            "s": "\u26aa"
+            "s": "⚪"
+          },
+          {
+            "h": 2,
+            "c": null,
+            "s": "⚪"
           }
         ],
-        "sales": 10.5
+        "sales": 118.38
+      },
+      {
+        "date": "2026-06-18",
+        "dow": "Jue",
+        "runs": [
+          {
+            "h": 17,
+            "c": null,
+            "s": "⚪"
+          },
+          {
+            "h": 19,
+            "c": null,
+            "s": "🟡"
+          },
+          {
+            "h": 19,
+            "c": 0,
+            "s": "🟡"
+          },
+          {
+            "h": 21,
+            "c": null,
+            "s": "⚪"
+          }
+        ],
+        "sales": 37.2
       }
     ],
     "incidencias": [
-      "state escrito tarde: carpeta Scheduled no mont\u00f3 al inicio (root cambi\u00f3 a /Users/albertorodriguez/Claude) (06-11)",
-      "corrida fallida 2026-06-11 20h",
-      "c\u00e1maras inaccesibles \u2014 request_access DENEGADO por usuario (1 intento, regla anti-reintento) (06-11)",
-      "corrida fallida 2026-06-11 21h",
-      "c\u00e1maras inaccesibles \u2014 request_access DENEGADO por usuario (2\u00aa corrida consecutiva, 1 intento por regla) (06-11)"
+      "corrida fallida 2026-06-12 17h",
+      "cámaras inaccesibles — request_access timeout x1 (regla 1 intento) (06-12)",
+      "ventas $65.47 = madrugada cierre jueves (00:06-00:35); sesión vie sin ventas aún (06-12)",
+      "corrida fallida 2026-06-12 19h",
+      "cámaras inaccesibles — request_access timeout x1 (regla 1 intento; 2ª corrida consecutiva hoy) (06-12)"
     ],
-    "conclusion": "Hora m\u00e1s floja: 19h GYE (1.0 clientes prom). Promedios: 17h: 1.0 \u00b7 19h: 1.0 \u00b7 21h: 1.0"
+    "conclusion": "Hora más floja: 19h GYE (0.0 clientes prom). Promedios: 17h: 1.0 · 19h: 0.0 · 21h: 1.0"
   },
   "last_updated": "2026-06-18",
   "open_today": true,
