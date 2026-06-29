@@ -311,7 +311,7 @@
     },
     {
       "tipo": "warning",
-      "msg": "P&L mayo pendiente — Cristina se disculpó 14 jun por el retraso. Confirmar entrega del informe."
+      "msg": "P&L mayo ENTREGADO (14-17 jun): PÉRDIDA NETA -$843 pese a ventas sobre PE. PE de caja real ~$5,000. Pendiente conciliación junio con Cristina."
     },
     {
       "tipo": "warning",
@@ -324,6 +324,10 @@
     {
       "tipo": "info",
       "msg": "Equipo José Miguel + Alejandro activos (desde 1 jun). JM envía reporte consolidado los viernes."
+    },
+    {
+      "tipo": "warning",
+      "msg": "Alexis (cocinero) SALIÓ el 28 jun 2026 — Marian asume cocina + barra + caja + atención. Ahorro ~$600/mes pero sobrecarga crítica (riesgo agotamiento). Confirmar cobertura de cocina en horas pico Vie/Sáb/Dom."
     }
   ],
   "last_briefing": {
@@ -415,7 +419,7 @@
     {
       "num": "6",
       "label": "Equipo de crecimiento activo",
-      "desc": "José Miguel (Coordinador) + Alejandro (Soporte) iniciaron 1 jun. $300/mes. Foco: terreno y contenido.",
+      "desc": "José Miguel (Coordinador) + Alejandro (Soporte) activos desde 1 jun (~4 sem). NOTA: Alexis (cocinero) salió 28 jun — Marian cubre cocina además de barra/caja.",
       "estado": "active",
       "status": "Activos ~4 semanas (desde 1 jun)",
       "impact": "Ejecución en campo"
@@ -514,13 +518,13 @@
       "concepto": "Nómina Marian",
       "monto": 543.3,
       "frecuencia": "mensual",
-      "estado": "pagado"
+      "estado": "pagado · ahora cubre cocina+barra+caja (Alexis salió 28 jun)"
     },
     {
-      "concepto": "Nómina Alexis",
-      "monto": 600.0,
+      "concepto": "Nómina Alexis (cocinero)",
+      "monto": 0.0,
       "frecuencia": "mensual",
-      "estado": "pendiente confirmar"
+      "estado": "finalizada — salió 28 jun 2026 (ahorro ~$600/mes)"
     },
     {
       "concepto": "Internet + fútbol",
@@ -971,8 +975,8 @@
     "horario": "2026-05-24 23:28",
     "weekly": "2026-06-29 07:12",
     "insights": "2026-06-29 07:12",
-    "problemas": "2026-06-16 12:36",
-    "alertas": "2026-06-16 12:36"
+    "problemas": "2026-06-29 11:46",
+    "alertas": "2026-06-29 11:46"
   },
   "ultima_ejecucion": "2026-06-29 07:12",
   "analytics": {
