@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T07:12:26.582123",
+  "updated": "2026-06-30T07:08:28.955079",
   "abril": {
     "acumulado_fmt": "$3,717",
     "coverage_txt": "22 días operativos — MES CERRADO",
@@ -204,7 +204,7 @@
     "google_maps_resenas": 10,
     "nota_alertas": "Email de desconexión llega automáticamente cada día al abrir — es normal, no indica problema real.",
     "nota_frescura": "Auditoría 16 abr 2026 — SIN auditoría nueva. Canal dormido: último 'Resumen de ganancias' dic 2025, sin pedidos recientes.",
-    "_stale_nota": "Resumen 4/20-6/28 (29 jun): 18 pedidos, pago neto -$64.39 (ads $229.79 > ventas netas). Canal a pérdida por publicidad."
+    "_stale_nota": "Anuncios pagados APAGADOS 29 jun (a pérdida). Campaña cofinanciada julio inscrita (arranca ~6 jul, Uber paga 30% Michelada Maracuyá)."
   },
   "insights": {
     "peor_dia_titulo": "Mié — $101/día prom (día más débil)",
@@ -214,10 +214,10 @@
     "hora_pico": "0h",
     "hora_pico_detalle": "Mayor concentración de ventas por hora (30 días).",
     "producto_1": "Michelada Maracuya",
-    "producto_1_detalle": "$565 en 30 días — producto estrella",
+    "producto_1_detalle": "$550 en 30 días — producto estrella",
     "combo_top": "MICHELADA MARACUYA + TOPPINGS MANGO",
     "combo_top_detalle": "18.2% de las órdenes con +1 ítem",
-    "_fuente": "Recalculado de Practisis 30d · 2026-06-29 07:12"
+    "_fuente": "Recalculado de Practisis 30d · 2026-06-30 07:09"
   },
   "roadmap": [
     {
@@ -301,7 +301,7 @@
       "nueva_cuenta": "Cristina configuró cuenta alternativa (método de pago pendiente)",
       "historico": "Facebook: 13 conversaciones a $1.13 c/u | Instagram: 2 a $2.85 c/u"
     },
-    "_stale_dias": 12,
+    "_stale_dias": 13,
     "_stale_nota": ""
   },
   "alertas": [
@@ -331,8 +331,8 @@
     }
   ],
   "last_briefing": {
-    "fecha": "2026-06-29",
-    "resumen": "Ayer $85.95 | Mes $3,836 | 20 días op"
+    "fecha": "2026-06-30",
+    "resumen": "Ayer $0.00 | Mes $3,836 | 20 días op"
   },
   "foco_semana": {
     "titulo": "Cerrar Junio arriba del PE",
@@ -369,7 +369,7 @@
       {
         "num": "5",
         "nombre": "Domingo 5 jul",
-        "why": "Objetivo >$137. Promo temprana para atraer clientes en horas de bajo tráfico.",
+        "why": "Objetivo >$142. Promo temprana para atraer clientes en horas de bajo tráfico.",
         "who": "Marian",
         "estado": "pendiente"
       }
@@ -451,7 +451,7 @@
       "num": "3",
       "nivel": "orange",
       "titulo": "Atraer tráfico en horas flojas",
-      "detalle": "Peor día miércoles ($101). Las franjas sin ventas son por falta de clientes, no por apertura — la palanca es generar demanda: promo/happy hour/presencia en terreno."
+      "detalle": "Peor día miércoles ($101). Las franjas sin ventas son por falta de clientes, no por apertura — la palanca es generar demanda."
     }
   ],
   "acciones_checklist": [
@@ -592,7 +592,7 @@
     },
     "alerta": "Ads + comisión Uber + descuentos consumen casi todo el ingreso. Evaluar pausar ads y operar solo orgánico.",
     "nota_frescura": "Auditoría 16 abr 2026 — SIN auditoría nueva. Canal dormido: último 'Resumen de ganancias' dic 2025, sin pedidos recientes.",
-    "_stale_nota": "Resumen 4/20-6/28 (29 jun): 18 pedidos, pago neto -$64.39 (ads $229.79 > ventas netas). Canal a pérdida por publicidad."
+    "_stale_nota": "Anuncios pagados APAGADOS 29 jun (a pérdida). Campaña cofinanciada julio inscrita (arranca ~6 jul, Uber paga 30% Michelada Maracuyá)."
   },
   "dias_recientes": [
     {
@@ -674,7 +674,7 @@
       782.98,
       917.64
     ],
-    "insight": "Sem 21 (May 18-24) = $1,198 — mejor semana 🟢. Última: Sem 26 (Jun 22-28) = $918."
+    "insight": "Sem 21 (May 18-24) = $1,198 — mejor semana. Última: Sem 26 (Jun 22-28) = $918."
   },
   "ventas": {
     "abril_2026": {
@@ -810,7 +810,7 @@
       "2026-06-24": 51.7,
       "2026-06-10": 94.75
     },
-    "insight": "Junio (al 29): $3,836 acumulado en 20 días op, 225 facturas, ticket $17.05. Proyección: ~$4,219 vs PE $4,216 (superávit $3).",
+    "insight": "Junio (al 30): $3,836 acumulado en 20 días op, 225 facturas, ticket $17.05. Proyección: ~$4,219 vs PE $4,216 (superávit $3).",
     "anio": 2026,
     "mes": 6
   },
@@ -854,7 +854,7 @@
       "2026-06-24": 51.7,
       "2026-06-10": 94.75
     },
-    "insight": "Junio (al 29): $3,836 acumulado en 20 días op, 225 facturas, ticket $17.05. Proyección: ~$4,219 vs PE $4,216 (superávit $3).",
+    "insight": "Junio (al 30): $3,836 acumulado en 20 días op, 225 facturas, ticket $17.05. Proyección: ~$4,219 vs PE $4,216 (superávit $3).",
     "anio": 2026,
     "mes": 6
   },
@@ -862,8 +862,8 @@
     "roadmap_titulo": "Hoja de Ruta — Crecimiento 2026",
     "marketing_titulo": "📱 Marketing Digital",
     "marketing_descripcion": "Windsor.ai descontinuado 3 may 2026. Sin métricas IG/GMB disponibles hasta nueva integración.",
-    "insight_analisis": "Mejor día: Vie ($288/día). Peor: Mié ($101). Hora pico: 0h. Últimos 30 días · 30 May–29 Jun · 240 facturas.",
-    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($565 en 30d). Top categoría: Micheladas.",
+    "insight_analisis": "Mejor día: Vie ($288/día). Peor: Mié ($101). Hora pico: 0h. Últimos 30 días · 31 May–30 Jun · 233 facturas.",
+    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($550 en 30d). Top categoría: Micheladas.",
     "insight_combos": "Análisis de 801 órdenes multi-item en 6 meses. El patrón dominante es michelada + topping mango (14.6%). Los combos reales no-topping: Maracumango+Maracuyá (3.9%), Alitas 8+Maracuyá (3.2%), Maracuyá+Nachos (3.0%). Formalizar estos patrones sube el ticket sin inventar nada.",
     "insight_acciones": "De 8 acciones, 1 sigue urgente (Uber Eats — dispositivo inestable), 4 están desbloqueadas por mesera confirmada (happy hour, fidelidad, eventos, venta a carros), y el resto en proceso. La prioridad ahora es ejecutar rápido las iniciativas desbloqueadas: cada semana sin happy hour o fidelidad activos es $200-400 en ventas potenciales no capturadas.",
     "chart_dow_titulo": "Ventas Promedio por Día de Semana (Nov 2025 – may 2026 · 1,465 facturas)",
@@ -966,28 +966,28 @@
     ]
   },
   "section_updates": {
-    "historico": "2026-06-29 07:12",
+    "historico": "2026-06-30 07:09",
     "marketing": "2026-06-16 12:36",
-    "ops": "2026-06-29 07:12",
+    "ops": "2026-06-30 07:09",
     "roadmap": "2026-06-29 07:12",
-    "acciones": "2026-06-29 07:12",
+    "acciones": "2026-06-30 07:09",
     "ventas": "2026-06-29 07:12",
     "horario": "2026-05-24 23:28",
-    "weekly": "2026-06-29 07:12",
-    "insights": "2026-06-29 07:12",
+    "weekly": "2026-06-30 07:09",
+    "insights": "2026-06-30 07:09",
     "problemas": "2026-06-29 11:46",
     "alertas": "2026-06-29 11:46"
   },
-  "ultima_ejecucion": "2026-06-29 07:12",
+  "ultima_ejecucion": "2026-06-30 07:08",
   "analytics": {
-    "periodo_txt": "Últimos 30 días · 30 May–29 Jun · 240 facturas",
+    "periodo_txt": "Últimos 30 días · 31 May–30 Jun · 233 facturas",
     "dow_data": [
       0,
       0,
       101.0,
       183.0,
       288.0,
-      221.0,
+      245.0,
       137.0
     ],
     "dow_ranking": [
@@ -999,9 +999,9 @@
       },
       {
         "dia": "Sáb",
-        "prom": 221,
-        "fact": 69,
-        "width": 76
+        "prom": 245,
+        "fact": 62,
+        "width": 85
       },
       {
         "dia": "Jue",
@@ -1037,16 +1037,16 @@
       "2h"
     ],
     "horas_data": [
-      113.0,
+      96.0,
       14.0,
       130.0,
       276.0,
       309.0,
-      529.0,
+      513.0,
       736.0,
       584.0,
       863.0,
-      351.0,
+      258.0,
       92.0
     ],
     "heatmap": {
@@ -1071,7 +1071,7 @@
           0.0,
           0.0,
           0.0,
-          0.14,
+          0.11,
           0.08
         ],
         "17": [
@@ -1116,7 +1116,7 @@
           0.11,
           0.21,
           0.25,
-          0.25,
+          0.22,
           0.23
         ],
         "22": [
@@ -1152,7 +1152,7 @@
           0.0,
           0.06,
           0.17,
-          0.47,
+          0.29,
           0.0
         ],
         "2": [
@@ -1179,15 +1179,15 @@
       {
         "rank": 1,
         "nombre": "MICHELADA MARACUYA",
-        "total": 565,
-        "qty": 119,
+        "total": 550,
+        "qty": 116,
         "width": 100
       },
       {
         "rank": 2,
         "nombre": "ALITAS 8",
-        "total": 259,
-        "qty": 35,
+        "total": 251,
+        "qty": 34,
         "width": 45
       },
       {
@@ -1199,51 +1199,51 @@
       },
       {
         "rank": 4,
-        "nombre": "HAMBURGUESA CLASICA CO",
-        "total": 162,
-        "qty": 31,
-        "width": 28
-      },
-      {
-        "rank": 5,
         "nombre": "MOJITO",
         "total": 152,
         "qty": 25,
+        "width": 27
+      },
+      {
+        "rank": 5,
+        "nombre": "HAMBURGUESA CLASICA CO",
+        "total": 146,
+        "qty": 28,
         "width": 26
       },
       {
         "rank": 6,
-        "nombre": "ALITAS 15",
-        "total": 148,
-        "qty": 11,
-        "width": 26
+        "nombre": "CERVEZA CLUB 330ML",
+        "total": 122,
+        "qty": 40,
+        "width": 22
       },
       {
         "rank": 7,
-        "nombre": "CERVEZA CLUB 330ML",
-        "total": 125,
-        "qty": 41,
+        "nombre": "ALITAS 15",
+        "total": 121,
+        "qty": 9,
         "width": 22
       },
       {
         "rank": 8,
         "nombre": "HAMBURGUESA TOCINO BBQ",
-        "total": 111,
-        "qty": 16,
-        "width": 19
+        "total": 104,
+        "qty": 15,
+        "width": 18
       },
       {
         "rank": 9,
         "nombre": "MICHELADA TROPICAL",
         "total": 95,
         "qty": 16,
-        "width": 16
+        "width": 17
       },
       {
         "rank": 10,
-        "nombre": "MARACUYA CLUB",
+        "nombre": "MICHELADA CHAMOCHELA",
         "total": 90,
-        "qty": 16,
+        "qty": 13,
         "width": 16
       }
     ],
@@ -1251,72 +1251,72 @@
       {
         "rank": 1,
         "nombre": "MICHELADA MARACUYA",
-        "qty": 119,
-        "total": 565,
+        "qty": 116,
+        "total": 550,
         "width": 100
       },
       {
         "rank": 2,
         "nombre": "TOPPINGS MANGO",
-        "qty": 68,
-        "total": 59,
-        "width": 57
+        "qty": 66,
+        "total": 57,
+        "width": 56
       },
       {
         "rank": 3,
         "nombre": "MICHELADA CLASICA",
         "qty": 45,
         "total": 170,
-        "width": 37
+        "width": 38
       },
       {
         "rank": 4,
         "nombre": "BBQ",
-        "qty": 44,
+        "qty": 42,
         "total": 0,
         "width": 36
       },
       {
         "rank": 5,
-        "nombre": "HONEY MUSTARD",
-        "qty": 42,
-        "total": 0,
-        "width": 35
+        "nombre": "CERVEZA CLUB 330ML",
+        "qty": 40,
+        "total": 122,
+        "width": 34
       },
       {
         "rank": 6,
-        "nombre": "CERVEZA CLUB 330ML",
-        "qty": 41,
-        "total": 125,
+        "nombre": "AGUA",
+        "qty": 40,
+        "total": 35,
         "width": 34
       },
       {
         "rank": 7,
-        "nombre": "AGUA",
-        "qty": 41,
-        "total": 36,
-        "width": 34
+        "nombre": "HONEY MUSTARD",
+        "qty": 39,
+        "total": 0,
+        "width": 33
       },
       {
         "rank": 8,
         "nombre": "ALITAS 8",
-        "qty": 35,
-        "total": 259,
+        "qty": 34,
+        "total": 251,
         "width": 29
       },
       {
         "rank": 9,
         "nombre": "HAMBURGUESA CLASICA CO",
-        "qty": 31,
-        "total": 162,
-        "width": 26
+        "qty": 28,
+        "total": 146,
+        "width": 24
       },
       {
         "rank": 10,
         "nombre": "JUGO EN AGUA",
-        "qty": 28,
-        "total": 61,
-        "width": 23
+        "qty": 26,
+        "total": 57,
+        "width": 22
       }
     ],
     "cat_labels": [
@@ -1330,117 +1330,117 @@
       "Otros"
     ],
     "cat_data": [
-      1537,
-      255,
-      485,
-      111,
-      529,
-      499,
-      63,
-      211
+      1494,
+      252,
+      450,
+      104,
+      521,
+      492,
+      62,
+      205
     ],
     "combos_pairs": [
       {
         "a": "MICHELADA MARACUYA",
         "b": "TOPPINGS MANGO",
-        "count": 32,
+        "count": 31,
         "pct": 18.2
       },
       {
         "a": "MICHELADA CLASICA",
         "b": "MICHELADA MARACUYA",
         "count": 13,
-        "pct": 7.4
+        "pct": 7.6
       },
       {
         "a": "MICHELADA CHAMOCHE",
         "b": "MICHELADA MARACUYA",
         "count": 10,
-        "pct": 5.7
+        "pct": 5.9
       },
       {
         "a": "MICHELADA CLASICA",
         "b": "TOPPINGS MANGO",
         "count": 9,
-        "pct": 5.1
+        "pct": 5.3
       },
       {
         "a": "MICHELADA MARACUYA",
         "b": "MICHELADA TROPICAL",
         "count": 8,
-        "pct": 4.5
+        "pct": 4.7
       },
       {
         "a": "MARACUYA CLUB",
         "b": "TOPPINGS MANGO",
-        "count": 8,
-        "pct": 4.5
+        "count": 7,
+        "pct": 4.1
       },
       {
         "a": "AGUA",
         "b": "COCA COLA ORIGINAL",
-        "count": 8,
-        "pct": 4.5
-      },
-      {
-        "a": "COCA COLA ORIGINAL",
-        "b": "HAMBURGUESA CLASIC",
         "count": 7,
-        "pct": 4.0
+        "pct": 4.1
       },
       {
         "a": "ALITAS 8",
         "b": "COCA COLA ORIGINAL",
         "count": 7,
-        "pct": 4.0
+        "pct": 4.1
       },
       {
-        "a": "CERVEZA CLUB 330ML",
-        "b": "MICHELADA MARACUYA",
+        "a": "AGUA",
+        "b": "ALITAS 8",
         "count": 6,
-        "pct": 3.4
+        "pct": 3.5
+      },
+      {
+        "a": "COCA COLA ORIGINAL",
+        "b": "CORDON BLEU",
+        "count": 6,
+        "pct": 3.5
       }
     ],
     "combos_sugeridos": [
       {
         "label": "COMBO ESTRELLA",
         "nombre": "MICHELADA MARACUYA + TOPPINGS MANGO",
-        "count": 32,
+        "count": 31,
         "pct": 18.2,
-        "precio_actual": 5.62,
-        "precio_sugerido": 5.17
+        "precio_actual": 5.61,
+        "precio_sugerido": 5.16
       },
       {
         "label": "COMBO #2",
         "nombre": "MICHELADA CLASICA + MICHELADA MARACUYA",
         "count": 13,
-        "pct": 7.4,
-        "precio_actual": 8.53,
+        "pct": 7.6,
+        "precio_actual": 8.52,
         "precio_sugerido": 7.84
       },
       {
         "label": "COMBO #3",
         "nombre": "MICHELADA CHAMOCHE + MICHELADA MARACUYA",
         "count": 10,
-        "pct": 5.7,
-        "precio_actual": 11.66,
-        "precio_sugerido": 10.73
+        "pct": 5.9,
+        "precio_actual": 11.65,
+        "precio_sugerido": 10.72
       },
       {
         "label": "COMBO #4",
         "nombre": "MICHELADA CLASICA + TOPPINGS MANGO",
         "count": 9,
-        "pct": 5.1,
+        "pct": 5.3,
         "precio_actual": 4.65,
         "precio_sugerido": 4.28
       }
     ],
-    "insight_analisis": "Mejor día: Vie ($288/día). Peor: Mié ($101). Hora pico: 0h. Últimos 30 días · 30 May–29 Jun · 240 facturas.",
-    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($565 en 30d). Top categoría: Micheladas.",
-    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (32×, 18.2%). Formalizar como combo sube el ticket."
+    "insight_analisis": "Mejor día: Vie ($288/día). Peor: Mié ($101). Hora pico: 0h. Últimos 30 días · 31 May–30 Jun · 233 facturas.",
+    "insight_productos": "Producto estrella: MICHELADA MARACUYA ($550 en 30d). Top categoría: Micheladas.",
+    "insight_combos": "Pareja más pedida: MICHELADA MARACUYA + TOPPINGS MANGO (31×, 18.2%). Formalizar como combo sube el ticket."
   },
   "pulso": {
-    "updated": "2026-06-29",
+    "updated": "2026-06-30",
     "last7": [
       {
         "date": "2026-06-24",
@@ -1570,7 +1570,7 @@
       "corrida fallida 2026-06-24 21h",
       "cámaras inaccesibles — request_access timeout 180s (2ª corrida ciega consecutiva hoy tras recuperación 17h; día completo $0 vs $46.24 mismo corte sem pasada) (06-24)"
     ],
-    "conclusion": "Hora más floja: 17h GYE (0.0 clientes prom). Promedios por corrida: 17h: 0.0"
+    "conclusion": "Hora más floja: 17h GYE (0.0 clientes prom). Promedios: 17h: 0.0"
   },
   "last_updated": "2026-06-18",
   "open_today": true,
